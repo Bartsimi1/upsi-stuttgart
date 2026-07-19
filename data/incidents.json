@@ -748,6 +748,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6212229",
         "source_id": "polizei_stuttgart",
         "retrieved_at": "2026-07-16T06:24:46.917782Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-stadtbahnunfall-streckenunterbrechung-auf-mehreren-linien-78970179.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-19T18:29:01.055352Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -6978,6 +6983,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6216660",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.560906Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-west-auto-kollidiert-mit-stadtbahn-strecke-auf-zwei-linien-unterbrochen-78965697.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-19T18:29:01.055352Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -7018,6 +7028,11 @@
         "url": "https://www.stuttgarter-nachrichten.de/inhalt.wieder-kollision-in-der-gerokstrasse-gefaehrliche-unfallkurve-wieder-bus-kollision-mit-stadtbahn.a35e44c7-e992-4e59-a2dd-168b8d00ee38.html",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.561910Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/wieder-kollision-in-der-gerokstrasse-gefaehrliche-unfallkurve-wieder-bus-kollision-mit-stadtbahn-78967605.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-19T18:29:01.055352Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -8618,5 +8633,25 @@
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null
+  },
+  {
+    "id": "inc-2026-01-24-001",
+    "event_date": "2026-01-24",
+    "event_time": null,
+    "location": "Fellbach (Rems-Murr-Kreis)",
+    "event_type": "rear_end",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Eine 31-jährige Frau wurde bei einer Auffahrkollision ihres Renault mit einer Stadtbahn der Linie U1 in Fellbach verletzt und musste von der Feuerwehr mittels Spineboard aus dem Fahrzeug befreit werden; die rund 20 Fahrgäste der Bahn blieben unverletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/rems-murr-kreis/stadtbahnunfall-in-fellbach-u1-kollidiert-mit-renault-31-jaehrige-in-auto-eingeklemmt-79124006.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-19T18:29:01.056350Z"
+      }
+    ],
+    "location_tag": "Fellbach",
+    "line_tag": "U1",
+    "car_brand_tag": "Renault"
   }
 ]
