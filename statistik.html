@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistik - UPSI - Stuttgart</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div class="page">
+  <header class="banner">
+    <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
+    <h1>📊 UPSI - Statistik 📊</h1>
+    <p class="subtitle">Zahlen, Diagramme und Auswertungen — genauso inoffiziell wie der Rest der Seite</p>
+  </header>
+
+  <nav class="menu">
+    <a href="index.html">Startseite</a>
+    <a href="statistik.html">Statistik</a>
+    <a href="index.html#ueber">Über UPSI</a>
+  </nav>
+
+  <main>
+    <section class="stat-card" id="gap-stat">
+      <h2 class="stat-card-title">Zeit zwischen zwei UPSIs</h2>
+      <div class="hero-tile">
+        <div class="hero-value" id="gap-average">–</div>
+        <div class="hero-label">Tage im Durchschnitt zwischen zwei UPSIs</div>
+      </div>
+      <div class="chart-wrap" id="gap-chart-wrap">
+        <p class="chart-loading">Lade Daten…</p>
+      </div>
+      <button type="button" class="retro-button table-toggle" data-target="gap-table">Als Tabelle anzeigen</button>
+      <div class="data-table-wrap" id="gap-table" hidden></div>
+    </section>
+
+    <section class="stat-card" id="party-stat">
+      <h2 class="stat-card-title">Verteilung der Gegenpartei</h2>
+      <div class="chart-wrap" id="party-chart-wrap">
+        <p class="chart-loading">Lade Daten…</p>
+      </div>
+      <button type="button" class="retro-button table-toggle" data-target="party-table">Als Tabelle anzeigen</button>
+      <div class="data-table-wrap" id="party-table" hidden></div>
+    </section>
+
+    <section class="stat-card" id="line-stat">
+      <h2 class="stat-card-title">Unfälle nach Stadtbahnlinie</h2>
+      <div class="chart-wrap" id="line-chart-wrap">
+        <p class="chart-loading">Lade Daten…</p>
+      </div>
+      <button type="button" class="retro-button table-toggle" data-target="line-table">Als Tabelle anzeigen</button>
+      <div class="data-table-wrap" id="line-table" hidden></div>
+    </section>
+
+    <section class="stat-card" id="brand-stat">
+      <h2 class="stat-card-title">Verteilung der PKW-Marken</h2>
+      <p class="hero-note" id="brand-note"></p>
+      <div class="chart-wrap" id="brand-chart-wrap">
+        <p class="chart-loading">Lade Daten…</p>
+      </div>
+      <button type="button" class="retro-button table-toggle" data-target="brand-table">Als Tabelle anzeigen</button>
+      <div class="data-table-wrap" id="brand-table" hidden></div>
+    </section>
+  </main>
+
+  <footer class="legal">
+    <p>
+      <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
+      offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
+      KEINE wissenschaftliche Analyse. Die Daten stammen aus öffentlich
+      zugänglichen Presseartikeln und können Fehler, Lücken oder
+      Verzögerungen enthalten.
+    </p>
+    <p class="joke-disclaimer">
+      Diese Statistik-Seite ist genauso ironisch gemeint wie der Rest von
+      UPSI — die zugrunde liegenden Unfalldaten (Verletzte, Sachschäden)
+      werden dennoch stets sachlich und ohne Humor erfasst.
+    </p>
+  </footer>
+</div>
+
+<script src="labels.js"></script>
+<script src="statistik.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# UPSI - Stuttgart ist eine öffentliche, nicht-kommerzielle Informationsseite
+# über Unfälle zwischen Stadtbahn/Straßenbahn und anderen Verkehrsteilnehmern
+# in Stuttgart. Alle Inhalte dürfen frei durchsucht, indexiert und archiviert
+# werden — auch von KI-Trainings-Crawlern. Je mehr Suchmaschinen und Archive
+# diese Seite kennen, desto besser erfüllt sie ihren Zweck.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://bartsimi1.github.io/upsi-stuttgart/sitemap.xml

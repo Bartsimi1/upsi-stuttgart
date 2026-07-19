@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UPSI - Stuttgart</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div class="page">
+  <header class="banner">
+    <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
+    <h1>🚋 UPSI - Stuttgart 🚋</h1>
+    <p class="subtitle">"<strong>U</strong>Bahn vs. <strong>P</strong>KW <strong>S</strong>tuttgarter <strong>I</strong>mpaktanalyze" · Die inoffizielle Stadtbahn-Unfall-Chronik</p>
+    <p class="total-count" id="total-count">wird geladen…</p>
+  </header>
+
+  <div class="wiki-notice">
+    📋 Diese Liste ist möglicherweise unvollständig. Du kannst helfen, sie zu
+    erweitern — zum Beispiel, indem du in einen Unfall mit einer Stadtbahn
+    verwickelt wirst.*
+    <div class="wiki-notice-footnote">
+      * Bitte nicht. Das ist nicht ernst gemeint — pass im echten Leben bitte
+      auf Stadtbahnen auf.
+    </div>
+  </div>
+
+  <div class="marquee-bar">
+    <div class="marquee-text">★ Willkommen auf der inoffiziellsten Stadtbahn-Statistik-Seite Stuttgarts! ★ Jetzt mit noch mehr Quellen! ★ Danke fürs Vorbeischauen! ★</div>
+  </div>
+
+  <nav class="menu">
+    <a href="index.html">Startseite</a>
+    <a href="statistik.html">Statistik</a>
+    <a href="#ueber">Über UPSI</a>
+  </nav>
+
+  <div class="counter-box">
+    <div class="counter-label">Seit dem letzten <strong>UPSI</strong>:</div>
+    <div class="counter-numbers">
+      <div class="counter-unit">
+        <span class="number" id="counter-days">?</span>
+        <span class="unit-label">Tage</span>
+      </div>
+      <div class="counter-unit">
+        <span class="number" id="counter-hours">?</span>
+        <span class="unit-label">Std.</span>
+      </div>
+      <div class="counter-unit">
+        <span class="number" id="counter-minutes">?</span>
+        <span class="unit-label">Min.</span>
+      </div>
+      <div class="counter-unit">
+        <span class="number" id="counter-seconds">?</span>
+        <span class="unit-label">Sek.</span>
+      </div>
+    </div>
+    <div id="last-incident-info">wird geladen…</div>
+    <div class="last-updated" id="last-updated">Zuletzt aktualisiert: wird geladen…</div>
+  </div>
+
+  <div class="filter-bar" id="filter-bar">
+    <div class="filter-hint">Nach Anklicken filtern (mehrfach kombinierbar):</div>
+  </div>
+  <div class="filter-match-count" id="filter-match-count" hidden></div>
+
+  <main>
+    <div class="incident-list" id="incident-list">
+      <p>Lade Ereignisse…</p>
+    </div>
+    <div class="load-more-wrapper">
+      <button class="retro-button" id="load-more-btn" style="display:none;">Mehr anzeigen</button>
+    </div>
+  </main>
+
+  <section id="ueber">
+    <h2>Über UPSI - Stuttgart</h2>
+    <p>
+      UPSI - Stuttgart sammelt automatisiert öffentlich berichtete Unfälle
+      zwischen Stadtbahn-/Straßenbahnfahrzeugen der SSB und anderen
+      Verkehrsteilnehmern (PKW, Fußgänger, Radfahrer u.a.) in Stuttgart. Die
+      Erfassung erfolgt teilautomatisiert aus öffentlichen Presseartikeln und
+      offiziellen Mitteilungen, mit KI-gestützter Vorklassifizierung und
+      menschlicher Nachkontrolle bei Unsicherheit.
+    </p>
+  </section>
+
+  <div class="hit-counter-widget">
+    <span class="hit-counter-label">Besucherzähler:</span>
+    <img class="hit-counter-value" src="https://hits.sh/bartsimi1.github.io/upsi-stuttgart.svg?style=flat-square&label=Besuche&color=5a9d6f&labelColor=1a1a1a" alt="Besucherzähler">
+  </div>
+
+  <footer class="legal">
+    <p>
+      <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
+      offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
+      KEINE wissenschaftliche Analyse. Die Daten stammen aus öffentlich
+      zugänglichen Presseartikeln und können Fehler, Lücken oder
+      Verzögerungen enthalten. Jedes Ereignis ist mit seiner Quelle
+      verlinkt — bei Zweifeln bitte die Originalquelle prüfen.
+    </p>
+    <p class="joke-disclaimer">
+      Der Name "UPSI" ist bewusst humorvoll gemeint — die tatsächlichen
+      Unfalldaten (Verletzte, Sachschäden) werden hier stets sachlich und
+      ohne Humor dargestellt.
+    </p>
+    <div class="retro-badges">
+      <span class="construction-badge">🚧 Neue Quellen werden laufend ergänzt 🚧</span>
+      <span class="viewed-badge">🖥️ Am besten angesehen mit jedem Browser seit 2010</span>
+    </div>
+  </footer>
+</div>
+
+<script src="labels.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
