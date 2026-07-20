@@ -493,6 +493,11 @@
         "url": "https://wilih.de/von-stadtbahn-erfasst-fussgaenger-schwer-verletzt",
         "source_id": "wilih_polizeibericht",
         "retrieved_at": "2026-07-17T08:07:55.906622Z"
+      },
+      {
+        "url": "https://ff-ostfildern.de/einsatze/hilfeleistung-29/",
+        "source_id": "feuerwehr_ostfildern",
+        "retrieved_at": "2026-07-20T07:28:47.367492Z"
       }
     ],
     "location_tag": "Ostfildern",
@@ -1012,7 +1017,7 @@
   {
     "id": "inc-2024-12-22-001",
     "event_date": "2024-12-22",
-    "event_time": null,
+    "event_time": "14:32",
     "location": "Otto-Reiniger-Weg (Stadtbahnübergang), Ostfildern",
     "event_type": "collision",
     "other_party": "car",
@@ -1038,6 +1043,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/esslingen/unfall-in-ostfildern-auto-kollidiert-mit-stadtbahn-78853624.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:20:52.240256Z"
+      },
+      {
+        "url": "https://ff-ostfildern.de/einsatze/verkehrsunfall-50/",
+        "source_id": "feuerwehr_ostfildern",
+        "retrieved_at": "2026-07-20T07:28:47.367492Z"
       }
     ],
     "location_tag": "Ostfildern",
