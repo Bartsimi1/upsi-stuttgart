@@ -19,12 +19,22 @@ function handleSubmit(event) {
   if (!text) return;
 
   const card = document.getElementById("suggestion-card");
-  const form = document.getElementById("suggestion-form");
+  const result = document.getElementById("shredder-result");
+  const messageGroup = document.getElementById("shredder-message-group");
+  const shredderImg = document.getElementById("shredder-gif");
 
-  // Fliegender Zettel exakt über dem Textfeld positioniert (relativ zur
-  // Karte, die als position:relative-Anker dient, siehe style.css).
+  // Shredder zuerst sichtbar machen -- er ist das ZIEL der Flug-Animation,
+  // die Ablehnungsmeldung bleibt bis danach verborgen (siehe setTimeout
+  // unten). Erst NACH diesem Reveal lässt sich seine reale Position messen.
+  result.hidden = false;
+  messageGroup.hidden = true;
+
   const textareaRect = textarea.getBoundingClientRect();
+  const shredderRect = shredderImg.getBoundingClientRect();
   const cardRect = card.getBoundingClientRect();
+
+  // Fliegender Zettel startet exakt über dem Textfeld (relativ zur Karte,
+  // die als position:relative-Anker dient, siehe style.css).
   const flying = document.createElement("div");
   flying.className = "flying-paper";
   flying.textContent = text;
@@ -34,17 +44,25 @@ function handleSubmit(event) {
   card.appendChild(flying);
 
   // Reflow erzwingen, damit der Browser die Startposition wirklich rendert,
-  // BEVOR die Übergangs-Klasse dazukommt -- sonst startet die Animation
+  // BEVOR das Ziel-Transform gesetzt wird -- sonst startet die Animation
   // direkt am Zielzustand, ohne sichtbare Bewegung.
   void flying.offsetWidth;
-  flying.classList.add("shredding");
+
+  // Ziel: der Einzugsschlitz oben am Shredder (~15% seiner Höhe von oben),
+  // horizontal mittig -- reale gemessene Position, kein fester Schätzwert.
+  const deltaX =
+    shredderRect.left + shredderRect.width / 2 -
+    (textareaRect.left + textareaRect.width / 2);
+  const deltaY = shredderRect.top + shredderRect.height * 0.15 - textareaRect.top;
+  flying.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(0.15) rotate(8deg)`;
+  flying.style.opacity = "0";
 
   setTimeout(() => {
     flying.remove();
     textarea.value = "";
     updateCharCount();
-    form.hidden = true;
-    document.getElementById("shredder-result").hidden = false;
+    document.getElementById("suggestion-form").hidden = true;
+    messageGroup.hidden = false;
   }, SHRED_ANIMATION_MS);
 }
 

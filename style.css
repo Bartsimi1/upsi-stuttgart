@@ -606,9 +606,10 @@ footer.legal {
   font-weight: bold;
 }
 
-/* Fliegender Zettel: startet exakt über dem Textfeld (Position wird per JS
-   gesetzt), die .shredding-Klasse triggert den Übergang nach unten/kleiner/
-   transparent -- wirkt wie ein Blatt, das ins Schredder-Maul gezogen wird. */
+/* Fliegender Zettel: startet exakt über dem Textfeld, das Ziel (Position des
+   bereits sichtbaren Shredder-Schlitzes) wird per JS berechnet und als
+   Inline-Transform gesetzt (siehe vorschlaege.js) -- deshalb hier nur die
+   Optik + der Übergang, kein fester Zielwert. */
 .flying-paper {
   position: absolute;
   background: #ffffff;
@@ -620,14 +621,24 @@ footer.legal {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   word-wrap: break-word;
   pointer-events: none;
-  transform: translateY(0) scale(1) rotate(0deg);
+  transform: translate(0, 0) scale(1) rotate(0deg);
   opacity: 1;
-  transition: transform 0.7s ease-in, opacity 0.4s ease-in 0.3s;
+  transition: transform 0.7s ease-in, opacity 0.3s ease-in 0.4s;
 }
 
-.flying-paper.shredding {
-  transform: translateY(150px) scale(0.15) rotate(10deg);
-  opacity: 0;
+.shredder-message-group {
+  animation: message-pop-in 0.25s ease-out;
+}
+
+@keyframes message-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .shredder-result {
