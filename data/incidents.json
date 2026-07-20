@@ -10053,5 +10053,330 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
     "car_brand_tag": "Hyundai"
+  },
+  {
+    "id": "inc-2025-11-11-002",
+    "event_date": "2025-11-11",
+    "event_time": "11:20",
+    "location": "Neckartalstraße/Gnesener Straße, Stuttgart-Münster",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "minor",
+    "summary": "Ein Lkw-Fahrer missachtete vermutlich das Rotlicht beim Linksabbiegen und kollidierte mit einer Stadtbahn. Der 28-jährige Fahrer und ein 19-jähriger Beifahrer wurden leicht verletzt, der Sachschaden liegt im mittleren fünfstelligen Bereich.",
+    "sources": [
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-muenster-verkehrsunfall-mit-stadtbahn",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:04.136502Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Münster",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-09-14-001",
+    "event_date": "2025-09-14",
+    "event_time": null,
+    "location": "Stuttgart-Freiberg",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Bei einem Zusammenstoß zwischen einem Pkw und einer Stadtbahn in Stuttgart-Freiberg wurde eine Person schwer verletzt. Der Sachschaden liegt im mittleren fünfstelligen Bereich.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6117253",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:09.672558Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgarter-polizei-sucht-zeugen-mit-stadtbahn-kollidiert-autofahrerin-schwer-verletzt-79050513.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T16:01:07.988585Z"
+      }
+    ],
+    "location_tag": "Freiberg",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-07-29-002",
+    "event_date": "2025-07-29",
+    "event_time": "18:30",
+    "location": "Neckarstraße/Sedanstraße, Stuttgart-Ost",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Eine 41-jährige Frau bog links ab, wobei ihr Auto von der Stadtbahn mehrere Meter mitgeschoben wurde. Die Fahrerin wurde schwer, zwei Fahrgäste (52 und 27 Jahre) leicht verletzt; der Verkehr war bis 19:40 Uhr unterbrochen, der Sachschaden liegt über 60.000 Euro.",
+    "sources": [
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-ost-pkw-gegen-stadtbahn",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:15.136703Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-07-24-001",
+    "event_date": "2025-07-24",
+    "event_time": "13:00",
+    "location": "Neckarstraße/Sedanstraße, Stuttgart-Ost",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 44-jähriger Mercedes-Fahrer missachtete vermutlich das Rotlicht beim Linksabbiegen und kollidierte mit einer Stadtbahn der Linie U1. Der Fahrer wurde leicht verletzt, der Sachschaden liegt bei rund 60.000 Euro.",
+    "sources": [
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-ost-stadtbahnunfall-in-neckarstrasse",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:20.623359Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "U1",
+    "car_brand_tag": "Mercedes"
+  },
+  {
+    "id": "inc-2025-07-02-002",
+    "event_date": "2025-07-02",
+    "event_time": "12:25",
+    "location": "Weilimdorfer Straße/Föhrichstraße, Stuttgart-Feuerbach",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Eine 68-jährige Mercedes-Fahrerin bog links auf die Gleise der Stadtbahnlinie U6 ab. Sie wurde leicht verletzt, ihr Auto musste als Totalschaden abgeschleppt werden; der Sachschaden liegt bei rund 45.000 Euro.",
+    "sources": [
+      {
+        "url": "https://www.nachrichten-heute.net/1401557-68-jaehrige-bei-zusammenstoss-mit-stadtbahn-in-stuttgart-feuerbach-leicht-verletzt.html",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:39.663167Z"
+      }
+    ],
+    "location_tag": "Feuerbach",
+    "line_tag": "U6",
+    "car_brand_tag": "Mercedes"
+  },
+  {
+    "id": "inc-2024-03-28-001",
+    "event_date": "2024-03-28",
+    "event_time": null,
+    "location": "Stuttgart (genaue Örtlichkeit nicht überliefert)",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 38-jähriger Fahrer eines Lieferwagens fuhr bei Rotlicht und kollidierte mit einer Stadtbahn der Linie U12. Beide Beteiligten wurden leicht verletzt, der Sachschaden liegt bei rund 100.000 Euro; die U12 war zwischen Nordbahnhof und Hallschlag unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.landtag-bw.de/home/aktuelles/dpa-nachrichten/2024/Maerz/KW13/Donnerstag/47a12e5a-b7e6-40dd-a246-12d2de43.html",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:45.143014Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "U12",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2021-11-08-002",
+    "event_date": "2021-11-08",
+    "event_time": null,
+    "location": "Mühlhäuser Straße, Stuttgart-Mühlhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Ein Auto kollidierte in der Mühlhäuser Straße mit einer Stadtbahn; der Sachschaden liegt im mittleren fünfstelligen Bereich.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5067667",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:50.508468Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2021-03-30-001",
+    "event_date": "2021-03-30",
+    "event_time": "17:30",
+    "location": "Schmidener Straße/Gnesener Straße, Stuttgart-Bad Cannstatt",
+    "event_type": "derailment",
+    "other_party": "none",
+    "injuries": "unknown",
+    "summary": "Beim Zurücksetzen einer Stadtbahn der Linie U19 an der Haltestelle Gnesener Straße, wo eine Stadtbahn der Linie U1 stand, entgleiste die Bahn und beschädigte eine Oberleitung.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/4878072",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:55.950822Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U19",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2024-09-02-002",
+    "event_date": "2024-09-02",
+    "event_time": "05:15",
+    "location": "Frankenstraße/Ludwigsburger Straße, Stuttgart-Zuffenhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 44-jähriger Peugeot-Fahrer bog von der Frankenstraße nach links in die Ludwigsburger Straße ab und kollidierte mit einer Stadtbahn der Linie U7 in Richtung Mönchfeld. Der Fahrer erlitt leichte Verletzungen, der Sachschaden liegt im mehreren-zehntausend-Euro-Bereich.",
+    "sources": [
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_98358",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-20T15:55:38.299457Z"
+      }
+    ],
+    "location_tag": "Zuffenhausen",
+    "line_tag": "U7",
+    "car_brand_tag": "Peugeot"
+  },
+  {
+    "id": "inc-2018-11-19-001",
+    "event_date": "2018-11-19",
+    "event_time": "18:20",
+    "location": "König-Karl-Straße/Mercedesstraße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Nachdem eine zweite Stadtbahn die Sicht verdeckt hatte, setzte sich der Fahrer der U19 in Bewegung und kollidierte im Kreuzungsbereich mit einem Mercedes, der dadurch auf ein weiteres Fahrzeug geschoben wurde. Sachschaden im mehreren-tausend-Euro-Bereich.",
+    "sources": [
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-unfall-mit-stadtbahn_11220",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-20T15:55:55.218338Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U19",
+    "car_brand_tag": "Mercedes"
+  },
+  {
+    "id": "inc-2022-04-09-001",
+    "event_date": "2022-04-09",
+    "event_time": "22:30",
+    "location": "Haltestelle Sieglestraße, Stuttgart-Feuerbach",
+    "event_type": "other",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Ein alkoholisierter 54-Jähriger stürzte am späten Samstagabend an der Stadtbahnhaltestelle Sieglestraße zwischen die Wagen einer stehenden Stadtbahn. Die Bahn fuhr kurz an, bevor der Fahrer den Mann bemerkte und sofort wieder stoppte; er erlitt schwere Kopfverletzungen.",
+    "sources": [
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-person-zwischen-stadtbahnzuege-gestuerzt_52258",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-20T15:56:17.928739Z"
+      }
+    ],
+    "location_tag": "Feuerbach",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-12-02-002",
+    "event_date": "2025-12-02",
+    "event_time": "19:20",
+    "location": "Haltestelle Heslach-Vogelrain, Stuttgart",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "unknown",
+    "summary": "An der Haltestelle Heslach-Vogelrain in Stuttgart wurde am Dienstagabend gegen 19.20 Uhr eine Person von einer Stadtbahn (Linie U14) erfasst. Der Vorfall führte zu einer mehr als zweistündigen Unterbrechung der Linie U14.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T16:01:30.636411Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "U14",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-09-22-002",
+    "event_date": "2025-09-22",
+    "event_time": "12:40",
+    "location": "Streckenabschnitt Schwab-/Bebelstraße–Vogelsang, Stuttgart",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Montag kam es gegen 12.40 Uhr im Streckenabschnitt zwischen den Haltestellen Schwab-/Bebelstraße und Vogelsang zu einer weiteren Kollision zwischen einer Stadtbahn und einem Auto, nachdem bereits am Morgen ein ähnlicher Unfall in der Nähe des Pragsattels aufgetreten war. Mutmaßlich keine Verletzten.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-kollision-zwischen-stadtbahn-und-auto-strecke-unterbrochen-79054503.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T16:01:52.730571Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-07-24-002",
+    "event_date": "2025-07-24",
+    "event_time": "13:00",
+    "location": "Haltestelle Metzstraße, Stuttgart-Ost",
+    "event_type": "other",
+    "other_party": "unknown",
+    "injuries": "unknown",
+    "summary": "Im Bereich der Haltestelle Metzstraße in Stuttgart-Ost ereignete sich kurz nach 13 Uhr ein Unfall, an dem eine Stadtbahn beteiligt war. Die Strecken der Linien U1, U2 und U14 waren zeitweise unterbrochen. Unfallhergang und -gegner waren zum Zeitpunkt der Meldung noch unbekannt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T16:01:58.264351Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "U1",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2024-05-26-002",
+    "event_date": "2024-05-26",
+    "event_time": "14:00",
+    "location": "Haltestelle Vogelsang, Stuttgart-West",
+    "event_type": "derailment",
+    "other_party": "unknown",
+    "injuries": "unknown",
+    "summary": "Nach einem vorangegangenen Unfall mit einem Pkw entgleiste am Sonntagmittag eine Stadtbahn der Linie U2 an der Haltestelle Vogelsang in Stuttgart-West. Die Ursache der Entgleisung war zunächst unklar, die Bergungsarbeiten dauerten rund zwei Stunden.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-west-stadtbahn-entgleist-feuerwehr-rueckt-mit-spezialfahrzeug-aus-78926237.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T16:04:01.668988Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "U2",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2016-04-13-001",
+    "event_date": "2016-04-13",
+    "event_time": "11:55",
+    "location": "Zufahrt Klärwerk Mühlhausen (Cannstatter Straße), Grenzbereich Stuttgart-Mühlhausen/Remseck-Aldingen",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "severe",
+    "summary": "Ein mit Gefahrgut beladener Lkw wurde beim Linksabbiegen von der Cannstatter Straße in Richtung Klärwerk Mühlhausen von einer in Richtung Stuttgart fahrenden Stadtbahn der Linie U14 erfasst und teilweise entgleist. Der Stadtbahnfahrer erlitt schwere Verletzungen, die Bahn musste geborgen werden.",
+    "sources": [
+      {
+        "url": "https://feuerwehr-remseck.de/einsatzberichte/2350-gefahrgut-lkw-kollidiert-mit-stadtbahn/",
+        "source_id": "feuerwehr_remseck",
+        "retrieved_at": "2026-07-20T16:04:45.023684Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U14",
+    "car_brand_tag": null
   }
 ]
