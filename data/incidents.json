@@ -7220,26 +7220,6 @@
     "car_brand_tag": null
   },
   {
-    "id": "inc-2019-09-04-001",
-    "event_date": "2019-09-04",
-    "event_time": null,
-    "location": "Stuttgart-Bad Cannstatt",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "minor",
-    "summary": "Ein Pkw kollidierte am Mittwochabend in Stuttgart-Bad Cannstatt mit der parallel in gleicher Richtung fahrenden Stadtbahn der Linie U13. Die Pkw-Fahrerin und ein 47-jähriger Fahrgast der Stadtbahn wurden leicht verletzt, es entstand ein Sachschaden von rund 75.000 Euro.",
-    "sources": [
-      {
-        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-kollidiert-mit-stadtbahn_25552",
-        "source_id": "polizeiberichte_stuttgart",
-        "retrieved_at": "2026-07-18T18:24:34.735446Z"
-      }
-    ],
-    "location_tag": "Bad Cannstatt",
-    "line_tag": "U13",
-    "car_brand_tag": null
-  },
-  {
     "id": "inc-2019-03-20-001",
     "event_date": "2019-03-20",
     "event_time": null,
@@ -8663,6 +8643,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/4366595",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.571902Z"
+      },
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-kollidiert-mit-stadtbahn_25552",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-18T18:24:34.735446Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
