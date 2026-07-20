@@ -9973,5 +9973,85 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null
+  },
+  {
+    "id": "inc-2026-02-11-001",
+    "event_date": "2026-02-11",
+    "event_time": null,
+    "location": "Fellbach",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Mittwochmorgen kollidierte in Fellbach ein Auto mit einer Stadtbahn, nachdem der Fahrer die herannahende Bahn übersehen hatte; das Auto wurde dabei von den Gleisen geschoben. Verletzt wurde nach bisherigen Erkenntnissen niemand.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/rems-murr-kreis/kollision-mit-hohem-schaden-stadtbahn-unfall-in-fellbach-auto-von-gleisen-geschoben-78965563.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:57:26.129508Z"
+      }
+    ],
+    "location_tag": "Fellbach",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-11-11-001",
+    "event_date": "2025-11-11",
+    "event_time": null,
+    "location": "Stuttgart-Münster",
+    "event_type": "rear_end",
+    "other_party": "truck",
+    "injuries": "minor",
+    "summary": "Am Dienstagvormittag stieß in Stuttgart-Münster ein Lkw mit einer in gleicher Richtung fahrenden Stadtbahn zusammen. Der 28-jährige Fahrer und sein 19-jähriger Beifahrer wurden leicht verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-lkw-prallt-in-muenster-mit-stadtbahn-zusammen-zwei-personen-verletzt-78883543.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:57:26.129508Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Münster",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-10-29-001",
+    "event_date": "2025-10-29",
+    "event_time": "17:50",
+    "location": "Tainer Straße/Schwabenlandhalle, Fellbach",
+    "event_type": "collision",
+    "other_party": "other",
+    "injuries": "severe",
+    "summary": "Ein 30-jähriger E-Scooter-Fahrer überquerte am Mittwochabend gegen 17.50 Uhr einen Bahnübergang in der Tainer Straße in Fellbach, als eine Stadtbahn herannahte, und wurde von dieser erfasst und schwer verletzt. An der Stadtbahn entstand ein Sachschaden von rund 10.000 Euro; die Fahrgäste blieben unverletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/rems-murr-kreis/schwerer-unfall-in-fellbach-e-scooter-fahrer-von-stadtbahn-erfasst-79039160.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:57:26.130536Z"
+      }
+    ],
+    "location_tag": "Fellbach",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-03-25-002",
+    "event_date": "2025-03-25",
+    "event_time": "15:20",
+    "location": "Hohenheimer Straße / Dobelstraße, Stuttgart-Mitte",
+    "event_type": "other",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Dienstagnachmittag, dem 25.03.2025, musste der Fahrer einer Stadtbahn der Linie U12 in der Hohenheimer Straße in Stuttgart-Mitte gegen 15:20 Uhr eine Gefahrenbremsung durchführen, weil ein unbekannter Autofahrer mit einem Hyundai i20 aus der Dobelstraße kommend eine Gefahrensituation verursachte. Ein 83-jähriger Fahrgast stürzte dabei und zog sich leichte Verletzungen zu.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgarter-polizei-sucht-zeugen-autofahrer-zwingt-stadtbahn-zur-notbremsung-fahrgast-verletzt-78958272.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:59:11.305494Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U12",
+    "car_brand_tag": "Hyundai"
   }
 ]
