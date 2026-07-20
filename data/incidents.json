@@ -711,6 +711,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-west-stadtbahn-rammt-mercedes-zwei-verletzte-79041209.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-16T06:23:36.690339Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/verbot-missachtet-mercedes-verursacht-50-000-euro-schaden-in-stuttgart-3429009",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T19:12:34.523717Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -925,18 +930,23 @@
     "location": "Rastatter Straße, Stuttgart",
     "event_type": "collision",
     "other_party": "car",
-    "injuries": "unknown",
-    "summary": "Am Samstagmittag kollidierte eine Stadtbahn der Linie U6 in der Rastatter Straße mit einem Auto, wie die Stuttgarter Feuerwehr mitteilte. Die SSB richtete einen Ersatzverkehr mit Bussen oder Taxis ein.",
+    "injuries": "minor",
+    "summary": "Am Samstagmittag kollidierte eine Stadtbahn der Linie U6 in der Rastatter Straße mit einem Auto, wie die Stuttgarter Feuerwehr mitteilte. Die SSB richtete einen Ersatzverkehr mit Bussen oder Taxis ein. Am Samstag kollidierten in Stuttgart ein Mercedes und eine Stadtbahn der Linie U6, nachdem die Autofahrerin beim vorschriftswidrigen Abbiegen in den Salamanderweg die einfahrende Bahn übersah. Die Autofahrerin, ihre 56-jährige Beifahrerin und der 37-jährige Stadtbahnführer wurden dabei leicht verletzt.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/ssb-stadtbahn-stoesst-mit-auto-zusammen-strecke-wieder-frei-78972466.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-16T06:24:46.917782Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/mercedes-fahrerin-missachtet-verbot-und-kracht-in-stuttgarter-stadtbahn-3470273",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T19:11:08.529773Z"
       }
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U6",
-    "car_brand_tag": null,
+    "car_brand_tag": "Mercedes",
     "lat": 48.812048971316216,
     "lon": 9.110551743046342
   },
@@ -1018,6 +1028,11 @@
         "url": "https://www.weilimdorf.de/nachricht/erneut-schwerer-stadtbahnunfall-im-giebel/",
         "source_id": "weilimdorf_blaulicht",
         "retrieved_at": "2026-07-20T06:34:21.280999Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/lkw-knallt-mit-stadtbahn-zusammen-maedchen-bei-unfall-verletzt-3486064",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T19:11:08.528755Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -8224,6 +8239,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-muehlhausen-fussgaenger-bei-stadtbahnunfall-lebensgefaehrlich-verletzt-polizei-nennt-details-78974017.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:32:51.885428Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/schwerer-unfall-in-stuttgart-mann-zwischen-zwei-strassenbahnen-eingeklemmt-3451209",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T19:12:34.523717Z"
       }
     ],
     "location_tag": "Mühlhausen",
@@ -8477,6 +8497,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-west-stadtbahn-kollidiert-mit-auto-ein-verletzter-79046858.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T21:55:04.550135Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/schwerer-unfall-stadtbahn-und-auto-krachen-in-stuttgart-mitte-zusammen-3424191",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T19:12:34.523717Z"
       }
     ],
     "location_tag": "Stuttgart-West",
