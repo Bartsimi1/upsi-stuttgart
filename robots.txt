@@ -7,4 +7,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bartsimi1.github.io/upsi-stuttgart/sitemap.xml
+Sitemap: https://upsi-stuttgart.de/sitemap.xml
