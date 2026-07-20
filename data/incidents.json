@@ -413,6 +413,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-contra-stadtbahn--zeugen-gesucht_99933",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:22:49.115923Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgarter-polizei-sucht-zeugen-auto-kollidiert-mit-stadtbahn-fahrer-fluechtet-79021905.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:27:31.514886Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -443,6 +448,16 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-staatsanwaltschaft-und-polizei-stuttgart-geben-bekannt-nachtragsmeldung-zum-toedlich-verletzten-kind-an-der-stadtbahnhaltestelle-max-eyth-see_102309",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T21:54:03.066334Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/nach-stadtbahnunfall-am-max-eyth-see-die-joerg-ratgeb-schule-trauert-um-ihren-schueler-78859229.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:25:40.695287Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unglueck-an-stuttgarter-stadtbahn-haltestelle-blumen-und-kerzen-erinnern-an-toedlich-verletzten-12-jaehrigen-78863701.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:25:40.696311Z"
       }
     ],
     "location_tag": "Hofen",
@@ -643,6 +658,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6145197",
         "source_id": "polizei_stuttgart",
         "retrieved_at": "2026-07-16T06:23:36.690339Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/stadtbahnunfall-endet-tragisch-mann-28-erfasst-und-toedlich-verletzt-3432539",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T05:23:18.614923Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -723,6 +743,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-zuffenhausen-auto-kollidiert-mit-stadtbahn-hoher-schaden-stadtbahnverkehr-gestoert-78980533.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-16T06:24:46.917782Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/hoher-sachschaden-bei-stadtbahn-crash-in-stuttgart-3449317",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T05:33:19.181049Z"
       }
     ],
     "location_tag": "Zuffenhausen",
@@ -757,7 +782,7 @@
   {
     "id": "inc-2025-12-26-001",
     "event_date": "2025-12-26",
-    "event_time": null,
+    "event_time": "23:25",
     "location": "Hohenheimer Straße, Stuttgart-Mitte",
     "event_type": "collision",
     "other_party": "car",
@@ -768,6 +793,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-mitte-porsche-stoesst-in-stuttgart-mit-stadtbahn-zusammen-25000-euro-schaden-78981016.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-16T06:24:46.917782Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/teure-kollision-in-stuttgart-porsche-kracht-gegen-stadtbahn-3452933",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T05:33:19.180073Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -983,6 +1013,11 @@
         "url": "https://wilih.de/pkw-kollidiert-mit-stadtbahn-rotlicht-missachtet",
         "source_id": "wilih_polizeibericht",
         "retrieved_at": "2026-07-17T08:08:11.247710Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/esslingen/unfall-in-ostfildern-auto-kollidiert-mit-stadtbahn-78853624.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:20:52.240256Z"
       }
     ],
     "location_tag": "Ostfildern",
@@ -1503,6 +1538,16 @@
         "url": "https://wilih.de/toedlicher-rad-unfall-durch-kopfhoerer-abgelenkt",
         "source_id": "wilih_polizeibericht",
         "retrieved_at": "2026-07-17T08:52:07.423194Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/esslingen/stadtbahnunfall-in-ostfildern-von-u8-erfasst-16-jaehriger-radfahrer-ringt-mit-dem-tod-78981487.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:21:57.521547Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/esslingen/stadtbahnunfall-in-ostfildern-von-u8-erfasst-16-jaehriger-radfahrer-ringt-mit-dem-tod-78981536.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:23:18.614923Z"
       }
     ],
     "location_tag": "Ostfildern",
@@ -1648,6 +1693,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-51-jaehrige-ueberquert-stadtbahngleise-und-wird-von-stadtbahn-erfasst--zeugen-gesucht_101045",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:22:49.115923Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-heumaden-51-jaehrige-von-u7-erfasst-und-schwer-verletzt-zeugen-gesucht-78855889.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:27:31.514886Z"
       }
     ],
     "location_tag": "Stuttgart-Heumaden",
@@ -2352,17 +2402,22 @@
   {
     "id": "inc-2024-12-26-001",
     "event_date": "2024-12-26",
-    "event_time": null,
+    "event_time": "19:00",
     "location": "Nordbahnhof-/Varnbülerstraße, Stuttgart-Nord",
     "event_type": "collision",
     "other_party": "car",
-    "injuries": "unknown",
+    "injuries": "none",
     "summary": "Am Donnerstagabend (26.12.2024) kollidierte im Bereich Nordbahnhof-/Varnbülerstraße in Stuttgart-Nord ein Pkw mit einer von hinten kommenden Stadtbahn der Linie U12 im Gleisbereich. Der Stadtbahnverkehr war bis etwa 19.55 Uhr blockiert, es entstand ein Sachschaden von rund 100.000 Euro.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-contra-stadtbahn_101198",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:22:49.115923Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-pkw-kollidiert-mit-stadtbahn-strecke-kurzzeitig-unterbrochen-78851849.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:24:29.998211Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
@@ -2533,6 +2588,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahn-mit-auto-zusammengestossen_99875",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:24:32.358265Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-neugereut-stadtbahn-stoesst-mit-auto-zusammen-78927894.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:27:31.515909Z"
       }
     ],
     "location_tag": "Stuttgart-Neugereut",
@@ -2732,17 +2792,22 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Am Sonntagabend, den 06.10.2024, stieß ein Pkw an der Einmündung Prevorster Straße/Haldenrainstraße in Stuttgart-Zuffenhausen mit einer Stadtbahn der Linie U7 zusammen. Es entstand ein Sachschaden von rund 35.000 Euro, verletzt wurde niemand.",
+    "summary": "Am Sonntagabend, den 06.10.2024, stieß ein Pkw an der Einmündung Prevorster Straße/Haldenrainstraße in Stuttgart-Zuffenhausen mit einer Stadtbahn der Linie U7 zusammen. Es entstand ein Sachschaden von rund 35.000 Euro, verletzt wurde niemand. Eine 73-jährige Mitsubishi-Fahrerin verursachte am Sonntagabend (06.10.2024) in Stuttgart-Zuffenhausen einen Unfall, bei dem ihr Auto mit einer Stadtbahn der Linie U7 kollidierte, die von der Haltestelle Fürfelder Straße in Richtung Schozacher Straße fuhr. Es entstand ein Sachschaden von rund 35.000 Euro, verletzt wurde niemand.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-auto-kollidiert-mit-stadtbahn--zeugen-gesucht_99392",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:44:49.145030Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-zuffenhausen-auto-stoesst-mit-u7-zusammen-polizei-sucht-zeugen-78932206.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:20:52.242266Z"
       }
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": "Mitsubishi"
   },
   {
     "id": "inc-2024-06-25-001",
@@ -3073,6 +3138,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_94150",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T23:10:22.003129Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-vaihingen-stadtbahnunfall-fordert-zwei-verletzte-polizei-sucht-zeugen-78982566.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:21:57.520570Z"
       }
     ],
     "location_tag": "Vaihingen",
@@ -5588,6 +5658,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahn-contra-pkw_10774",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T13:42:34.365159Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-mitte-verkehrsunfall-legt-bahnen-zwischen-bopser-und-olgaeck-lahm-79213552.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:29:03.950086Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -7268,6 +7343,11 @@
         "url": "https://www.stuttgarter-zeitung.de/inhalt.unfall-in-stuttgart-bad-cannstatt-lkw-stoesst-mir-stadtbahn-zusammen-mehrere-zehntausend-euro-schaden.9282bfff-36d9-4c1b-9920-75394d59bc31.html",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.561910Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-bad-cannstatt-lkw-stoesst-mir-stadtbahn-zusammen-mehrere-zehntausend-euro-schaden-78969483.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:25:40.695287Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -7297,21 +7377,26 @@
   {
     "id": "inc-2026-01-07-001",
     "event_date": "2026-01-07",
-    "event_time": null,
+    "event_time": "06:20",
     "location": "Stadtbahngleise-Querung, Stuttgart-Vaihingen",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "severe",
-    "summary": "Eine 26-jährige Frau überquerte am Mittwochvormittag unachtsam die Stadtbahngleise und geriet unter eine Stadtbahn. Sie wurde schwer verletzt.",
+    "summary": "Eine 26-jährige Frau überquerte am Mittwochvormittag unachtsam die Stadtbahngleise und geriet unter eine Stadtbahn. Sie wurde schwer verletzt. Eine 26-jährige Frau wollte am Mittwochmorgen gegen 6.20 Uhr am Bahnhof Stuttgart-Vaihingen die Gleise unachtsam überqueren und wurde dabei von einer einfahrenden Stadtbahn der Linie U8 erfasst. Sie geriet unter die Bahn und wurde schwer verletzt.",
     "sources": [
       {
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6191567",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.561910Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-vaihingen-unter-stadtbahn-geraten-26-jaehrige-schwer-verletzt-78871287.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:25:40.695287Z"
       }
     ],
     "location_tag": "Vaihingen",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U8",
     "car_brand_tag": null
   },
   {
@@ -7353,6 +7438,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-bad-cannstatt-auto-von-stadtbahn-erfasst-drei-verletzte-78886226.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T03:00:47.078371Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/folgenschwerer-fahrfehler-in-stuttgart-vw-kollidiert-mit-stadtbahn-3437648",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T05:34:10.436639Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -7513,6 +7603,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-bad-cannstatt-linien-u13-und-u16-nach-stadtbahnunfall-unterbrochen-79049389.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T21:52:10.512287Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/stadtbahn-unfall-in-stuttgart-mercedes-fahrer-verursacht-70-000-euro-schaden-3424670",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-07-20T05:34:10.436639Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -7738,6 +7833,11 @@
         "url": "https://www.stuttgarter-zeitung.de/inhalt.zwei-schwerverletzte-bei-unfall-in-stuttgart-nord-auto-stuerzt-in-stadtbahntunnel-feuerwehr-per-ecall-alarmiert.2250dd03-bac3-4678-9a8f-7d0fb60f10ea.html",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.565878Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/zwei-schwerverletzte-bei-unfall-in-stuttgart-nord-auto-stuerzt-in-stadtbahntunnel-feuerwehr-per-ecall-alarmiert-78999793.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:27:31.515909Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
@@ -8946,13 +9046,18 @@
     "location": "Haltestelle Vogelrain, Stuttgart-Heslach",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
-    "injuries": "unknown",
+    "injuries": "severe",
     "summary": "Am Dienstag, den 02.12.2025, gegen 19:20 Uhr wurde an der Haltestelle Vogelrain in Stuttgart-Heslach eine Person von einer Stadtbahn der Linie U14 erfasst. Der Vorfall führte zu erheblichen Störungen im Stadtbahnverkehr auf mehreren Linien.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtgebiet-stuttgart-stadtbahnverkehr-von-massiven-stoerungen-betroffen-78981396.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T21:59:53.490253Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-heslach-person-von-u14-erfasst-strecke-im-bereich-vogelrain-gesperrt-78977174.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:34:10.437613Z"
       }
     ],
     "location_tag": "Stuttgart-Heslach",
@@ -9277,6 +9382,206 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
+    "car_brand_tag": "VW"
+  },
+  {
+    "id": "inc-2026-02-24-001",
+    "event_date": "2026-02-24",
+    "event_time": null,
+    "location": "Bebelstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "minor",
+    "summary": "Ein Ford Transit kollidierte am Dienstagmorgen in der Bebelstraße in Stuttgart-West mit einer Stadtbahn der Linie U9, die in dieselbe Richtung fuhr. Ein 31-jähriger Fahrgast in der Bahn stürzte dabei und wurde leicht verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-west-ford-kollidiert-mit-u9-fahrgast-in-bahn-gestuerzt-78966628.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:21:57.523120Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "U9",
+    "car_brand_tag": "Ford"
+  },
+  {
+    "id": "inc-2025-10-11-001",
+    "event_date": "2025-10-11",
+    "event_time": null,
+    "location": "Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Eine Stadtbahn der Linie U9 und ein Mercedes sind am Samstagmittag im Stuttgarter Westen zusammengestoßen, wobei ein Sachschaden von rund 60.000 Euro entstand. Verletzt wurde laut Polizeiangaben niemand.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-west-auto-und-stadtbahn-stossen-zusammen-60000-euro-schaden-79039580.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:23:18.613893Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "U9",
+    "car_brand_tag": "Mercedes"
+  },
+  {
+    "id": "inc-2016-04-14-001",
+    "event_date": "2016-04-14",
+    "event_time": "11:00",
+    "location": "Aldinger Straße (Bereich Klärwerk), Stuttgart-Mühlhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Donnerstagvormittag, den 14.04.2016, stieß gegen 11 Uhr in Stuttgart-Mühlhausen ein Ford beim Überqueren der Gleise in der Aldinger Straße mit einer Stadtbahn der Linie U14 zusammen. Der 64-jährige Autofahrer erlitt leichte Verletzungen, in der Stadtbahn wurde niemand verletzt, der Sachschaden betrug rund 40.000 Euro.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-muehlhausen-zweiter-unfall-bremst-erneut-bahnen-aus-78916875.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:24:29.999197Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U14",
+    "car_brand_tag": "Ford"
+  },
+  {
+    "id": "inc-2016-07-28-001",
+    "event_date": "2016-07-28",
+    "event_time": null,
+    "location": "Mühlhäuser Straße (Zufahrt Max-Eyth-See), Stuttgart-Mühlhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Ein Opel-Fahrer bog am Donnerstagnachmittag in der Mühlhäuser Straße in Stuttgart-Mühlhausen plötzlich zur Zufahrt des Max-Eyth-Sees ab und stieß dabei mit einer entgegenkommenden Stadtbahn der Linie U14 zusammen. Alle vier Insassen des Opel, darunter zwei Kinder, wurden dabei verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-muehlhausen-vier-verletzte-bei-unfall-mit-stadtbahn-78996158.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:29:03.951059Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U14",
+    "car_brand_tag": "Opel"
+  },
+  {
+    "id": "inc-2011-11-22-001",
+    "event_date": "2011-11-22",
+    "event_time": "11:15",
+    "location": "Kormoranstraße, Stuttgart-Neugereut",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "fatal",
+    "summary": "Ein 76-jähriger Mann wurde am Dienstagvormittag gegen 11.15 Uhr auf der Kormoranstraße in Stuttgart-Neugereut von einer Stadtbahn der Linie U2 erfasst. Trotz Notbremsung und Erstversorgung durch Rettungskräfte verstarb er noch an der Unfallstelle.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-neugereut-76-jaehriger-stirbt-nach-stadtbahnunfall-79003758.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T05:29:03.951059Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Neugereut",
+    "line_tag": "U2",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2026-05-20-002",
+    "event_date": "2026-05-20",
+    "event_time": "10:05",
+    "location": "Kreuzung Daimlerstraße/Waiblinger Straße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Ein Auto bog am Mittwochvormittag gegen 10.05 Uhr an der Kreuzung Daimlerstraße/Waiblinger Straße in Stuttgart-Bad Cannstatt nach links ab und stieß dabei mit einer Stadtbahn zusammen. Nach bisherigem Kenntnisstand gab es keine Verletzten.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahnunfall-in-bad-cannstatt-auto-biegt-nach-links-ab-und-kracht-in-stadtbahn-79232522.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:29:03.951059Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2026-02-15-001",
+    "event_date": "2026-02-15",
+    "event_time": "16:40",
+    "location": "Erwin-Schoettle-Platz, Stuttgart-Süd",
+    "event_type": "other",
+    "other_party": "pedestrian",
+    "injuries": "minor",
+    "summary": "Am Sonntagnachmittag lief ein unbekannter Mann nahe der Haltestelle Erwin-Schoettle-Platz in Stuttgart-Süd auf die Gleise, woraufhin die Fahrerin einer Stadtbahn der Linie U14 eine Gefahrenbremsung einleitete. Dabei stürzte ein fünfjähriges Kind in der Bahn und verletzte sich leicht.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-sued-stadtbahn-bremst-abrupt-ab-fahrgast-stuerzt-auf-kind-78967641.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:31:47.183324Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Süd",
+    "line_tag": "U14",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2018-08-22-001",
+    "event_date": "2018-08-22",
+    "event_time": "14:30",
+    "location": "Neckartalstraße/Einmündung Voltastraße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Ein 81-jähriger Opel-Corsa-Fahrer wollte am Mittwochmittag in der Neckartalstraße in Stuttgart-Bad Cannstatt verbotswidrig über die Gleise der Stadtbahnlinie 14 wenden und übersah dabei die herannahende Bahn. Er stieß mit ihr zusammen und wurde rund 30 Meter mitgeschleift; sowohl er als auch sein 77-jähriger Beifahrer wurden dabei verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-bad-cannstatt-stadtbahn-schleift-pkw-mehrere-meter-mit-78849702.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:31:47.184351Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "Opel"
+  },
+  {
+    "id": "inc-2017-06-29-001",
+    "event_date": "2017-06-29",
+    "event_time": null,
+    "location": "Z-Übergang, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "cyclist",
+    "injuries": "fatal",
+    "summary": "Ein 70-jähriger Mann übersah beim Überqueren des Z-Übergangs über die Stadtbahngleise in Stuttgart-Bad Cannstatt eine herannahende Stadtbahn der Linie U2. Er wurde erfasst, zu Boden geschleudert und mitgeschleift und erlag trotz Reanimation noch an der Unfallstelle seinen schweren Verletzungen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-radfahrer-bei-kollision-mit-stadtbahn-getoetet-78985926.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:33:19.180073Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U2",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2016-10-15-001",
+    "event_date": "2016-10-15",
+    "event_time": "10:15",
+    "location": "Mönchfeldstraße/Stamitzweg (Haltestelle Himmelsleiter), Stuttgart-Mühlhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Samstagvormittag übersah eine 34-jährige VW-Fahrerin beim Abbiegen von der Mönchfeldstraße in den Stamitzweg in Stuttgart-Mühlhausen eine entgegenkommende Stadtbahn der Linie U7 und kollidierte mit ihr. Die Stadtbahn wurde dabei mit der ersten Achse aus den Gleisen gehoben; die Autofahrerin und die Stadtbahnfahrerin wurden leicht verletzt, die übrigen Insassen blieben unverletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-muehlhausen-hoher-schaden-und-verletzte-bei-stadtbahnunfall-79033205.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T05:33:19.180073Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U7",
     "car_brand_tag": "VW"
   }
 ]
