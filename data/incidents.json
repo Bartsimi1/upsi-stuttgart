@@ -586,17 +586,22 @@
     "location": "Remseck am Neckar",
     "event_type": "collision",
     "other_party": "car",
-    "injuries": "unknown",
-    "summary": "Am 16.07.2025 gegen 17:30 Uhr kollidierte ein Volvo mit einer vorbeifahrenden Stadtbahn in Remseck am Neckar. Der 39-jährige Stadtbahnfahrer leitete eine Notbremsung ein, die rund 40 Fahrgäste blieben unverletzt; laut Artikel wurde die Fahrerin des Volvo verletzt.",
+    "injuries": "minor",
+    "summary": "Am 16.07.2025 gegen 17:30 Uhr kollidierte ein Volvo mit einer vorbeifahrenden Stadtbahn in Remseck am Neckar. Der 39-jährige Stadtbahnfahrer leitete eine Notbremsung ein, die rund 40 Fahrgäste blieben unverletzt; laut Artikel wurde die Fahrerin des Volvo verletzt. Eine 58-jährige Volvo-Fahrerin fuhr aus ungeklärter Ursache bei Rot los und kollidierte mit einer Stadtbahn der Linie U12 in Remseck am Neckar. Die Fahrerin wurde leicht verletzt, die rund 40 Fahrgäste der Stadtbahn blieben unverletzt.",
     "sources": [
       {
         "url": "https://www.bild.de/regional/baden-wuerttemberg/unfall-in-remseck-volvo-kollidiert-mit-stadtbahn-6878fa283511bc17ac86d910",
         "source_id": "bild",
         "retrieved_at": "2026-07-16T06:22:29.752235Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/ludwigsburg/stadtbahnunfall-in-remseck-bei-rot-losgefahren-volvo-kracht-gegen-u12-78987167.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:44:58.966307Z"
       }
     ],
     "location_tag": "Remseck am Neckar",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U12",
     "car_brand_tag": "Volvo"
   },
   {
@@ -1963,6 +1968,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-unachtsam-die-gleise-ueberquert--fussgaenger-von-stadtbahnen-erfasst--zeugen-gesucht_93091",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T23:07:06.715639Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-sillenbuch-fussgaenger-von-stadtbahn-erfasst-79044893.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:47:40.384482Z"
       }
     ],
     "location_tag": "Stuttgart-Heumaden",
@@ -2482,17 +2492,22 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Am Samstagmittag (07.12.2024) kollidierte in Stuttgart-Nord ein Pkw mit einer entgegenkommenden Stadtbahn der Linie U4. Es entstand ein Sachschaden von rund 50.000 Euro, Personen wurden nicht verletzt.",
+    "summary": "Am Samstagmittag (07.12.2024) kollidierte in Stuttgart-Nord ein Pkw mit einer entgegenkommenden Stadtbahn der Linie U4. Es entstand ein Sachschaden von rund 50.000 Euro, Personen wurden nicht verletzt. Am Samstagmittag stieß in Stuttgart-Nord ein Mercedes mit einer entgegenkommenden Stadtbahn der Linie U4 zusammen. Es entstand ein Sachschaden von rund 50.000 Euro, verletzt wurde niemand.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-kollidiert-mit-stadtbahn_100913",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:23:47.432545Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-nord-mercedes-stoesst-mit-stadtbahn-zusammen-50000-euro-sachschaden-78851341.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:46:32.740954Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": "Mercedes"
   },
   {
     "id": "inc-2024-11-25-001",
@@ -2532,7 +2547,7 @@
   {
     "id": "inc-2024-11-14-001",
     "event_date": "2024-11-14",
-    "event_time": null,
+    "event_time": "15:25",
     "location": "Nordbahnhofstraße/Steinbeissstraße, Stuttgart-Nord",
     "event_type": "rear_end",
     "other_party": "unknown",
@@ -2543,6 +2558,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen_100310",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:23:47.432545Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-nord-stadtbahn-stoesst-mit-auto-zusammen-79021594.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:46:32.740954Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
@@ -2633,6 +2653,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen_101168",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:24:32.358265Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-bad-cannstatt-auto-stoesst-mit-stadtbahn-zusammen-fahrer-leicht-verletzt-78855578.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:50:43.670335Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -2842,7 +2867,7 @@
   {
     "id": "inc-2024-10-04-001",
     "event_date": "2024-10-04",
-    "event_time": null,
+    "event_time": "15:50",
     "location": "Pillauer Straße, Stuttgart-Bad Cannstatt",
     "event_type": "collision",
     "other_party": "car",
@@ -2853,6 +2878,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-audi-contra-stadtbahn--zeugen-gesucht_99376",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:44:10.810360Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/verkehrsunfall-in-bad-cannstatt-unfall-zwischen-audi-und-stadtbahn-beeintraechtigt-verkehr-78932919.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:49:28.332275Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -2923,6 +2953,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_98175",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:44:49.145030Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-weilimdorf-mit-stadtbahn-zusammengestossen-zeugen-gesucht-79001348.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:46:32.740954Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -6212,22 +6247,27 @@
   {
     "id": "inc-2019-09-17-001",
     "event_date": "2019-09-17",
-    "event_time": null,
+    "event_time": "09:00",
     "location": "Kreisverkehr Löwentorstraße/Hunklinge, Stuttgart-Bad Cannstatt",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "severe",
-    "summary": "Ein 44 Jahre alter Autofahrer stieß am Dienstagmorgen (17.09.2019) am Kreisverkehr Löwentorstraße/Hunklinge in Stuttgart-Bad Cannstatt mit einer Stadtbahn der Linie U16 zusammen und wurde dabei schwer verletzt.",
+    "summary": "Ein 44 Jahre alter Autofahrer stieß am Dienstagmorgen (17.09.2019) am Kreisverkehr Löwentorstraße/Hunklinge in Stuttgart-Bad Cannstatt mit einer Stadtbahn der Linie U16 zusammen und wurde dabei schwer verletzt. Ein 44-jähriger Ford-Fahrer missachtete am Dienstagmorgen gegen 9 Uhr vermutlich das Rotlicht am Kreisverkehr Löwentorstraße/Hunklinge in Stuttgart-Bad Cannstatt und stieß mit einer Stadtbahn der Linie U16 zusammen. Der Ford-Fahrer wurde verletzt ins Krankenhaus gebracht, der Stadtbahnfahrer blieb unverletzt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_25883",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T13:47:09.502732Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/am-loewentor-in-stuttgart-ford-fahrer-kracht-in-stadtbahn-78907591.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:49:28.332275Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": null
+    "car_brand_tag": "Ford"
   },
   {
     "id": "inc-2019-07-08-001",
@@ -7942,7 +7982,7 @@
     "event_type": "other",
     "other_party": "car",
     "injuries": "severe",
-    "summary": "Ein Auto stürzte von der Straße in den Eingang eines Stadtbahntunnels und blieb auf dem Dach liegen; das eCall-System alarmierte automatisch die Rettungskräfte. Der Stadtbahnfahrer der Linien U7/U15 konnte durch eine Gefahrenbremsung einen Zusammenstoß verhindern. Die Feuerwehr rettete die zwei Insassen, beide wurden schwer verletzt; die Linien waren bis mittags unterbrochen.",
+    "summary": "Ein Auto stürzte von der Straße in den Eingang eines Stadtbahntunnels und blieb auf dem Dach liegen; das eCall-System alarmierte automatisch die Rettungskräfte. Der Stadtbahnfahrer der Linien U7/U15 konnte durch eine Gefahrenbremsung einen Zusammenstoß verhindern. Die Feuerwehr rettete die zwei Insassen, beide wurden schwer verletzt; die Linien waren bis mittags unterbrochen. Ein VW Golf kam am Samstagmorgen (03.08.2024) kurz nach der Ausfahrt aus dem Pragtunnel aus bislang ungeklärter Ursache von der Fahrbahn ab und stürzte mehrere Meter in den Außenbereich eines Stadtbahntunnels, wo er sich überschlug und auf dem Dach liegen blieb. Der Fahrer einer anfahrenden Stadtbahn bremste rechtzeitig und verhinderte eine Kollision; die beiden im Auto eingeklemmten Insassen wurden von der Feuerwehr befreit und schwer verletzt in Krankenhäuser gebracht.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/inhalt.zwei-schwerverletzte-bei-unfall-in-stuttgart-nord-auto-stuerzt-in-stadtbahntunnel-feuerwehr-per-ecall-alarmiert.2250dd03-bac3-4678-9a8f-7d0fb60f10ea.html",
@@ -7953,11 +7993,16 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/zwei-schwerverletzte-bei-unfall-in-stuttgart-nord-auto-stuerzt-in-stadtbahntunnel-feuerwehr-per-ecall-alarmiert-78999793.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:27:31.515909Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/zwei-schwerverletzte-bei-unfall-in-stuttgart-auto-stuerzt-meterweit-in-die-tiefe-und-landet-auf-gleisen-zeugen-gesucht-78999296.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:51:41.304169Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": "VW"
   },
   {
     "id": "inc-2024-04-24-001",
@@ -8547,7 +8592,7 @@
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "fatal",
-    "summary": "Eine 60-jährige Fußgängerin wollte den Gleisübergang in Richtung Mönchhaldenstraße passieren, als sie mit einer aus Richtung Pragsattel einfahrenden Stadtbahn kollidierte. Sie erlag ihren Verletzungen.",
+    "summary": "Eine 60-jährige Fußgängerin wollte den Gleisübergang in Richtung Mönchhaldenstraße passieren, als sie mit einer aus Richtung Pragsattel einfahrenden Stadtbahn kollidierte. Sie erlag ihren Verletzungen. Am Montagnachmittag gegen 13.50 Uhr wollte eine Fußgängerin an der Haltestelle Pragfriedhof in Stuttgart-Nord den Überweg in Richtung Mönchhaldenstraße passieren und übersah dabei die aus Richtung Pragsattel kommende Stadtbahn der Linie U7. Die Bahn erfasste die Frau tödlich; der Bahnverkehr war rund eine Stunde gesperrt.",
     "sources": [
       {
         "url": "https://www.presseportal.de/blaulicht/pm/110977/4790910",
@@ -8558,10 +8603,15 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-passantin-nach-unfall-mit-stadtbahn-verstorben_39520",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-19T00:43:08.529976Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/haltestelle-pragsattel-in-stuttgart-stadtbahn-erfasst-person-beim-ueberqueren-der-gleise-78888357.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:47:40.385464Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U7",
     "car_brand_tag": null
   },
   {
@@ -9841,6 +9891,86 @@
       }
     ],
     "location_tag": "Wangen",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-02-14-001",
+    "event_date": "2025-02-14",
+    "event_time": "13:15",
+    "location": "Stadtbahnhaltestelle Hauptbahnhof, Stuttgart-Mitte",
+    "event_type": "other",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Eine 58-jährige Frau stürzte am Freitagnachmittag beim Einsteigen in eine wartende Stadtbahn der Linie U9 an der Haltestelle Hauptbahnhof in Stuttgart-Mitte und fiel mit dem Oberkörper in die Bahn. Sie wurde dabei schwer verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgarter-polizei-sucht-zeugen-beim-einsteigen-in-stadtbahn-gestuerzt-frau-schwer-verletzt-78857953.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:46:32.739962Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U9",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2026-01-11-001",
+    "event_date": "2026-01-11",
+    "event_time": "17:10",
+    "location": "Haltestelle Charlottenplatz, Stuttgart-Mitte",
+    "event_type": "other",
+    "other_party": "none",
+    "injuries": "minor",
+    "summary": "Eine 58-Jährige stürzte am Sonntagnachmittag gegen 17.10 Uhr in einer Stadtbahn der Linie U15 (Richtung Ruhbank), als diese bei der Einfahrt in die Haltestelle Charlottenplatz stark abbremste. Sie verletzte sich leicht und musste im Krankenhaus behandelt werden.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/haltestelle-charlottenplatz-stadtbahn-bremst-stark-ab-frau-stuerzt-und-verletzt-sich-78872050.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:48:51.609863Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U15",
+    "car_brand_tag": null
+  },
+  {
+    "id": "inc-2025-09-03-001",
+    "event_date": "2025-09-03",
+    "event_time": "15:45",
+    "location": "Schloßstraße/Büchsenstraße, Stuttgart-Mitte",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Am Mittwochnachmittag gegen 15.45 Uhr stieß in der Schloßstraße in Stuttgart-Mitte eine 74-jährige Volvo-Fahrerin beim Wendemanöver an der Büchsenstraße mit einer Stadtbahn der Linie U9 (Richtung Vogelsang) zusammen. Wer bei Rot in die Kreuzung einfuhr, war zum Zeitpunkt der Meldung noch unklar.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-mitte-auto-stoesst-beim-wenden-mit-stadtbahn-zusammen-zeugen-gesucht-79048049.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:48:51.609863Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U9",
+    "car_brand_tag": "Volvo"
+  },
+  {
+    "id": "inc-2025-11-28-001",
+    "event_date": "2025-11-28",
+    "event_time": "20:30",
+    "location": "Böblinger Straße, Stuttgart-Süd",
+    "event_type": "derailment",
+    "other_party": "none",
+    "injuries": "none",
+    "summary": "Am Freitagabend gegen 20.30 Uhr entgleiste eine leere Stadtbahn in der Böblinger Straße in Stuttgart-Süd, vermutlich beim Gleiswechsel im Zuge einer Baustelle am Erwin-Schoettle-Platz. Da sich keine Fahrgäste an Bord befanden, wurde niemand verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/feuerwehreinsatz-in-stuttgart-sued-stadtbahn-in-der-boeblinger-strasse-entgleist-78880110.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T09:50:01.747629Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null
   }
