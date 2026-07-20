@@ -753,7 +753,9 @@ button.year-tab.active {
   vertical-align: middle;
 }
 
+.legend-dot-sm { width: 9px; height: 9px; }
 .legend-dot-md { width: 14px; height: 14px; }
+.legend-dot-lg { width: 20px; height: 20px; }
 
 .legend-note {
   width: 100%;
