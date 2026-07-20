@@ -368,6 +368,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-liveblog-die-aktuellen-entwicklungen-zum-schweren-stadtbahn-unfall-79045352.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:29:16.140461Z"
+      },
+      {
+        "url": "https://www.feuerwehrmagazin.de/nachrichten/news/frontalkollision-zweier-stadtbahnen-in-stuttgart-126451",
+        "source_id": "feuerwehrmagazin_de",
+        "retrieved_at": "2026-07-20T06:39:34.109738Z"
       }
     ],
     "location_tag": "Wangen",
@@ -2043,6 +2048,16 @@
         "url": "https://wilih.de/stadtbahn-entgleist-vermutlich-weiche-defekt",
         "source_id": "wilih_polizeibericht",
         "retrieved_at": "2026-07-17T17:46:08.826870Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/4723843",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-18T22:28:01.571902Z"
+      },
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahn-entgleist_37680",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-19T10:26:46.300207Z"
       }
     ],
     "location_tag": "Wangen",
@@ -3153,6 +3168,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahnunfall_92933",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T23:08:51.300186Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5722234",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-18T22:28:01.566913Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -4198,6 +4218,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahnunfall_70787",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T07:27:21.743007Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5436675",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-18T22:28:01.567909Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -5118,6 +5143,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-auto-und-stadtbahn-zusammengestossen--zeugen-gesucht_48178",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T10:15:17.513158Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5071360",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-18T22:28:01.568909Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -5843,6 +5873,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-fussgaenger-von-stadtbahn-erfasst--zeugen-gesucht_14837",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T13:43:10.365854Z"
+      },
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-unfallopfer-verstorben_15597",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-18T18:25:51.024730Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -7225,26 +7260,6 @@
     "car_brand_tag": null
   },
   {
-    "id": "inc-2019-01-21-002",
-    "event_date": "2019-01-21",
-    "event_time": "14:00",
-    "location": "Waiblinger Straße, Stuttgart-Bad Cannstatt",
-    "event_type": "pedestrian_hit",
-    "other_party": "pedestrian",
-    "injuries": "fatal",
-    "summary": "Ein 22-jähriger Fußgänger wurde am 21.01.2019 gegen 14:00 Uhr an der Waiblinger Straße von einer Stadtbahn der Linie U13 erfasst und lebensgefährlich verletzt. Er erlag am 03.02.2019 in einer Stuttgarter Klinik seinen Verletzungen.",
-    "sources": [
-      {
-        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-unfallopfer-verstorben_15597",
-        "source_id": "polizeiberichte_stuttgart",
-        "retrieved_at": "2026-07-18T18:25:51.024730Z"
-      }
-    ],
-    "location_tag": "Bad Cannstatt",
-    "line_tag": "U13",
-    "car_brand_tag": null
-  },
-  {
     "id": "inc-2018-10-13-001",
     "event_date": "2018-10-13",
     "event_time": null,
@@ -7973,6 +7988,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-zuffenhausen-auto-und-stadtbahn-kollidieren-person-eingeklemmt-78951886.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:27:42.792875Z"
+      },
+      {
+        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_98358",
+        "source_id": "polizeiberichte_stuttgart",
+        "retrieved_at": "2026-07-20T15:55:38.299457Z"
       }
     ],
     "location_tag": "Zuffenhausen",
@@ -8070,26 +8090,6 @@
     "car_brand_tag": "Nissan"
   },
   {
-    "id": "inc-2024-02-25-002",
-    "event_date": "2024-02-25",
-    "event_time": "12:00",
-    "location": "Schmidener Straße/Thorner Straße, Stuttgart-Bad Cannstatt",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "none",
-    "summary": "Ein 49-jähriger VW-Polo-Fahrer fuhr aus einer Parklücke und übersah beim Linksabbiegen in die Thorner Straße eine Stadtbahn der Linie U2. Verletzt wurde niemand, der Sachschaden liegt bei rund 50.000 Euro.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/5722234",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-18T22:28:01.566913Z"
-      }
-    ],
-    "location_tag": "Bad Cannstatt",
-    "line_tag": "U2",
-    "car_brand_tag": "VW"
-  },
-  {
     "id": "inc-2023-07-17-001",
     "event_date": "2023-07-17",
     "event_time": null,
@@ -8127,26 +8127,6 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
-    "id": "inc-2023-02-08-002",
-    "event_date": "2023-02-08",
-    "event_time": "16:15",
-    "location": "Waiblinger Straße/Daimlerstraße, Stuttgart-Bad Cannstatt",
-    "event_type": "collision",
-    "other_party": "truck",
-    "injuries": "minor",
-    "summary": "Ein 29-jähriger Fahrer eines Iveco-Sprinters bog verbotswidrig nach links ab und kollidierte mit einer Stadtbahn der Linie U1. Er wurde leicht verletzt.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/5436675",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-18T22:28:01.567909Z"
-      }
-    ],
-    "location_tag": "Bad Cannstatt",
-    "line_tag": "U1",
     "car_brand_tag": null
   },
   {
@@ -8323,26 +8303,6 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null
-  },
-  {
-    "id": "inc-2021-11-11-003",
-    "event_date": "2021-11-11",
-    "event_time": "17:25",
-    "location": "Löwentorstraße/Hallschlag, Stuttgart-Bad Cannstatt",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "severe",
-    "summary": "Eine 64-jährige Peugeot-Fahrerin bog nach rechts in die Straße Hallschlag ab und stieß dabei mit einer Stadtbahn der Linie U12 zusammen. Eine 20-jährige Mitfahrerin wurde schwer, ein zehnjähriges Kind leicht verletzt.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/5071360",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-18T22:28:01.568909Z"
-      }
-    ],
-    "location_tag": "Bad Cannstatt",
-    "line_tag": "U12",
-    "car_brand_tag": "Peugeot"
   },
   {
     "id": "inc-2021-11-05-001",
@@ -8663,26 +8623,6 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Citroën"
-  },
-  {
-    "id": "inc-2020-10-02-002",
-    "event_date": "2020-10-02",
-    "event_time": "20:00",
-    "location": "Inselstraße/Haltestelle Wasenstraße, Stuttgart-Wangen",
-    "event_type": "derailment",
-    "other_party": "none",
-    "injuries": "none",
-    "summary": "Eine leere Stadtbahn der Linie U4 sprang vermutlich wegen eines technischen Defekts an der Weichenanlage im Bereich der Haltestelle Wasenstraße aus den Schienen. Verletzt wurde niemand, der 62-jährige Fahrer war allein im Zug.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/4723843",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-18T22:28:01.571902Z"
-      }
-    ],
-    "location_tag": "Wangen",
-    "line_tag": "U4",
-    "car_brand_tag": null
   },
   {
     "id": "inc-2020-07-23-001",
@@ -9115,26 +9055,6 @@
     "car_brand_tag": null
   },
   {
-    "id": "inc-2020-10-02-003",
-    "event_date": "2020-10-02",
-    "event_time": "20:00",
-    "location": "Inselstraße / Haltestelle Wasenstraße, Stuttgart-Wangen",
-    "event_type": "derailment",
-    "other_party": "none",
-    "injuries": "none",
-    "summary": "Am Freitagabend (02.10.2020) gegen 20.00 Uhr entgleiste eine Stadtbahn der Linie U4 ohne Fahrgäste in der Inselstraße im Bereich der Haltestelle Wasenstraße in Stuttgart-Wangen. Die SSB richtete während der Bergung einen Ersatzverkehr ein, gegen 22.10 Uhr war der Betrieb wieder freigegeben.",
-    "sources": [
-      {
-        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahn-entgleist_37680",
-        "source_id": "polizeiberichte_stuttgart",
-        "retrieved_at": "2026-07-19T10:26:46.300207Z"
-      }
-    ],
-    "location_tag": "Wangen",
-    "line_tag": "U4",
-    "car_brand_tag": null
-  },
-  {
     "id": "inc-2021-11-08-001",
     "event_date": "2021-11-08",
     "event_time": null,
@@ -9148,6 +9068,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-auto-kollidiert-mit-stadtbahn_48088",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-19T10:58:29.593687Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5067667",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:50.508468Z"
       }
     ],
     "location_tag": "Hofen",
@@ -9233,6 +9158,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-heslach-person-von-u14-erfasst-strecke-im-bereich-vogelrain-gesperrt-78977174.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:34:10.437613Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T16:01:30.636411Z"
       }
     ],
     "location_tag": "Stuttgart-Heslach",
@@ -9860,26 +9790,6 @@
     "car_brand_tag": null
   },
   {
-    "id": "inc-2024-02-23-002",
-    "event_date": "2024-02-23",
-    "event_time": null,
-    "location": "Inselstraße, Stuttgart (zwischen Wangen und Untertürkheim)",
-    "event_type": "rear_end",
-    "other_party": "other_tram",
-    "injuries": "severe",
-    "summary": "Am Freitag, den 23.02.2024, fuhr kurz vor 10 Uhr in der Inselstraße in Stuttgart eine Stadtbahn in Richtung Untertürkheim mit großer Wucht auf das Heck einer unplanmäßig haltenden Stadtbahn auf. Die 47-jährige Fahrerin der auffahrenden Bahn wurde im Fahrstand eingeklemmt, der aufgefahrene Steuerwagen entgleiste; zahlreiche Verletzte wurden von Ersthelfern gerettet.",
-    "sources": [
-      {
-        "url": "https://www.feuerwehrmagazin.de/nachrichten/news/frontalkollision-zweier-stadtbahnen-in-stuttgart-126451",
-        "source_id": "feuerwehrmagazin_de",
-        "retrieved_at": "2026-07-20T06:39:34.109738Z"
-      }
-    ],
-    "location_tag": "Wangen",
-    "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
     "id": "inc-2025-02-14-001",
     "event_date": "2025-02-14",
     "event_time": "13:15",
@@ -9993,6 +9903,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-lkw-prallt-in-muenster-mit-stadtbahn-zusammen-zwei-personen-verletzt-78883543.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T09:57:26.129508Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-muenster-verkehrsunfall-mit-stadtbahn",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-20T15:53:04.136502Z"
       }
     ],
     "location_tag": "Stuttgart-Münster",
@@ -10038,26 +9953,6 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
     "car_brand_tag": "Hyundai"
-  },
-  {
-    "id": "inc-2025-11-11-002",
-    "event_date": "2025-11-11",
-    "event_time": "11:20",
-    "location": "Neckartalstraße/Gnesener Straße, Stuttgart-Münster",
-    "event_type": "collision",
-    "other_party": "truck",
-    "injuries": "minor",
-    "summary": "Ein Lkw-Fahrer missachtete vermutlich das Rotlicht beim Linksabbiegen und kollidierte mit einer Stadtbahn. Der 28-jährige Fahrer und ein 19-jähriger Beifahrer wurden leicht verletzt, der Sachschaden liegt im mittleren fünfstelligen Bereich.",
-    "sources": [
-      {
-        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-muenster-verkehrsunfall-mit-stadtbahn",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-20T15:53:04.136502Z"
-      }
-    ],
-    "location_tag": "Stuttgart-Münster",
-    "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
   },
   {
     "id": "inc-2025-09-14-001",
@@ -10170,26 +10065,6 @@
     "car_brand_tag": null
   },
   {
-    "id": "inc-2021-11-08-002",
-    "event_date": "2021-11-08",
-    "event_time": null,
-    "location": "Mühlhäuser Straße, Stuttgart-Mühlhausen",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "unknown",
-    "summary": "Ein Auto kollidierte in der Mühlhäuser Straße mit einer Stadtbahn; der Sachschaden liegt im mittleren fünfstelligen Bereich.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/5067667",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-20T15:53:50.508468Z"
-      }
-    ],
-    "location_tag": "Mühlhausen",
-    "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
     "id": "inc-2021-03-30-001",
     "event_date": "2021-03-30",
     "event_time": "17:30",
@@ -10208,26 +10083,6 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null
-  },
-  {
-    "id": "inc-2024-09-02-002",
-    "event_date": "2024-09-02",
-    "event_time": "05:15",
-    "location": "Frankenstraße/Ludwigsburger Straße, Stuttgart-Zuffenhausen",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "minor",
-    "summary": "Ein 44-jähriger Peugeot-Fahrer bog von der Frankenstraße nach links in die Ludwigsburger Straße ab und kollidierte mit einer Stadtbahn der Linie U7 in Richtung Mönchfeld. Der Fahrer erlitt leichte Verletzungen, der Sachschaden liegt im mehreren-zehntausend-Euro-Bereich.",
-    "sources": [
-      {
-        "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_98358",
-        "source_id": "polizeiberichte_stuttgart",
-        "retrieved_at": "2026-07-20T15:55:38.299457Z"
-      }
-    ],
-    "location_tag": "Zuffenhausen",
-    "line_tag": "U7",
-    "car_brand_tag": "Peugeot"
   },
   {
     "id": "inc-2018-11-19-001",
@@ -10267,26 +10122,6 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
-    "id": "inc-2025-12-02-002",
-    "event_date": "2025-12-02",
-    "event_time": "19:20",
-    "location": "Haltestelle Heslach-Vogelrain, Stuttgart",
-    "event_type": "pedestrian_hit",
-    "other_party": "pedestrian",
-    "injuries": "unknown",
-    "summary": "An der Haltestelle Heslach-Vogelrain in Stuttgart wurde am Dienstagabend gegen 19.20 Uhr eine Person von einer Stadtbahn (Linie U14) erfasst. Der Vorfall führte zu einer mehr als zweistündigen Unterbrechung der Linie U14.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T16:01:30.636411Z"
-      }
-    ],
-    "location_tag": "Stuttgart",
-    "line_tag": "U14",
     "car_brand_tag": null
   },
   {
