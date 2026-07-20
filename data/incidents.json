@@ -11122,5 +11122,225 @@
     "car_brand_tag": null,
     "lat": 48.7664926,
     "lon": 9.182694
+  },
+  {
+    "id": "inc-2025-12-02-002",
+    "event_date": "2025-12-02",
+    "event_time": "19:20",
+    "location": "Haltestelle Heslach-Vogelrain, Stuttgart",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "unknown",
+    "summary": "An der Haltestelle Heslach-Vogelrain in Stuttgart wurde am Dienstagabend gegen 19.20 Uhr eine Person von einer Stadtbahn (Linie U14) erfasst. Der Vorfall führte zu einer mehr als zweistündigen Unterbrechung der Linie U14.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:57:12.798375Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "U14",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-09-22-002",
+    "event_date": "2025-09-22",
+    "event_time": "12:40",
+    "location": "Streckenabschnitt Schwab-/Bebelstraße–Vogelsang, Stuttgart",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Montag kam es gegen 12.40 Uhr im Streckenabschnitt zwischen den Haltestellen Schwab-/Bebelstraße und Vogelsang zu einer weiteren Kollision zwischen einer Stadtbahn und einem Auto, nachdem bereits am Morgen ein ähnlicher Unfall in der Nähe des Pragsattels aufgetreten war. Nach ersten Erkenntnissen der Polizei gab es mutmaßlich keine Verletzten, nähere Angaben zum Unfallhergang lagen noch nicht vor.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-kollision-zwischen-stadtbahn-und-auto-strecke-unterbrochen-79054503.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:57:26.334270Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2026-04-19-002",
+    "event_date": "2026-04-19",
+    "event_time": "00:40",
+    "location": "Wangener Marktplatz, Stuttgart-Wangen",
+    "event_type": "other",
+    "other_party": "pedestrian",
+    "injuries": "minor",
+    "summary": "Am frühen Sonntagmorgen stürzte eine Fußgängerin im Gleisbereich am Wangener Marktplatz in Stuttgart-Wangen, woraufhin die Fahrerin einer Stadtbahn der Linie U13 eine Gefahrenbremsung einleitete. Dabei stürzte ein 44-jähriger Fahrgast in der Bahn und verletzte sich leicht; die Fußgängerin entfernte sich unerkannt von der Unfallstelle.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-wangen-fussgaengerin-stuerzt-im-gleisbereich-stadtbahn-bremst-abrupt-78829387.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T20:57:38.922480Z"
+      }
+    ],
+    "location_tag": "Wangen",
+    "line_tag": "U13",
+    "car_brand_tag": null,
+    "lat": 48.77165423831849,
+    "lon": 9.245341215295138
+  },
+  {
+    "id": "inc-2024-05-26-002",
+    "event_date": "2024-05-26",
+    "event_time": "14:00",
+    "location": "Haltestelle Vogelsang, Stuttgart-West",
+    "event_type": "derailment",
+    "other_party": "unknown",
+    "injuries": "unknown",
+    "summary": "Nach einem vorangegangenen Unfall mit einem Pkw entgleiste am Sonntagmittag eine Stadtbahn der Linie U2 an der Haltestelle Vogelsang in Stuttgart-West. Die Ursache der Entgleisung war zunächst unklar, die Bergungsarbeiten dauerten rund zwei Stunden.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-west-stadtbahn-entgleist-feuerwehr-rueckt-mit-spezialfahrzeug-aus-78926237.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:57:51.753248Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "U2",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2016-04-13-001",
+    "event_date": "2016-04-13",
+    "event_time": "11:55",
+    "location": "Zufahrt Klärwerk Mühlhausen (Cannstatter Straße), Grenzbereich Stuttgart-Mühlhausen/Remseck-Aldingen",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "severe",
+    "summary": "Ein mit Gefahrgut beladener Lkw wurde beim Linksabbiegen von der Cannstatter Straße in Richtung Klärwerk Mühlhausen von einer in Richtung Stuttgart fahrenden Stadtbahn der Linie U14 erfasst und teilweise entgleist. Der Stadtbahnfahrer erlitt schwere Verletzungen, die Bahn musste geborgen werden.",
+    "sources": [
+      {
+        "url": "https://feuerwehr-remseck.de/einsatzberichte/2350-gefahrgut-lkw-kollidiert-mit-stadtbahn/",
+        "source_id": "feuerwehr_remseck",
+        "retrieved_at": "2026-07-20T20:58:04.934355Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U14",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2024-07-08-001",
+    "event_date": "2024-07-08",
+    "event_time": "15:30",
+    "location": "kurz vor Haltestelle Auwiesen, Stuttgart-Mühlhausen",
+    "event_type": "other",
+    "other_party": "none",
+    "injuries": "minor",
+    "summary": "Bei einer starken Bremsung einer Stadtbahn der Linie U12 am Montagnachmittag in Stuttgart-Mühlhausen ist eine 80-jährige Frau im Fahrzeug gestürzt und hat sich leicht verletzt. Die 52-jährige Fahrerin hatte kurz vor der Haltestelle Auwiesen stark abgebremst, da offenbar ein Radfahrer den Bahnübergang überqueren wollte.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-80-jaehrige-stuerzt-in-stadtbahn-polizei-sucht-zeugen-78901994.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:58:21.514962Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U12",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-07-24-002",
+    "event_date": "2025-07-24",
+    "event_time": "13:00",
+    "location": "Haltestelle Metzstraße, Stuttgart-Ost",
+    "event_type": "other",
+    "other_party": "unknown",
+    "injuries": "unknown",
+    "summary": "Im Bereich der Haltestelle Metzstraße in Stuttgart-Ost ereignete sich kurz nach 13 Uhr ein Unfall, an dem eine Stadtbahn beteiligt war. Die Strecken der Linien U1, U2 und U14 waren zeitweise unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:58:34.356311Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "U1",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-11-09-002",
+    "event_date": "2025-11-09",
+    "event_time": null,
+    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Ein 57-jähriger BMW-Fahrer bog verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schleifte es mehrere Meter über die Gleise mit. Alle fünf Fahrzeuginsassen wurden verletzt, vier davon schwer.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:27.224236Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "BMW",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-10-15-001",
+    "event_date": "2025-10-15",
+    "event_time": null,
+    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 35-jähriger Mercedes-Fahrer bog Mitte Oktober 2025 verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schob es auf eine Verkehrsinsel. Der Fahrer sowie zwei Fahrgäste der Stadtbahn wurden verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:46.192515Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-11-05-002",
+    "event_date": "2025-11-05",
+    "event_time": null,
+    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "unknown",
+    "injuries": "unknown",
+    "summary": "Am 5. November 2025 kam es an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West erneut zu einer Kollision zwischen einem Fahrzeug und einer Stadtbahn. Der Artikel nennt nur das Datum, keine weiteren Details zu Fahrzeug, Fahrer oder Verletzten.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:46.192515Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   }
 ]
