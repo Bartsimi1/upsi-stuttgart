@@ -743,6 +743,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/stadtbahnunfall-endet-tragisch-mann-28-erfasst-und-toedlich-verletzt-3432539",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T05:23:18.614923Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/toedlicher-unfall-in-stuttgart-stadtbahnunfall-gutachter-ist-eingeschaltet-79035821.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:12:37.918413Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -3001,6 +3006,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-11-jaehrige-von-stadtbahn-mitgeschleift-und-leicht-verletzt--zeugen-gesucht_100117",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:25:50.937172Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-mitte-elfjaehriges-maedchen-wird-von-stadtbahn-mitgeschleift-79023546.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:14:05.851948Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -3320,6 +3330,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_98806",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T22:47:46.409607Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-vaihingen-stadtbahn-und-vw-kollidieren-zeugen-gesucht-78947878.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:16:06.047189Z"
       }
     ],
     "location_tag": "Vaihingen",
@@ -11030,5 +11045,27 @@
     "car_brand_tag": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "id": "inc-2024-10-14-001",
+    "event_date": "2024-10-14",
+    "event_time": null,
+    "location": "Hohenheimer Straße, Stuttgart-Süd",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Am frühen Montagabend des 14.10.2024 touchierte eine Stadtbahn in der Hohenheimer Straße in Stuttgart-Süd ein stehendes Auto. Der Vorfall sorgte im Feierabendverkehr für erhebliche Verkehrsbehinderungen und einen Stau; wie es zu dem Unfall kam, blieb zunächst unklar.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/hohenheimer-strasse-in-stuttgart-stadtbahn-touchiert-auto-und-sorgt-fuer-stau-im-feierabendverkehr-78927660.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:16:06.047189Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Süd",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "lat": 48.7664926,
+    "lon": 9.182694
   }
 ]
