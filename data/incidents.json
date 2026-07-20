@@ -32,7 +32,9 @@
     ],
     "location_tag": "Stammheim",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8355474866537,
+    "lon": 9.164477786516006
   },
   {
     "id": "inc-2026-04-29-001",
@@ -52,7 +54,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7702855,
+    "lon": 9.1868224
   },
   {
     "id": "inc-2026-04-20-001",
@@ -72,7 +76,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U3",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": 48.72570723084109,
+    "lon": 9.155544889384302
   },
   {
     "id": "inc-2025-08-08-001",
@@ -92,7 +98,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2026-07-09-001",
@@ -117,7 +125,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7715193,
+    "lon": 9.1874637
   },
   {
     "id": "inc-2026-06-22-001",
@@ -152,7 +162,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.77677536268264,
+    "lon": 9.165925803337982
   },
   {
     "id": "inc-2026-05-29-001",
@@ -192,7 +204,9 @@
     ],
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.8112363,
+    "lon": 9.1485536
   },
   {
     "id": "inc-2026-04-27-001",
@@ -217,7 +231,9 @@
     ],
     "location_tag": "Ostfildern",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2026-04-23-001",
@@ -242,7 +258,9 @@
     ],
     "location_tag": "Sillenbuch",
     "line_tag": "U8",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.74568711919001,
+    "lon": 9.211311040130079
   },
   {
     "id": "inc-2021-12-07-001",
@@ -262,7 +280,9 @@
     ],
     "location_tag": "Leinfelden-Echterdingen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-02-12-001",
@@ -287,7 +307,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-04-27-001",
@@ -312,7 +334,9 @@
     ],
     "location_tag": "Giebel",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-01-20-001",
@@ -332,7 +356,9 @@
     ],
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Porsche"
+    "car_brand_tag": "Porsche",
+    "lat": 48.8112363,
+    "lon": 9.1485536
   },
   {
     "id": "inc-2024-02-23-001",
@@ -377,7 +403,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.776426848011944,
+    "lon": 9.243528550540939
   },
   {
     "id": "inc-2024-03-05-001",
@@ -407,7 +435,9 @@
     ],
     "location_tag": "Rot",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-11-01-001",
@@ -437,7 +467,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2025-01-31-001",
@@ -477,7 +509,9 @@
     ],
     "location_tag": "Hofen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-04-01-001",
@@ -507,7 +541,9 @@
     ],
     "location_tag": "Ostfildern",
     "line_tag": "U8",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2012-02-16-001",
@@ -532,7 +568,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.740692,
+    "lon": 9.152978
   },
   {
     "id": "inc-2025-05-15-001",
@@ -557,7 +595,9 @@
     ],
     "location_tag": "Leinfelden-Echterdingen",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-06-25-001",
@@ -582,7 +622,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804966,
+    "lon": 9.225729
   },
   {
     "id": "inc-2025-07-16-001",
@@ -607,7 +649,9 @@
     ],
     "location_tag": "Remseck am Neckar",
     "line_tag": "U12",
-    "car_brand_tag": "Volvo"
+    "car_brand_tag": "Volvo",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-09-02-001",
@@ -627,7 +671,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-10-08-001",
@@ -647,7 +693,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "Mini"
+    "car_brand_tag": "Mini",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2025-10-14-001",
@@ -667,7 +715,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2025-10-25-001",
@@ -692,7 +742,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77572370627691,
+    "lon": 9.159095946505278
   },
   {
     "id": "inc-2025-12-06-001",
@@ -722,7 +774,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-12-12-001",
@@ -752,7 +806,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.783905,
+    "lon": 9.215544
   },
   {
     "id": "inc-2025-12-14-001",
@@ -777,7 +833,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
-    "car_brand_tag": "Hyundai"
+    "car_brand_tag": "Hyundai",
+    "lat": 48.82605368560563,
+    "lon": 9.173498621150149
   },
   {
     "id": "inc-2025-12-25-001",
@@ -802,7 +860,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77881507374867,
+    "lon": 9.192633834312169
   },
   {
     "id": "inc-2025-12-26-001",
@@ -827,7 +887,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
-    "car_brand_tag": "Porsche"
+    "car_brand_tag": "Porsche",
+    "lat": 48.77029930265924,
+    "lon": 9.186022949976852
   },
   {
     "id": "inc-2026-02-06-001",
@@ -852,7 +914,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.7702855,
+    "lon": 9.1868224
   },
   {
     "id": "inc-2026-02-14-001",
@@ -872,7 +936,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.812048971316216,
+    "lon": 9.110551743046342
   },
   {
     "id": "inc-2026-03-17-001",
@@ -892,7 +958,9 @@
     ],
     "location_tag": "Freiberg",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.838008351754866,
+    "lon": 9.202580549273247
   },
   {
     "id": "inc-2026-03-23-001",
@@ -922,7 +990,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U3",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7276701,
+    "lon": 9.1217775
   },
   {
     "id": "inc-2026-03-30-001",
@@ -952,7 +1022,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80262299475445,
+    "lon": 9.092467379707772
   },
   {
     "id": "inc-2026-05-01-001",
@@ -972,7 +1044,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U4",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.77964173745539,
+    "lon": 9.166654454351153
   },
   {
     "id": "inc-2026-05-10-001",
@@ -992,7 +1066,9 @@
     ],
     "location_tag": "Kaltental",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7571549,
+    "lon": 9.1460307
   },
   {
     "id": "inc-2024-11-18-001",
@@ -1022,7 +1098,9 @@
     ],
     "location_tag": "Hofen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-22-001",
@@ -1062,7 +1140,9 @@
     ],
     "location_tag": "Ostfildern",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2026-05-20-001",
@@ -1082,7 +1162,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.764647041512674,
+    "lon": 9.181445366987631
   },
   {
     "id": "inc-2023-11-02-001",
@@ -1102,7 +1184,9 @@
     ],
     "location_tag": "Leinfelden-Echterdingen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7287945,
+    "lon": 9.1240421
   },
   {
     "id": "inc-2026-04-20-002",
@@ -1122,7 +1206,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.777607,
+    "lon": 9.168172
   },
   {
     "id": "inc-2026-04-03-001",
@@ -1147,7 +1233,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2026-03-11-001",
@@ -1167,7 +1255,9 @@
     ],
     "location_tag": "Gerlingen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-01-16-001",
@@ -1197,7 +1287,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.762919652961465,
+    "lon": 9.252132377893638
   },
   {
     "id": "inc-2025-06-23-001",
@@ -1222,7 +1314,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2022-06-10-001",
@@ -1247,7 +1341,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.783770007288524,
+    "lon": 9.221141765480457
   },
   {
     "id": "inc-2021-11-27-001",
@@ -1272,7 +1368,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.783770007288524,
+    "lon": 9.221141765480457
   },
   {
     "id": "inc-2021-11-30-001",
@@ -1297,7 +1395,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.783770007288524,
+    "lon": 9.221141765480457
   },
   {
     "id": "inc-2023-04-15-001",
@@ -1322,7 +1422,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2018-01-17-001",
@@ -1342,7 +1444,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.762919652961465,
+    "lon": 9.252132377893638
   },
   {
     "id": "inc-2026-03-01-001",
@@ -1372,7 +1476,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77251151889374,
+    "lon": 9.245183939951252
   },
   {
     "id": "inc-2023-01-25-001",
@@ -1402,7 +1508,9 @@
     ],
     "location_tag": "Sillenbuch",
     "line_tag": "U7",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-11-10-001",
@@ -1427,7 +1535,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-08-24-001",
@@ -1452,7 +1562,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.783770007288524,
+    "lon": 9.221141765480457
   },
   {
     "id": "inc-2020-06-18-001",
@@ -1477,7 +1589,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.783770007288524,
+    "lon": 9.221141765480457
   },
   {
     "id": "inc-2018-07-26-001",
@@ -1497,7 +1611,9 @@
     ],
     "location_tag": "Sillenbuch",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.74568711919001,
+    "lon": 9.211311040130079
   },
   {
     "id": "inc-2018-07-05-001",
@@ -1517,7 +1633,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.762919652961465,
+    "lon": 9.252132377893638
   },
   {
     "id": "inc-2026-04-19-001",
@@ -1537,7 +1655,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77165423831849,
+    "lon": 9.245341215295138
   },
   {
     "id": "inc-2022-03-23-001",
@@ -1562,7 +1682,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-08-11-001",
@@ -1602,7 +1724,9 @@
     ],
     "location_tag": "Ostfildern",
     "line_tag": "U8",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.754878,
+    "lon": 9.174667
   },
   {
     "id": "inc-2017-09-06-001",
@@ -1622,7 +1746,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.77251151889374,
+    "lon": 9.245183939951252
   },
   {
     "id": "inc-2025-03-18-001",
@@ -1647,7 +1773,9 @@
     ],
     "location_tag": "Stuttgart-Hedelfingen",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.763944858662526,
+    "lon": 9.251339299860392
   },
   {
     "id": "inc-2023-09-22-001",
@@ -1672,7 +1800,9 @@
     ],
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.74568711919001,
+    "lon": 9.211311040130079
   },
   {
     "id": "inc-2022-09-12-001",
@@ -1697,7 +1827,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-01-08-001",
@@ -1722,7 +1854,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-13-001",
@@ -1752,7 +1886,9 @@
     ],
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.74568711919001,
+    "lon": 9.211311040130079
   },
   {
     "id": "inc-2024-11-21-001",
@@ -1777,7 +1913,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.77251151889374,
+    "lon": 9.245183939951252
   },
   {
     "id": "inc-2024-05-12-001",
@@ -1802,7 +1940,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.762919652961465,
+    "lon": 9.252132377893638
   },
   {
     "id": "inc-2024-04-16-001",
@@ -1832,7 +1972,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U4",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-10-21-001",
@@ -1857,7 +1999,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.762919652961465,
+    "lon": 9.252132377893638
   },
   {
     "id": "inc-2020-11-13-001",
@@ -1882,7 +2026,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.78227898792909,
+    "lon": 9.222710919001898
   },
   {
     "id": "inc-2020-09-12-001",
@@ -1907,7 +2053,9 @@
     ],
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-03-14-001",
@@ -1927,7 +2075,9 @@
     ],
     "location_tag": "Ostfildern",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-12-10-001",
@@ -1952,7 +2102,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-02-28-001",
@@ -1982,7 +2134,9 @@
     ],
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U8",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.74568711919001,
+    "lon": 9.211311040130079
   },
   {
     "id": "inc-2024-07-20-001",
@@ -2012,7 +2166,9 @@
     ],
     "location_tag": "Stuttgart-Frauenkopf",
     "line_tag": "U15",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.753433,
+    "lon": 9.195326
   },
   {
     "id": "inc-2020-06-23-001",
@@ -2032,7 +2188,9 @@
     ],
     "location_tag": "Ostfildern",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mini"
+    "car_brand_tag": "Mini",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-10-02-001",
@@ -2062,7 +2220,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77781226282428,
+    "lon": 9.246760738050837
   },
   {
     "id": "inc-2025-03-18-002",
@@ -2082,7 +2242,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80254777409151,
+    "lon": 9.215575321425115
   },
   {
     "id": "inc-2025-01-31-002",
@@ -2107,7 +2269,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80410090150555,
+    "lon": 9.230205218709136
   },
   {
     "id": "inc-2025-05-30-001",
@@ -2132,7 +2296,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U16",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-05-23-001",
@@ -2152,7 +2318,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-05-16-001",
@@ -2177,7 +2345,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.79701329628414,
+    "lon": 9.19012532794955
   },
   {
     "id": "inc-2025-04-03-001",
@@ -2197,7 +2367,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.711671979330674,
+    "lon": 9.167443891482492
   },
   {
     "id": "inc-2025-06-02-001",
@@ -2222,7 +2394,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-04-09-001",
@@ -2247,7 +2421,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2025-03-19-001",
@@ -2267,7 +2443,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80158479866907,
+    "lon": 9.207490611174947
   },
   {
     "id": "inc-2025-03-11-001",
@@ -2287,7 +2465,9 @@
     ],
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80158479866907,
+    "lon": 9.207490611174947
   },
   {
     "id": "inc-2025-03-10-001",
@@ -2312,7 +2492,9 @@
     ],
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80158479866907,
+    "lon": 9.207490611174947
   },
   {
     "id": "inc-2025-03-21-001",
@@ -2332,7 +2514,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7791242,
+    "lon": 9.1715019
   },
   {
     "id": "inc-2025-03-20-001",
@@ -2357,7 +2541,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.82687609090587,
+    "lon": 9.173716026582925
   },
   {
     "id": "inc-2025-03-25-001",
@@ -2382,7 +2568,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U14",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-09-001",
@@ -2407,7 +2595,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2025-01-31-004",
@@ -2432,7 +2622,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.81334359492886,
+    "lon": 9.112321857625878
   },
   {
     "id": "inc-2024-12-14-001",
@@ -2452,7 +2644,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2025-01-14-001",
@@ -2472,7 +2666,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-26-001",
@@ -2497,7 +2693,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-07-001",
@@ -2522,7 +2720,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U4",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-11-25-001",
@@ -2557,7 +2757,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-11-14-001",
@@ -2582,7 +2784,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79700240762357,
+    "lon": 9.190124665009812
   },
   {
     "id": "inc-2024-10-17-001",
@@ -2602,7 +2806,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2025-01-16-001",
@@ -2627,7 +2833,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.77981478378426,
+    "lon": 9.24889249365144
   },
   {
     "id": "inc-2025-01-14-002",
@@ -2652,7 +2860,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-19-001",
@@ -2677,7 +2887,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2024-10-28-001",
@@ -2702,7 +2914,9 @@
     ],
     "location_tag": "Stuttgart-Neugereut",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.832078,
+    "lon": 9.236569
   },
   {
     "id": "inc-2025-01-03-001",
@@ -2727,7 +2941,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": 48.814316239764594,
+    "lon": 9.233292296249283
   },
   {
     "id": "inc-2024-12-18-001",
@@ -2752,7 +2968,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.77416553413391,
+    "lon": 9.185919519455416
   },
   {
     "id": "inc-2024-11-08-001",
@@ -2772,7 +2990,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-06-23-001",
@@ -2802,7 +3022,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Kia"
+    "car_brand_tag": "Kia",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2024-08-18-001",
@@ -2827,7 +3049,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": "Seat"
+    "car_brand_tag": "Seat",
+    "lat": 48.81155173595519,
+    "lon": 9.137051602232177
   },
   {
     "id": "inc-2024-08-25-001",
@@ -2852,7 +3076,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-07-01-001",
@@ -2877,7 +3103,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2024-10-04-001",
@@ -2902,7 +3130,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.81299705935962,
+    "lon": 9.229889247406518
   },
   {
     "id": "inc-2024-10-06-001",
@@ -2927,7 +3157,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Mitsubishi"
+    "car_brand_tag": "Mitsubishi",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-06-25-001",
@@ -2952,7 +3184,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U12",
-    "car_brand_tag": "Citroën"
+    "car_brand_tag": "Citroën",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-08-24-001",
@@ -2977,7 +3211,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": 48.80414847421084,
+    "lon": 9.100934467722247
   },
   {
     "id": "inc-2024-08-05-001",
@@ -3002,7 +3238,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2024-07-24-001",
@@ -3022,7 +3260,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77487608700155,
+    "lon": 9.15093338948466
   },
   {
     "id": "inc-2024-09-16-001",
@@ -3047,7 +3287,9 @@
     ],
     "location_tag": "Botnang",
     "line_tag": "U2",
-    "car_brand_tag": "Seat"
+    "car_brand_tag": "Seat",
+    "lat": 48.77930423956675,
+    "lon": 9.129123451774506
   },
   {
     "id": "inc-2024-09-16-002",
@@ -3067,7 +3309,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.7242989,
+    "lon": 9.1207398
   },
   {
     "id": "inc-2024-04-03-001",
@@ -3087,7 +3331,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-02-28-002",
@@ -3107,7 +3353,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80720450250941,
+    "lon": 9.198784427730887
   },
   {
     "id": "inc-2024-03-30-001",
@@ -3127,7 +3375,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-03-27-001",
@@ -3152,7 +3402,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.81334359492886,
+    "lon": 9.112321857625878
   },
   {
     "id": "inc-2024-02-25-001",
@@ -3177,7 +3429,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2024-04-16-002",
@@ -3197,7 +3451,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": 48.78682718899125,
+    "lon": 9.191335647861443
   },
   {
     "id": "inc-2024-04-11-001",
@@ -3217,7 +3473,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.82605368560563,
+    "lon": 9.173498621150149
   },
   {
     "id": "inc-2024-03-21-001",
@@ -3237,7 +3495,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77660153958808,
+    "lon": 9.164640061146986
   },
   {
     "id": "inc-2024-04-17-001",
@@ -3257,7 +3517,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U16",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.81379734965273,
+    "lon": 9.113998520869046
   },
   {
     "id": "inc-2024-04-04-001",
@@ -3282,7 +3544,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.725241384037936,
+    "lon": 9.12372137059707
   },
   {
     "id": "inc-2024-02-20-001",
@@ -3302,7 +3566,9 @@
     ],
     "location_tag": "Freiberg",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-05-26-001",
@@ -3322,7 +3588,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77487608700155,
+    "lon": 9.15093338948466
   },
   {
     "id": "inc-2024-03-26-001",
@@ -3342,7 +3610,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.81135579972707,
+    "lon": 9.226612218717337
   },
   {
     "id": "inc-2024-04-26-001",
@@ -3367,7 +3637,9 @@
     ],
     "location_tag": "Giebel",
     "line_tag": "U16",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-03-27-002",
@@ -3387,7 +3659,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-04-03-002",
@@ -3407,7 +3681,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-05-29-001",
@@ -3427,7 +3703,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2024-05-01-001",
@@ -3447,7 +3725,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2024-05-22-001",
@@ -3467,7 +3747,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7799312,
+    "lon": 9.1922127
   },
   {
     "id": "inc-2023-12-16-001",
@@ -3492,7 +3774,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U3",
-    "car_brand_tag": "Volvo"
+    "car_brand_tag": "Volvo",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-10-21-002",
@@ -3512,7 +3796,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Smart"
+    "car_brand_tag": "Smart",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2023-12-23-001",
@@ -3532,7 +3818,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.757520001335784,
+    "lon": 9.145879547194943
   },
   {
     "id": "inc-2024-01-19-001",
@@ -3552,7 +3840,9 @@
     ],
     "location_tag": "Freiberg",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.84152316593383,
+    "lon": 9.20768536592053
   },
   {
     "id": "inc-2024-01-10-001",
@@ -3572,7 +3862,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-12-13-001",
@@ -3592,7 +3884,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2023-11-20-001",
@@ -3612,7 +3906,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8014777,
+    "lon": 9.207822
   },
   {
     "id": "inc-2023-07-31-001",
@@ -3632,7 +3928,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2023-10-09-001",
@@ -3652,7 +3950,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2023-08-16-001",
@@ -3672,7 +3972,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U9",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2023-10-02-001",
@@ -3692,7 +3994,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-08-25-001",
@@ -3712,7 +4016,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.8212947,
+    "lon": 9.2456071
   },
   {
     "id": "inc-2023-08-14-001",
@@ -3732,7 +4038,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.801931232819555,
+    "lon": 9.214625844305344
   },
   {
     "id": "inc-2023-10-14-001",
@@ -3752,7 +4060,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.844318,
+    "lon": 9.218034
   },
   {
     "id": "inc-2023-09-26-001",
@@ -3772,7 +4082,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7242989,
+    "lon": 9.1207398
   },
   {
     "id": "inc-2023-08-21-001",
@@ -3792,7 +4104,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U34",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.7571549,
+    "lon": 9.1460307
   },
   {
     "id": "inc-2023-10-13-001",
@@ -3812,7 +4126,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2023-06-12-001",
@@ -3832,7 +4148,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.790439,
+    "lon": 9.186242
   },
   {
     "id": "inc-2023-04-16-001",
@@ -3852,7 +4170,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2023-06-11-001",
@@ -3872,7 +4192,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.79700240762357,
+    "lon": 9.190124665009812
   },
   {
     "id": "inc-2023-06-05-001",
@@ -3892,7 +4214,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.80192588540335,
+    "lon": 9.214504396682585
   },
   {
     "id": "inc-2023-06-28-001",
@@ -3917,7 +4241,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8132692923849,
+    "lon": 9.167914062771649
   },
   {
     "id": "inc-2023-06-09-001",
@@ -3937,7 +4263,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2023-06-07-001",
@@ -3957,7 +4285,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79111357017353,
+    "lon": 9.187052411907889
   },
   {
     "id": "inc-2023-04-30-001",
@@ -3977,7 +4307,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2023-04-22-001",
@@ -3997,7 +4329,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U11",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-06-15-001",
@@ -4022,7 +4356,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-05-23-001",
@@ -4042,7 +4378,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7769855,
+    "lon": 9.1466689
   },
   {
     "id": "inc-2023-04-06-001",
@@ -4062,7 +4400,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.82998630226118,
+    "lon": 9.180056269505585
   },
   {
     "id": "inc-2023-05-24-001",
@@ -4082,7 +4422,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.756669,
+    "lon": 9.143824
   },
   {
     "id": "inc-2023-04-25-001",
@@ -4102,7 +4444,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.81042,
+    "lon": 9.1164318
   },
   {
     "id": "inc-2023-04-05-001",
@@ -4122,7 +4466,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-06-08-001",
@@ -4142,7 +4488,9 @@
     ],
     "location_tag": "Kaltental",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7431185,
+    "lon": 9.1409389
   },
   {
     "id": "inc-2023-02-05-001",
@@ -4162,7 +4510,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.78685177348284,
+    "lon": 9.217961955133784
   },
   {
     "id": "inc-2023-02-04-001",
@@ -4182,7 +4532,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-03-01-001",
@@ -4202,7 +4554,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2023-02-08-001",
@@ -4227,7 +4581,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2022-12-25-001",
@@ -4247,7 +4603,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": 48.7752102830071,
+    "lon": 9.156013327844294
   },
   {
     "id": "inc-2022-11-27-001",
@@ -4267,7 +4625,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.77981478378426,
+    "lon": 9.24889249365144
   },
   {
     "id": "inc-2022-11-02-001",
@@ -4287,7 +4647,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-12-09-001",
@@ -4307,7 +4669,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2022-11-03-001",
@@ -4327,7 +4691,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.77981478378426,
+    "lon": 9.24889249365144
   },
   {
     "id": "inc-2022-11-28-001",
@@ -4347,7 +4713,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.81379734965273,
+    "lon": 9.113998520869046
   },
   {
     "id": "inc-2022-11-19-001",
@@ -4367,7 +4735,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.783770007288524,
+    "lon": 9.221141765480457
   },
   {
     "id": "inc-2022-11-24-001",
@@ -4387,7 +4757,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U29",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-12-02-001",
@@ -4407,7 +4779,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2023-01-24-001",
@@ -4427,7 +4801,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-12-23-001",
@@ -4447,7 +4823,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-11-18-001",
@@ -4467,7 +4845,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Porsche"
+    "car_brand_tag": "Porsche",
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2022-09-30-001",
@@ -4487,7 +4867,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.78844947242033,
+    "lon": 9.213826188008568
   },
   {
     "id": "inc-2023-03-15-001",
@@ -4507,7 +4889,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80720450250941,
+    "lon": 9.198784427730887
   },
   {
     "id": "inc-2023-03-16-001",
@@ -4527,7 +4911,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.779104,
+    "lon": 9.179086
   },
   {
     "id": "inc-2023-03-10-001",
@@ -4547,7 +4933,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mini"
+    "car_brand_tag": "Mini",
+    "lat": 48.7768805,
+    "lon": 9.1620949
   },
   {
     "id": "inc-2022-07-08-001",
@@ -4567,7 +4955,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "Dacia"
+    "car_brand_tag": "Dacia",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2022-06-29-001",
@@ -4587,7 +4977,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.819034,
+    "lon": 9.237104
   },
   {
     "id": "inc-2022-08-25-001",
@@ -4607,7 +4999,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-09-14-001",
@@ -4627,7 +5021,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U9",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2022-08-25-002",
@@ -4647,7 +5043,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "Smart"
+    "car_brand_tag": "Smart",
+    "lat": 48.77677536268264,
+    "lon": 9.165925803337982
   },
   {
     "id": "inc-2022-09-17-001",
@@ -4667,7 +5065,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7819465,
+    "lon": 9.2240013
   },
   {
     "id": "inc-2022-09-10-001",
@@ -4687,7 +5087,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2022-07-26-001",
@@ -4707,7 +5109,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.801931232819555,
+    "lon": 9.214625844305344
   },
   {
     "id": "inc-2022-07-14-001",
@@ -4727,7 +5131,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.832078,
+    "lon": 9.236569
   },
   {
     "id": "inc-2022-06-30-001",
@@ -4747,7 +5153,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": 48.7242989,
+    "lon": 9.1207398
   },
   {
     "id": "inc-2022-09-04-001",
@@ -4767,7 +5175,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.7373785,
+    "lon": 9.1518713
   },
   {
     "id": "inc-2022-08-19-001",
@@ -4787,7 +5197,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2021-09-27-001",
@@ -4807,7 +5219,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-05-09-001",
@@ -4827,7 +5241,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2020-12-22-001",
@@ -4847,7 +5263,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.7845718185385,
+    "lon": 9.21288320553145
   },
   {
     "id": "inc-2022-06-15-001",
@@ -4867,7 +5285,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2020-12-09-001",
@@ -4887,7 +5307,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.81343874340476,
+    "lon": 9.231016650973803
   },
   {
     "id": "inc-2022-03-23-002",
@@ -4907,7 +5329,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-12-04-001",
@@ -4927,7 +5351,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": 48.81973906162364,
+    "lon": 9.207648209074273
   },
   {
     "id": "inc-2021-09-01-001",
@@ -4947,7 +5373,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7923619,
+    "lon": 9.1790022
   },
   {
     "id": "inc-2021-08-26-001",
@@ -4967,7 +5395,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2021-05-18-001",
@@ -4987,7 +5417,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2022-02-22-001",
@@ -5007,7 +5439,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U9",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": 48.775492599733255,
+    "lon": 9.15747792959925
   },
   {
     "id": "inc-2021-10-26-001",
@@ -5027,7 +5461,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U8",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.741846345945255,
+    "lon": 9.155075254172027
   },
   {
     "id": "inc-2021-10-01-001",
@@ -5047,7 +5483,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2021-09-16-001",
@@ -5067,7 +5505,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.79700240762357,
+    "lon": 9.190124665009812
   },
   {
     "id": "inc-2022-06-24-001",
@@ -5087,7 +5527,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Honda"
+    "car_brand_tag": "Honda",
+    "lat": 48.81973906162364,
+    "lon": 9.207648209074273
   },
   {
     "id": "inc-2022-01-19-001",
@@ -5107,7 +5549,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.80726654004857,
+    "lon": 9.19874261091793
   },
   {
     "id": "inc-2021-12-13-001",
@@ -5127,7 +5571,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.80579,
+    "lon": 9.209771
   },
   {
     "id": "inc-2021-11-11-001",
@@ -5152,7 +5598,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Peugeot"
+    "car_brand_tag": "Peugeot",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-10-12-001",
@@ -5172,7 +5620,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Smart"
+    "car_brand_tag": "Smart",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2021-09-12-001",
@@ -5192,7 +5642,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U15",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2021-05-03-001",
@@ -5212,7 +5664,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2020-11-20-001",
@@ -5232,7 +5686,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.8014777,
+    "lon": 9.207822
   },
   {
     "id": "inc-2022-06-18-001",
@@ -5252,7 +5708,9 @@
     ],
     "location_tag": "Stuttgart-Heslach",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2022-02-23-001",
@@ -5272,7 +5730,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.80414847421084,
+    "lon": 9.100934467722247
   },
   {
     "id": "inc-2021-10-07-001",
@@ -5292,7 +5752,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80288517751384,
+    "lon": 9.216764577514201
   },
   {
     "id": "inc-2021-08-19-001",
@@ -5312,7 +5774,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-07-28-001",
@@ -5332,7 +5796,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-07-26-001",
@@ -5352,7 +5818,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2021-11-24-001",
@@ -5372,7 +5840,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.81973906162364,
+    "lon": 9.207648209074273
   },
   {
     "id": "inc-2020-04-24-001",
@@ -5392,7 +5862,9 @@
     ],
     "location_tag": "Botnang",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.775381250663536,
+    "lon": 9.13388375769657
   },
   {
     "id": "inc-2020-09-10-001",
@@ -5412,7 +5884,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-05-14-001",
@@ -5432,7 +5906,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2020-01-27-001",
@@ -5452,7 +5928,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.78355360369959,
+    "lon": 9.217070441813725
   },
   {
     "id": "inc-2020-01-02-001",
@@ -5472,7 +5950,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U14",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-11-04-001",
@@ -5492,7 +5972,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "Toyota"
+    "car_brand_tag": "Toyota",
+    "lat": 48.774853098887505,
+    "lon": 9.1509342303632
   },
   {
     "id": "inc-2019-10-21-001",
@@ -5512,7 +5994,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U4",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.77964173745539,
+    "lon": 9.166654454351153
   },
   {
     "id": "inc-2020-10-05-001",
@@ -5532,7 +6016,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-09-24-001",
@@ -5552,7 +6038,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Volvo"
+    "car_brand_tag": "Volvo",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-01-22-001",
@@ -5572,7 +6060,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-10-26-001",
@@ -5592,7 +6082,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.7749269,
+    "lon": 9.1509313
   },
   {
     "id": "inc-2019-10-22-001",
@@ -5612,7 +6104,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2019-10-10-001",
@@ -5632,7 +6126,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
-    "car_brand_tag": "Kia"
+    "car_brand_tag": "Kia",
+    "lat": 48.785061261013745,
+    "lon": 9.24835985049477
   },
   {
     "id": "inc-2020-10-05-002",
@@ -5652,7 +6148,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.813679,
+    "lon": 9.203736
   },
   {
     "id": "inc-2020-04-08-001",
@@ -5672,7 +6170,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.80720450250941,
+    "lon": 9.198784427730887
   },
   {
     "id": "inc-2020-01-16-001",
@@ -5692,7 +6192,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.819034,
+    "lon": 9.237104
   },
   {
     "id": "inc-2020-10-07-001",
@@ -5712,7 +6214,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-09-09-001",
@@ -5732,7 +6236,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2020-03-29-001",
@@ -5752,7 +6258,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-05-13-001",
@@ -5772,7 +6280,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.803378004152066,
+    "lon": 9.216530716728377
   },
   {
     "id": "inc-2018-02-13-001",
@@ -5792,7 +6302,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U15",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.77881507374867,
+    "lon": 9.192633834312169
   },
   {
     "id": "inc-2018-11-13-001",
@@ -5817,7 +6329,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U5",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-07-24-001",
@@ -5837,7 +6351,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U31",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2019-01-15-001",
@@ -5857,7 +6373,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.7242989,
+    "lon": 9.1207398
   },
   {
     "id": "inc-2019-01-21-001",
@@ -5882,7 +6400,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2018-12-14-001",
@@ -5902,7 +6422,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.838248,
+    "lon": 9.161001
   },
   {
     "id": "inc-2019-03-29-001",
@@ -5922,7 +6444,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2019-02-16-001",
@@ -5942,7 +6466,9 @@
     ],
     "location_tag": "Botnang",
     "line_tag": "U34",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-02-12-001",
@@ -5967,7 +6493,9 @@
     ],
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80158479866907,
+    "lon": 9.207490611174947
   },
   {
     "id": "inc-2018-12-03-001",
@@ -5987,7 +6515,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U7",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2019-02-09-001",
@@ -6007,7 +6537,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-06-11-001",
@@ -6027,7 +6559,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.78227898792909,
+    "lon": 9.222710919001898
   },
   {
     "id": "inc-2018-11-06-001",
@@ -6052,7 +6586,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.81334359492886,
+    "lon": 9.112321857625878
   },
   {
     "id": "inc-2021-10-22-001",
@@ -6077,7 +6613,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": "Smart"
+    "car_brand_tag": "Smart",
+    "lat": 48.77165423831849,
+    "lon": 9.245341215295138
   },
   {
     "id": "inc-2020-03-20-001",
@@ -6097,7 +6635,9 @@
     ],
     "location_tag": "Kaltental",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7571549,
+    "lon": 9.1460307
   },
   {
     "id": "inc-2022-03-07-001",
@@ -6117,7 +6657,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-11-11-002",
@@ -6137,7 +6679,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U19",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-09-28-001",
@@ -6157,7 +6701,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2020-09-30-001",
@@ -6177,7 +6723,9 @@
     ],
     "location_tag": "Botnang",
     "line_tag": "U29",
-    "car_brand_tag": "Smart"
+    "car_brand_tag": "Smart",
+    "lat": 48.7807212,
+    "lon": 9.1290686
   },
   {
     "id": "inc-2020-06-28-001",
@@ -6197,7 +6745,9 @@
     ],
     "location_tag": "Freiberg",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.84152316593383,
+    "lon": 9.20768536592053
   },
   {
     "id": "inc-2020-05-08-001",
@@ -6217,7 +6767,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.801931232819555,
+    "lon": 9.214625844305344
   },
   {
     "id": "inc-2020-03-31-001",
@@ -6237,7 +6789,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2019-12-23-001",
@@ -6257,7 +6811,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U4",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": 48.77964173745539,
+    "lon": 9.166654454351153
   },
   {
     "id": "inc-2019-10-07-001",
@@ -6277,7 +6833,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.76250308716777,
+    "lon": 9.179954848589654
   },
   {
     "id": "inc-2019-09-17-001",
@@ -6302,7 +6860,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-07-08-001",
@@ -6322,7 +6882,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.801931232819555,
+    "lon": 9.214625844305344
   },
   {
     "id": "inc-2019-07-01-001",
@@ -6342,7 +6904,9 @@
     ],
     "location_tag": "Stuttgart-Heslach",
     "line_tag": "U34",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2019-05-28-001",
@@ -6362,7 +6926,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U15",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-01-05-001",
@@ -6382,7 +6948,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.80257021284299,
+    "lon": 9.209285218668997
   },
   {
     "id": "inc-2018-11-18-001",
@@ -6407,7 +6975,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U1",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.804966,
+    "lon": 9.225729
   },
   {
     "id": "inc-2018-11-07-001",
@@ -6427,7 +6997,9 @@
     ],
     "location_tag": "Stammheim",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.84769938913444,
+    "lon": 9.156884528319802
   },
   {
     "id": "inc-2018-10-06-001",
@@ -6447,7 +7019,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Porsche"
+    "car_brand_tag": "Porsche",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2022-04-12-001",
@@ -6467,7 +7041,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-04-28-001",
@@ -6487,7 +7063,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2022-06-03-001",
@@ -6507,7 +7085,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-04-14-001",
@@ -6527,7 +7107,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2022-03-28-001",
@@ -6547,7 +7129,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-03-06-001",
@@ -6567,7 +7151,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-01-12-001",
@@ -6587,7 +7173,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.774853098887505,
+    "lon": 9.1509342303632
   },
   {
     "id": "inc-2021-12-02-001",
@@ -6607,7 +7195,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77416553413391,
+    "lon": 9.185919519455416
   },
   {
     "id": "inc-2021-11-14-001",
@@ -6627,7 +7217,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U12",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-08-24-002",
@@ -6652,7 +7244,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.80642272567265,
+    "lon": 9.234851551427607
   },
   {
     "id": "inc-2020-12-22-002",
@@ -6672,7 +7266,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2020-11-03-001",
@@ -6697,7 +7293,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-05-12-001",
@@ -6717,7 +7315,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-04-20-001",
@@ -6737,7 +7337,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U34",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2020-04-08-002",
@@ -6757,7 +7359,9 @@
     ],
     "location_tag": "Botnang",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-02-27-001",
@@ -6777,7 +7381,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.740692,
+    "lon": 9.152978
   },
   {
     "id": "inc-2020-02-19-001",
@@ -6797,7 +7403,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2019-10-08-001",
@@ -6817,7 +7425,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2019-07-09-001",
@@ -6837,7 +7447,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-04-26-001",
@@ -6857,7 +7469,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-04-12-001",
@@ -6877,7 +7491,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-04-11-001",
@@ -6897,7 +7513,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7702483,
+    "lon": 9.1569698
   },
   {
     "id": "inc-2019-03-27-001",
@@ -6917,7 +7535,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2019-02-07-001",
@@ -6937,7 +7557,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.774853098887505,
+    "lon": 9.1509342303632
   },
   {
     "id": "inc-2019-01-31-001",
@@ -6957,7 +7579,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
-    "car_brand_tag": "Citroën"
+    "car_brand_tag": "Citroën",
+    "lat": 48.78844947242033,
+    "lon": 9.213826188008568
   },
   {
     "id": "inc-2019-01-25-001",
@@ -6977,7 +7601,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": 48.804908414459604,
+    "lon": 9.22548091487183
   },
   {
     "id": "inc-2019-01-15-002",
@@ -6997,7 +7623,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.82687609090587,
+    "lon": 9.173716026582925
   },
   {
     "id": "inc-2019-01-10-001",
@@ -7017,7 +7645,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.726968,
+    "lon": 9.12569
   },
   {
     "id": "inc-2018-12-03-002",
@@ -7037,7 +7667,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.775412,
+    "lon": 9.156029
   },
   {
     "id": "inc-2018-10-05-001",
@@ -7057,7 +7689,9 @@
     ],
     "location_tag": "Wangen",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.762919652961465,
+    "lon": 9.252132377893638
   },
   {
     "id": "inc-2022-03-31-001",
@@ -7077,7 +7711,9 @@
     ],
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80158479866907,
+    "lon": 9.207490611174947
   },
   {
     "id": "inc-2022-03-16-001",
@@ -7097,7 +7733,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.78682718899125,
+    "lon": 9.191335647861443
   },
   {
     "id": "inc-2022-03-13-001",
@@ -7117,7 +7755,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U11",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-02-03-001",
@@ -7137,7 +7777,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
-    "car_brand_tag": "Citroën"
+    "car_brand_tag": "Citroën",
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2021-11-02-001",
@@ -7157,7 +7799,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2021-09-25-001",
@@ -7177,7 +7821,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2020-10-31-001",
@@ -7197,7 +7843,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2019-12-17-001",
@@ -7217,7 +7865,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7749269,
+    "lon": 9.1509313
   },
   {
     "id": "inc-2019-03-20-001",
@@ -7237,7 +7887,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8079426,
+    "lon": 9.2438184
   },
   {
     "id": "inc-2018-10-13-001",
@@ -7257,7 +7909,9 @@
     ],
     "location_tag": "Freiberg",
     "line_tag": "U7",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.84152316593383,
+    "lon": 9.20768536592053
   },
   {
     "id": "inc-2026-05-14-001",
@@ -7292,7 +7946,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "Volvo"
+    "car_brand_tag": "Volvo",
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2026-05-12-001",
@@ -7317,7 +7973,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U7",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2026-05-09-001",
@@ -7337,7 +7995,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.81973906162364,
+    "lon": 9.207648209074273
   },
   {
     "id": "inc-2026-02-17-001",
@@ -7362,7 +8022,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.82605368560563,
+    "lon": 9.173498621150149
   },
   {
     "id": "inc-2026-02-14-002",
@@ -7387,7 +8049,9 @@
     ],
     "location_tag": "Giebel",
     "line_tag": "U6",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80414847421084,
+    "lon": 9.100934467722247
   },
   {
     "id": "inc-2026-02-13-001",
@@ -7412,7 +8076,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Škoda"
+    "car_brand_tag": "Škoda",
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2026-02-12-001",
@@ -7432,7 +8098,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83115561812074,
+    "lon": 9.235357640098991
   },
   {
     "id": "inc-2026-02-04-001",
@@ -7457,7 +8125,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77881507374867,
+    "lon": 9.192633834312169
   },
   {
     "id": "inc-2026-02-04-002",
@@ -7482,7 +8152,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2026-01-08-001",
@@ -7502,7 +8174,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U5",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2026-01-07-001",
@@ -7527,7 +8201,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U8",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-12-19-001",
@@ -7552,7 +8228,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-11-10-001",
@@ -7582,7 +8260,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.80158479866907,
+    "lon": 9.207490611174947
   },
   {
     "id": "inc-2025-11-09-001",
@@ -7612,7 +8292,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.77908068730532,
+    "lon": 9.17151154161988
   },
   {
     "id": "inc-2025-11-01-001",
@@ -7637,7 +8319,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-10-27-001",
@@ -7657,7 +8341,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7799312,
+    "lon": 9.1922127
   },
   {
     "id": "inc-2025-10-21-001",
@@ -7682,7 +8368,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2025-10-12-001",
@@ -7707,7 +8395,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U11",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.793141751658986,
+    "lon": 9.201481665751652
   },
   {
     "id": "inc-2025-10-01-001",
@@ -7732,7 +8422,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-09-29-001",
@@ -7762,7 +8454,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80726654004857,
+    "lon": 9.19874261091793
   },
   {
     "id": "inc-2025-09-28-001",
@@ -7787,7 +8481,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "Toyota"
+    "car_brand_tag": "Toyota",
+    "lat": 48.77749363614037,
+    "lon": 9.165811234521977
   },
   {
     "id": "inc-2025-09-22-001",
@@ -7807,7 +8503,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": 48.80726654004857,
+    "lon": 9.19874261091793
   },
   {
     "id": "inc-2025-09-02-002",
@@ -7832,7 +8530,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": 48.77908068730532,
+    "lon": 9.17151154161988
   },
   {
     "id": "inc-2025-08-03-001",
@@ -7857,7 +8557,9 @@
     ],
     "location_tag": "Vaihingen",
     "line_tag": "U12",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-07-12-001",
@@ -7882,7 +8584,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-07-09-001",
@@ -7907,7 +8611,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2025-07-02-001",
@@ -7927,7 +8633,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7791242,
+    "lon": 9.1715019
   },
   {
     "id": "inc-2024-12-13-002",
@@ -7947,7 +8655,9 @@
     ],
     "location_tag": "Sillenbuch",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.74568711919001,
+    "lon": 9.211311040130079
   },
   {
     "id": "inc-2024-09-02-001",
@@ -7977,7 +8687,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Peugeot"
+    "car_brand_tag": "Peugeot",
+    "lat": 48.825287695292644,
+    "lon": 9.173296129197036
   },
   {
     "id": "inc-2024-08-03-001",
@@ -8007,7 +8719,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-04-24-001",
@@ -8027,7 +8741,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.774853098887505,
+    "lon": 9.1509342303632
   },
   {
     "id": "inc-2024-04-13-001",
@@ -8047,7 +8763,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-03-22-001",
@@ -8067,7 +8785,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Nissan"
+    "car_brand_tag": "Nissan",
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2023-07-17-001",
@@ -8087,7 +8807,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2023-05-24-002",
@@ -8107,7 +8829,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2022-06-22-001",
@@ -8132,7 +8856,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": "Seat"
+    "car_brand_tag": "Seat",
+    "lat": 48.7749269,
+    "lon": 9.1509313
   },
   {
     "id": "inc-2022-03-18-001",
@@ -8157,7 +8883,9 @@
     ],
     "location_tag": "Giebel",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.8014574,
+    "lon": 9.0869177
   },
   {
     "id": "inc-2022-02-21-001",
@@ -8182,7 +8910,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2022-02-02-001",
@@ -8207,7 +8937,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": 48.8018666,
+    "lon": 9.2146706
   },
   {
     "id": "inc-2022-01-31-001",
@@ -8232,7 +8964,9 @@
     ],
     "location_tag": "Degerloch",
     "line_tag": "U15",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.753433,
+    "lon": 9.195326
   },
   {
     "id": "inc-2022-01-12-002",
@@ -8257,7 +8991,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "U3",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.7203842185132,
+    "lon": 9.165760652273388
   },
   {
     "id": "inc-2021-12-23-001",
@@ -8282,7 +9018,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-11-05-001",
@@ -8307,7 +9045,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2021-10-23-001",
@@ -8332,7 +9072,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7571549,
+    "lon": 9.1460307
   },
   {
     "id": "inc-2021-10-07-002",
@@ -8352,7 +9094,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.803378004152066,
+    "lon": 9.216530716728377
   },
   {
     "id": "inc-2021-09-20-001",
@@ -8377,7 +9121,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": 48.79189762729384,
+    "lon": 9.181445757527792
   },
   {
     "id": "inc-2021-07-05-001",
@@ -8407,7 +9153,9 @@
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U16",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.81334359492886,
+    "lon": 9.112321857625878
   },
   {
     "id": "inc-2021-04-05-001",
@@ -8427,7 +9175,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Fiat"
+    "car_brand_tag": "Fiat",
+    "lat": 48.8368843,
+    "lon": 9.2234045
   },
   {
     "id": "inc-2021-03-15-001",
@@ -8447,7 +9197,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2021-02-20-001",
@@ -8467,7 +9219,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8212947,
+    "lon": 9.2456071
   },
   {
     "id": "inc-2021-02-04-001",
@@ -8487,7 +9241,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-01-14-001",
@@ -8507,7 +9263,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.775412,
+    "lon": 9.156029
   },
   {
     "id": "inc-2021-01-08-001",
@@ -8527,7 +9285,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77981478378426,
+    "lon": 9.24889249365144
   },
   {
     "id": "inc-2020-12-14-001",
@@ -8557,7 +9317,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-11-14-001",
@@ -8582,7 +9344,9 @@
     ],
     "location_tag": "Freiberg",
     "line_tag": "U7",
-    "car_brand_tag": "Seat"
+    "car_brand_tag": "Seat",
+    "lat": 48.84152316593383,
+    "lon": 9.20768536592053
   },
   {
     "id": "inc-2020-10-27-001",
@@ -8602,7 +9366,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
-    "car_brand_tag": "Citroën"
+    "car_brand_tag": "Citroën",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2020-07-23-001",
@@ -8627,7 +9393,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-09-04-002",
@@ -8652,7 +9420,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431
   },
   {
     "id": "inc-2019-01-19-001",
@@ -8672,7 +9442,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2022-06-24-002",
@@ -8692,7 +9464,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.78355360369959,
+    "lon": 9.217070441813725
   },
   {
     "id": "inc-2021-12-01-001",
@@ -8712,7 +9486,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2019-07-30-001",
@@ -8732,7 +9508,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486
   },
   {
     "id": "inc-2019-07-04-001",
@@ -8752,7 +9530,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77981478378426,
+    "lon": 9.24889249365144
   },
   {
     "id": "inc-2019-03-17-001",
@@ -8772,7 +9552,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77660153958808,
+    "lon": 9.164640061146986
   },
   {
     "id": "inc-2019-02-12-002",
@@ -8792,7 +9574,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-01-12-001",
@@ -8817,7 +9601,9 @@
     ],
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
-    "car_brand_tag": "BMW"
+    "car_brand_tag": "BMW",
+    "lat": 48.79700240762357,
+    "lon": 9.190124665009812
   },
   {
     "id": "inc-2018-11-26-001",
@@ -8837,7 +9623,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2018-11-25-001",
@@ -8857,7 +9645,9 @@
     ],
     "location_tag": "Hofen",
     "line_tag": "U12",
-    "car_brand_tag": "Mini"
+    "car_brand_tag": "Mini",
+    "lat": 48.83732574120901,
+    "lon": 9.222931559266106
   },
   {
     "id": "inc-2020-09-30-002",
@@ -8877,7 +9667,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.81965575146005,
+    "lon": 9.236736135927595
   },
   {
     "id": "inc-2019-11-13-001",
@@ -8897,7 +9689,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7799312,
+    "lon": 9.1922127
   },
   {
     "id": "inc-2019-04-26-002",
@@ -8917,7 +9711,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2018-12-22-001",
@@ -8937,7 +9733,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": "Toyota"
+    "car_brand_tag": "Toyota",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-09-07-001",
@@ -8957,7 +9755,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8261022,
+    "lon": 9.1733151
   },
   {
     "id": "inc-2020-01-28-001",
@@ -8977,7 +9777,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Mini"
+    "car_brand_tag": "Mini",
+    "lat": 48.819052,
+    "lon": 9.237231
   },
   {
     "id": "inc-2019-12-06-001",
@@ -8997,7 +9799,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2019-07-18-001",
@@ -9017,7 +9821,9 @@
     ],
     "location_tag": "Stuttgart-Neugereut",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2018-11-02-001",
@@ -9037,7 +9843,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.778273,
+    "lon": 9.190639
   },
   {
     "id": "inc-2021-11-08-001",
@@ -9062,7 +9870,9 @@
     ],
     "location_tag": "Hofen",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83732574120901,
+    "lon": 9.222931559266106
   },
   {
     "id": "inc-2019-03-17-002",
@@ -9082,7 +9892,9 @@
     ],
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7373987,
+    "lon": 9.1633143
   },
   {
     "id": "inc-2026-01-24-001",
@@ -9102,7 +9914,9 @@
     ],
     "location_tag": "Fellbach",
     "line_tag": "U1",
-    "car_brand_tag": "Renault"
+    "car_brand_tag": "Renault",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-07-29-001",
@@ -9122,7 +9936,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Smart"
+    "car_brand_tag": "Smart",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-12-02-001",
@@ -9143,16 +9959,13 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-heslach-person-von-u14-erfasst-strecke-im-bereich-vogelrain-gesperrt-78977174.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:34:10.437613Z"
-      },
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T16:01:30.636411Z"
       }
     ],
     "location_tag": "Stuttgart-Heslach",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-07-16-002",
@@ -9172,7 +9985,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77677536268264,
+    "lon": 9.165925803337982
   },
   {
     "id": "inc-2024-09-06-001",
@@ -9192,7 +10007,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-11-05-001",
@@ -9212,7 +10029,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7750708,
+    "lon": 9.1550279
   },
   {
     "id": "inc-2025-09-01-001",
@@ -9232,7 +10051,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.801931232819555,
+    "lon": 9.214625844305344
   },
   {
     "id": "inc-2015-08-25-001",
@@ -9252,7 +10073,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7907469,
+    "lon": 9.1969949
   },
   {
     "id": "inc-2017-04-24-001",
@@ -9272,7 +10095,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.76813447898749,
+    "lon": 9.173291644597143
   },
   {
     "id": "inc-2018-07-12-001",
@@ -9292,7 +10117,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.793141751658986,
+    "lon": 9.201481665751652
   },
   {
     "id": "inc-2016-11-29-001",
@@ -9312,7 +10139,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U15",
-    "car_brand_tag": "Audi"
+    "car_brand_tag": "Audi",
+    "lat": 48.77416553413391,
+    "lon": 9.185919519455416
   },
   {
     "id": "inc-2012-10-25-001",
@@ -9332,7 +10161,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
-    "car_brand_tag": "Citroën"
+    "car_brand_tag": "Citroën",
+    "lat": 48.82605368560563,
+    "lon": 9.173498621150149
   },
   {
     "id": "inc-2015-11-28-001",
@@ -9352,7 +10183,9 @@
     ],
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.785061261013745,
+    "lon": 9.24835985049477
   },
   {
     "id": "inc-2018-03-21-001",
@@ -9372,7 +10205,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U7",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-05-16-002",
@@ -9392,7 +10227,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2013-10-28-001",
@@ -9412,7 +10249,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.803378004152066,
+    "lon": 9.216530716728377
   },
   {
     "id": "inc-2016-11-21-001",
@@ -9432,7 +10271,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U12",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.79700240762357,
+    "lon": 9.190124665009812
   },
   {
     "id": "inc-2025-11-06-001",
@@ -9452,7 +10293,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.801931232819555,
+    "lon": 9.214625844305344
   },
   {
     "id": "inc-2025-07-27-001",
@@ -9472,7 +10315,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2026-02-24-001",
@@ -9492,7 +10337,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": 48.774853098887505,
+    "lon": 9.1509342303632
   },
   {
     "id": "inc-2025-10-11-001",
@@ -9512,7 +10359,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2016-04-14-001",
@@ -9532,7 +10381,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U14",
-    "car_brand_tag": "Ford"
+    "car_brand_tag": "Ford",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2016-07-28-001",
@@ -9552,7 +10403,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U14",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2011-11-22-001",
@@ -9572,7 +10425,9 @@
     ],
     "location_tag": "Stuttgart-Neugereut",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.83115561812074,
+    "lon": 9.235357640098991
   },
   {
     "id": "inc-2026-05-20-002",
@@ -9592,7 +10447,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8035286,
+    "lon": 9.2184165
   },
   {
     "id": "inc-2026-02-15-001",
@@ -9612,7 +10469,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.76282094128954,
+    "lon": 9.16004035271363
   },
   {
     "id": "inc-2018-08-22-001",
@@ -9632,7 +10491,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": "Opel"
+    "car_brand_tag": "Opel",
+    "lat": 48.8014777,
+    "lon": 9.207822
   },
   {
     "id": "inc-2017-06-29-001",
@@ -9652,7 +10513,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2016-10-15-001",
@@ -9672,7 +10535,9 @@
     ],
     "location_tag": "Mühlhausen",
     "line_tag": "U7",
-    "car_brand_tag": "VW"
+    "car_brand_tag": "VW",
+    "lat": 48.84152316593383,
+    "lon": 9.20768536592053
   },
   {
     "id": "inc-2016-02-13-001",
@@ -9692,7 +10557,9 @@
     ],
     "location_tag": "Zuffenhausen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.7923619,
+    "lon": 9.1790022
   },
   {
     "id": "inc-2014-11-30-001",
@@ -9712,7 +10579,9 @@
     ],
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2013-08-05-001",
@@ -9732,7 +10601,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U6",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2024-12-21-001",
@@ -9752,7 +10623,9 @@
     ],
     "location_tag": "Rot",
     "line_tag": "U7",
-    "car_brand_tag": "Peugeot"
+    "car_brand_tag": "Peugeot",
+    "lat": 48.83375070462308,
+    "lon": 9.19526234269511
   },
   {
     "id": "inc-2016-11-03-001",
@@ -9772,7 +10645,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.779122,
+    "lon": 9.169252
   },
   {
     "id": "inc-2025-02-14-001",
@@ -9792,7 +10667,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U9",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2026-01-11-001",
@@ -9812,7 +10689,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.77581,
+    "lon": 9.18298
   },
   {
     "id": "inc-2025-09-03-001",
@@ -9832,7 +10711,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U9",
-    "car_brand_tag": "Volvo"
+    "car_brand_tag": "Volvo",
+    "lat": 48.77908068730532,
+    "lon": 9.17151154161988
   },
   {
     "id": "inc-2025-11-28-001",
@@ -9852,7 +10733,9 @@
     ],
     "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.772244,
+    "lon": 9.141388
   },
   {
     "id": "inc-2026-02-11-001",
@@ -9872,7 +10755,9 @@
     ],
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-11-11-001",
@@ -9897,7 +10782,9 @@
     ],
     "location_tag": "Stuttgart-Münster",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-10-29-001",
@@ -9917,7 +10804,9 @@
     ],
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.8082447,
+    "lon": 9.2711014
   },
   {
     "id": "inc-2025-03-25-002",
@@ -9937,7 +10826,9 @@
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
-    "car_brand_tag": "Hyundai"
+    "car_brand_tag": "Hyundai",
+    "lat": 48.77029930265924,
+    "lon": 9.186022949976852
   },
   {
     "id": "inc-2025-09-14-001",
@@ -9953,16 +10844,13 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6117253",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-20T15:53:09.672558Z"
-      },
-      {
-        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgarter-polizei-sucht-zeugen-mit-stadtbahn-kollidiert-autofahrerin-schwer-verletzt-79050513.html",
-        "source_id": "stuttgarter_nachrichten_tags",
-        "retrieved_at": "2026-07-20T16:01:07.988585Z"
       }
     ],
     "location_tag": "Freiberg",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2025-07-29-002",
@@ -9982,7 +10870,9 @@
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2025-07-24-001",
@@ -9998,16 +10888,13 @@
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-ost-stadtbahnunfall-in-neckarstrasse",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-20T15:53:20.623359Z"
-      },
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T16:01:58.264351Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.79309128738108,
+    "lon": 9.201542474686084
   },
   {
     "id": "inc-2025-07-02-002",
@@ -10027,7 +10914,9 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "U6",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.813161442977965,
+    "lon": 9.13070763778215
   },
   {
     "id": "inc-2024-03-28-001",
@@ -10047,7 +10936,9 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U12",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   },
   {
     "id": "inc-2021-03-30-001",
@@ -10067,7 +10958,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": 48.819034,
+    "lon": 9.237104
   },
   {
     "id": "inc-2018-11-19-001",
@@ -10087,7 +10980,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
-    "car_brand_tag": "Mercedes"
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80254777409151,
+    "lon": 9.215575321425115
   },
   {
     "id": "inc-2022-04-09-001",
@@ -10107,66 +11002,8 @@
     ],
     "location_tag": "Feuerbach",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
-    "id": "inc-2025-09-22-002",
-    "event_date": "2025-09-22",
-    "event_time": "12:40",
-    "location": "Streckenabschnitt Schwab-/Bebelstraße–Vogelsang, Stuttgart",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "none",
-    "summary": "Am Montag kam es gegen 12.40 Uhr im Streckenabschnitt zwischen den Haltestellen Schwab-/Bebelstraße und Vogelsang zu einer weiteren Kollision zwischen einer Stadtbahn und einem Auto, nachdem bereits am Morgen ein ähnlicher Unfall in der Nähe des Pragsattels aufgetreten war. Mutmaßlich keine Verletzten.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-kollision-zwischen-stadtbahn-und-auto-strecke-unterbrochen-79054503.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T16:01:52.730571Z"
-      }
-    ],
-    "location_tag": "Stuttgart",
-    "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
-    "id": "inc-2024-05-26-002",
-    "event_date": "2024-05-26",
-    "event_time": "14:00",
-    "location": "Haltestelle Vogelsang, Stuttgart-West",
-    "event_type": "derailment",
-    "other_party": "unknown",
-    "injuries": "unknown",
-    "summary": "Nach einem vorangegangenen Unfall mit einem Pkw entgleiste am Sonntagmittag eine Stadtbahn der Linie U2 an der Haltestelle Vogelsang in Stuttgart-West. Die Ursache der Entgleisung war zunächst unklar, die Bergungsarbeiten dauerten rund zwei Stunden.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-west-stadtbahn-entgleist-feuerwehr-rueckt-mit-spezialfahrzeug-aus-78926237.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T16:04:01.668988Z"
-      }
-    ],
-    "location_tag": "Stuttgart-West",
-    "line_tag": "U2",
-    "car_brand_tag": null
-  },
-  {
-    "id": "inc-2016-04-13-001",
-    "event_date": "2016-04-13",
-    "event_time": "11:55",
-    "location": "Zufahrt Klärwerk Mühlhausen (Cannstatter Straße), Grenzbereich Stuttgart-Mühlhausen/Remseck-Aldingen",
-    "event_type": "collision",
-    "other_party": "truck",
-    "injuries": "severe",
-    "summary": "Ein mit Gefahrgut beladener Lkw wurde beim Linksabbiegen von der Cannstatter Straße in Richtung Klärwerk Mühlhausen von einer in Richtung Stuttgart fahrenden Stadtbahn der Linie U14 erfasst und teilweise entgleist. Der Stadtbahnfahrer erlitt schwere Verletzungen, die Bahn musste geborgen werden.",
-    "sources": [
-      {
-        "url": "https://feuerwehr-remseck.de/einsatzberichte/2350-gefahrgut-lkw-kollidiert-mit-stadtbahn/",
-        "source_id": "feuerwehr_remseck",
-        "retrieved_at": "2026-07-20T16:04:45.023684Z"
-      }
-    ],
-    "location_tag": "Mühlhausen",
-    "line_tag": "U14",
-    "car_brand_tag": null
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   }
 ]

@@ -6,6 +6,8 @@
 <title>Karte - UPSI - Stuttgart</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
+<link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.Default.css">
 <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
@@ -13,7 +15,7 @@
   <header class="banner">
     <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
     <h1>🗺️ UPSI - Karte 🗺️</h1>
-    <p class="subtitle">Wo kracht's am liebsten? — echte Stuttgart-Karte, nach Stadtteil/Ort gruppiert</p>
+    <p class="subtitle">Wo kracht's am liebsten? — echte Stuttgart-Karte, straßengenau wo möglich</p>
   </header>
 
   <nav class="menu">
@@ -26,7 +28,7 @@
 
   <main>
     <section class="stat-card" id="map-card">
-      <h2 class="stat-card-title">UPSIs nach Stadtteil/Ort</h2>
+      <h2 class="stat-card-title">UPSIs auf der Karte</h2>
 
       <div class="year-tabs" id="year-tabs">
         <p class="chart-loading">Lade Jahre…</p>
@@ -64,9 +66,12 @@
     <p>
       <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
       offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
-      KEINE wissenschaftliche Analyse. Die Kartenpositionen sind ungefähre
-      Stadtteil-/Ortsmittelpunkte, KEIN straßengenaues Geokoding der
-      tatsächlichen Unfallstelle.
+      KEINE wissenschaftliche Analyse. Die Kartenpositionen sind, wo im
+      Artikeltext eine Straße/Kreuzung/Haltestelle genannt wird, automatisch
+      geokodiert (und bei nur einer genannten Straße zusätzlich auf die
+      tatsächliche Stadtbahn-Streckenführung eingerastet) — eine
+      Schätzung, KEINE vermessene Position. Fehlt jeder Straßenbezug im
+      Text, bleibt es beim ungefähren Stadtteil-/Ortsmittelpunkt.
     </p>
     <p class="joke-disclaimer">
       Die Kartenkacheln stammen von OpenStreetMap-Mitwirkenden — wenigstens
@@ -76,6 +81,7 @@
 </div>
 
 <script src="vendor/leaflet/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
 <script src="karte.js"></script>
 </body>
 </html>

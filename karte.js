@@ -1,20 +1,27 @@
 // UPSI - Stuttgart — Karte-Seite. Leaflet (vendor/leaflet/, kein CDN,
 // gleiche "kein Drittanbieter-Nachladen"-Regel wie beim Rest der Seite) +
 // echte OpenStreetMap-Kacheln (einzige akzeptierte Ausnahme -- eine Karte
-// ohne echte Kartenkacheln ist keine Karte). Gruppiert Incidents nach ihrem
-// bereits in data/incidents.json enthaltenen location_tag (siehe
-// locations.py) -- derselben Gruppierung, die auch die Filterleiste der
-// Startseite nutzt.
+// ohne echte Kartenkacheln ist keine Karte) + Leaflet.markercluster
+// (vendor/leaflet.markercluster/, ebenfalls selbst gehostet).
+//
+// 2026-07-20 (Nutzerauftrag): straßen-/kreuzungsgenaue Positionen statt nur
+// Stadtteil-Mittelpunkt -- siehe src/upsi/geocode.py für die Auflösung.
+// Jeder Incident hat jetzt (wenn auflösbar) sein eigenes `lat`/`lon`.
+// Gruppierung erfolgt trotzdem weiterhin auf "Ort"-Ebene, nicht auf
+// Incident-Ebene: mehrere Incidents an EXAKT demselben realen Ort (z. B.
+// derselben Kreuzung) bleiben immer EIN Marker (Klick öffnet die Liste),
+// niemals einzeln auseinandergezogen. Leaflet.markercluster übernimmt nur
+// das Verschmelzen/Trennen VERSCHIEDENER, nah beieinanderliegender Orte je
+// nach Zoomstufe -- kein Spiderfy nötig, da pro Ort ohnehin nur ein
+// einziger Marker existiert.
 //
 // LOCATION_COORDS: von Hand kuratierte, per Nominatim/OpenStreetMap
 // geokodierte NÄHERUNGSWERTE für den Mittelpunkt jedes bekannten Orts/
-// Stadtteils -- NICHT straßen-/kreuzungsgenau wie beim Schwesterprojekt
-// szegedi-villamos-balesetek (dessen location-Granularität einzelne
-// Kreuzungen sind; location_tag() hier gruppiert nur auf Stadtteil-/
-// Ortsebene). Ein Incident, dessen location_tag hier fehlt (z.B. ein
-// künftig neu auftauchender "Stuttgart-X"-Stadtteil, den locations.py's
-// Fallback-Muster erkennt, der aber noch nicht nachgetragen wurde), wird
-// gezählt, aber nicht auf der Karte angezeigt -- siehe init()/excludedCount.
+// Stadtteils -- reiner RÜCKFALL für die (kleine, schrumpfende) Minderheit
+// an Incidents, deren location-Text sich nicht auflösen lässt (kein
+// Straßenname, keine erkennbare Linie). Ein Incident, dessen location_tag
+// selbst hier fehlt, wird gezählt, aber nicht auf der Karte angezeigt --
+// siehe init()/excludedCount.
 const LOCATION_COORDS = {
   "Bad Cannstatt": [48.8014069, 9.2168515],
   "Stuttgart-West": [48.7777680, 9.1510463],
@@ -51,10 +58,6 @@ const LOCATION_COORDS = {
   "Stuttgart-Hedelfingen": [48.7564360, 9.2526651],
   "Stuttgart-Frauenkopf": [48.7636189, 9.2057584],
   "Degerloch": [48.7065159, 9.1616187],
-  // In locations.py bekannt, aber bisher (Stand 2026-07-20) ohne
-  // bestätigten Incident -- schon mal mitgepflegt, damit ein künftiger
-  // Fund sofort eine Kartenposition hat, ohne diese Datei anfassen zu
-  // müssen.
   "Obertürkheim": [48.7617575, 9.2681173],
   "Plieningen": [48.6948398, 9.2297513],
   "Sommerrain": [48.8150747, 9.2479748],
@@ -117,9 +120,42 @@ function radiusFor(count, maxCount) {
   return minR + t * (maxR - minR);
 }
 
+// Ein Marker = ein div mit inline Größe/Farbe -- L.circleMarker (SVG-Vektor)
+// kann NICHT in eine L.markerClusterGroup gepackt werden, nur echte
+// L.marker-Instanzen mit Icon. Der Kreis wird per CSS nachgebaut.
+function makeDivIcon(count, maxCount) {
+  const r = radiusFor(count, maxCount);
+  const d = r * 2;
+  const fill = colorFor(count, maxCount);
+  const html = `<div class="upsi-marker" style="width:${d}px;height:${d}px;background:${fill};"></div>`;
+  return L.divIcon({
+    html,
+    className: "upsi-marker-wrap",
+    iconSize: [d, d],
+    iconAnchor: [d / 2, d / 2],
+  });
+}
+
+function clusterIconCreateFunction(cluster) {
+  const children = cluster.getAllChildMarkers();
+  const count = children.reduce((sum, m) => sum + (m.upsiCount || 0), 0);
+  const maxCount = clusterIconCreateFunction._maxCount || count;
+  const r = radiusFor(count, maxCount);
+  const d = Math.max(r * 2, 24);
+  const fill = colorFor(count, maxCount);
+  return L.divIcon({
+    html: `<div class="upsi-marker upsi-cluster" style="width:${d}px;height:${d}px;background:${fill};">${count}</div>`,
+    className: "upsi-marker-wrap",
+    iconSize: [d, d],
+    iconAnchor: [d / 2, d / 2],
+  });
+}
+
 let map = null;
+let clusterGroup = null;
 const markersById = {};
-const zones = {}; // { tag: { lat, lon, incidents: [...] } }
+const zones = {}; // { zoneId: { lat, lon, incidents: [...] } }
+const districts = {}; // { location_tag: [incident, ...] } -- nur für die Text-Liste
 let currentYear = "all";
 let currentZoneId = null;
 let excludedCount = 0;
@@ -133,6 +169,11 @@ function incidentsFor(zoneId, year) {
   const all = zones[zoneId].incidents;
   if (year === "all") return all;
   return all.filter((i) => i.event_date.slice(0, 4) === year);
+}
+
+function districtTotalFor(tag, year) {
+  if (year === "all") return districts[tag].length;
+  return districts[tag].filter((i) => i.event_date.slice(0, 4) === year).length;
 }
 
 function renderIncidentCard(incident) {
@@ -163,12 +204,19 @@ function openZonePanel(zoneId) {
   panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
+function zoneLabel(zoneId) {
+  // Der erste Incident an diesem Ort liefert einen sprechenden Namen für
+  // den Panel-Titel (echte Adresse statt Koordinaten-Schlüssel).
+  const first = zones[zoneId].incidents[0];
+  return first ? first.location : zoneId;
+}
+
 function renderPanel() {
   if (!currentZoneId) return;
   const list = incidentsFor(currentZoneId, currentYear);
   const yearLabel = currentYear === "all" ? "insgesamt" : `im Jahr ${currentYear}`;
   document.getElementById("zone-detail-title").textContent =
-    `🚩 ${currentZoneId} — ${list.length} UPSI ${yearLabel}`;
+    `🚩 ${zoneLabel(currentZoneId)} — ${list.length} UPSI ${yearLabel}`;
 
   const listEl = document.getElementById("zone-detail-list");
   listEl.innerHTML = "";
@@ -188,8 +236,8 @@ function renderPanel() {
 function renderListView(year) {
   const listViewEl = document.getElementById("list-view");
   listViewEl.innerHTML = "";
-  const rows = Object.keys(zones)
-    .map((id) => ({ id, count: totalFor(id, year) }))
+  const rows = Object.keys(districts)
+    .map((tag) => ({ tag, count: districtTotalFor(tag, year) }))
     .filter((row) => row.count > 0)
     .sort((a, b) => b.count - a.count);
 
@@ -203,17 +251,15 @@ function renderListView(year) {
 
   rows.forEach((row) => {
     const li = document.createElement("li");
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.textContent = row.id;
+    const span = document.createElement("span");
+    span.style.display = "block";
+    span.style.padding = "6px 10px";
     const countSpan = document.createElement("span");
     countSpan.className = "list-view-count";
     countSpan.textContent = String(row.count);
-    btn.appendChild(countSpan);
-    btn.addEventListener("click", () => {
-      openZonePanel(row.id);
-    });
-    li.appendChild(btn);
+    span.textContent = row.tag + " ";
+    span.appendChild(countSpan);
+    li.appendChild(span);
     listViewEl.appendChild(li);
   });
 }
@@ -222,18 +268,20 @@ function render(year) {
   currentYear = year;
   const counts = Object.keys(zones).map((id) => totalFor(id, year));
   const maxThis = Math.max(...counts, 1);
+  clusterIconCreateFunction._maxCount = maxThis;
 
   Object.keys(zones).forEach((id) => {
     const count = totalFor(id, year);
     const marker = markersById[id];
+    const inGroup = clusterGroup.hasLayer(marker);
+
     if (count === 0) {
-      marker.setStyle({ fillOpacity: 0, opacity: 0, radius: 1 });
-      marker.unbindTooltip();
+      if (inGroup) clusterGroup.removeLayer(marker);
       return;
     }
-    const r = radiusFor(count, maxThis);
-    const fill = colorFor(count, maxThis);
-    marker.setStyle({ fillOpacity: 0.8, opacity: 1, radius: r, fillColor: fill });
+
+    marker.upsiCount = count;
+    marker.setIcon(makeDivIcon(count, maxThis));
     const suffix =
       year === "all"
         ? count === 1
@@ -243,7 +291,8 @@ function render(year) {
     if (!marker.getTooltip()) {
       marker.bindTooltip("", { direction: "top", offset: [0, -6], opacity: 1 });
     }
-    marker.setTooltipContent(`🚩 ${id} — ${suffix}`);
+    marker.setTooltipContent(`🚩 ${zoneLabel(id)} — ${suffix}`);
+    if (!inGroup) clusterGroup.addLayer(marker);
   });
 
   renderListView(year);
@@ -281,15 +330,32 @@ async function init() {
 
   incidents.forEach((incident) => {
     const tag = incident.location_tag;
-    const coords = LOCATION_COORDS[tag];
-    if (!coords) {
-      excludedCount += 1;
-      return;
+    if (!districts[tag]) districts[tag] = [];
+    districts[tag].push(incident);
+
+    let zoneId, lat, lon;
+    if (incident.lat != null && incident.lon != null) {
+      lat = incident.lat;
+      lon = incident.lon;
+      // Auf ~1m genau gerundet -- Incidents, die auf denselben realen Ort
+      // aufgelöst wurden, landen garantiert im selben Zonen-Schlüssel, auch
+      // bei minimalen Fließkomma-Abweichungen zwischen Läufen.
+      zoneId = `${lat.toFixed(5)},${lon.toFixed(5)}`;
+    } else {
+      const coords = LOCATION_COORDS[tag];
+      if (!coords) {
+        excludedCount += 1;
+        return;
+      }
+      lat = coords[0];
+      lon = coords[1];
+      zoneId = `tag:${tag}`;
     }
-    if (!zones[tag]) {
-      zones[tag] = { lat: coords[0], lon: coords[1], incidents: [] };
+
+    if (!zones[zoneId]) {
+      zones[zoneId] = { lat, lon, incidents: [] };
     }
-    zones[tag].incidents.push(incident);
+    zones[zoneId].incidents.push(incident);
   });
 
   map = L.map("leaflet-map", { scrollWheelZoom: false }).setView([48.7758, 9.1829], 11);
@@ -299,16 +365,17 @@ async function init() {
       '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkende',
   }).addTo(map);
 
+  clusterGroup = L.markerClusterGroup({
+    iconCreateFunction: clusterIconCreateFunction,
+    showCoverageOnHover: false,
+    spiderfyOnMaxZoom: false, // pro Ort existiert ohnehin nur EIN Marker
+    maxClusterRadius: 60,
+  });
+  map.addLayer(clusterGroup);
+
   Object.keys(zones).forEach((id) => {
     const zone = zones[id];
-    const marker = L.circleMarker([zone.lat, zone.lon], {
-      radius: 1,
-      color: "#101010",
-      weight: 1.3,
-      fillColor: HEAT_STEPS[0],
-      fillOpacity: 0,
-      cursor: "pointer",
-    }).addTo(map);
+    const marker = L.marker([zone.lat, zone.lon], { icon: makeDivIcon(0, 1) });
     marker.on("click", () => {
       openZonePanel(id);
     });
@@ -325,7 +392,7 @@ async function init() {
   years.forEach((y) => tabsEl.appendChild(makeTab(y, y)));
 
   const baseCaption =
-    "Die Punktgröße und -farbe zeigen die Anzahl der UPSIs am jeweiligen Ort im gewählten Jahr. Die Position ist die ungefähre Stadtteil-/Ortsmitte, KEIN straßengenaues Geokoding der tatsächlichen Unfallstelle.";
+    "Die Punktgröße und -farbe zeigen die Anzahl der UPSIs am jeweiligen Ort im gewählten Jahr. Wo möglich zeigt der Punkt die tatsächliche Kreuzung/Straße (automatisch geokodiert + auf die Stadtbahn-Strecke eingerastet, KEINE vermessene Position); ohne Straßenangabe im Text bleibt es bei der Stadtteil-Mitte. Nahe beieinanderliegende Orte verschmelzen beim Rauszoomen zu einem größeren Punkt.";
   mapCaption.textContent =
     excludedCount > 0
       ? `${baseCaption} ${excludedCount} Ereignis${excludedCount === 1 ? "" : "se"} ohne bekannte Kartenposition ${excludedCount === 1 ? "ist" : "sind"} nicht auf der Karte, aber weiterhin auf der Startseite gelistet. Klick auf einen Punkt für die Liste!`
