@@ -399,6 +399,46 @@
         "url": "https://www.feuerwehrmagazin.de/nachrichten/news/frontalkollision-zweier-stadtbahnen-in-stuttgart-126451",
         "source_id": "feuerwehrmagazin_de",
         "retrieved_at": "2026-07-20T06:39:34.109738Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/anklage-ssb-unfall-horror-stadtbahn-78867934.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:48:43.533771Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-stuttgart-wangen-prozess-im-herbst-78990169.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:48:49.616737Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-fruehere-stadtbahnfahrerin-verurteilt-so-lautet-die-strafe-79043215.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:48:55.616211Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-kollision-in-stuttgart-neue-ermittlungsgruppe-der-polizei-soll-ssb-unglueck-klaeren-79045387.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:01.262876Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-unfall-stuttgart-mit-behinderung-zurueck-ins-leben-79037587.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:06.970323Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/nach-ssb-unglueck-in-stuttgart-wangen-staatsanwalt-ermittelt-gegen-stadtbahnfahrerin-78886877.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:12.619656Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/urteil-zum-stadtbahnunfall-stadtbahnunfall-richter-erhebt-schwere-vorwuerfe-gegen-die-ssb-79035188.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:18.345494Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-aus-stadtbahn-auf-gleise-geschleudert-opfer-schildern-schweren-unfall-79037207.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:24.069367Z"
       }
     ],
     "location_tag": "Wangen",
@@ -505,6 +545,16 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unglueck-an-stuttgarter-stadtbahn-haltestelle-blumen-und-kerzen-erinnern-an-toedlich-verletzten-12-jaehrigen-78863701.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:25:40.696311Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgarter-joerg-ratgeb-schule-nach-stadtbahn-todesfall-unsichtbar-ist-der-junge-immer-da-78989402.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:35.894308Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/nach-toedlichem-streit-am-stadtbahn-halt-schuelertod-in-hofen-justizministerin-stiftet-verwirrung-78866518.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:49:41.528690Z"
       }
     ],
     "location_tag": "Hofen",
@@ -6355,6 +6405,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-mitte-verkehrsunfall-legt-bahnen-zwischen-bopser-und-olgaeck-lahm-79213552.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:29:03.950086Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-mitte-verkehrsunfall-legt-bahnen-zwischen-bopser-und-olgaeck-lahm-79213547.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T20:49:47.447873Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
