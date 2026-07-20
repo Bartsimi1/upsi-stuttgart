@@ -7383,6 +7383,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6216975",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-18T22:28:01.560906Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/auto-prallt-gegen-stadtbahn-abgebogen-trotz-verbot-drei-leichtverletzte-bei-unfall-in-stuttgart-giebel-78970490.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T06:34:21.279980Z"
       }
     ],
     "location_tag": "Giebel",
@@ -9815,26 +9820,6 @@
     "car_brand_tag": null
   },
   {
-    "id": "inc-2026-02-14-003",
-    "event_date": "2026-02-14",
-    "event_time": null,
-    "location": "Haltestelle Salamanderweg, Stuttgart-Giebel",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "minor",
-    "summary": "Eine 58-jährige Autofahrerin bog trotz Verbot ab und prallte am frühen Samstagmittag (14.02.2026) in Stuttgart-Giebel an der Haltestelle Salamanderweg mit ihrem Pkw gegen eine einfahrende Stadtbahn der Linie U6. Die Fahrerin, ihre Beifahrerin und der Stadtbahnführer wurden leicht verletzt.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/auto-prallt-gegen-stadtbahn-abgebogen-trotz-verbot-drei-leichtverletzte-bei-unfall-in-stuttgart-giebel-78970490.html",
-        "source_id": "stuttgarter_nachrichten_tags",
-        "retrieved_at": "2026-07-20T06:34:21.279980Z"
-      }
-    ],
-    "location_tag": "Giebel",
-    "line_tag": "U6",
-    "car_brand_tag": null
-  },
-  {
     "id": "inc-2024-12-21-001",
     "event_date": "2024-12-21",
     "event_time": "13:10",
@@ -10133,6 +10118,11 @@
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-ost-stadtbahnunfall-in-neckarstrasse",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-20T15:53:20.623359Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T16:01:58.264351Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -10317,26 +10307,6 @@
     ],
     "location_tag": "Stuttgart",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null
-  },
-  {
-    "id": "inc-2025-07-24-002",
-    "event_date": "2025-07-24",
-    "event_time": "13:00",
-    "location": "Haltestelle Metzstraße, Stuttgart-Ost",
-    "event_type": "other",
-    "other_party": "unknown",
-    "injuries": "unknown",
-    "summary": "Im Bereich der Haltestelle Metzstraße in Stuttgart-Ost ereignete sich kurz nach 13 Uhr ein Unfall, an dem eine Stadtbahn beteiligt war. Die Strecken der Linien U1, U2 und U14 waren zeitweise unterbrochen. Unfallhergang und -gegner waren zum Zeitpunkt der Meldung noch unbekannt.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T16:01:58.264351Z"
-      }
-    ],
-    "location_tag": "Stuttgart-Ost",
-    "line_tag": "U1",
     "car_brand_tag": null
   },
   {
