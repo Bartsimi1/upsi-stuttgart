@@ -708,10 +708,10 @@ button.year-tab.active {
   height: 480px;
 }
 
-/* Marker als eigenes div statt L.circleMarker (SVG) -- nötig, damit
-   Leaflet.markercluster sie gruppieren kann (nur echte L.marker-Icons,
-   keine Vektor-Layer). Größe/Farbe kommen inline von karte.js
-   (radiusFor/colorFor), hier nur Form/Rand. */
+/* Marker als eigenes div statt L.circleMarker (SVG) -- karte.js positioniert
+   jeden Marker einzeln per Pixel-Offset (Spiderfy), das ist mit divIcon
+   einfacher als mit einem Vektor-Layer. Ein Punkt = ein Incident, feste
+   Größe/Farbe (siehe MARKER_DIAMETER/MARKER_COLOR in karte.js). */
 .upsi-marker-wrap {
   background: transparent;
   border: none;
@@ -721,20 +721,8 @@ button.year-tab.active {
   border-radius: 50%;
   border: 1.3px solid #101010;
   box-sizing: border-box;
-  opacity: 0.8;
+  opacity: 0.85;
   cursor: pointer;
-}
-
-.upsi-marker.upsi-cluster {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.9;
-  font-family: Verdana, Geneva, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 0.75em;
-  color: #ffffff;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 .leaflet-tooltip {
@@ -765,9 +753,7 @@ button.year-tab.active {
   vertical-align: middle;
 }
 
-.legend-dot-sm { width: 9px; height: 9px; }
 .legend-dot-md { width: 14px; height: 14px; }
-.legend-dot-lg { width: 20px; height: 20px; }
 
 .legend-note {
   width: 100%;

@@ -1,19 +1,25 @@
 // UPSI - Stuttgart — Karte-Seite. Leaflet (vendor/leaflet/, kein CDN,
 // gleiche "kein Drittanbieter-Nachladen"-Regel wie beim Rest der Seite) +
 // echte OpenStreetMap-Kacheln (einzige akzeptierte Ausnahme -- eine Karte
-// ohne echte Kartenkacheln ist keine Karte) + Leaflet.markercluster
-// (vendor/leaflet.markercluster/, ebenfalls selbst gehostet).
+// ohne echte Kartenkacheln ist keine Karte).
 //
 // 2026-07-20 (Nutzerauftrag): straßen-/kreuzungsgenaue Positionen statt nur
 // Stadtteil-Mittelpunkt -- siehe src/upsi/geocode.py für die Auflösung.
 // Jeder Incident hat jetzt (wenn auflösbar) sein eigenes `lat`/`lon`.
-// Gruppierung erfolgt trotzdem weiterhin auf "Ort"-Ebene, nicht auf
-// Incident-Ebene: mehrere Incidents an EXAKT demselben realen Ort (z. B.
-// derselben Kreuzung) bleiben immer EIN Marker (Klick öffnet die Liste),
-// niemals einzeln auseinandergezogen. Leaflet.markercluster übernimmt nur
-// das Verschmelzen/Trennen VERSCHIEDENER, nah beieinanderliegender Orte je
-// nach Zoomstufe -- kein Spiderfy nötig, da pro Ort ohnehin nur ein
-// einziger Marker existiert.
+//
+// 2026-07-20 später (Nutzerauftrag, Meinungsänderung): KEIN Verschmelzen
+// mehr, auf keiner Zoomstufe -- weder verschiedene, nah beieinander
+// liegende Orte zu einem größeren Blob (das machte vorher
+// Leaflet.markercluster, jetzt komplett entfernt), NOCH mehrere Incidents
+// an EXAKT demselben Ort zu einem einzigen größenskalierten Punkt (das war
+// bis eben das eigene Zonen-Modell hier). Jeder Incident bekommt jetzt
+// seinen eigenen, dauerhaft sichtbaren Punkt; Punkte am selben Ort werden
+// per fester PIXEL-Distanz auseinandergezogen ("spiderfy" -- derselbe
+// Begriff/dieselbe Kreis-/Spiralformel wie in Leaflet.markercluster, hier
+// aber DAUERHAFT aktiv statt nur nach Klick, und auf jeder Zoomstufe neu
+// berechnet, damit der Pixel-Abstand nie schrumpft, egal wie weit man
+// rauszoomt). Klick auf einen der aufgefächerten Punkte öffnet weiterhin
+// dieselbe Orts-Liste wie vorher (unverändertes Panel-Verhalten).
 //
 // LOCATION_COORDS: von Hand kuratierte, per Nominatim/OpenStreetMap
 // geokodierte NÄHERUNGSWERTE für den Mittelpunkt jedes bekannten Orts/
@@ -67,14 +73,52 @@ const LOCATION_COORDS = {
   "Waiblingen": [48.8325659, 9.3163822],
 };
 
-// Sequentielle Rot-Rampe für die Häufigkeits-/Größenkodierung (dataviz-
-// Skill: EINE Farbe, hell->dunkel, für Magnitude -- mit
-// scripts/validate_palette.js gegen den Karten-Hintergrund (#ffffff)
-// geprüft, alle Checks grün: Helligkeit monoton, Kontrast am hellen Ende
-// >=2:1, Farbtonstreuung nur 8°). Größe UND Farbe kodieren dieselbe Zahl
-// redundant (siehe radiusFor/colorFor), damit die Information nicht allein
-// an der Farbe hängt.
-const HEAT_STEPS = ["#f0a0a0", "#d95c5c", "#8f1616"];
+// Einheitlicher Punkt für jeden einzelnen Incident (kein Größen-/Farb-
+// Mapping mehr auf eine Anzahl -- jeder Punkt IST bereits genau 1 UPSI,
+// die Menge ist direkt an der Anzahl sichtbarer Punkte ablesbar).
+const MARKER_DIAMETER = 11;
+const MARKER_COLOR = "#b23a3a";
+
+// Spiderfy-Konstanten (Kreis für kleine Gruppen, Spirale für große --
+// dieselbe Grundformel wie Leaflet.markercluster's _generatePointsCircle/
+// _generatePointsSpiral, hier aber dauerhaft statt nur nach Klick
+// angewendet). Alle Werte in Bildschirm-Pixeln, NICHT in Grad -- das ist
+// der Punkt: der Abstand bleibt exakt gleich groß, egal welche Zoomstufe.
+const SPIDERFY_CIRCLE_SWITCHOVER = 8; // ab dieser Anzahl: Spirale statt Kreis
+const SPIDERFY_CIRCLE_FOOT_SEPARATION = 24;
+const SPIDERFY_CIRCLE_START_ANGLE = Math.PI / 6;
+const SPIDERFY_CIRCLE_MIN_RADIUS = 26;
+const SPIDERFY_SPIRAL_FOOT_SEPARATION = 26;
+const SPIDERFY_SPIRAL_LENGTH_START = 14;
+const SPIDERFY_SPIRAL_LENGTH_FACTOR = 4;
+
+function spiderfyOffsets(count) {
+  if (count <= 1) return [[0, 0]];
+
+  if (count < SPIDERFY_CIRCLE_SWITCHOVER) {
+    const circumference = SPIDERFY_CIRCLE_FOOT_SEPARATION * (2 + count);
+    const legLength = Math.max(circumference / (Math.PI * 2), SPIDERFY_CIRCLE_MIN_RADIUS);
+    const angleStep = (Math.PI * 2) / count;
+    const offsets = [];
+    for (let i = 0; i < count; i++) {
+      const angle = SPIDERFY_CIRCLE_START_ANGLE + i * angleStep;
+      offsets.push([legLength * Math.cos(angle), legLength * Math.sin(angle)]);
+    }
+    return offsets;
+  }
+
+  // Fermat-Spirale: wächst nach außen, damit sich auch viele Punkte am
+  // selben Ort (z. B. eine unfallträchtige Kreuzung) nicht überlappen.
+  const offsets = new Array(count);
+  let legLength = SPIDERFY_SPIRAL_LENGTH_START;
+  let angle = 0;
+  for (let i = count - 1; i >= 0; i--) {
+    angle += SPIDERFY_SPIRAL_FOOT_SEPARATION / legLength + i * 0.0005;
+    offsets[i] = [legLength * Math.cos(angle), legLength * Math.sin(angle)];
+    legLength += (Math.PI * 2 * SPIDERFY_SPIRAL_LENGTH_FACTOR) / angle;
+  }
+  return offsets;
+}
 
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({
@@ -104,61 +148,24 @@ function formatDate(iso) {
   return `${d}.${m}.${y}`;
 }
 
-function colorFor(count, maxCount) {
-  if (count === 0) return null;
-  const t = Math.min(count / maxCount, 1);
-  if (t < 0.34) return HEAT_STEPS[0];
-  if (t < 0.7) return HEAT_STEPS[1];
-  return HEAT_STEPS[2];
-}
-
-function radiusFor(count, maxCount) {
-  if (count === 0) return 0;
-  const minR = 6;
-  const maxR = 26;
-  const t = Math.min(count / maxCount, 1);
-  return minR + t * (maxR - minR);
-}
-
-// Ein Marker = ein div mit inline Größe/Farbe -- L.circleMarker (SVG-Vektor)
-// kann NICHT in eine L.markerClusterGroup gepackt werden, nur echte
-// L.marker-Instanzen mit Icon. Der Kreis wird per CSS nachgebaut.
-function makeDivIcon(count, maxCount) {
-  const r = radiusFor(count, maxCount);
-  const d = r * 2;
-  const fill = colorFor(count, maxCount);
-  const html = `<div class="upsi-marker" style="width:${d}px;height:${d}px;background:${fill};"></div>`;
+function makeIncidentIcon() {
+  const html = `<div class="upsi-marker" style="width:${MARKER_DIAMETER}px;height:${MARKER_DIAMETER}px;background:${MARKER_COLOR};"></div>`;
   return L.divIcon({
     html,
     className: "upsi-marker-wrap",
-    iconSize: [d, d],
-    iconAnchor: [d / 2, d / 2],
-  });
-}
-
-function clusterIconCreateFunction(cluster) {
-  const children = cluster.getAllChildMarkers();
-  const count = children.reduce((sum, m) => sum + (m.upsiCount || 0), 0);
-  const maxCount = clusterIconCreateFunction._maxCount || count;
-  const r = radiusFor(count, maxCount);
-  const d = Math.max(r * 2, 24);
-  const fill = colorFor(count, maxCount);
-  return L.divIcon({
-    html: `<div class="upsi-marker upsi-cluster" style="width:${d}px;height:${d}px;background:${fill};">${count}</div>`,
-    className: "upsi-marker-wrap",
-    iconSize: [d, d],
-    iconAnchor: [d / 2, d / 2],
+    iconSize: [MARKER_DIAMETER, MARKER_DIAMETER],
+    iconAnchor: [MARKER_DIAMETER / 2, MARKER_DIAMETER / 2],
   });
 }
 
 let map = null;
-let clusterGroup = null;
-const markersById = {};
+let markerLayer = null;
 const zones = {}; // { zoneId: { lat, lon, incidents: [...] } }
 const districts = {}; // { location_tag: [incident, ...] } -- nur für die Text-Liste
 let currentYear = "all";
 let currentZoneId = null;
 let excludedCount = 0;
+let visibleZoneMarkers = {}; // { zoneId: [L.marker, ...] } -- nur die gerade sichtbaren, für Spiderfy-Neuberechnung bei Zoom
 
 function totalFor(zoneId, year) {
   if (year === "all") return zones[zoneId].incidents.length;
@@ -264,37 +271,54 @@ function renderListView(year) {
   });
 }
 
-function render(year) {
-  currentYear = year;
-  const counts = Object.keys(zones).map((id) => totalFor(id, year));
-  const maxThis = Math.max(...counts, 1);
-  clusterIconCreateFunction._maxCount = maxThis;
-
-  Object.keys(zones).forEach((id) => {
-    const count = totalFor(id, year);
-    const marker = markersById[id];
-    const inGroup = clusterGroup.hasLayer(marker);
-
-    if (count === 0) {
-      if (inGroup) clusterGroup.removeLayer(marker);
+// Setzt für jede sichtbare Gruppe die tatsächlichen Marker-Positionen neu
+// -- Mittelpunkt in Bildschirm-Pixel umrechnen, festen Pixel-Versatz pro
+// Marker addieren, zurück in lat/lon umrechnen. Muss bei jeder
+// Zoomänderung erneut laufen, weil sich sonst der Pixel-Abstand (nicht
+// der Grad-Abstand!) verändern würde -- genau das soll laut Nutzerauftrag
+// NICHT passieren, die Punkte sollen auf JEDER Zoomstufe gleich weit
+// auseinander bleiben.
+function repositionMarkers() {
+  Object.keys(visibleZoneMarkers).forEach((zoneId) => {
+    const markers = visibleZoneMarkers[zoneId];
+    const zone = zones[zoneId];
+    if (markers.length === 1) {
+      markers[0].setLatLng([zone.lat, zone.lon]);
       return;
     }
+    const centerPt = map.latLngToLayerPoint([zone.lat, zone.lon]);
+    const offsets = spiderfyOffsets(markers.length);
+    markers.forEach((marker, i) => {
+      const pt = centerPt.add(L.point(offsets[i][0], offsets[i][1]));
+      marker.setLatLng(map.layerPointToLatLng(pt));
+    });
+  });
+}
 
-    marker.upsiCount = count;
-    marker.setIcon(makeDivIcon(count, maxThis));
-    const suffix =
-      year === "all"
-        ? count === 1
-          ? "1 UPSI"
-          : `${count} UPSIs insgesamt`
-        : `${count} UPSI${count === 1 ? "" : "s"} (${year})`;
-    if (!marker.getTooltip()) {
-      marker.bindTooltip("", { direction: "top", offset: [0, -6], opacity: 1 });
-    }
-    marker.setTooltipContent(`🚩 ${zoneLabel(id)} — ${suffix}`);
-    if (!inGroup) clusterGroup.addLayer(marker);
+function render(year) {
+  currentYear = year;
+
+  markerLayer.clearLayers();
+  visibleZoneMarkers = {};
+
+  Object.keys(zones).forEach((zoneId) => {
+    const list = incidentsFor(zoneId, year);
+    if (list.length === 0) return;
+
+    const markers = list.map((incident) => {
+      const marker = L.marker([zones[zoneId].lat, zones[zoneId].lon], { icon: makeIncidentIcon() });
+      marker.bindTooltip(
+        `🚩 ${esc(formatDate(incident.event_date))} — ${esc(incident.location)}`,
+        { direction: "top", offset: [0, -6], opacity: 1 }
+      );
+      marker.on("click", () => openZonePanel(zoneId));
+      marker.addTo(markerLayer);
+      return marker;
+    });
+    visibleZoneMarkers[zoneId] = markers;
   });
 
+  repositionMarkers();
   renderListView(year);
 
   if (currentZoneId && !document.getElementById("zone-detail").hidden) {
@@ -365,22 +389,8 @@ async function init() {
       '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkende',
   }).addTo(map);
 
-  clusterGroup = L.markerClusterGroup({
-    iconCreateFunction: clusterIconCreateFunction,
-    showCoverageOnHover: false,
-    spiderfyOnMaxZoom: false, // pro Ort existiert ohnehin nur EIN Marker
-    maxClusterRadius: 60,
-  });
-  map.addLayer(clusterGroup);
-
-  Object.keys(zones).forEach((id) => {
-    const zone = zones[id];
-    const marker = L.marker([zone.lat, zone.lon], { icon: makeDivIcon(0, 1) });
-    marker.on("click", () => {
-      openZonePanel(id);
-    });
-    markersById[id] = marker;
-  });
+  markerLayer = L.layerGroup().addTo(map);
+  map.on("zoomend", repositionMarkers);
 
   const years = Array.from(new Set(incidents.map((i) => i.event_date.slice(0, 4)))).sort();
 
@@ -392,7 +402,7 @@ async function init() {
   years.forEach((y) => tabsEl.appendChild(makeTab(y, y)));
 
   const baseCaption =
-    "Die Punktgröße und -farbe zeigen die Anzahl der UPSIs am jeweiligen Ort im gewählten Jahr. Wo möglich zeigt der Punkt die tatsächliche Kreuzung/Straße (automatisch geokodiert + auf die Stadtbahn-Strecke eingerastet, KEINE vermessene Position); ohne Straßenangabe im Text bleibt es bei der Stadtteil-Mitte. Nahe beieinanderliegende Orte verschmelzen beim Rauszoomen zu einem größeren Punkt.";
+    "Jeder Punkt ist genau 1 UPSI -- Punkte verschmelzen nie zu einem größeren Blob, auch nicht beim Rauszoomen. Ereignisse am exakt selben Ort (z. B. derselben Kreuzung) fächern sich stattdessen sichtbar auf. Wo möglich zeigt die Position die tatsächliche Kreuzung/Straße (automatisch geokodiert + auf die Stadtbahn-Strecke eingerastet, KEINE vermessene Position); ohne Straßenangabe im Text bleibt es bei der Stadtteil-Mitte.";
   mapCaption.textContent =
     excludedCount > 0
       ? `${baseCaption} ${excludedCount} Ereignis${excludedCount === 1 ? "" : "se"} ohne bekannte Kartenposition ${excludedCount === 1 ? "ist" : "sind"} nicht auf der Karte, aber weiterhin auf der Startseite gelistet. Klick auf einen Punkt für die Liste!`
