@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karte - UPSI - Stuttgart</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div class="page">
+  <header class="banner">
+    <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
+    <h1>🗺️ UPSI - Karte 🗺️</h1>
+    <p class="subtitle">Wo kracht's am liebsten? — echte Stuttgart-Karte, nach Stadtteil/Ort gruppiert</p>
+  </header>
+
+  <nav class="menu">
+    <a href="index.html">Startseite</a>
+    <a href="statistik.html">Statistik</a>
+    <a href="karte.html">Karte</a>
+    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
+    <a href="index.html#ueber">Über UPSI</a>
+  </nav>
+
+  <main>
+    <section class="stat-card" id="map-card">
+      <h2 class="stat-card-title">UPSIs nach Stadtteil/Ort</h2>
+
+      <div class="year-tabs" id="year-tabs">
+        <p class="chart-loading">Lade Jahre…</p>
+      </div>
+
+      <div class="map-wrap">
+        <div id="leaflet-map" role="img" aria-label="Karte von Stuttgart und Umgebung mit den UPSI-Unfallschwerpunkten"></div>
+      </div>
+
+      <div class="legend-row">
+        <span class="legend-dot legend-dot-sm" style="background:#f0a0a0;"></span> wenige
+        <span class="legend-dot legend-dot-md" style="background:#d95c5c;"></span> mittel
+        <span class="legend-dot legend-dot-lg" style="background:#8f1616;"></span> viele UPSIs
+        <span class="legend-note">(Größe UND Farbe des Punkts zeigen die Anzahl)</span>
+      </div>
+
+      <p class="hero-note" id="map-caption">Lade Daten…</p>
+
+      <details class="list-view-details">
+        <summary>📋 Text-Liste (auch mit Tastatur/Screenreader nutzbar)</summary>
+        <ul id="list-view" class="list-view" aria-label="Orte in der gewählten Jahresauswahl"></ul>
+      </details>
+
+      <div id="zone-detail" class="zone-detail" hidden>
+        <div class="zone-detail-header">
+          <span class="zone-detail-title" id="zone-detail-title"></span>
+          <button type="button" class="retro-button zone-detail-close" id="zone-detail-close">Schließen ×</button>
+        </div>
+        <div class="incident-list" id="zone-detail-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="legal">
+    <p>
+      <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
+      offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
+      KEINE wissenschaftliche Analyse. Die Kartenpositionen sind ungefähre
+      Stadtteil-/Ortsmittelpunkte, KEIN straßengenaues Geokoding der
+      tatsächlichen Unfallstelle.
+    </p>
+    <p class="joke-disclaimer">
+      Die Kartenkacheln stammen von OpenStreetMap-Mitwirkenden — wenigstens
+      der Neckar liegt wirklich da, wo er soll.
+    </p>
+  </footer>
+</div>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="karte.js"></script>
+</body>
+</html>

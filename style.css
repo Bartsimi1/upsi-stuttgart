@@ -664,3 +664,186 @@ footer.legal {
   font-style: italic;
   margin: 0 0 12px;
 }
+
+/* ---- Karte-Seite ---- */
+
+.year-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button.year-tab {
+  font-family: inherit;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #10233a;
+  background: #c0c0c0;
+  border: 2px outset #ffffff;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+button.year-tab:active {
+  border-style: inset;
+}
+
+button.year-tab.active {
+  background: #a63c3c;
+  color: #ffffff;
+  border-style: inset;
+}
+
+.map-wrap {
+  background: #ffffff;
+  border: 3px inset #999999;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+#leaflet-map {
+  width: 100%;
+  height: 480px;
+}
+
+.leaflet-tooltip {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #10233a;
+  background: #fdf3e0;
+  border: 2px solid #33526e;
+  border-radius: 0;
+  padding: 4px 8px;
+}
+
+.legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75em;
+  color: #444444;
+  margin-bottom: 10px;
+}
+
+.legend-dot {
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #101010;
+  vertical-align: middle;
+}
+
+.legend-dot-sm { width: 9px; height: 9px; }
+.legend-dot-md { width: 14px; height: 14px; }
+.legend-dot-lg { width: 20px; height: 20px; }
+
+.legend-note {
+  width: 100%;
+  font-style: italic;
+  text-align: center;
+}
+
+.list-view-details {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.list-view-details summary {
+  cursor: pointer;
+  color: #0000ee;
+  font-weight: bold;
+  padding: 4px 0;
+}
+
+.list-view {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  max-height: 260px;
+  overflow-y: auto;
+  border: 2px inset #cccccc;
+  background: #ffffff;
+}
+
+.list-view li {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.list-view li:last-child {
+  border-bottom: none;
+}
+
+.list-view button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 6px 10px;
+  font: inherit;
+  cursor: pointer;
+  color: #10233a;
+}
+
+.list-view button:hover,
+.list-view button:focus-visible {
+  background: #fdf3e0;
+}
+
+.list-view-count {
+  float: right;
+  font-weight: bold;
+  color: #a63c3c;
+}
+
+.zone-detail {
+  margin-top: 12px;
+  background: #fdf3e0;
+  border: 2px dashed #33526e;
+  padding: 10px;
+}
+
+.zone-detail-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.zone-detail-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  color: #10233a;
+  font-size: 1em;
+}
+
+.zone-detail-close {
+  font-size: 0.8em;
+  padding: 3px 10px;
+}
+
+.zone-detail-empty {
+  font-size: 0.85em;
+  color: #666666;
+  font-style: italic;
+}
+
+/* Ortsteile wie Bad Cannstatt haben weit über 100 Einzel-Vorfälle -- ohne
+   Deckel würde die Liste die Seite auf zehntausende Pixel Höhe aufblähen
+   (real beobachtet beim Testen). Eigener Scroll-Container statt der
+   Startseite-"Mehr anzeigen"-Paginierung, weil hier kein zusätzlicher
+   Zustand (shownCount) für ein Nebenpanel gepflegt werden soll. */
+#zone-detail-list {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+@media (max-width: 600px) {
+  #leaflet-map {
+    height: 380px;
+  }
+}
