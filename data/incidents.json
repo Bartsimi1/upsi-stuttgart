@@ -471,6 +471,21 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-kind-von-stadtbahn-erfasst--zeugen-gesucht_93270",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T23:11:52.513579Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/aktion-achtung-schulweg-kind-von-stadtbahn-ueberrollt-verfahren-eingestellt-78954592.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:08:27.036496Z"
+      },
+      {
+        "url": "https://www.feuerwehrmagazin.de/nachrichten/einsatze/stadtbahn-erfasst-kind-lebensgefahr-126618",
+        "source_id": "feuerwehrmagazin_de",
+        "retrieved_at": "2026-07-20T21:08:47.918632Z"
+      },
+      {
+        "url": "https://www.stimme.de/polizei/suedwesten/stuttgart-stadtbahn-unfall-kind-lebensgefahr-polizei-zuffenhausen-art-4893533",
+        "source_id": "stimme_de",
+        "retrieved_at": "2026-07-20T21:08:47.918632Z"
       }
     ],
     "location_tag": "Rot",
@@ -10983,6 +10998,11 @@
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-ost-stadtbahnunfall-in-neckarstrasse",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-20T15:53:20.623359Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:58:34.356311Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -11256,23 +11276,67 @@
     "lon": null
   },
   {
-    "id": "inc-2025-07-24-002",
-    "event_date": "2025-07-24",
-    "event_time": "13:00",
-    "location": "Haltestelle Metzstraße, Stuttgart-Ost",
-    "event_type": "other",
-    "other_party": "unknown",
-    "injuries": "unknown",
-    "summary": "Im Bereich der Haltestelle Metzstraße in Stuttgart-Ost ereignete sich kurz nach 13 Uhr ein Unfall, an dem eine Stadtbahn beteiligt war. Die Strecken der Linien U1, U2 und U14 waren zeitweise unterbrochen.",
+    "id": "inc-2025-11-09-002",
+    "event_date": "2025-11-09",
+    "event_time": null,
+    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Ein 57-jähriger BMW-Fahrer bog verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schleifte es mehrere Meter über die Gleise mit. Alle fünf Fahrzeuginsassen wurden verletzt, vier davon schwer.",
     "sources": [
       {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-ost-strecken-der-u1-u2-und-u14-nach-stadtbahnunfall-unterbrochen-78994898.html",
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
         "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T20:58:34.356311Z"
+        "retrieved_at": "2026-07-20T21:00:27.224236Z"
       }
     ],
-    "location_tag": "Stuttgart-Ost",
-    "line_tag": "U1",
+    "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "BMW",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-10-15-001",
+    "event_date": "2025-10-15",
+    "event_time": null,
+    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 35-jähriger Mercedes-Fahrer bog Mitte Oktober 2025 verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schob es auf eine Verkehrsinsel. Der Fahrer sowie zwei Fahrgäste der Stadtbahn wurden verletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:46.192515Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "Mercedes",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-11-05-002",
+    "event_date": "2025-11-05",
+    "event_time": null,
+    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "unknown",
+    "injuries": "unknown",
+    "summary": "Am 5. November 2025 kam es an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West erneut zu einer Kollision zwischen einem Fahrzeug und einer Stadtbahn. Der Artikel nennt nur das Datum, keine weiteren Details zu Fahrzeug, Fahrer oder Verletzten.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:46.192515Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
     "lat": null,
     "lon": null
