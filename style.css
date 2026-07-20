@@ -574,3 +574,82 @@ footer.legal {
     flex-direction: column;
   }
 }
+
+/* ---- Verbesserungsvorschläge-Seite ---- */
+
+#suggestion-card {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.suggestion-form textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 8px;
+  border: 2px inset #999999;
+  resize: none;
+}
+
+.char-count {
+  text-align: right;
+  font-size: 0.75em;
+  color: #666666;
+  margin: 2px 0 10px;
+}
+
+.char-count.limit-near {
+  color: #b30000;
+  font-weight: bold;
+}
+
+/* Fliegender Zettel: startet exakt über dem Textfeld (Position wird per JS
+   gesetzt), die .shredding-Klasse triggert den Übergang nach unten/kleiner/
+   transparent -- wirkt wie ein Blatt, das ins Schredder-Maul gezogen wird. */
+.flying-paper {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #999999;
+  padding: 8px;
+  font-size: 0.9em;
+  color: #1a1a1a;
+  text-align: left;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word;
+  pointer-events: none;
+  transform: translateY(0) scale(1) rotate(0deg);
+  opacity: 1;
+  transition: transform 0.7s ease-in, opacity 0.4s ease-in 0.3s;
+}
+
+.flying-paper.shredding {
+  transform: translateY(150px) scale(0.15) rotate(10deg);
+  opacity: 0;
+}
+
+.shredder-result {
+  margin-top: 6px;
+}
+
+.shredder-gif {
+  display: block;
+  margin: 0 auto;
+}
+
+.shredder-message {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  color: #b30000;
+  font-size: 1.15em;
+  margin: 10px 0 2px;
+}
+
+.shredder-submessage {
+  font-size: 0.8em;
+  color: #666666;
+  font-style: italic;
+  margin: 0 0 12px;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verbesserungsvorschläge - UPSI - Stuttgart</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div class="page">
+  <header class="banner">
+    <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
+    <h1>📝 Verbesserungsvorschläge 📝</h1>
+    <p class="subtitle">Deine Meinung ist uns wichtig* — genauso ernst gemeint wie der Rest dieser Seite</p>
+  </header>
+
+  <nav class="menu">
+    <a href="index.html">Startseite</a>
+    <a href="statistik.html">Statistik</a>
+    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
+    <a href="index.html#ueber">Über UPSI</a>
+  </nav>
+
+  <main>
+    <section class="stat-card" id="suggestion-card">
+      <h2 class="stat-card-title">Dein Verbesserungsvorschlag</h2>
+      <p class="hero-note">Maximal 50 Zeichen. Mehr Zeit ist es ohnehin nicht wert.</p>
+
+      <form id="suggestion-form" class="suggestion-form">
+        <textarea
+          id="suggestion-text"
+          maxlength="50"
+          rows="2"
+          placeholder="Dein Vorschlag..."
+          autocomplete="off"
+        ></textarea>
+        <div class="char-count"><span id="char-count-value">0</span>/50</div>
+        <button type="submit" class="retro-button">OK</button>
+      </form>
+
+      <div class="shredder-result" id="shredder-result" hidden>
+        <img class="shredder-gif" src="images/paper_shredder.gif" alt="Ein Papiershredder schreddert Papier" width="135" height="150">
+        <p class="shredder-message">Ihr Vorschlag wurde abgelehnt.</p>
+        <p class="shredder-submessage">Die Qualitätssicherung dankt für Ihr Verständnis.</p>
+        <button type="button" class="retro-button" id="try-again-btn">Neuer Versuch</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="legal">
+    <p class="joke-disclaimer">
+      * Nicht wirklich. Dein Vorschlag wird NICHT gespeichert und NICHT
+      versendet — er verlässt nie deinen Browser und landet direkt im
+      Shredder. Diese Seite existiert rein zur Unterhaltung.
+    </p>
+  </footer>
+</div>
+
+<script src="vorschlaege.js"></script>
+</body>
+</html>
