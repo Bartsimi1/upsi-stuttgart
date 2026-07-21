@@ -11,8 +11,10 @@ const EVENT_TYPE_LABELS = {
 
 const OTHER_PARTY_LABELS = {
   car: "PKW",
+  van: "Transporter",
   pedestrian: "Fußgänger",
   cyclist: "Fahrrad",
+  e_scooter: "E-Scooter",
   motorcycle: "Motorrad",
   truck: "LKW",
   bus: "Bus",

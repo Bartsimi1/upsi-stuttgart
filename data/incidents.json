@@ -2352,7 +2352,7 @@
     "event_time": "20:40",
     "location": "Augsburger Platz, Stuttgart-Bad Cannstatt",
     "event_type": "collision",
-    "other_party": "other",
+    "other_party": "e_scooter",
     "injuries": "minor",
     "summary": "Ein 29-jähriger, mutmaßlich betrunkener E-Scooter-Fahrer missachtete am Freitag (31.01.2025) am Augsburger Platz in Stuttgart-Bad Cannstatt beim Überqueren der Gleise das Rotlicht und kollidierte mit einer Stadtbahn der Linie U13.",
     "sources": [
@@ -4383,7 +4383,7 @@
     "event_time": null,
     "location": "Friedhofstraße, Stuttgart-Nord",
     "event_type": "collision",
-    "other_party": "other",
+    "other_party": "e_scooter",
     "injuries": "minor",
     "summary": "Eine Stadtbahn der Linie U12 touchierte am Mittwoch im Bereich Friedhofstraße in Stuttgart-Nord eine 19-jährige E-Scooter-Fahrerin, die dabei zu Fall kam und sich leicht verletzte.",
     "sources": [
@@ -5872,7 +5872,7 @@
     "event_time": "17:15",
     "location": "Bahnübergang Haltestelle Mineralbäder, Stuttgart-Ost",
     "event_type": "collision",
-    "other_party": "other",
+    "other_party": "e_scooter",
     "injuries": "severe",
     "summary": "Eine 21-jährige Frau wurde am Bahnübergang der Haltestelle Mineralbäder in Stuttgart-Ost mit ihrem E-Scooter von einer Stadtbahn der Linie U1 erfasst und stürzte. Sie wurde schwer verletzt und ins Krankenhaus gebracht.",
     "sources": [
@@ -7007,7 +7007,7 @@
     "event_time": "13:45",
     "location": "Böblinger Straße, Stuttgart-Heslach",
     "event_type": "collision",
-    "other_party": "other",
+    "other_party": "van",
     "injuries": "minor",
     "summary": "Ein 37-jähriger Fahrer eines VW Transporters kollidierte am 01.07.2019 gegen 13:45 Uhr in der Böblinger Straße in Stuttgart-Heslach beim Wechsel der Richtungsfahrbahn an einem Bahnübergang mit einer Stadtbahn der Linie U34. Eine 46-jährige Mitfahrerin in der Bahn wurde dabei leicht verletzt.",
     "sources": [
@@ -7726,7 +7726,7 @@
     "event_time": null,
     "location": "Hohensteinstraße, Stuttgart-Zuffenhausen",
     "event_type": "collision",
-    "other_party": "other",
+    "other_party": "van",
     "injuries": "minor",
     "summary": "Ein 29-jähriger Fahrer eines Krankentransportwagens fuhr am Dienstagnachmittag (15.01.2019) an der Hohensteinstraße in Stuttgart-Zuffenhausen trotz Wendeverbots über die Gleise und stieß mit einer Stadtbahn der Linie U7 zusammen. Der Fahrer wurde dabei leicht verletzt.",
     "sources": [
@@ -10922,7 +10922,7 @@
     "event_time": "17:50",
     "location": "Tainer Straße/Schwabenlandhalle, Fellbach",
     "event_type": "collision",
-    "other_party": "other",
+    "other_party": "e_scooter",
     "injuries": "severe",
     "summary": "Ein 30-jähriger E-Scooter-Fahrer überquerte am Mittwochabend gegen 17.50 Uhr einen Bahnübergang in der Tainer Straße in Fellbach, als eine Stadtbahn herannahte, und wurde von dieser erfasst und schwer verletzt. An der Stadtbahn entstand ein Sachschaden von rund 10.000 Euro; die Fahrgäste blieben unverletzt.",
     "sources": [
