@@ -450,7 +450,7 @@
   {
     "id": "inc-2024-03-05-001",
     "event_date": "2024-03-05",
-    "event_time": null,
+    "event_time": "13:15",
     "location": "Haltestelle Fürfelder Straße, Stuttgart-Rot",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
@@ -480,7 +480,7 @@
       {
         "url": "https://www.feuerwehrmagazin.de/nachrichten/einsatze/stadtbahn-erfasst-kind-lebensgefahr-126618",
         "source_id": "feuerwehrmagazin_de",
-        "retrieved_at": "2026-07-20T21:08:47.918632Z"
+        "retrieved_at": "2026-07-21T01:10:25.280518Z"
       },
       {
         "url": "https://www.stimme.de/polizei/suedwesten/stuttgart-stadtbahn-unfall-kind-lebensgefahr-polizei-zuffenhausen-art-4893533",
@@ -1125,6 +1125,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6266938",
         "source_id": "polizei_stuttgart",
         "retrieved_at": "2026-07-16T06:25:53.989000Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-west-hoher-schaden-bei-stadtbahn-unfall-polizei-sucht-zeugen-78847985.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T01:10:25.281511Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -9423,6 +9428,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/haltestelle-pragsattel-in-stuttgart-stadtbahn-erfasst-person-beim-ueberqueren-der-gleise-78888357.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T09:47:40.385464Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/haltestelle-pragsattel-in-stuttgart-stadtbahn-erfasst-person-beim-ueberqueren-der-gleise-78888442.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T01:11:19.065712Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
@@ -11336,6 +11346,94 @@
       }
     ],
     "location_tag": "Stuttgart-West",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2010-09-09-001",
+    "event_date": "2010-09-09",
+    "event_time": "11:40",
+    "location": "Haltestelle Kreuzbrunnen, Ostfildern-Scharnhauser Park",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "minor",
+    "summary": "Eine Stadtbahn und ein vierachsiger Baustellen-Lkw stießen im Bereich der Haltestelle Kreuzbrunnen in Ostfildern-Scharnhauser Park auf den Stadtbahngleisen zusammen und verkeilten sich ineinander. Zwei Personen wurden dabei leicht verletzt, der Stadtbahnverkehr war für mehrere Stunden unterbrochen.",
+    "sources": [
+      {
+        "url": "https://ff-ostfildern.de/einsatze/unfall-zwischen-stadtbahn-und-lkw/",
+        "source_id": "feuerwehr_ostfildern",
+        "retrieved_at": "2026-07-21T01:12:25.346735Z"
+      }
+    ],
+    "location_tag": "Ostfildern",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2025-10-23-001",
+    "event_date": "2025-10-23",
+    "event_time": "16:35",
+    "location": "Stadtbahnhaltestelle Hofen, Stuttgart-Mühlhausen",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Eine 58-jährige Frau stieg an der Stadtbahnhaltestelle Hofen aus einer Bahn aus, rutschte beim Gehen auf dem Bahnsteig auf glattem Belag aus und prallte gegen eine entgegenkommende Stadtbahn der Linie U12 in Richtung Remseck. Sie wurde dabei schwer verletzt und ins Krankenhaus gebracht.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-muehlhausen-frau-stuerzt-am-bahnsteig-und-prallt-gegen-stadtbahn-schwer-verletzt-79042769.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T01:13:09.405170Z"
+      }
+    ],
+    "location_tag": "Hofen",
+    "line_tag": "U12",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2017-07-21-001",
+    "event_date": "2017-07-21",
+    "event_time": "16:50",
+    "location": "Esslinger Straße/Ecke Tainer Straße, Fellbach",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Freitagnachmittag überquerte eine Autofahrerin mit ihrem Opel Corsa gegen 16:50 Uhr auf Höhe der Tainer Straße die Gleise einer Stadtbahn in der Esslinger Straße in Fellbach und wurde von der in Richtung Schwabenlandhalle fahrenden Bahn hinten rechts erfasst und um etwa 90 Grad gedreht. Das Auto wurde zwischen der Stadtbahn und einem Ampelmasten eingeklemmt und musste durch die Feuerwehr befreit werden; die Fahrerin wurde dabei leicht verletzt, Fahrgäste blieben unverletzt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/rems-murr-kreis/fellbach-autofahrerin-nach-stadtbahnunfall-eingeklemmt-78939131.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T01:13:56.553130Z"
+      }
+    ],
+    "location_tag": "Fellbach",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "Opel",
+    "lat": 48.7737916,
+    "lon": 9.1812889
+  },
+  {
+    "id": "inc-2017-10-05-001",
+    "event_date": "2017-10-05",
+    "event_time": null,
+    "location": "Gleise nahe Cannstatter Wasen, Stuttgart-Bad Cannstatt",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "fatal",
+    "summary": "Ein 20-Jähriger wurde beim Überqueren der Gleise in Stuttgart-Bad Cannstatt von einer Stadtbahn erfasst und starb noch am Unfallort. Er kam vermutlich vom nahegelegenen Volksfest Cannstatter Wasen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/toedlicher-unfall-in-stuttgart-20-jaehriger-von-stadtbahn-ueberrollt-79122945.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T01:15:11.760041Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
     "lat": null,
