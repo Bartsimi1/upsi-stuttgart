@@ -359,6 +359,21 @@ footer.legal {
   margin-top: 10px;
 }
 
+.footer-links {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.footer-links a {
+  color: #33526e;
+  text-decoration: underline;
+}
+
+.footer-links a:hover {
+  color: #10233a;
+}
+
 .retro-badges {
   display: flex;
   justify-content: center;
