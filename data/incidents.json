@@ -1248,6 +1248,11 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/beinahe-zusammenstoss-in-stuttgart-auto-wendet-ueber-gleise-und-zwingt-stadtbahn-zur-vollbremsung-zwei-verletzte-79234992.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-07-16T06:27:25.746801Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/254625/auto-wendet-ueber-gleise-verletzte-in-stadtbahn-nach-bremsung/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-21T05:12:12.584349Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -1810,6 +1815,11 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/esslingen/stadtbahnunfall-in-ostfildern-von-u8-erfasst-16-jaehriger-radfahrer-ringt-mit-dem-tod-78981536.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-07-20T05:23:18.614923Z"
+      },
+      {
+        "url": "https://ff-ostfildern.de/einsatze/person-unter-stadtbahn/",
+        "source_id": "feuerwehr_ostfildern",
+        "retrieved_at": "2026-07-21T05:13:14.414837Z"
       }
     ],
     "location_tag": "Ostfildern",
@@ -10920,6 +10930,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/rems-murr-kreis/schwerer-unfall-in-fellbach-e-scooter-fahrer-von-stadtbahn-erfasst-79039160.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T09:57:26.130536Z"
+      },
+      {
+        "url": "https://www.feuerwehr-fellbach.de/einsaetze/2025/oktober?einsatz=6794&cHash=8bb25326b0eb8ab1f4b273e63d8fc78b",
+        "source_id": "feuerwehr_fellbach",
+        "retrieved_at": "2026-07-21T05:11:28.014916Z"
       }
     ],
     "location_tag": "Fellbach",
