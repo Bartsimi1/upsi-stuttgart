@@ -11453,5 +11453,27 @@
     "car_brand_tag": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "id": "inc-2018-02-25-001",
+    "event_date": "2018-02-25",
+    "event_time": null,
+    "location": "Strecke zwischen den Haltestellen Hornbach und Mühlhausen, Stuttgart-Mühlhausen (Linie U12)",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Auf der Strecke der Stadtbahnlinie U12 zwischen den Haltestellen Hornbach und Mühlhausen kam es zu einem schweren Verkehrsunfall zwischen einer Stadtbahn und einem Auto. Die Strecke war deshalb für den Stadtbahnverkehr unterbrochen, ein Ersatzverkehr wurde eingerichtet.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/zwischen-muehlhausen-und-remseck-schwerer-verkehrsunfall-mit-stadtbahn-und-auto-78925952.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T05:47:25.348084Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U12",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   }
 ]
