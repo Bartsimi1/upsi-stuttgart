@@ -11475,5 +11475,49 @@
     "car_brand_tag": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "id": "inc-2026-07-21-001",
+    "event_date": "2026-07-21",
+    "event_time": "14:35",
+    "location": "Hohenheimer Straße bei Haltestelle Dobel, Stuttgart-Mitte",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Eine Stadtbahn der Linie U7 kollidierte am Dienstagnachmittag gegen 14.35 Uhr in der Hohenheimer Straße nahe der Haltestelle Dobel seitlich mit zwei Autos. Verletzt wurde niemand, der Sachschaden liegt im Bereich mehrerer Zehntausend Euro.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-unfall-in-stuttgart-u7-kollidiert-mit-zwei-autos-mehrere-linien-fallen-kurzzeitig-aus-79321576.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-21T15:13:16.539224Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U7",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2026-07-21-002",
+    "event_date": "2026-07-21",
+    "event_time": "14:35",
+    "location": "Hohenheimer Straße bei Haltestelle Dobel, Stuttgart-Mitte",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Eine Stadtbahn der Linie U7 kollidierte am Dienstagnachmittag gegen 14.35 Uhr in der Hohenheimer Straße nahe der Haltestelle Dobel seitlich mit zwei Autos. Verletzt wurde niemand, der Sachschaden liegt im Bereich mehrerer Zehntausend Euro.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahn-unfall-in-stuttgart-u7-kollidiert-mit-zwei-autos-mehrere-linien-fallen-kurzzeitig-aus-79321576.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-21T15:13:16.539224Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U7",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
   }
 ]
