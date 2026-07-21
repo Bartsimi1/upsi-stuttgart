@@ -9,7 +9,7 @@ function updateCharCount() {
   const countEl = document.getElementById("char-count-value");
   const len = textarea.value.length;
   countEl.textContent = String(len);
-  countEl.parentElement.classList.toggle("limit-near", len >= 40);
+  countEl.parentElement.classList.toggle("limit-near", len >= 16);
 }
 
 function handleSubmit(event) {
