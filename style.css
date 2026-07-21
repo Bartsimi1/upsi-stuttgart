@@ -274,6 +274,15 @@ button.retro-button:active {
   border: 2px dashed #33526e;
 }
 
+.filter-toggle {
+  font-size: 0.8em;
+  padding: 5px 14px;
+}
+
+.filter-groups {
+  margin-top: 10px;
+}
+
 .filter-hint {
   font-size: 0.8em;
   color: #444444;

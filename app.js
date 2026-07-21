@@ -158,8 +158,15 @@ function toggleFilter(category, value) {
   rerenderList();
 }
 
+// Die Filterleiste hat mit den mittlerweile 5 Kategorien (u.a. 13
+// other_party- und ~35 location_tag-Werte) leicht 80+ kleine Buttons --
+// nimmt ungefragt viel Platz über den eigentlichen UPSIs weg. Standardmäßig
+// eingeklappt (2026-07-21, Nutzerauftrag), ein Klick auf den Umschalter
+// zeigt/versteckt die Gruppen; die Filterfunktion selbst (auch per Klick
+// auf ein Tag direkt auf einer Karte, siehe init()) bleibt unverändert --
+// nur die Sichtbarkeit der Buttons ändert sich.
 function renderFilterBar() {
-  const bar = document.getElementById("filter-bar");
+  const groups = document.getElementById("filter-groups");
   TAG_CATEGORIES.forEach((cat) => {
     const values = [...new Set(allIncidents.map((i) => i[cat.key]))].sort((a, b) =>
       labelFor(cat, a).localeCompare(labelFor(cat, b), "de")
@@ -167,13 +174,20 @@ function renderFilterBar() {
     const group = document.createElement("div");
     group.className = "filter-group";
     group.innerHTML = values.map((v) => tagButtonHtml(cat, v)).join(" ");
-    bar.appendChild(group);
+    groups.appendChild(group);
   });
 
-  bar.addEventListener("click", (event) => {
+  groups.addEventListener("click", (event) => {
     const btn = event.target.closest(".tag-btn");
     if (!btn) return;
     toggleFilter(btn.dataset.cat, btn.dataset.val);
+  });
+
+  const toggle = document.getElementById("filter-toggle");
+  toggle.addEventListener("click", () => {
+    const nowHidden = !groups.hidden;
+    groups.hidden = nowHidden;
+    toggle.textContent = nowHidden ? "Filter anzeigen" : "Filter ausblenden";
   });
 }
 
