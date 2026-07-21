@@ -133,12 +133,16 @@ function cutoffDateIso(monthsAgo) {
   return d.toISOString().slice(0, 10);
 }
 
-function computeGaps(incidents) {
-  const sorted = [...incidents].sort((a, b) => {
+function sortByEventDateTime(incidents) {
+  return [...incidents].sort((a, b) => {
     const da = `${a.event_date}T${a.event_time || "12:00"}`;
     const db = `${b.event_date}T${b.event_time || "12:00"}`;
     return da < db ? -1 : da > db ? 1 : 0;
   });
+}
+
+function computeGaps(incidents) {
+  const sorted = sortByEventDateTime(incidents);
   const gaps = [];
   for (let i = 1; i < sorted.length; i++) {
     const prev = new Date(`${sorted[i - 1].event_date}T${sorted[i - 1].event_time || "12:00"}:00`);
@@ -151,6 +155,31 @@ function computeGaps(incidents) {
     });
   }
   return gaps;
+}
+
+// Die reinen computeGaps()-Einträge decken nur ABGESCHLOSSENE Abstände ab
+// (zwischen zwei existierenden UPSIs). Die Zeit seit dem LETZTEN UPSI bis
+// jetzt lief bisher gar nicht in den Durchschnitt ein -- ein Nutzer fragte
+// explizit nach, ob ein z.B. 36 Tage andauernder aktueller Abstand mitzählt.
+// Er soll (2026-07-21, Nutzerauftrag): dieser Eintrag wird als eigener,
+// als "ongoing" markierter Balken angehängt, damit Durchschnittszahl und
+// sichtbares Diagramm/Tabelle konsistent bleiben (kein unsichtbarer Wert).
+function addOngoingGap(gaps, incidents) {
+  if (incidents.length === 0) return gaps;
+  const sorted = sortByEventDateTime(incidents);
+  const last = sorted[sorted.length - 1];
+  const lastDate = new Date(`${last.event_date}T${last.event_time || "12:00"}:00`);
+  const now = new Date();
+  const days = Math.max(0, (now - lastDate) / (1000 * 60 * 60 * 24));
+  return [
+    ...gaps,
+    {
+      date: now.toISOString().slice(0, 10),
+      location: "seit dem letzten UPSI (andauernd)",
+      days,
+      ongoing: true,
+    },
+  ];
 }
 
 function renderDataTable(container, headers, rows) {
@@ -365,17 +394,30 @@ function renderGapBarChart(wrapEl, gaps) {
     rect.setAttribute("height", Math.max(barH, 1));
     rect.setAttribute("rx", "3");
     rect.setAttribute("fill", color);
+    if (g.ongoing) {
+      rect.setAttribute("fill-opacity", "0.4");
+      rect.setAttribute("stroke", color);
+      rect.setAttribute("stroke-width", "1.5");
+      rect.setAttribute("stroke-dasharray", "3,2");
+    }
     rect.style.cursor = "pointer";
     rect.setAttribute("tabindex", "0");
     rect.setAttribute("role", "button");
     const daysLabel = g.days.toFixed(1).replace(".", ",");
-    rect.setAttribute("aria-label", `${g.date}: ${daysLabel} Tage seit dem vorherigen UPSI`);
+    rect.setAttribute(
+      "aria-label",
+      g.ongoing
+        ? `Andauernd seit dem letzten UPSI: bisher ${daysLabel} Tage, zählt anteilig in den Durchschnitt`
+        : `${g.date}: ${daysLabel} Tage seit dem vorherigen UPSI`
+    );
 
+    const tooltipLabel = g.ongoing ? "Andauernd seit dem letzten UPSI" : `${g.date} — ${g.location}`;
+    const tooltipValue = g.ongoing ? `bisher ${daysLabel} Tage` : `${daysLabel} Tage`;
     const onEnter = (evt) => {
       rect.setAttribute("opacity", "0.75");
-      showTooltip(evt, [[`${g.date} — ${g.location}`, `${daysLabel} Tage`]]);
+      showTooltip(evt, [[tooltipLabel, tooltipValue]]);
     };
-    const onMove = (evt) => showTooltip(evt, [[`${g.date} — ${g.location}`, `${daysLabel} Tage`]]);
+    const onMove = (evt) => showTooltip(evt, [[tooltipLabel, tooltipValue]]);
     const onLeave = () => {
       rect.setAttribute("opacity", "1");
       hideTooltip();
@@ -396,7 +438,7 @@ function renderGapBarChart(wrapEl, gaps) {
     dayLabel.setAttribute("text-anchor", "middle");
     dayLabel.setAttribute("font-size", "9");
     dayLabel.setAttribute("fill", "#5a5a52");
-    dayLabel.textContent = g.days.toFixed(0);
+    dayLabel.textContent = g.ongoing ? `${g.days.toFixed(0)}*` : g.days.toFixed(0);
     svg.appendChild(dayLabel);
 
     // NUR erster und letzter Balken bekommen ein volles Datum (2026-07-18,
@@ -421,7 +463,9 @@ function renderGapBarChart(wrapEl, gaps) {
 
   const caption = document.createElement("div");
   caption.className = "chart-caption";
-  caption.textContent = "Jeder Balken: Abstand (in Tagen) zum jeweils vorherigen UPSI, chronologisch.";
+  const hasOngoing = gaps.some((g) => g.ongoing);
+  caption.textContent = "Jeder Balken: Abstand (in Tagen) zum jeweils vorherigen UPSI, chronologisch."
+    + (hasOngoing ? " * = seit dem letzten UPSI, andauernd, zählt anteilig in den Durchschnitt." : "");
 
   wrapEl.innerHTML = "";
   wrapEl.appendChild(scrollWrap);
@@ -454,7 +498,7 @@ async function init() {
   // (siehe Kommentar bei RECENT_MONTHS), nicht die gesamte Historie.
   const cutoff = cutoffDateIso(RECENT_MONTHS);
   const recentIncidents = incidents.filter((i) => i.event_date >= cutoff);
-  const gaps = computeGaps(recentIncidents);
+  const gaps = addOngoingGap(computeGaps(recentIncidents), recentIncidents);
   const avgDays = gaps.length > 0 ? gaps.reduce((s, g) => s + g.days, 0) / gaps.length : 0;
   document.getElementById("gap-average").textContent = gaps.length > 0
     ? avgDays.toFixed(1).replace(".", ",")
@@ -463,7 +507,7 @@ async function init() {
   note.className = "hero-note";
   note.textContent = `Basis: die letzten ${RECENT_MONTHS} Monate (${recentIncidents.length} UPSIs) — `
     + `ältere Zeiträume sind unterschiedlich vollständig erfasst und würden den `
-    + `Durchschnitt verzerren.`;
+    + `Durchschnitt verzerren. Die noch andauernde Zeit seit dem letzten UPSI zählt anteilig mit.`;
   document.getElementById("gap-stat").insertBefore(note, document.getElementById("gap-chart-wrap"));
   renderGapBarChart(document.getElementById("gap-chart-wrap"), gaps);
   renderDataTable(
