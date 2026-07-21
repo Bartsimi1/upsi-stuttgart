@@ -7201,8 +7201,8 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
-    "lat": null,
-    "lon": null
+    "lat": 48.77557766369714,
+    "lon": 9.158282605356733
   },
   {
     "id": "inc-2022-04-14-001",
@@ -11500,7 +11500,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U7",
     "car_brand_tag": null,
-    "lat": null,
-    "lon": null
+    "lat": 48.769742,
+    "lon": 9.185978
   }
 ]
