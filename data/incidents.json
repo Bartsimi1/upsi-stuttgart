@@ -11495,6 +11495,16 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahn-unfall-in-stuttgart-u7-kollidiert-mit-zwei-autos-mehrere-linien-fallen-kurzzeitig-aus-79321576.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-07-21T15:13:16.539224Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-mitte-stadtbahnunfall-in-hohenheimer-strasse/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-07-22T12:03:21.026888Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6319482",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-07-22T12:03:21.027917Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
