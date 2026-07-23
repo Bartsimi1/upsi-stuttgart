@@ -174,7 +174,7 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Ein 55-jähriger Autofahrer übersah beim Überqueren der Gleise auf der Stuttgarter Straße in Fellbach eine in gleicher Richtung fahrende Stadtbahn und kollidierte mit dieser. Der Fahrer und zwei Insassen im Mercedes wurden leicht verletzt, der Pkw hatte Totalschaden. Die Strecke war zwischen den Haltestellen Antwerpener Straße und Lutherkirche unterbrochen, der Sachschaden am Pkw wurde auf 20.000 Euro geschätzt.",
+    "summary": "Ein 55-jähriger Autofahrer übersah beim Überqueren der Gleise auf der Stuttgarter Straße in Fellbach eine in gleicher Richtung fahrende Stadtbahn und kollidierte mit dieser. Der Fahrer und zwei Insassen im Mercedes wurden leicht verletzt, der Pkw hatte Totalschaden. Die Strecke war zwischen den Haltestellen Antwerpener Straße und Lutherkirche unterbrochen, der Sachschaden am Pkw wurde auf 20.000 Euro geschätzt. Ein 55-jähriger Fahrer eines Mercedes stieß am Freitagvormittag (29.05.2026) kurz nach 08:50 Uhr auf der Stuttgarter Straße in Fellbach mit einer Stadtbahn der Linie U1 zusammen. Es entstand ein Sachschaden von schätzungsweise 20.000 Euro am Pkw, und der Bahnverkehr war zwischen den Haltestellen Antwerpener Straße und Lutherkirche unterbrochen.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/rems-murr-kreis/fellbach-stadtbahn-uebersehen-drei-verletzte-in-fellbach-79236348.html",
@@ -203,7 +203,7 @@
       }
     ],
     "location_tag": "Fellbach",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U1",
     "car_brand_tag": "Mercedes",
     "lat": 48.8112363,
     "lon": 9.1485536
@@ -211,12 +211,12 @@
   {
     "id": "inc-2026-04-27-001",
     "event_date": "2026-04-27",
-    "event_time": null,
+    "event_time": "17:30",
     "location": "Ostfildern (Linie U7)",
     "event_type": "other",
     "other_party": "cyclist",
     "injuries": "minor",
-    "summary": "Ein Radfahrer löste bei der Stadtbahn U7 in Ostfildern eine Gefahrenbremsung aus, um einen Zusammenstoß zu verhindern. Durch das abrupte Abbremsen stürzten zwei Fahrgäste, ein zwölfjähriger Junge und eine 60-jährige Frau, und verletzten sich leicht.",
+    "summary": "Ein Radfahrer löste bei der Stadtbahn U7 in Ostfildern eine Gefahrenbremsung aus, um einen Zusammenstoß zu verhindern. Durch das abrupte Abbremsen stürzten zwei Fahrgäste, ein zwölfjähriger Junge und eine 60-jährige Frau, und verletzten sich leicht. Ein unbekannter Radfahrer überquerte kurz nach dem Anfahren einer Stadtbahn der Linie U7 an der Haltestelle Kreuzbrunnen in Ostfildern-Scharnhauser Park den Gleisbereich in Richtung Otto-Reiniger-Weg. Um einen Zusammenstoß zu verhindern, leitete der Fahrer eine Gefahrenbremsung ein, bei der ein zwölfjähriger Junge und eine 60-jährige Frau in der Bahn stürzten und sich leicht verletzten.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/esslingen/unfall-in-ostfildern-radfahrer-verursacht-stadtbahn-notbremsung-zwei-fahrgaeste-verletzt-78827986.html",
@@ -265,12 +265,12 @@
   {
     "id": "inc-2021-12-07-001",
     "event_date": "2021-12-07",
-    "event_time": null,
+    "event_time": "09:00",
     "location": "Leinfelden (Leinfelden-Echterdingen), Gleise Richtung Möhringen",
     "event_type": "collision",
     "other_party": "truck",
     "injuries": "minor",
-    "summary": "Ein Lkw geriet in Leinfelden auf die parallel zur Straße verlaufenden Schienen und kollidierte mit einer in Richtung Möhringen fahrenden Stadtbahn. Der Fahrer der Stadtbahn erlitt einen Schock, die rund 60 Fahrgäste sowie der Lkw-Fahrer blieben unverletzt.",
+    "summary": "Ein Lkw geriet in Leinfelden auf die parallel zur Straße verlaufenden Schienen und kollidierte mit einer in Richtung Möhringen fahrenden Stadtbahn. Der Fahrer der Stadtbahn erlitt einen Schock, die rund 60 Fahrgäste sowie der Lkw-Fahrer blieben unverletzt. Ein 58-jähriger Fahrer eines MAN-Lkw geriet am Dienstagmorgen (07.12.2021) gegen 09:00 Uhr in der Max-Lang-Straße in Leinfelden auf die Gleise und kollidierte mit einer Stadtbahn in Richtung Möhringen. Der 62-jährige Stadtbahnfahrer erlitt einen Schock, während die rund 60 Fahrgäste und der Lkw-Fahrer unverletzt blieben.",
     "sources": [
       {
         "url": "https://www.presseportal.de/blaulicht/pm/110976/5093123",
@@ -287,12 +287,12 @@
   {
     "id": "inc-2022-02-12-001",
     "event_date": "2022-02-12",
-    "event_time": null,
-    "location": "Stuttgart-Bad Cannstatt",
+    "event_time": "20:05",
+    "location": "Waiblinger Straße / Kreuzung Daimlerstraße, Stuttgart-Bad Cannstatt",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "In Stuttgart-Bad Cannstatt kollidierte am Samstagabend ein Auto mit einer in gleicher Richtung fahrenden Stadtbahn der Linie U1. Am Pkw entstand Totalschaden, Personen wurden nicht verletzt.",
+    "summary": "In Stuttgart-Bad Cannstatt kollidierte am Samstagabend ein Auto mit einer in gleicher Richtung fahrenden Stadtbahn der Linie U1. Am Pkw entstand Totalschaden, Personen wurden nicht verletzt. Ein 22-jähriger Fahrer einer Mercedes-Benz C-Klasse kollidierte am Samstagabend (12.02.2022) gegen 20:05 Uhr in der Waiblinger Straße an der Kreuzung Daimlerstraße in Stuttgart-Bad Cannstatt beim verbotswidrigen Wenden mit einer in gleiche Richtung fahrenden Stadtbahn der Linie U1. Es entstand Totalschaden am Pkw, Personen wurden nicht verletzt.",
     "sources": [
       {
         "url": "https://www.presseportal.de/blaulicht/pm/110977/5145191",
@@ -307,9 +307,9 @@
     ],
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
-    "car_brand_tag": null,
-    "lat": null,
-    "lon": null
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80372194984631,
+    "lon": 9.220048672609716
   },
   {
     "id": "inc-2022-04-27-001",
@@ -364,11 +364,11 @@
     "id": "inc-2024-02-23-001",
     "event_date": "2024-02-23",
     "event_time": "09:55",
-    "location": "Inselstraße, Stuttgart-Wangen",
+    "location": "Haltestelle Inselstraße, Stuttgart-Wangen",
     "event_type": "rear_end",
     "other_party": "other_tram",
     "injuries": "severe",
-    "summary": "Am Freitagvormittag, dem 23. Februar 2024, fuhr eine Stadtbahn der Linie U4 in der Inselstraße in Stuttgart-Wangen auf eine dort stehende Stadtbahn der Linie U9 auf. Mindestens 15 Personen wurden verletzt, eine Fahrgästin lebensgefährlich und die Fahrerin der hinteren Bahn schwer.",
+    "summary": "Am Freitagvormittag, dem 23. Februar 2024, fuhr eine Stadtbahn der Linie U4 in der Inselstraße in Stuttgart-Wangen auf eine dort stehende Stadtbahn der Linie U9 auf. Mindestens 15 Personen wurden verletzt, eine Fahrgästin lebensgefährlich und die Fahrerin der hinteren Bahn schwer. Am 23.02.2024 gegen 09:55 Uhr fuhr eine Stadtbahn der Linie U4 im Bereich der Haltestelle Inselstraße in Stuttgart-Wangen auf eine stehende Stadtbahn der Linie U9 auf. Insgesamt wurden 15 Personen verletzt: die 47-jährige Fahrerin der U4 wurde schwer verletzt eingeklemmt, eine 26-jährige Frau in der U9 musste reanimiert werden und die 39-jährige Fahrerin der U9 erlitt leichte Verletzungen.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-unfall-in-stuttgart-wangen-polizei-ermittelt-wegen-eines-gaffer-videos-79045422.html",
@@ -444,8 +444,8 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": null,
-    "lat": 48.776426848011944,
-    "lon": 9.243528550540939
+    "lat": 48.775893,
+    "lon": 9.238309
   },
   {
     "id": "inc-2024-03-05-001",
