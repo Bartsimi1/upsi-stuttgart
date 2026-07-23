@@ -28,6 +28,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/rote-ampel-missachtet-vw-kracht-mit-stadtbahn-zusammen-3515746",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-17T12:56:16.567710Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-stammheim-stadtbahnunfall-in-stammheimer-strasse/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-07-23T13:13:09.560860Z"
       }
     ],
     "location_tag": "Stammheim",
@@ -315,11 +320,11 @@
     "id": "inc-2022-04-27-001",
     "event_date": "2022-04-27",
     "event_time": null,
-    "location": "Stuttgart-Giebel",
+    "location": "Engelbergstraße, Stuttgart-Giebel",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "severe",
-    "summary": "Eine 69-jährige Frau überquerte in Stuttgart-Giebel einen Fußgängerübergang auf den Gleisen und wurde von einer entgegenkommenden Stadtbahn erfasst und mitgeschliffen. Sie wurde schwer verletzt ins Krankenhaus gebracht, in der Stadtbahn gab es keine Verletzten.",
+    "summary": "Eine 69-jährige Frau überquerte in Stuttgart-Giebel einen Fußgängerübergang auf den Gleisen und wurde von einer entgegenkommenden Stadtbahn erfasst und mitgeschliffen. Sie wurde schwer verletzt ins Krankenhaus gebracht, in der Stadtbahn gab es keine Verletzten. Am Mittwochabend (27.04.2022) erfasste eine Stadtbahn der Linie U6 in Richtung Gerlingen an einem Z-Übergang der Engelbergstraße eine 69-jährige Passantin und schleifte sie mehrere Meter mit. Die Frau wurde schwer verletzt ins Krankenhaus gebracht, der 33-jährige Stadtbahnfahrer und dessen Fahrgäste blieben unverletzt.",
     "sources": [
       {
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-giebel-stadtbahn-erfasst-fussgaengerin-frau-schwer-verletzt-79153539.html",
@@ -330,13 +335,18 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-69-jahre-alte-passantin-mehrere-meter-von-stadtbahn-mitgeschleift_52643",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T10:16:06.106683Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/69-jahre-alte-passantin-mehrere-meter-von-stadtbahn-mitgeschleift/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:05:52.956170Z"
       }
     ],
     "location_tag": "Giebel",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U6",
     "car_brand_tag": null,
-    "lat": null,
-    "lon": null
+    "lat": 48.80454280714485,
+    "lon": 9.101567134726977
   },
   {
     "id": "inc-2023-01-20-001",
@@ -570,6 +580,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/nach-toedlichem-streit-am-stadtbahn-halt-schuelertod-in-hofen-justizministerin-stiftet-verwirrung-78866518.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T20:49:41.528690Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/227789/zwoelfjaehriger-nach-streit-von-stadtbahn-erfasst-und-toedlich-verletzt/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:39:50.881760Z"
       }
     ],
     "location_tag": "Hofen",
@@ -845,6 +860,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/boese-kollision-mit-stadtbahn-autofahrer-in-totalem-wrack-eingeklemmt-3446096",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T03:03:29.640819Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/244008/stadtbahn-entgleist-nach-unfall-mit-pkw-und-weitere-blaulichtmeldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:37:19.042628Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -877,6 +897,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/unfall-in-stuttgart-100-000-euro-schaden-vw-kracht-in-stadtbahn-3448727",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T02:59:44.900630Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/244413/regionalzug-ueberfaehrt-fahrrad-im-gleis-und-weitere-blaulichtmeldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:37:19.042628Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -931,6 +956,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/stuttgarter-stadtbahn-entgleist-zwei-menschen-verletzt-3452666",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T02:56:38.943109Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/245391/stadtbahn-entgleist-bei-unfall-mit-auto-in-stuttgart/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:38:22.178407Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -958,6 +988,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/teure-kollision-in-stuttgart-porsche-kracht-gegen-stadtbahn-3452933",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T05:33:19.180073Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/245505/fuenfstelliger-sachschaden-nach-unfall-zwischen-auto-und-stadtbahn/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:38:22.179410Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -996,12 +1031,12 @@
   {
     "id": "inc-2026-02-14-001",
     "event_date": "2026-02-14",
-    "event_time": null,
+    "event_time": "11:30",
     "location": "Rastatter Straße, Stuttgart",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Am Samstagmittag kollidierte eine Stadtbahn der Linie U6 in der Rastatter Straße mit einem Auto, wie die Stuttgarter Feuerwehr mitteilte. Die SSB richtete einen Ersatzverkehr mit Bussen oder Taxis ein. Am Samstag kollidierten in Stuttgart ein Mercedes und eine Stadtbahn der Linie U6, nachdem die Autofahrerin beim vorschriftswidrigen Abbiegen in den Salamanderweg die einfahrende Bahn übersah. Die Autofahrerin, ihre 56-jährige Beifahrerin und der 37-jährige Stadtbahnführer wurden dabei leicht verletzt.",
+    "summary": "Am Samstagmittag kollidierte eine Stadtbahn der Linie U6 in der Rastatter Straße mit einem Auto, wie die Stuttgarter Feuerwehr mitteilte. Die SSB richtete einen Ersatzverkehr mit Bussen oder Taxis ein. Am Samstag kollidierten in Stuttgart ein Mercedes und eine Stadtbahn der Linie U6, nachdem die Autofahrerin beim vorschriftswidrigen Abbiegen in den Salamanderweg die einfahrende Bahn übersah. Die Autofahrerin, ihre 56-jährige Beifahrerin und der 37-jährige Stadtbahnführer wurden dabei leicht verletzt. Am Samstag, den 14.02.2026, gegen 11:30 Uhr kollidierte eine 58-jährige Mercedes-Fahrerin auf der Engelbergstraße in Stuttgart-Weilimdorf beim Einfahren der Stadtbahn in die Haltestelle Salamanderweg mit dem Zug. Die Fahrerin, ihre Beifahrerin und der Stadtbahnfahrer wurden leicht verletzt, der Sachschaden liegt bei rund 40.000 Euro.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/ssb-stadtbahn-stoesst-mit-auto-zusammen-strecke-wieder-frei-78972466.html",
@@ -1012,6 +1047,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/mercedes-fahrerin-missachtet-verbot-und-kracht-in-stuttgarter-stadtbahn-3470273",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T19:11:08.529773Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/schwerer-stadtbahnunfall-im-giebel/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:04:37.676003Z"
       }
     ],
     "location_tag": "Stuttgart",
@@ -1146,16 +1186,21 @@
     "event_type": "collision",
     "other_party": "truck",
     "injuries": "minor",
-    "summary": "Am 10.05.2026 gegen 11.35 Uhr wurde ein aus einer Grundstücksausfahrt in der Böblinger Straße in Stuttgart-Kaltental ausfahrender Kleintransporter von einer in Richtung Vaihingen fahrenden Stadtbahn erfasst. Der Fahrer des Kleintransporters wurde leicht verletzt und musste von der Feuerwehr aus seinem Fahrzeug befreit werden.",
+    "summary": "Am 10.05.2026 gegen 11.35 Uhr wurde ein aus einer Grundstücksausfahrt in der Böblinger Straße in Stuttgart-Kaltental ausfahrender Kleintransporter von einer in Richtung Vaihingen fahrenden Stadtbahn erfasst. Der Fahrer des Kleintransporters wurde leicht verletzt und musste von der Feuerwehr aus seinem Fahrzeug befreit werden. Bei einem Unfall mit einer Stadtbahn in Stuttgart wurde am Sonntag ein Autofahrer in seinem Fahrzeug eingeklemmt und musste befreit werden. Der genaue Unfallhergang blieb zunächst unklar; die Linie U14 war zwischen Heslach Vogelrain und Engelboldstraße unterbrochen, die SSB richtete Ersatzverkehr mit Taxen und Bussen ein.",
     "sources": [
       {
         "url": "https://www.presseportal.de/blaulicht/pm/161590/6272275",
         "source_id": "polizei_stuttgart",
         "retrieved_at": "2026-07-16T06:25:53.989000Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/254033/unfall-mit-strassenbahn-in-stuttgart-eingeklemmter-aus-auto-befreit/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T14:11:02.723289Z"
       }
     ],
     "location_tag": "Kaltental",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U14",
     "car_brand_tag": null,
     "lat": 48.7571549,
     "lon": 9.1460307
@@ -1567,6 +1612,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-wangen-von-stadtbahn-erfasst-fussgaenger-in-lebensgefahr-78922686.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:25:34.099891Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/249600/fussgaenger-bei-unfall-mit-stadtbahn-schwer-verletzt-weitere-meldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T14:11:56.063710Z"
       }
     ],
     "location_tag": "Wangen",
@@ -2376,12 +2426,12 @@
   {
     "id": "inc-2025-05-30-001",
     "event_date": "2025-05-30",
-    "event_time": null,
+    "event_time": "16:30",
     "location": "Haltestelle Sportpark Feuerbach, Stuttgart-Feuerbach",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "minor",
-    "summary": "Eine 14-Jährige wurde am Freitagnachmittag (30.05.2025) an der Haltestelle Sportpark Feuerbach in Stuttgart-Feuerbach von einer Stadtbahn der Linie U16 erfasst und leicht verletzt.",
+    "summary": "Eine 14-Jährige wurde am Freitagnachmittag (30.05.2025) an der Haltestelle Sportpark Feuerbach in Stuttgart-Feuerbach von einer Stadtbahn der Linie U16 erfasst und leicht verletzt. Am Freitagnachmittag (30.05.2025) gegen 16:30 Uhr überquerte ein 14-jähriges Mädchen am Z-Übergang der Haltestelle Sportpark Feuerbach die Gleise und wurde von einer in Richtung Fellbach fahrenden Stadtbahn der Linie U16 erfasst. Sie wurde notärztlich versorgt und in ein Kinderkrankenhaus gebracht; der Stadtbahnverkehr war bis etwa 17:40 Uhr gesperrt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-14-jaehrige-bei-unfall-mit-stadtbahn-leicht-verletzt_105658",
@@ -2392,6 +2442,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-14-jaehrige-an-haltestelle-von-stadtbahn-erfasst-79005844.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T03:05:50.958482Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/jugendliche-wird-von-stadtbahn-erfasst/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:05:52.956170Z"
       }
     ],
     "location_tag": "Feuerbach",
@@ -2637,6 +2692,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-zuffenhausen-zwoelfjaehriger-von-u15-erfasst-und-schwer-verletzt-78960251.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:26:42.796339Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/230140/zwoelfjaehriger-von-stadtbahn-erfasst-und-schwer-verletzt/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:40:40.669183Z"
       }
     ],
     "location_tag": "Zuffenhausen",
@@ -2718,6 +2778,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-kollidiert-mit-auto-vier-fahrgaeste-verletzt-79151748.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T22:02:12.912985Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/schwerer-verkehrsunfall-zwischen-stadtbahn-und-kleinwagen-endet-glimpflich/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:02:58.600210Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -2789,6 +2854,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-pkw-kollidiert-mit-stadtbahn-strecke-kurzzeitig-unterbrochen-78851849.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:24:29.998211Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/226220/hoher-sachschaden-nach-kollision-von-auto-mit-stadtbahn/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:40:40.669183Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
@@ -3135,11 +3205,11 @@
     "id": "inc-2024-08-18-001",
     "event_date": "2024-08-18",
     "event_time": "15:00",
-    "location": "Föhrichstraße/Weilimdorfer Straße, Stuttgart-Weilimdorf",
+    "location": "Kreuzung Föhrichstraße/Weilimdorfer Straße, Stuttgart-Weilimdorf",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Ein 33-jähriger Seat-Arona-Fahrer missachtete beim Abbiegen von der Föhrichstraße in die Weilimdorfer Straße in Stuttgart-Weilimdorf mutmaßlich das Rotlicht und stieß mit einer Stadtbahn der Linie U6 zusammen. Seine 36-jährige Beifahrerin wurde leicht verletzt, in der Stadtbahn blieb niemand verletzt.",
+    "summary": "Ein 33-jähriger Seat-Arona-Fahrer missachtete beim Abbiegen von der Föhrichstraße in die Weilimdorfer Straße in Stuttgart-Weilimdorf mutmaßlich das Rotlicht und stieß mit einer Stadtbahn der Linie U6 zusammen. Seine 36-jährige Beifahrerin wurde leicht verletzt, in der Stadtbahn blieb niemand verletzt. Ein 33-jähriger Fahrer eines Seat Arona missachtete am Sonntag (18.08.2024) gegen 15 Uhr beim Abbiegen von der Föhrichstraße in die Weilimdorfer Straße in Stuttgart-Weilimdorf mutmaßlich das Rotlicht und stieß mit der in gleicher Richtung fahrenden Stadtbahnlinie U6 zusammen. Seine 36-jährige Beifahrerin wurde leicht verletzt, in der mit rund 20 Fahrgästen besetzten Stadtbahn blieb niemand verletzt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-gegen-stadtbahn--zeugen-gesucht-_98038",
@@ -3150,13 +3220,18 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-autofahrer-missachtet-rotlicht-und-stoesst-mit-stadtbahn-zusammen-79145681.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:29:16.140461Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/pkw-gegen-stadtbahn-zeugen-gesucht/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:02:58.601205Z"
       }
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Seat",
-    "lat": 48.81155173595519,
-    "lon": 9.137051602232177
+    "lat": 48.81314452850971,
+    "lon": 9.130788214579724
   },
   {
     "id": "inc-2024-08-25-001",
@@ -3312,6 +3387,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-weilimdorf-mit-stadtbahn-zusammengestossen-zeugen-gesucht-79001348.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T09:46:32.740954Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/stadtbahnunfall-im-giebel-verlief-glimpflich/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:14:22.500736Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -3493,11 +3573,11 @@
     "id": "inc-2024-03-27-001",
     "event_date": "2024-03-27",
     "event_time": null,
-    "location": "Solitudestraße, Stuttgart-Weilimdorf",
+    "location": "Solitudestraße, Stuttgart-Weilimdorf (Wolfbusch)",
     "event_type": "collision",
     "other_party": "car",
-    "injuries": "unknown",
-    "summary": "Ein 41-jähriger Audi-Fahrer stieß am Mittwochnachmittag (27.03.2024) in Stuttgart-Weilimdorf mit einer Stadtbahn der Linie U6 (Richtung Gerlingen) zusammen. Der Fahrer und sein 11-jähriger Beifahrer zogen sich dabei Verletzungen zu, die Solitudestraße war während der Unfallaufnahme gesperrt.",
+    "injuries": "severe",
+    "summary": "Ein 41-jähriger Audi-Fahrer stieß am Mittwochnachmittag (27.03.2024) in Stuttgart-Weilimdorf mit einer Stadtbahn der Linie U6 (Richtung Gerlingen) zusammen. Der Fahrer und sein 11-jähriger Beifahrer zogen sich dabei Verletzungen zu, die Solitudestraße war während der Unfallaufnahme gesperrt. Am Mittwochabend, den 27.03.2024, kollidierte in Stuttgart-Weilimdorf ein Audi beim Linksabbiegen über die Gleise mit einer Stadtbahn der Linie U6 und wurde daraufhin gegen einen Ampelmasten und einen Mercedes-SUV geschleudert. Der 41-jährige Fahrer und sein 11-jähriger Beifahrer wurden schwer verletzt, die übrigen Beteiligten blieben unverletzt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_93993",
@@ -3508,13 +3588,18 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-auto-kollidiert-mit-stadtbahn-zwei-verletzte-78887906.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T21:59:53.491254Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/schwerer-unfall-mit-stadtbahn-im-wolfbusch/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:04:37.675001Z"
       }
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Audi",
-    "lat": 48.81334359492886,
-    "lon": 9.112321857625878
+    "lat": 48.807766514053945,
+    "lon": 9.105595649331502
   },
   {
     "id": "inc-2024-02-25-001",
@@ -3623,6 +3708,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen--zeugen-gesucht_94616",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T23:10:22.003129Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/erneuter-unfall-mit-stadtbahn-endet-gluecklicherweise-glimpflich/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:02:58.600210Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -3743,6 +3833,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-giebel-strecke-der-linien-u6-und-u16-nach-stadtbahnunfall-unterbrochen-78982625.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T22:03:16.685350Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/fussgaenger-von-stadtbahn-ueberrollt-und-toedlich-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:02:58.600210Z"
       }
     ],
     "location_tag": "Giebel",
@@ -4819,6 +4914,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-radfahrer-bei-zusammenstoss-mit-stadtbahn-schwer-verletzt_65922",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T08:03:31.808826Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/radfahrer-bei-zusammenstoss-mit-stadtbahn-schwer-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:06:51.595697Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -4907,6 +5007,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-13-jaehriger-bei-zusammenstoss-mit-stadtbahn-leicht-verletzt_69688",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T08:04:06.533326Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/13-jaehriger-bei-zusammenstoss-mit-stadtbahn-leicht-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:14:22.500736Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -5836,6 +5941,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-kollidiert_51172",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T10:16:06.106683Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/pkw-kollidiert-im-giebel-mit-stadtbahn/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:05:52.956170Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -6697,6 +6807,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-weilimdorf-audi-kracht-in-stadtbahn-strecke-gesperrt-78907825.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T21:55:04.549133Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/auto-contra-stadtbahn-zeugen-gesucht/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:02:58.600210Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -8344,6 +8459,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/schwerer-unfall-in-stuttgart-mann-zwischen-zwei-strassenbahnen-eingeklemmt-3451209",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T19:12:34.523717Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/245118/mann-in-stuttgart-zwischen-strassenbahnen-eingeklemmt/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T14:11:56.063710Z"
       }
     ],
     "location_tag": "Mühlhausen",
@@ -8376,6 +8496,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/folgenschwerer-fahrfehler-in-stuttgart-vw-kollidiert-mit-stadtbahn-3437648",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T05:34:10.436639Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/241516/drei-auto-insassen-bei-stadtbahn-unfall-verletzt/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:37:19.044622Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -8408,6 +8533,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/verkehr-in-stuttgart-passieren-immer-mehr-unfaelle-mit-stadtbahnen-78881945.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T06:35:59.891014Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/241453/zwei-verletzte-nach-zusammenstoss-von-stadtbahn-und-auto/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:39:50.880786Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -8511,6 +8641,11 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/unfall-im-stuttgarter-osten-golf-kracht-in-stadtbahn-3428021",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T06:39:34.109738Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/240129/reisende-aus-regionalzug-evakuiert-auto-kollidiert-mit-stadtbahn-und-weitere-blaulichtmeldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:37:19.043621Z"
       }
     ],
     "location_tag": "Stuttgart-Ost",
@@ -9004,6 +9139,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-auto-mit-stadtbahn-kollidiert_51728",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-19T10:59:03.132768Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/auto-in-giebel-mit-stadtbahn-kollidiert/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:15:38.412862Z"
       }
     ],
     "location_tag": "Giebel",
@@ -9274,6 +9414,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-pkw-mit-stadtbahn-zusammengestossen--ein-leichtverletzter_44801",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T23:58:05.969454Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/pkw-mit-stadtbahn-zusammengestossen-ein-leichtverletzter/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:13:24.820017Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -11050,6 +11195,11 @@
         "url": "https://www.nachrichten-heute.net/1401557-68-jaehrige-bei-zusammenstoss-mit-stadtbahn-in-stuttgart-feuerbach-leicht-verletzt.html",
         "source_id": "friend_import_2026-07-19",
         "retrieved_at": "2026-07-20T15:53:39.663167Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/schwerer-verkehrsunfall-mit-stadtbahn-in-weilimdorf/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:05:52.955162Z"
       }
     ],
     "location_tag": "Feuerbach",
@@ -11330,16 +11480,21 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Ein 35-jähriger Mercedes-Fahrer bog Mitte Oktober 2025 verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schob es auf eine Verkehrsinsel. Der Fahrer sowie zwei Fahrgäste der Stadtbahn wurden verletzt.",
+    "summary": "Ein 35-jähriger Mercedes-Fahrer bog Mitte Oktober 2025 verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schob es auf eine Verkehrsinsel. Der Fahrer sowie zwei Fahrgäste der Stadtbahn wurden verletzt. Ein Autofahrer bog in Stuttgart an einer Kreuzung verbotswidrig nach links ab und stieß dabei mit einer in gleicher Richtung fahrenden Stadtbahn der Linie U2 zusammen. Der Fahrer des Pkw und zwei Fahrgäste der Stadtbahn wurden laut Polizei leicht verletzt.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T21:00:46.192515Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/240341/auto-stoesst-gegen-stadtbahn-kofferdiebstahl-im-zug-und-weitere-blaulichtmeldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T14:11:02.722291Z"
       }
     ],
     "location_tag": "Stuttgart-West",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U2",
     "car_brand_tag": "Mercedes",
     "lat": null,
     "lon": null
@@ -11512,5 +11667,362 @@
     "car_brand_tag": null,
     "lat": 48.769742,
     "lon": 9.185978
+  },
+  {
+    "id": "inc-2024-02-23-002",
+    "event_date": "2024-02-23",
+    "event_time": null,
+    "location": "Stuttgart-Wangen",
+    "event_type": "rear_end",
+    "other_party": "other_tram",
+    "injuries": "severe",
+    "summary": "Am 23. Februar 2024 fuhr eine Stadtbahn in Stuttgart-Wangen auf eine stehende andere Stadtbahn auf; dabei wurden 17 Menschen verletzt, darunter die Fahrerin der auffahrenden Bahn schwer. Gegen die 48-jährige SSB-Mitarbeiterin wurde nun wegen fahrlässiger Körperverletzung und fahrlässiger Gefährdung des Bahnverkehrs Anklage erhoben.",
+    "sources": [
+      {
+        "url": "https://bahnblogstelle.com/228854/anklage-erhoben-nach-stadtbahn-crash-mit-vielen-verletzten/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T12:38:22.178407Z"
+      }
+    ],
+    "location_tag": "Wangen",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "inc-2023-11-06-001",
+    "event_date": "2023-11-06",
+    "event_time": "21:00",
+    "location": "Engelbergstraße, Stuttgart-Weilimdorf (Giebel)",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Montagabend, den 06.11.2023, gegen 21 Uhr übersah ein 39-jähriger BMW-Fahrer auf der Engelbergstraße in Stuttgart-Weilimdorf eine Stadtbahn der Linie U6, die daraufhin gegen die Beifahrertür des Pkw prallte und diesen gegen eine Fußgängerabschrankung schleuderte. Verletzt wurde dabei niemand, es entstand hoher Sachschaden.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/schwerer-verkehrsunfall-mit-stadtbahn-endet-glimpflich/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:04:37.676003Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": "BMW",
+    "lat": 48.80454280714485,
+    "lon": 9.101567134726977
+  },
+  {
+    "id": "inc-2018-06-18-001",
+    "event_date": "2018-06-18",
+    "event_time": "10:45",
+    "location": "Haltestelle Bergheimer Hof, Stuttgart",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "fatal",
+    "summary": "Ein 76-jähriger Mann betrat am Montag (18.06.2018) gegen 10.45 Uhr an der Haltestelle Bergheimer Hof trotz akustischer Warnsignale und aktiver Warnanlage die Gleise und wurde trotz Gefahrenbremsung von einer einfahrenden Stadtbahn der Linie U6 erfasst. Der Mann starb laut Nachmeldung am 07.07.2018 in einem Stuttgarter Krankenhaus an den Folgen des Unfalls.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/mann-von-stadtbahn-angefahren-zeugen-gesucht/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:06:51.595697Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.804185,
+    "lon": 9.10112
+  },
+  {
+    "id": "inc-2017-07-13-001",
+    "event_date": "2017-07-13",
+    "event_time": "10:45",
+    "location": "Engelbergstraße/Einmündung Salamanderstraße, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Eine 64-jährige VW-Polo-Fahrerin bog am Donnerstagvormittag (13.07.2017) gegen 10.45 Uhr verbotswidrig von der Engelbergstraße nach rechts in die Salamanderstraße ab und übersah dabei die neben ihr fahrende Stadtbahn der Linie U6. Die Fahrerin und ihre Beifahrerin wurden schwer verletzt, ein 13-jähriger Fahrgast in der Bahn stürzte und verletzte sich leicht.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/auto-mit-stadtbahn-kollidiert/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:06:51.595697Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": "VW",
+    "lat": 48.80454280714485,
+    "lon": 9.101567134726977
+  },
+  {
+    "id": "inc-2018-02-18-001",
+    "event_date": "2018-02-18",
+    "event_time": null,
+    "location": "Engelbergstraße/Salamanderweg, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Ein 59-jähriger Mercedes-Fahrer bog am Sonntag (18.02.2018) verbotswidrig von der Engelbergstraße nach rechts in den Salamanderweg ab, prallte zunächst gegen eine Ampel und stieß anschließend mit einer Stadtbahn der Linie U6 zusammen. Verletzt wurde niemand, der Stadtbahnverkehr war bis 12.30 Uhr unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/pkw-mit-stadtbahn-zusammengestossen-zeugen-gesucht/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T14:06:51.595697Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": "Mercedes",
+    "lat": 48.80454280714485,
+    "lon": 9.101567134726977
+  },
+  {
+    "id": "inc-2008-12-08-001",
+    "event_date": "2008-12-08",
+    "event_time": "07:10",
+    "location": "Pforzheimer Straße/Weilimdorfer Straße, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Eine Stadtbahn der Linie U13 kollidierte am Morgen des 08.12.2008 in der Pforzheimer Straße in Stuttgart-Weilimdorf nacheinander mit zwei Pkw, die die Kreuzung überquerten bzw. einfuhren. Eine Autofahrerin wurde schwer, drei weitere Personen (Mutter, Kind, Stadtbahnfahrer erlitt Schock) leicht verletzt bzw. betroffen.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/verkehrschaos-zum-berufsverkehr-in-weilimdorf-stadtbahn-gegen-zwei-autos/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:11:58.067513Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U13",
+    "car_brand_tag": null,
+    "lat": 48.81379734965273,
+    "lon": 9.113998520869046
+  },
+  {
+    "id": "inc-2013-09-29-001",
+    "event_date": "2013-09-29",
+    "event_time": null,
+    "location": "Engelbergstraße/Schildkrötenweg, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "severe",
+    "summary": "Ein Pkw-Fahrer bog von der Engelbergstraße in den Schildkrötenweg in Stuttgart-Weilimdorf ab und stieß mit einer Stadtbahn der Linie U6 zusammen. Der offenbar alkoholisierte Fahrer wurde schwer verletzt und musste von der Feuerwehr befreit werden, eine 15-jährige Fahrgästin der Bahn zog sich beim Sturz leichte Verletzungen zu.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/pkw-in-giebel-mit-stadtbahn-kollidiert/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:11:58.067513Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.80452513193242,
+    "lon": 9.101545046846963
+  },
+  {
+    "id": "inc-2012-05-03-001",
+    "event_date": "2012-05-03",
+    "event_time": null,
+    "location": "Engelbergstraße, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "unknown",
+    "summary": "Eine Pkw-Fahrerin missachtete an der Engelbergstraße in Stuttgart-Weilimdorf das Rotlicht und wurde von einer Stadtbahn der Linie U6 erfasst, ihr Fahrzeug erlitt Totalschaden. Die Fahrerin erlitt dabei Verletzungen, die Stadtbahnfahrerin und ihre Fahrgäste blieben unverletzt.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/rotlicht-missachtet-und-mit-stadtbahn-kollidiert-zeugen-gesucht/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:11:58.067513Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/eilmeldung-schwerer-strassenbahnunfall-an-der-haltestelle-giebel/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:16:32.901241Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.80414847421084,
+    "lon": 9.100934467722247
+  },
+  {
+    "id": "inc-2007-08-22-001",
+    "event_date": "2007-08-22",
+    "event_time": "10:25",
+    "location": "Weilimdorfer Straße/Föhrichstraße, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "fatal",
+    "summary": "Ein 58-jähriger Autofahrer bog bei Rotlicht von der Föhrichstraße in die Weilimdorfer Straße in Stuttgart-Weilimdorf ab und wurde von einer Stadtbahn der Linie U6 erfasst und gegen einen Betonpfeiler geschleudert. Der Fahrer starb noch an der Unfallstelle, in der Bahn gab es keine Verletzten.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/autofahrer-toedlich-verunglueckt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:11:58.067513Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.81382090819448,
+    "lon": 9.1143001838037
+  },
+  {
+    "id": "inc-2016-09-06-001",
+    "event_date": "2016-09-06",
+    "event_time": "19:06",
+    "location": "Föhrichstraße/Pforzheimer Straße, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "cyclist",
+    "injuries": "severe",
+    "summary": "Eine 30-jährige Radfahrerin bog von der Föhrichstraße in die Pforzheimer Straße in Stuttgart-Weilimdorf ab und missachtete dabei den Vorrang einer Stadtbahn der Linie U6. Trotz Gefahrenbremsung des Stadtbahnfahrers kam es zum Zusammenstoß, die Radfahrerin wurde schwer verletzt.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/vorrang-der-stadtbahn-missachtet-radfahrerin-schwer-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:11:58.067513Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.81314452850971,
+    "lon": 9.130788214579724
+  },
+  {
+    "id": "inc-2014-09-09-001",
+    "event_date": "2014-09-09",
+    "event_time": "17:00",
+    "location": "Salamanderweg, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "cyclist",
+    "injuries": "severe",
+    "summary": "Ein 39-jähriger Radfahrer geriet an der Haltestelle Salamanderweg in den Gleiskörper und prallte gegen eine Stadtbahn der Linie U6. Er wurde schwer verletzt und mit einem Rettungswagen ins Krankenhaus gebracht.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/radfahrer-kontra-stadtbahn-am-salamanderweg/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:12:50.045333Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.80262299475445,
+    "lon": 9.092467379707772
+  },
+  {
+    "id": "inc-2014-12-15-001",
+    "event_date": "2014-12-15",
+    "event_time": "12:40",
+    "location": "Landauer Straße / Pforzheimer Straße, Stuttgart-Weilimdorf",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Ein 10-jähriger Junge wurde beim Überqueren der Gleise an der Haltestelle Landauer Straße von einer Stadtbahn der Linie U6 erfasst und in den Gleisbereich geschleudert; er wurde schwer verletzt. Wegen der Notbremsung stürzte zudem ein Rollstuhlfahrer in der Bahn und verletzte sich.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/stadtbahnunfall-an-der-haltestelle-landauer-strasse-kind-schwer-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:12:50.045333Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.8146255,
+    "lon": 9.1238715
+  },
+  {
+    "id": "inc-2006-07-28-001",
+    "event_date": "2006-07-28",
+    "event_time": "09:50",
+    "location": "Haltestelle Giebel, Engelbergstraße/Schildkrötenweg, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Ein Pkw-Fahrer missachtete an der Haltestelle Giebel in der Engelbergstraße das Rotlicht am Bahnübergang und kollidierte mit einer Stadtbahn der Linie U6. Es entstand ein Sachschaden von rund 15.000 Euro, eingeklemmt wurde niemand.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/unfallschwerpunkt-haltestelle-giebel-pkw-kollidiert-mit-stadtbahn/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:12:50.045333Z"
+      }
+    ],
+    "location_tag": "Giebel",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.802698,
+    "lon": 9.088132
+  },
+  {
+    "id": "inc-2016-04-20-001",
+    "event_date": "2016-04-20",
+    "event_time": "20:00",
+    "location": "Pforzheimer Straße, Stuttgart-Weilimdorf",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Eine 73-jährige Frau übersah beim Überqueren der Gleise an der Pforzheimer Straße eine Stadtbahn der Linie U6 und wurde trotz Notbremsung erfasst, in den Gleisbereich geschleudert und schwer verletzt.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/frau-von-stadtbahn-erfasst-und-schwer-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:12:50.045333Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.81379734965273,
+    "lon": 9.113998520869046
+  },
+  {
+    "id": "inc-2013-12-06-001",
+    "event_date": "2013-12-06",
+    "event_time": "18:50",
+    "location": "Kreuzung Salamanderweg/Engelbergstraße, Stuttgart-Weilimdorf",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 36-jähriger Pkw-Lenker missachtete an der Kreuzung Salamanderweg/Engelbergstraße in Stuttgart-Weilimdorf das Rotlicht und stieß mit einer Stadtbahn der Linie U6 zusammen. Der Fahrer wurde leicht verletzt, die rund 60 Fahrgäste der Bahn blieben unverletzt; der Stadtbahnverkehr war bis etwa 20:10 Uhr gesperrt.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/gelaendewagen-mit-stadtbahn-kollidiert-zeugen-gesucht/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:14:22.500736Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.8025965,
+    "lon": 9.0932436
+  },
+  {
+    "id": "inc-2009-06-10-001",
+    "event_date": "2009-06-10",
+    "event_time": "00:30",
+    "location": "Engelbergstraße (zwischen Salamanderweg und Giebel), Stuttgart-Weilimdorf",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Ein 49-jähriger Mann wurde in der Nacht zum Mittwoch (10.06.2009) gegen 00.30 Uhr an der Engelbergstraße von einer Stadtbahn der Linie U6 erfasst, als er die Gleise zwischen den Haltestellen Salamanderweg und Giebel überquerte. Er wurde schwer verletzt.",
+    "sources": [
+      {
+        "url": "https://www.weilimdorf.de/nachricht/von-stadtbahn-erfasst-und-schwer-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-23T15:17:00.041640Z"
+      }
+    ],
+    "location_tag": "Giebel",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "lat": 48.802625,
+    "lon": 9.093196
   }
 ]
