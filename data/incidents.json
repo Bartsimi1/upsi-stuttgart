@@ -163,6 +163,11 @@
         "url": "https://bahnblogstelle.com/256588/mann-versucht-reisenden-ins-gleis-zu-ziehen-frau-toedlich-von-zug-erfasst-blaulichtmeldungen/",
         "source_id": "bahnblogstelle_stadtbahn_tag",
         "retrieved_at": "2026-07-20T03:04:31.033188Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-west-stadtbahnunfall-in-schlossstrasse/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-07-24T01:11:03.342030Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -828,6 +833,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/toedlicher-unfall-in-stuttgart-stadtbahnunfall-gutachter-ist-eingeschaltet-79035821.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T20:12:37.918413Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/240785/fussgaenger-stirbt-nach-unfall-mit-stadtbahn-und-weitere-blaulichtmeldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-24T01:08:48.636888Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -2447,6 +2457,11 @@
         "url": "https://www.weilimdorf.de/nachricht/jugendliche-wird-von-stadtbahn-erfasst/",
         "source_id": "weilimdorf_blaulicht",
         "retrieved_at": "2026-07-23T14:05:52.956170Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/233485/stadtbahnverkehr-in-stuttgart-wegen-personenunfall-unterbrochen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-24T01:10:08.710121Z"
       }
     ],
     "location_tag": "Feuerbach",
@@ -2658,13 +2673,18 @@
     "location": "Schloßstraße, Stuttgart-West",
     "event_type": "collision",
     "other_party": "car",
-    "injuries": "unknown",
-    "summary": "Im Kreuzungsbereich zur Schloßstraße stieß ein Autofahrer mit einer in Richtung Rotebühlplatz fahrenden Stadtbahn zusammen. Der 61-jährige Fahrer wurde in seinem Fahrzeug eingeklemmt, von der Feuerwehr befreit und vorsorglich ins Krankenhaus gebracht; Fahrgäste der Stadtbahn wurden nicht verletzt.",
+    "injuries": "minor",
+    "summary": "Im Kreuzungsbereich zur Schloßstraße stieß ein Autofahrer mit einer in Richtung Rotebühlplatz fahrenden Stadtbahn zusammen. Der 61-jährige Fahrer wurde in seinem Fahrzeug eingeklemmt, von der Feuerwehr befreit und vorsorglich ins Krankenhaus gebracht; Fahrgäste der Stadtbahn wurden nicht verletzt. Im Stuttgarter Westen kollidierte eine Stadtbahn mit einem Pkw; der 61-jährige Fahrer wurde verletzt und eingeklemmt, Rettungskräfte brachten ihn vorsorglich ins Krankenhaus. In der Stadtbahn wurde niemand verletzt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-kollidiert--zeugen-gesucht_103649",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-17T21:50:30.416817Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/230203/stadtbahn-und-auto-kollidieren-fahrer-eingeklemmt/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-24T01:08:48.637892Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -2783,6 +2803,11 @@
         "url": "https://www.weilimdorf.de/nachricht/schwerer-verkehrsunfall-zwischen-stadtbahn-und-kleinwagen-endet-glimpflich/",
         "source_id": "weilimdorf_blaulicht",
         "retrieved_at": "2026-07-23T14:02:58.600210Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/227778/verletzte-bei-unfall-mit-stuttgarter-stadtbahn/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-24T01:09:32.498380Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -2923,6 +2948,11 @@
         "url": "https://www.feuerwehrmagazin.de/nachrichten/transporter-rammt-stadtbahn-und-geraet-in-brand-133210",
         "source_id": "feuerwehrmagazin_de",
         "retrieved_at": "2026-07-20T06:32:51.885428Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/224965/stadtbahn-und-kleintransporter-stossen-zusammen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-24T01:11:03.341023Z"
       }
     ],
     "location_tag": "Vaihingen",
@@ -3134,6 +3164,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-am-olgaeck-in-stuttgart-mitte-stadtbahn-linie-u5-und-verkehr-stadteinwaerts-unterbrochen-78850711.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-19T21:57:13.670475Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/225811/autofahrer-stoesst-gegen-stadtbahn-und-verletzt-sich/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-24T01:09:32.498380Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
