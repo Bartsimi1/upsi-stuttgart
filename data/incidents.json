@@ -3206,6 +3206,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-mitte-elfjaehriges-maedchen-wird-von-stadtbahn-mitgeschleift-79023546.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T20:14:05.851948Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/224462/elfjaehrige-wird-von-stadtbahn-mitgeschleift/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-25T00:22:05.044833Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
@@ -4690,6 +4695,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-unfall-mit-stadtbahn--fussgaenger-leicht-verletzt_76235",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T07:03:37.956503Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/unfall-mit-stadtbahn-fussgaenger-leicht-verletzt/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-25T00:21:00.887265Z"
       }
     ],
     "location_tag": "Weilimdorf",
@@ -11864,6 +11874,11 @@
         "url": "https://www.weilimdorf.de/nachricht/pkw-in-giebel-mit-stadtbahn-kollidiert/",
         "source_id": "weilimdorf_blaulicht",
         "retrieved_at": "2026-07-23T15:11:58.067513Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/eilmeldung-schwerer-unfall-zwischen-u-bahn-und-auto-in-giebel/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-25T00:19:27.007409Z"
       }
     ],
     "location_tag": "Weilimdorf",
