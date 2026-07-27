@@ -1217,6 +1217,11 @@
         "url": "https://bahnblogstelle.com/254033/unfall-mit-strassenbahn-in-stuttgart-eingeklemmter-aus-auto-befreit/",
         "source_id": "bahnblogstelle_stadtbahn_tag",
         "retrieved_at": "2026-07-23T14:11:02.723289Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-sued-auto-kracht-gegen-stadtbahn-zwei-verletzte-79157043.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-27T03:19:07.256100Z"
       }
     ],
     "location_tag": "Kaltental",
@@ -8227,6 +8232,11 @@
         "url": "https://www.tag24.de/stuttgart/vier-verletzte-bei-stadtbahn-unfall-in-stuttgart-3498824",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T03:03:29.640819Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-west-stadtbahnunfall-fordert-fuenf-verletzte-und-hohen-schaden-79158279.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-27T03:19:07.256100Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -8254,6 +8264,11 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-mercedes-stoesst-mit-stadtbahn-zusammen-zwei-verletzte-50000-euro-schaden-79159039.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-07-20T03:03:29.639813Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-mercedes-stoesst-mit-stadtbahn-zusammen-zwei-verletzte-50000-euro-schaden-79159039.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-27T03:19:07.257098Z"
       }
     ],
     "location_tag": "Feuerbach",
