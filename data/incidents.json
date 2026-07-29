@@ -12178,24 +12178,7 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110974/6323864",
         "source_id": "polizei_gerlingen",
         "retrieved_at": "2026-07-29T16:04:03.638163Z"
-      }
-    ],
-    "location_tag": "Gerlingen",
-    "line_tag": "U6",
-    "car_brand_tag": null,
-    "lat": 48.814492,
-    "lon": 9.1255048
-  },
-  {
-    "id": "inc-2026-07-28-002",
-    "event_date": "2026-07-28",
-    "event_time": null,
-    "location": "Gerlingen",
-    "event_type": "collision",
-    "other_party": "cyclist",
-    "injuries": "none",
-    "summary": "Am frühen Dienstagabend stieß eine Stadtbahn in Gerlingen mit einem fahrradfahrenden Jungen zusammen. Der Junge blieb dabei unverletzt.",
-    "sources": [
+      },
       {
         "url": "https://www.stuttgarter-nachrichten.de/lokales/ludwigsburg/unfall-in-gerlingen-stadtbahn-erfasst-kind-mit-fahrrad-junge-bleibt-unverletzt-79341438.html",
         "source_id": "stuttgarter_nachrichten_tags",
@@ -12203,9 +12186,9 @@
       }
     ],
     "location_tag": "Gerlingen",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U6",
     "car_brand_tag": null,
-    "lat": null,
-    "lon": null
+    "lat": 48.814492,
+    "lon": 9.1255048
   }
 ]
