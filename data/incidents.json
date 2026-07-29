@@ -12152,24 +12152,29 @@
   {
     "id": "inc-2026-07-28-001",
     "event_date": "2026-07-28",
-    "event_time": null,
-    "location": "Gerlingen",
+    "event_time": "17:30",
+    "location": "Feuerbacher Straße / Jakob-Bleyer-Straße, Gerlingen",
     "event_type": "collision",
     "other_party": "cyclist",
     "injuries": "none",
-    "summary": "Am frühen Dienstagabend stieß eine Stadtbahn in Gerlingen mit einem fahrradfahrenden Jungen zusammen. Der Junge blieb dabei unverletzt.",
+    "summary": "Am frühen Dienstagabend stieß eine Stadtbahn in Gerlingen mit einem fahrradfahrenden Jungen zusammen. Der Junge blieb dabei unverletzt. Eine Stadtbahn erfasste am Dienstagabend an einem Z-Übergang in Gerlingen das Fahrrad eines ca. 13-jährigen Radfahrers, der unverletzt blieb.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/ludwigsburg/unfall-in-gerlingen-stadtbahn-erfasst-kind-mit-fahrrad-junge-bleibt-unverletzt-79341438.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-29T06:03:09.501954Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/stadtbahnunfall-in-gerlingen-junger-radfahrer-hat-riesiges-glueck/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-07-29T14:03:51.448040Z"
       }
     ],
     "location_tag": "Gerlingen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
-    "lat": null,
-    "lon": null
+    "lat": 48.814492,
+    "lon": 9.1255048
   },
   {
     "id": "inc-2026-07-28-002",
