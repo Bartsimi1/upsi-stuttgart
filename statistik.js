@@ -693,6 +693,120 @@ function renderClockChart(wrapEl, hourCounts) {
   wrapEl.appendChild(caption);
 }
 
+const WEEKDAY_LABELS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"];
+
+// JS Date.getDay(): 0=Sonntag..6=Samstag -- auf Montag-zuerst-Reihenfolge
+// (WEEKDAY_LABELS) umrechnen, wie im Rest der Seite (deutsche Konvention).
+function weekdayIndexMondayFirst(iso) {
+  const day = new Date(`${iso}T12:00:00`).getDay();
+  return (day + 6) % 7;
+}
+
+// Balkendiagramm über die 7 Wochentage, FESTE Reihenfolge Montag-Sonntag
+// (Nutzerauftrag 2026-08-01) -- bewusst NICHT nach Häufigkeit sortiert wie
+// renderStopLeaderboard, damit das Wochenmuster auf einen Blick erkennbar
+// bleibt statt bei jedem Datenstand neu durcheinandergewürfelt zu werden.
+function renderWeekdayBarChart(wrapEl, weekdayCounts) {
+  const total = weekdayCounts.reduce((s, c) => s + c, 0);
+  if (total === 0) {
+    wrapEl.innerHTML = "<p>Noch nicht genug Daten.</p>";
+    return;
+  }
+  const width = 420;
+  const height = 200;
+  const padBottom = 34;
+  const padTop = 22;
+  const maxCount = Math.max(...weekdayCounts);
+  const barW = 40;
+  const gap = 16;
+  const color = PALETTE[0];
+
+  const svgNS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(svgNS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("width", width);
+  svg.setAttribute("height", height);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "Anzahl UPSIs je Wochentag, Montag bis Sonntag");
+
+  const baseline = document.createElementNS(svgNS, "line");
+  baseline.setAttribute("x1", "0");
+  baseline.setAttribute("x2", width);
+  baseline.setAttribute("y1", height - padBottom);
+  baseline.setAttribute("y2", height - padBottom);
+  baseline.setAttribute("stroke", "#c3c2b7");
+  baseline.setAttribute("stroke-width", "1");
+  svg.appendChild(baseline);
+
+  WEEKDAY_LABELS.forEach((label, i) => {
+    const count = weekdayCounts[i];
+    const x = i * (barW + gap) + gap / 2;
+    const barH = maxCount > 0 ? ((height - padBottom - padTop) * count) / maxCount : 0;
+    const y = height - padBottom - barH;
+    const isMax = count === maxCount;
+
+    const rect = document.createElementNS(svgNS, "rect");
+    rect.setAttribute("x", x);
+    rect.setAttribute("y", y);
+    rect.setAttribute("width", barW);
+    rect.setAttribute("height", Math.max(barH, 1));
+    rect.setAttribute("rx", "3");
+    rect.setAttribute("fill", isMax ? PALETTE[5] : color);
+    rect.style.cursor = "pointer";
+    rect.setAttribute("tabindex", "0");
+    rect.setAttribute("role", "button");
+    const pct = ((count / total) * 100).toFixed(1).replace(".", ",");
+    rect.setAttribute("aria-label", `${label}: ${count} UPSIs (${pct}%)`);
+
+    const onEnter = (evt) => {
+      rect.setAttribute("opacity", "0.8");
+      showTooltip(evt, [[label, `${count} (${pct}%)`]]);
+    };
+    const onMove = (evt) => showTooltip(evt, [[label, `${count} (${pct}%)`]]);
+    const onLeave = () => {
+      rect.setAttribute("opacity", "1");
+      hideTooltip();
+    };
+    rect.addEventListener("pointerenter", onEnter);
+    rect.addEventListener("pointermove", onMove);
+    rect.addEventListener("pointerleave", onLeave);
+    rect.addEventListener("focus", onEnter);
+    rect.addEventListener("blur", onLeave);
+
+    svg.appendChild(rect);
+
+    const countLabel = document.createElementNS(svgNS, "text");
+    countLabel.setAttribute("x", x + barW / 2);
+    countLabel.setAttribute("y", y - 4);
+    countLabel.setAttribute("text-anchor", "middle");
+    countLabel.setAttribute("font-size", "10");
+    countLabel.setAttribute("fill", "#5a5a52");
+    countLabel.textContent = fmtInt(count);
+    svg.appendChild(countLabel);
+
+    const dayLabel = document.createElementNS(svgNS, "text");
+    dayLabel.setAttribute("x", x + barW / 2);
+    dayLabel.setAttribute("y", height - padBottom + 16);
+    dayLabel.setAttribute("text-anchor", "middle");
+    dayLabel.setAttribute("font-size", "10");
+    dayLabel.setAttribute("fill", "#5a5a52");
+    dayLabel.textContent = label.slice(0, 2);
+    svg.appendChild(dayLabel);
+  });
+
+  const scrollWrap = document.createElement("div");
+  scrollWrap.className = "chart-scroll";
+  scrollWrap.appendChild(svg);
+
+  const caption = document.createElement("div");
+  caption.className = "chart-caption";
+  caption.textContent = "Jeder Balken: Anzahl UPSIs an diesem Wochentag, über die gesamte Historie. Hervorgehoben: der häufigste Tag.";
+
+  wrapEl.innerHTML = "";
+  wrapEl.appendChild(scrollWrap);
+  wrapEl.appendChild(caption);
+}
+
 function wireTableToggle(button) {
   button.addEventListener("click", () => {
     const target = document.getElementById(button.dataset.target);
@@ -863,6 +977,33 @@ async function init() {
     document.getElementById("clock-table"),
     ["Uhrzeit", "Anzahl UPSIs"],
     hourCounts.map((c, h) => [`${String(h).padStart(2, "0")}:00–${String((h + 1) % 24).padStart(2, "0")}:00`, fmtInt(c)])
+  );
+
+  // 7) Gefährlichster Wochentag — über die gesamte Historie, alle Incidents
+  // haben ein event_date, daher kein Basis-Ausschluss nötig wie bei Uhrzeit.
+  const weekdayCounts = new Array(7).fill(0);
+  incidents.forEach((i) => {
+    weekdayCounts[weekdayIndexMondayFirst(i.event_date)]++;
+  });
+  const maxWeekdayCount = Math.max(...weekdayCounts);
+  const topWeekdayIdx = weekdayCounts.indexOf(maxWeekdayCount);
+  document.getElementById("weekday-value").textContent = incidents.length > 0
+    ? WEEKDAY_LABELS[topWeekdayIdx]
+    : "–";
+  document.getElementById("weekday-note").textContent = incidents.length > 0
+    ? `${fmtInt(maxWeekdayCount)} von ${fmtInt(incidents.length)} UPSIs (`
+      + `${((maxWeekdayCount / incidents.length) * 100).toFixed(1).replace(".", ",")}%) `
+      + `fanden an einem ${WEEKDAY_LABELS[topWeekdayIdx]} statt — Basis: die gesamte Historie.`
+    : "Noch nicht genug Daten.";
+  renderWeekdayBarChart(document.getElementById("weekday-chart-wrap"), weekdayCounts);
+  renderDataTable(
+    document.getElementById("weekday-table"),
+    ["Wochentag", "Anzahl UPSIs", "Anteil"],
+    WEEKDAY_LABELS.map((label, i) => [
+      label,
+      fmtInt(weekdayCounts[i]),
+      `${((weekdayCounts[i] / incidents.length) * 100).toFixed(1).replace(".", ",")}%`,
+    ])
   );
 
   document.querySelectorAll(".table-toggle").forEach(wireTableToggle);
