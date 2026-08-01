@@ -127,6 +127,14 @@ function foldForChart(entries) {
 // durch unvollständigen Backfill, keine echte unfallfreie Zeit).
 const RECENT_MONTHS = 6;
 
+// Basis für den "Rekord: längste unfallfreie Serie"-Hero (Nutzerauftrag
+// 2026-08-01): bewusst NICHT die gesamte Historie -- aus demselben Grund wie
+// bei RECENT_MONTHS oben (ältere Zeiträume unterschiedlich vollständig
+// erfasst, würden sonst einen falschen "Rekord" durch reine Datenlücken
+// vortäuschen). 2 Jahre statt 6 Monate, weil ein Rekord über einen längeren
+// Zeitraum aussagekräftiger ist als der 6-Monats-Durchschnitt.
+const RECORD_MONTHS = 24;
+
 function cutoffDateIso(monthsAgo) {
   const d = new Date();
   d.setMonth(d.getMonth() - monthsAgo);
@@ -150,6 +158,7 @@ function computeGaps(incidents) {
     const days = (cur - prev) / (1000 * 60 * 60 * 24);
     gaps.push({
       date: sorted[i].event_date,
+      fromDate: sorted[i - 1].event_date,
       location: sorted[i].location,
       days: Math.max(0, days),
     });
@@ -175,11 +184,30 @@ function addOngoingGap(gaps, incidents) {
     ...gaps,
     {
       date: now.toISOString().slice(0, 10),
+      fromDate: last.event_date,
       location: "seit dem letzten UPSI (andauernd)",
       days,
       ongoing: true,
     },
   ];
+}
+
+/** Häufigster Wert in `values` -- für "welcher Stadtteil gehört zu dieser
+ * Haltestelle", wo mehrere Incidents am selben Ort leicht unterschiedliche
+ * location_tag-Werte tragen könnten (der Tag kommt aus dem freien
+ * Artikeltext, nicht aus einer festen Haltestelle-zu-Stadtteil-Tabelle). */
+function modeOf(values) {
+  const counts = new Map();
+  values.forEach((v) => counts.set(v, (counts.get(v) || 0) + 1));
+  let best = null;
+  let bestCount = -1;
+  counts.forEach((c, v) => {
+    if (c > bestCount) {
+      bestCount = c;
+      best = v;
+    }
+  });
+  return best;
 }
 
 function renderDataTable(container, headers, rows) {
@@ -472,6 +500,199 @@ function renderGapBarChart(wrapEl, gaps) {
   wrapEl.appendChild(caption);
 }
 
+function renderStopLeaderboard(wrapEl, entries) {
+  if (entries.length === 0) {
+    wrapEl.innerHTML = "<p>Noch nicht genug Daten.</p>";
+    return;
+  }
+  const maxCount = Math.max(...entries.map((e) => e.count));
+  const list = document.createElement("div");
+  list.className = "hbar-list";
+
+  entries.forEach((entry, i) => {
+    const row = document.createElement("div");
+    row.className = "hbar-row";
+    row.setAttribute("tabindex", "0");
+    row.setAttribute("role", "button");
+    const districtSuffix = entry.district ? ` (${entry.district})` : "";
+    row.setAttribute("aria-label", `${entry.label}${districtSuffix}: ${entry.count} UPSIs`);
+
+    const label = document.createElement("div");
+    label.className = "hbar-label";
+    const rank = document.createElement("span");
+    rank.className = "hbar-rank";
+    rank.textContent = `${i + 1}.`;
+    const name = document.createElement("span");
+    name.className = "hbar-name";
+    name.textContent = entry.label;
+    const sub = document.createElement("span");
+    sub.className = "hbar-sub";
+    sub.textContent = districtSuffix;
+    label.appendChild(rank);
+    label.appendChild(name);
+    label.appendChild(sub);
+
+    const track = document.createElement("div");
+    track.className = "hbar-track";
+    const fill = document.createElement("div");
+    fill.className = "hbar-fill";
+    fill.style.width = `${(entry.count / maxCount) * 100}%`;
+    fill.style.background = PALETTE[0];
+    track.appendChild(fill);
+
+    const count = document.createElement("div");
+    count.className = "hbar-count";
+    count.textContent = fmtInt(entry.count);
+
+    const tooltipLabel = `${entry.label}${districtSuffix}`;
+    const onEnter = (evt) => showTooltip(evt, [[tooltipLabel, `${entry.count} UPSIs`]]);
+    row.addEventListener("pointerenter", onEnter);
+    row.addEventListener("pointermove", onEnter);
+    row.addEventListener("pointerleave", hideTooltip);
+    row.addEventListener("focus", onEnter);
+    row.addEventListener("blur", hideTooltip);
+
+    row.appendChild(label);
+    row.appendChild(track);
+    row.appendChild(count);
+    list.appendChild(row);
+  });
+
+  wrapEl.innerHTML = "";
+  wrapEl.appendChild(list);
+}
+
+// 24-Stunden-"Ziffernblatt": 0 Uhr oben, im Uhrzeigersinn -- jede Stunde ein
+// vom Mittelpunkt nach außen wachsender Balken, Länge = Häufigkeit relativ
+// zur stärksten Stunde. Bewusst als eigene runde Form statt eines normalen
+// Balkendiagramms (Nutzerauftrag 2026-08-01: "auf einen Blick erkennbar,
+// dass es um Tageszeiten geht").
+function renderClockChart(wrapEl, hourCounts) {
+  const total = hourCounts.reduce((s, c) => s + c, 0);
+  if (total === 0) {
+    wrapEl.innerHTML = "<p>Noch nicht genug Daten.</p>";
+    return;
+  }
+  const size = 300;
+  const cx = size / 2;
+  const cy = size / 2;
+  const rInner = 20;
+  const rOuter = 100;
+  const maxCount = Math.max(...hourCounts);
+  const color = PALETTE[0];
+
+  const svgNS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(svgNS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${size} ${size}`);
+  svg.setAttribute("width", size);
+  svg.setAttribute("height", size);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "Uhrzeit-Verteilung der UPSIs, als 24-Stunden-Ziffernblatt, 0 Uhr oben, im Uhrzeigersinn");
+
+  const angleForHour = (h) => (h / 24) * 2 * Math.PI - Math.PI / 2;
+
+  // Führungskreise bei 25/50/75/100% des Maximums, rein als Lesehilfe.
+  [0.25, 0.5, 0.75, 1].forEach((frac) => {
+    const circle = document.createElementNS(svgNS, "circle");
+    circle.setAttribute("cx", cx);
+    circle.setAttribute("cy", cy);
+    circle.setAttribute("r", rInner + frac * (rOuter - rInner));
+    circle.setAttribute("fill", "none");
+    circle.setAttribute("stroke", "#e4ddc9");
+    circle.setAttribute("stroke-width", "1");
+    svg.appendChild(circle);
+  });
+
+  // Stundenzahlen alle 3 Stunden am Rand (0/3/6/.../21) -- alle 24 wären zu
+  // eng gedrängt, Zwischenwerte liest man per Hover/Tabelle.
+  for (let h = 0; h < 24; h += 3) {
+    const a = angleForHour(h);
+    const lx = cx + (rOuter + 18) * Math.cos(a);
+    const ly = cy + (rOuter + 18) * Math.sin(a);
+    const text = document.createElementNS(svgNS, "text");
+    text.setAttribute("x", lx);
+    text.setAttribute("y", ly);
+    text.setAttribute("text-anchor", "middle");
+    text.setAttribute("dominant-baseline", "middle");
+    text.setAttribute("font-size", "11");
+    text.setAttribute("fill", "#5a5a52");
+    text.textContent = String(h);
+    svg.appendChild(text);
+  }
+
+  for (let h = 0; h < 24; h++) {
+    const count = hourCounts[h];
+    // Mitte der Stunde (h + 0.5), nicht die Stundengrenze -- der Balken für
+    // "07:00-08:00 Uhr" steht dann mittig zwischen den 07- und 08-Uhr-Ticks.
+    const a = angleForHour(h + 0.5);
+    const len = maxCount > 0 ? (count / maxCount) * (rOuter - rInner) : 0;
+    const x0 = cx + rInner * Math.cos(a);
+    const y0 = cy + rInner * Math.sin(a);
+    const x1 = cx + (rInner + len) * Math.cos(a);
+    const y1 = cy + (rInner + len) * Math.sin(a);
+
+    const line = document.createElementNS(svgNS, "line");
+    line.setAttribute("x1", x0);
+    line.setAttribute("y1", y0);
+    line.setAttribute("x2", x1);
+    line.setAttribute("y2", y1);
+    line.setAttribute("stroke", color);
+    line.setAttribute("stroke-width", "6");
+    line.setAttribute("stroke-linecap", "round");
+    line.style.cursor = "pointer";
+    line.setAttribute("tabindex", "0");
+    line.setAttribute("role", "button");
+    const hourLabel = `${String(h).padStart(2, "0")}:00–${String((h + 1) % 24).padStart(2, "0")}:00 Uhr`;
+    line.setAttribute("aria-label", `${hourLabel}: ${count} UPSIs`);
+
+    const onEnter = (evt) => {
+      line.setAttribute("stroke-width", "9");
+      showTooltip(evt, [[hourLabel, `${count} UPSIs`]]);
+    };
+    const onMove = (evt) => showTooltip(evt, [[hourLabel, `${count} UPSIs`]]);
+    const onLeave = () => {
+      line.setAttribute("stroke-width", "6");
+      hideTooltip();
+    };
+    line.addEventListener("pointerenter", onEnter);
+    line.addEventListener("pointermove", onMove);
+    line.addEventListener("pointerleave", onLeave);
+    line.addEventListener("focus", onEnter);
+    line.addEventListener("blur", onLeave);
+
+    svg.appendChild(line);
+
+    if (count > 0) {
+      const dot = document.createElementNS(svgNS, "circle");
+      dot.setAttribute("cx", x1);
+      dot.setAttribute("cy", y1);
+      dot.setAttribute("r", "4");
+      dot.setAttribute("fill", color);
+      dot.style.pointerEvents = "none";
+      svg.appendChild(dot);
+    }
+  }
+
+  // Mittelpunkt-Nabe zuletzt gezeichnet (liegt über den Balken-Enden) --
+  // macht die runde "Ziffernblatt"-Form auf den ersten Blick deutlicher.
+  const hub = document.createElementNS(svgNS, "circle");
+  hub.setAttribute("cx", cx);
+  hub.setAttribute("cy", cy);
+  hub.setAttribute("r", rInner - 4);
+  hub.setAttribute("fill", "#ffffff");
+  hub.setAttribute("stroke", "#c3c2b7");
+  hub.setAttribute("stroke-width", "1.5");
+  svg.appendChild(hub);
+
+  const caption = document.createElement("div");
+  caption.className = "chart-caption";
+  caption.textContent = "0 Uhr oben, im Uhrzeigersinn — je länger der Balken, desto mehr UPSIs in dieser Stunde.";
+
+  wrapEl.innerHTML = "";
+  wrapEl.appendChild(svg);
+  wrapEl.appendChild(caption);
+}
+
 function wireTableToggle(button) {
   button.addEventListener("click", () => {
     const target = document.getElementById(button.dataset.target);
@@ -519,6 +740,30 @@ async function init() {
     // Tabellen-Rendering umgekehrt.
     [...gaps].reverse().map((g) => [g.date, g.location, g.days.toFixed(1).replace(".", ",")])
   );
+
+  // 1b) Rekord: längste unfallfreie Serie der letzten RECORD_MONTHS Monate
+  // (siehe Kommentar bei RECORD_MONTHS). Die andauernde Lücke seit dem
+  // letzten UPSI zählt als Kandidat mit -- stecken wir gerade selbst im
+  // Rekord, soll das sichtbar sein statt stillschweigend ignoriert zu werden.
+  const recordCutoff = cutoffDateIso(RECORD_MONTHS);
+  const recordIncidents = incidents.filter((i) => i.event_date >= recordCutoff);
+  const recordGaps = addOngoingGap(computeGaps(recordIncidents), recordIncidents);
+  let recordGap = null;
+  recordGaps.forEach((g) => {
+    if (!recordGap || g.days > recordGap.days) recordGap = g;
+  });
+  const recordYears = RECORD_MONTHS / 12;
+  document.getElementById("record-value").textContent = recordGap
+    ? recordGap.days.toFixed(0)
+    : "–";
+  document.getElementById("record-note").textContent = recordGap
+    ? (recordGap.ongoing
+        ? `Läuft aktuell seit dem ${formatDateDMY(recordGap.fromDate)} — das ist gerade der längste `
+          + `unfallfreie Zeitraum der letzten ${recordYears} Jahre!`
+        : `Vom ${formatDateDMY(recordGap.fromDate)} bis ${formatDateDMY(recordGap.date)}. `
+          + `Basis: die letzten ${recordYears} Jahre (${recordIncidents.length} UPSIs) — ältere `
+          + `Zeiträume sind unterschiedlich vollständig erfasst.`)
+    : "Noch nicht genug Daten.";
 
   // 2) Gegenpartei-Verteilung — Tabelle zeigt IMMER alle echten Kategorien
   // (2026-07-18, Nutzerauftrag), nur das Tortendiagramm faltet ab MAX_SLICES.
@@ -568,6 +813,56 @@ async function init() {
     document.getElementById("brand-table"),
     ["Marke", "Anzahl", "Anteil"],
     brandEntries.map((e) => [e.label, fmtInt(e.count), `${((e.count / brandedCarIncidents.length) * 100).toFixed(1).replace(".", ",")}%`])
+  );
+
+  // 5) Gefährlichste Haltestellen — nur Incidents, deren aufgelöster Punkt
+  // nah genug an einer bekannten Haltestelle liegt (stop_tag, siehe
+  // geocode.py: nearest_stop()/STOP_PROXIMITY_METERS). Stadtteil je
+  // Haltestelle: häufigster location_tag unter den zugeordneten Incidents
+  // (location_tag kommt aus dem freien Artikeltext, nicht aus einer festen
+  // Haltestelle-zu-Stadtteil-Tabelle, kann also leicht streuen).
+  const stopIncidents = incidents.filter((i) => i.stop_tag);
+  const stopGroups = new Map();
+  stopIncidents.forEach((i) => {
+    if (!stopGroups.has(i.stop_tag)) stopGroups.set(i.stop_tag, []);
+    stopGroups.get(i.stop_tag).push(i);
+  });
+  const stopEntries = [...stopGroups.entries()]
+    .map(([stop, list]) => ({
+      key: stop,
+      label: stop,
+      count: list.length,
+      district: modeOf(list.map((i) => i.location_tag)),
+    }))
+    .sort((a, b) => b.count - a.count);
+  document.getElementById("stop-note").textContent =
+    `Basis: ${stopIncidents.length} von ${incidents.length} UPSIs, deren Ort sich nah genug `
+    + `(≤150 m) an einer bekannten Stadtbahn-Haltestelle bestimmen ließ — die übrigen `
+    + `${incidents.length - stopIncidents.length} fanden zwischen zwei Haltestellen oder an einem `
+    + `nicht genau bestimmbaren Ort statt.`;
+  renderStopLeaderboard(document.getElementById("stop-chart-wrap"), stopEntries.slice(0, 12));
+  renderDataTable(
+    document.getElementById("stop-table"),
+    ["Haltestelle", "Stadtteil", "Anzahl UPSIs"],
+    stopEntries.map((e) => [e.label, e.district || "–", fmtInt(e.count)])
+  );
+
+  // 6) Uhrzeit-Verteilung — nur Incidents mit bekannter event_time (viele
+  // Artikel nennen keine Uhrzeit, daher eigene Basis-Angabe statt stiller
+  // Ausschluss).
+  const timedIncidents = incidents.filter((i) => i.event_time);
+  const hourCounts = new Array(24).fill(0);
+  timedIncidents.forEach((i) => {
+    const hour = parseInt(i.event_time.slice(0, 2), 10);
+    if (hour >= 0 && hour <= 23) hourCounts[hour]++;
+  });
+  document.getElementById("clock-note").textContent =
+    `Basis: ${timedIncidents.length} von ${incidents.length} UPSIs mit bekannter Uhrzeit im Berichtstext.`;
+  renderClockChart(document.getElementById("clock-chart-wrap"), hourCounts);
+  renderDataTable(
+    document.getElementById("clock-table"),
+    ["Uhrzeit", "Anzahl UPSIs"],
+    hourCounts.map((c, h) => [`${String(h).padStart(2, "0")}:00–${String((h + 1) % 24).padStart(2, "0")}:00`, fmtInt(c)])
   );
 
   document.querySelectorAll(".table-toggle").forEach(wireTableToggle);

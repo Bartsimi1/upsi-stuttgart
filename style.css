@@ -567,6 +567,73 @@ footer.legal {
   background: #f4f4f4;
 }
 
+.hbar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.hbar-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) 2fr auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.hbar-label {
+  font-size: 0.85em;
+  color: #10233a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hbar-rank {
+  color: #7a6a48;
+  margin-right: 4px;
+}
+
+.hbar-name {
+  font-weight: bold;
+}
+
+.hbar-sub {
+  color: #666666;
+  font-style: italic;
+}
+
+.hbar-track {
+  background: #eee7d4;
+  border: 1px solid #c9b98a;
+  height: 14px;
+  overflow: hidden;
+}
+
+.hbar-fill {
+  height: 100%;
+  min-width: 2px;
+}
+
+.hbar-count {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  color: #10233a;
+  text-align: right;
+  min-width: 2.5em;
+}
+
+@media (max-width: 480px) {
+  .hbar-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .hbar-count {
+    text-align: left;
+  }
+}
+
 .chart-tooltip {
   position: absolute;
   z-index: 999;

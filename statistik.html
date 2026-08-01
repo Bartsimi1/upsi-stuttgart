@@ -37,6 +37,15 @@
       <div class="data-table-wrap" id="gap-table" hidden></div>
     </section>
 
+    <section class="stat-card" id="record-stat">
+      <h2 class="stat-card-title">Rekord: längste unfallfreie Serie (letzte 2 Jahre)</h2>
+      <div class="hero-tile">
+        <div class="hero-value" id="record-value">–</div>
+        <div class="hero-label">Tage ohne UPSI (Rekord)</div>
+      </div>
+      <p class="hero-note" id="record-note"></p>
+    </section>
+
     <section class="stat-card" id="party-stat">
       <h2 class="stat-card-title">Verteilung der Gegenpartei</h2>
       <div class="chart-wrap" id="party-chart-wrap">
@@ -63,6 +72,26 @@
       </div>
       <button type="button" class="retro-button table-toggle" data-target="brand-table">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="brand-table" hidden></div>
+    </section>
+
+    <section class="stat-card" id="stop-stat">
+      <h2 class="stat-card-title">Gefährlichste Haltestellen</h2>
+      <p class="hero-note" id="stop-note"></p>
+      <div class="chart-wrap" id="stop-chart-wrap">
+        <p class="chart-loading">Lade Daten…</p>
+      </div>
+      <button type="button" class="retro-button table-toggle" data-target="stop-table">Als Tabelle anzeigen</button>
+      <div class="data-table-wrap" id="stop-table" hidden></div>
+    </section>
+
+    <section class="stat-card" id="clock-stat">
+      <h2 class="stat-card-title">Zu welcher Uhrzeit passieren UPSIs?</h2>
+      <p class="hero-note" id="clock-note"></p>
+      <div class="chart-wrap" id="clock-chart-wrap">
+        <p class="chart-loading">Lade Daten…</p>
+      </div>
+      <button type="button" class="retro-button table-toggle" data-target="clock-table">Als Tabelle anzeigen</button>
+      <div class="data-table-wrap" id="clock-table" hidden></div>
     </section>
   </main>
 
