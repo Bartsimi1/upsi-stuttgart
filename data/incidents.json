@@ -814,7 +814,7 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "In Stuttgart-West kollidierte ein Mercedes beim verbotswidrigen Linksabbiegen mit einer Stadtbahn der Linie U2 in der Nähe der Haltestelle Schloss-/Johannesstraße. Der Mercedes-Fahrer und ein Fahrgast der Stadtbahn wurden leicht verletzt, ein weiterer Fahrgast entfernte sich vor Eintreffen der Einsatzkräfte.",
+    "summary": "In Stuttgart-West kollidierte ein Mercedes beim verbotswidrigen Linksabbiegen mit einer Stadtbahn der Linie U2 in der Nähe der Haltestelle Schloss-/Johannesstraße. Der Mercedes-Fahrer und ein Fahrgast der Stadtbahn wurden leicht verletzt, ein weiterer Fahrgast entfernte sich vor Eintreffen der Einsatzkräfte. Der 35-jährige Fahrer wurde beim Zusammenstoß verletzt, die Stadtbahn schob das Fahrzeug auf eine Fußgängerinsel.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-west-stadtbahn-rammt-mercedes-zwei-verletzte-79041209.html",
@@ -825,6 +825,16 @@
         "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/verbot-missachtet-mercedes-verursacht-50-000-euro-schaden-in-stuttgart-3429009",
         "source_id": "tag24_unfall_stuttgart",
         "retrieved_at": "2026-07-20T19:12:34.523717Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:46.192515Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/240341/auto-stoesst-gegen-stadtbahn-kofferdiebstahl-im-zug-und-weitere-blaulichtmeldungen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-07-23T14:11:02.722291Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -1874,12 +1884,17 @@
     "event_type": "other",
     "other_party": "pedestrian",
     "injuries": "minor",
-    "summary": "In der Nacht zum Sonntag (19.04.2026) führte eine Stadtbahn der Linie U13 am Wangener Marktplatz eine Gefahrenbremsung wegen einer gestürzten Fußgängerin durch. Ein Fahrgast stürzte in der Bahn und verletzte sich leicht.",
+    "summary": "In der Nacht zum Sonntag (19.04.2026) führte eine Stadtbahn der Linie U13 am Wangener Marktplatz eine Gefahrenbremsung wegen einer gestürzten Fußgängerin durch. Ein Fahrgast stürzte in der Bahn und verletzte sich leicht. Die 44-jährige Fahrgästin wurde namentlich nicht genannt; die Fußgängerin entfernte sich unerkannt von der Unfallstelle.",
     "sources": [
       {
         "url": "https://wilih.de/notbremsung-mann-bei-stadtbahnunfall-verletzt",
         "source_id": "wilih_polizeibericht",
         "retrieved_at": "2026-07-17T08:07:01.789758Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-wangen-fussgaengerin-stuerzt-im-gleisbereich-stadtbahn-bremst-abrupt-78829387.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-07-20T20:57:38.922480Z"
       }
     ],
     "location_tag": "Wangen",
@@ -2103,7 +2118,7 @@
   {
     "id": "inc-2024-12-13-001",
     "event_date": "2024-12-13",
-    "event_time": null,
+    "event_time": "10:55",
     "location": "Kirchheimer Straße, Stuttgart-Heumaden",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
@@ -2124,6 +2139,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-heumaden-51-jaehrige-von-u7-erfasst-und-schwer-verletzt-zeugen-gesucht-78855889.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:27:31.514886Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5930403",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-18T22:28:01.565878Z"
       }
     ],
     "location_tag": "Stuttgart-Heumaden",
@@ -6258,6 +6278,11 @@
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-fahrgaeste-nach-bremsung-verletzt--zeugen-gesucht_47327",
         "source_id": "polizeiberichte_stuttgart",
         "retrieved_at": "2026-07-18T10:16:06.106683Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/5040565",
+        "source_id": "friend_import_2026-07-19",
+        "retrieved_at": "2026-07-18T22:28:01.569914Z"
       }
     ],
     "location_tag": "Bad Cannstatt",
@@ -8927,7 +8952,7 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "severe",
-    "summary": "Ein 57-jähriger BMW-Fahrer bog verbotswidrig nach links ab und kollidierte mit einer Stadtbahn der Linie U9. Vier Personen (darunter der Fahrer, ein 85-Jähriger und zwei 21-Jährige) wurden schwer, eine weitere Person leicht verletzt; der Sachschaden liegt bei rund 80.000 Euro.",
+    "summary": "Ein 57-jähriger BMW-Fahrer bog verbotswidrig nach links ab und kollidierte mit einer Stadtbahn der Linie U9. Vier Personen (darunter der Fahrer, ein 85-Jähriger und zwei 21-Jährige) wurden schwer, eine weitere Person leicht verletzt; der Sachschaden liegt bei rund 80.000 Euro. Die Stadtbahn schleifte das Fahrzeug mehrere Meter über die Gleise mit.",
     "sources": [
       {
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-west-verkehrsunfall-mit-stadtbahn-zeugenaufruf",
@@ -8948,6 +8973,11 @@
         "url": "https://bahnblogstelle.com/241453/zwei-verletzte-nach-zusammenstoss-von-stadtbahn-und-auto/",
         "source_id": "bahnblogstelle_stadtbahn_tag",
         "retrieved_at": "2026-07-23T12:39:50.880786Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T21:00:27.224236Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -9319,29 +9349,6 @@
     "car_brand_tag": null,
     "lat": 48.7791242,
     "lon": 9.1715019,
-    "stop_tag": null
-  },
-  {
-    "id": "inc-2024-12-13-002",
-    "event_date": "2024-12-13",
-    "event_time": "10:55",
-    "location": "Kirchheimer Straße/Haltestelle Bockelstraße, Stuttgart-Sillenbuch",
-    "event_type": "pedestrian_hit",
-    "other_party": "pedestrian",
-    "injuries": "severe",
-    "summary": "Eine 51-jährige Frau rannte über die Kirchheimer Straße in Richtung Haltestelle Bockelstraße und wurde beim Überqueren der Gleise von einer Stadtbahn der Linie U7 erfasst. Sie erlitt schwere Verletzungen.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/5930403",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-18T22:28:01.565878Z"
-      }
-    ],
-    "location_tag": "Sillenbuch",
-    "line_tag": "U7",
-    "car_brand_tag": null,
-    "lat": 48.74568711919001,
-    "lon": 9.211311040130079,
     "stop_tag": null
   },
   {
@@ -9781,29 +9788,6 @@
     "lat": 48.7571549,
     "lon": 9.1460307,
     "stop_tag": null
-  },
-  {
-    "id": "inc-2021-10-07-002",
-    "event_date": "2021-10-07",
-    "event_time": null,
-    "location": "Wilhelmsplatz, Stuttgart-Bad Cannstatt",
-    "event_type": "other",
-    "other_party": "none",
-    "injuries": "minor",
-    "summary": "Bei einer Gefahrenbremsung einer Stadtbahn am Wilhelmsplatz stürzten zwei Fahrgäste und wurden leicht verletzt.",
-    "sources": [
-      {
-        "url": "https://www.presseportal.de/blaulicht/pm/110977/5040565",
-        "source_id": "friend_import_2026-07-19",
-        "retrieved_at": "2026-07-18T22:28:01.569914Z"
-      }
-    ],
-    "location_tag": "Bad Cannstatt",
-    "line_tag": "Linie unbekannt",
-    "car_brand_tag": null,
-    "lat": 48.803378004152066,
-    "lon": 9.216530716728377,
-    "stop_tag": "Bad Cannstatt Wilhelmsplatz"
   },
   {
     "id": "inc-2021-09-20-001",
@@ -10701,7 +10685,7 @@
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "severe",
-    "summary": "Am Dienstag, den 02.12.2025, gegen 19:20 Uhr wurde an der Haltestelle Vogelrain in Stuttgart-Heslach eine Person von einer Stadtbahn der Linie U14 erfasst. Der Vorfall führte zu erheblichen Störungen im Stadtbahnverkehr auf mehreren Linien.",
+    "summary": "Am Dienstag, den 02.12.2025, gegen 19:20 Uhr wurde an der Haltestelle Vogelrain in Stuttgart-Heslach eine Person von einer Stadtbahn der Linie U14 erfasst. Der Vorfall führte zu erheblichen Störungen im Stadtbahnverkehr auf mehreren Linien. Die Streckensperrung dauerte mehr als zwei Stunden.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtgebiet-stuttgart-stadtbahnverkehr-von-massiven-stoerungen-betroffen-78981396.html",
@@ -10712,6 +10696,11 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-heslach-person-von-u14-erfasst-strecke-im-bereich-vogelrain-gesperrt-78977174.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-07-20T05:34:10.437613Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-07-20T20:57:12.798375Z"
       }
     ],
     "location_tag": "Stuttgart-Heslach",
@@ -11851,29 +11840,6 @@
     "stop_tag": null
   },
   {
-    "id": "inc-2025-12-02-002",
-    "event_date": "2025-12-02",
-    "event_time": "19:20",
-    "location": "Haltestelle Heslach-Vogelrain, Stuttgart",
-    "event_type": "pedestrian_hit",
-    "other_party": "pedestrian",
-    "injuries": "unknown",
-    "summary": "An der Haltestelle Heslach-Vogelrain in Stuttgart wurde am Dienstagabend gegen 19.20 Uhr eine Person von einer Stadtbahn (Linie U14) erfasst. Der Vorfall führte zu einer mehr als zweistündigen Unterbrechung der Linie U14.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahn-chaos-in-stuttgart-unfaelle-und-weichenstoerung-bringen-bahnen-aus-dem-takt-78975663.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T20:57:12.798375Z"
-      }
-    ],
-    "location_tag": "Stuttgart",
-    "line_tag": "U14",
-    "car_brand_tag": null,
-    "lat": 48.753583,
-    "lon": 9.138294,
-    "stop_tag": "Heslach Vogelrain"
-  },
-  {
     "id": "inc-2025-09-22-002",
     "event_date": "2025-09-22",
     "event_time": "12:40",
@@ -11895,29 +11861,6 @@
     "lat": null,
     "lon": null,
     "stop_tag": null
-  },
-  {
-    "id": "inc-2026-04-19-002",
-    "event_date": "2026-04-19",
-    "event_time": "00:40",
-    "location": "Wangener Marktplatz, Stuttgart-Wangen",
-    "event_type": "other",
-    "other_party": "pedestrian",
-    "injuries": "minor",
-    "summary": "Am frühen Sonntagmorgen stürzte eine Fußgängerin im Gleisbereich am Wangener Marktplatz in Stuttgart-Wangen, woraufhin die Fahrerin einer Stadtbahn der Linie U13 eine Gefahrenbremsung einleitete. Dabei stürzte ein 44-jähriger Fahrgast in der Bahn und verletzte sich leicht; die Fußgängerin entfernte sich unerkannt von der Unfallstelle.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-wangen-fussgaengerin-stuerzt-im-gleisbereich-stadtbahn-bremst-abrupt-78829387.html",
-        "source_id": "stuttgarter_nachrichten_tags",
-        "retrieved_at": "2026-07-20T20:57:38.922480Z"
-      }
-    ],
-    "location_tag": "Wangen",
-    "line_tag": "U13",
-    "car_brand_tag": null,
-    "lat": 48.77165423831849,
-    "lon": 9.245341215295138,
-    "stop_tag": "Wangen Marktplatz"
   },
   {
     "id": "inc-2024-05-26-002",
@@ -11987,57 +11930,6 @@
     "lat": 48.839425,
     "lon": 9.224891,
     "stop_tag": "Auwiesen"
-  },
-  {
-    "id": "inc-2025-11-09-002",
-    "event_date": "2025-11-09",
-    "event_time": null,
-    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "severe",
-    "summary": "Ein 57-jähriger BMW-Fahrer bog verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schleifte es mehrere Meter über die Gleise mit. Alle fünf Fahrzeuginsassen wurden verletzt, vier davon schwer.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T21:00:27.224236Z"
-      }
-    ],
-    "location_tag": "Stuttgart-West",
-    "line_tag": "Linie unbekannt",
-    "car_brand_tag": "BMW",
-    "lat": null,
-    "lon": null,
-    "stop_tag": null
-  },
-  {
-    "id": "inc-2025-10-15-001",
-    "event_date": "2025-10-15",
-    "event_time": null,
-    "location": "Kreuzung Senefelder-/Schlossstraße, Stuttgart-West",
-    "event_type": "collision",
-    "other_party": "car",
-    "injuries": "minor",
-    "summary": "Ein 35-jähriger Mercedes-Fahrer bog Mitte Oktober 2025 verbotswidrig nach links über die Gleise an der Kreuzung Senefelder-/Schlossstraße in Stuttgart-West ab; eine Stadtbahn erfasste das Fahrzeug und schob es auf eine Verkehrsinsel. Der Fahrer sowie zwei Fahrgäste der Stadtbahn wurden verletzt. Ein Autofahrer bog in Stuttgart an einer Kreuzung verbotswidrig nach links ab und stieß dabei mit einer in gleicher Richtung fahrenden Stadtbahn der Linie U2 zusammen. Der Fahrer des Pkw und zwei Fahrgäste der Stadtbahn wurden laut Polizei leicht verletzt.",
-    "sources": [
-      {
-        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfallkreuzung-in-stuttgart-west-baustellen-blackout-hat-dieses-schild-die-autofahrer-irritiert-78879523.html",
-        "source_id": "stuttgarter_zeitung_tags",
-        "retrieved_at": "2026-07-20T21:00:46.192515Z"
-      },
-      {
-        "url": "https://bahnblogstelle.com/240341/auto-stoesst-gegen-stadtbahn-kofferdiebstahl-im-zug-und-weitere-blaulichtmeldungen/",
-        "source_id": "bahnblogstelle_stadtbahn_tag",
-        "retrieved_at": "2026-07-23T14:11:02.722291Z"
-      }
-    ],
-    "location_tag": "Stuttgart-West",
-    "line_tag": "U2",
-    "car_brand_tag": "Mercedes",
-    "lat": null,
-    "lon": null,
-    "stop_tag": null
   },
   {
     "id": "inc-2025-11-05-002",
