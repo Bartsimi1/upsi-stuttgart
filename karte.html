@@ -13,23 +13,27 @@
   <header class="banner">
     <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
     <h1>🗺️ UPSI - Karte 🗺️</h1>
-    <p class="subtitle">Wo kracht's am liebsten? — echte Stuttgart-Karte, straßengenau wo möglich</p>
+    <p class="subtitle" data-i18n="map.subtitle">Wo kracht's am liebsten? — echte Stuttgart-Karte, straßengenau wo möglich</p>
   </header>
 
   <nav class="menu">
-    <a href="index.html">Startseite</a>
-    <a href="statistik.html">Statistik</a>
-    <a href="karte.html">Karte</a>
-    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
-    <a href="index.html#ueber">Über UPSI</a>
+    <a href="index.html" data-i18n="nav.home">Startseite</a>
+    <a href="statistik.html" data-i18n="nav.stats">Statistik</a>
+    <a href="karte.html" data-i18n="nav.map">Karte</a>
+    <a href="vorschlaege.html" data-i18n="nav.suggestions">Verbesserungsvorschläge</a>
+    <a href="index.html#ueber" data-i18n="nav.about">Über UPSI</a>
+    <span class="lang-toggle">
+      <button type="button" class="lang-toggle-btn" data-lang="de" aria-label="Deutsch">🇩🇪</button>
+      <button type="button" class="lang-toggle-btn" data-lang="en" aria-label="English">🇬🇧</button>
+    </span>
   </nav>
 
   <main>
     <section class="stat-card" id="map-card">
-      <h2 class="stat-card-title">UPSIs auf der Karte</h2>
+      <h2 class="stat-card-title" data-i18n="map.title">UPSIs auf der Karte</h2>
 
       <div class="year-tabs" id="year-tabs">
-        <p class="chart-loading">Lade Jahre…</p>
+        <p class="chart-loading" data-i18n="map.loadingYears">Lade Jahre…</p>
       </div>
 
       <div class="map-wrap">
@@ -37,23 +41,23 @@
       </div>
 
       <div class="legend-row">
-        <span class="legend-dot legend-dot-sm" style="background:#f0a0a0;"></span> wenige
-        <span class="legend-dot legend-dot-md" style="background:#d95c5c;"></span> mittel
-        <span class="legend-dot legend-dot-lg" style="background:#8f1616;"></span> viele UPSIs
-        <span class="legend-note">(Größe UND Farbe des Punkts zeigen die Anzahl)</span>
+        <span class="legend-dot legend-dot-sm" style="background:#f0a0a0;"></span> <span data-i18n="map.legendFew">wenige</span>
+        <span class="legend-dot legend-dot-md" style="background:#d95c5c;"></span> <span data-i18n="map.legendMedium">mittel</span>
+        <span class="legend-dot legend-dot-lg" style="background:#8f1616;"></span> <span data-i18n="map.legendMany">viele UPSIs</span>
+        <span class="legend-note" data-i18n="map.legendNote">(Größe UND Farbe des Punkts zeigen die Anzahl)</span>
       </div>
 
-      <p class="hero-note" id="map-caption">Lade Daten…</p>
+      <p class="hero-note" id="map-caption" data-i18n="map.loading">Lade Daten…</p>
 
       <details class="list-view-details">
-        <summary>📋 Text-Liste (auch mit Tastatur/Screenreader nutzbar)</summary>
+        <summary data-i18n="map.listViewSummary">📋 Text-Liste (auch mit Tastatur/Screenreader nutzbar)</summary>
         <ul id="list-view" class="list-view" aria-label="Orte in der gewählten Jahresauswahl"></ul>
       </details>
 
       <div id="zone-detail" class="zone-detail" hidden>
         <div class="zone-detail-header">
           <span class="zone-detail-title" id="zone-detail-title"></span>
-          <button type="button" class="retro-button zone-detail-close" id="zone-detail-close">Schließen ×</button>
+          <button type="button" class="retro-button zone-detail-close" id="zone-detail-close" data-i18n="map.close">Schließen ×</button>
         </div>
         <div class="incident-list" id="zone-detail-list"></div>
       </div>
@@ -61,7 +65,7 @@
   </main>
 
   <footer class="legal">
-    <p>
+    <p data-i18n="footer.mapLegalNotice" data-i18n-html>
       <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
       offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
       KEINE wissenschaftliche Analyse. Die Kartenpositionen sind, wo im
@@ -71,14 +75,15 @@
       Schätzung, KEINE vermessene Position. Fehlt jeder Straßenbezug im
       Text, bleibt es beim ungefähren Stadtteil-/Ortsmittelpunkt.
     </p>
-    <p class="joke-disclaimer">
+    <p class="joke-disclaimer" data-i18n="footer.jokeDisclaimerMap">
       Die Kartenkacheln stammen von OpenStreetMap-Mitwirkenden — wenigstens
       der Neckar liegt wirklich da, wo er soll.
     </p>
-    <p class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+    <p class="footer-links"><a href="impressum.html" data-i18n="footer.impressum">Impressum</a> · <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></p>
   </footer>
 </div>
 
+<script src="strings.js"></script>
 <script src="vendor/leaflet/leaflet.js"></script>
 <script src="karte.js"></script>
 </body>

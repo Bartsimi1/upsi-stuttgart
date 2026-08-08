@@ -217,6 +217,33 @@ nav.menu a:active {
   border-style: inset;
 }
 
+.lang-toggle {
+  display: inline-flex;
+  gap: 2px;
+  margin: 4px 0 4px 10px;
+  vertical-align: middle;
+}
+
+.lang-toggle-btn {
+  font-size: 1.1em;
+  line-height: 1;
+  background: #c0c0c0;
+  border: 2px outset #ffffff;
+  padding: 4px 7px;
+  cursor: pointer;
+  opacity: 0.55;
+}
+
+.lang-toggle-btn:hover {
+  opacity: 0.85;
+}
+
+.lang-toggle-btn.active {
+  opacity: 1;
+  border-style: inset;
+  background: #d0d0d0;
+}
+
 .incident-list {
   display: flex;
   flex-direction: column;
@@ -477,6 +504,34 @@ footer.legal {
   background: #fdf3e0;
   border: 1px solid #c9b98a;
   padding: 6px 10px;
+}
+
+.on-this-day-card {
+  margin: 16px 0;
+}
+
+.on-this-day-card .stat-card-title {
+  font-size: 1.05em;
+}
+
+#on-this-day-body p {
+  margin: 0 0 8px 0;
+}
+
+.on-this-day-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.on-this-day-list li {
+  padding: 3px 0;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.on-this-day-list li:last-child {
+  border-bottom: none;
 }
 
 .chart-wrap {

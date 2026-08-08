@@ -165,7 +165,7 @@ function renderIncidentCard(incident) {
   const sourcesHtml = (incident.sources || [])
     .map(
       (s, i) =>
-        `<a class="source-link" href="${esc(safeHref(s.url))}" target="_blank" rel="noopener">Quelle ${i + 1}: ${esc(sourceDomain(s.url))}</a>`
+        `<a class="source-link" href="${esc(safeHref(s.url))}" target="_blank" rel="noopener">${esc(t("home.sourcePrefix"))} ${i + 1}: ${esc(sourceDomain(s.url))}</a>`
     )
     .join(" · ");
   const card = document.createElement("div");
@@ -307,7 +307,7 @@ async function init() {
     const res = await fetch("data/incidents.json");
     incidents = await res.json();
   } catch (err) {
-    mapCaption.textContent = "Fehler beim Laden der Kartendaten.";
+    mapCaption.textContent = t("home.loadError");
     return;
   }
 

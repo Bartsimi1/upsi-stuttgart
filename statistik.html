@@ -12,120 +12,125 @@
   <header class="banner">
     <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
     <h1>📊 UPSI - Statistik 📊</h1>
-    <p class="subtitle">Zahlen, Diagramme und Auswertungen — genauso inoffiziell wie der Rest der Seite</p>
+    <p class="subtitle" data-i18n="stats.subtitle">Zahlen, Diagramme und Auswertungen — genauso inoffiziell wie der Rest der Seite</p>
   </header>
 
   <nav class="menu">
-    <a href="index.html">Startseite</a>
-    <a href="statistik.html">Statistik</a>
-    <a href="karte.html">Karte</a>
-    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
-    <a href="index.html#ueber">Über UPSI</a>
+    <a href="index.html" data-i18n="nav.home">Startseite</a>
+    <a href="statistik.html" data-i18n="nav.stats">Statistik</a>
+    <a href="karte.html" data-i18n="nav.map">Karte</a>
+    <a href="vorschlaege.html" data-i18n="nav.suggestions">Verbesserungsvorschläge</a>
+    <a href="index.html#ueber" data-i18n="nav.about">Über UPSI</a>
+    <span class="lang-toggle">
+      <button type="button" class="lang-toggle-btn" data-lang="de" aria-label="Deutsch">🇩🇪</button>
+      <button type="button" class="lang-toggle-btn" data-lang="en" aria-label="English">🇬🇧</button>
+    </span>
   </nav>
 
   <main>
     <section class="stat-card" id="gap-stat">
-      <h2 class="stat-card-title">Zeit zwischen zwei UPSIs</h2>
+      <h2 class="stat-card-title" data-i18n="stats.gapTitle">Zeit zwischen zwei UPSIs</h2>
       <div class="hero-tile">
         <div class="hero-value" id="gap-average">–</div>
-        <div class="hero-label">Tage im Durchschnitt zwischen zwei UPSIs</div>
+        <div class="hero-label" data-i18n="stats.gapHeroLabel">Tage im Durchschnitt zwischen zwei UPSIs</div>
       </div>
       <div class="chart-wrap" id="gap-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="gap-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="gap-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="gap-table" hidden></div>
     </section>
 
     <section class="stat-card" id="record-stat">
-      <h2 class="stat-card-title">Rekord: längste unfallfreie Serie (letzte 2 Jahre)</h2>
+      <h2 class="stat-card-title" data-i18n="stats.recordTitle">Rekord: längste unfallfreie Serie (letzte 2 Jahre)</h2>
       <div class="hero-tile">
         <div class="hero-value" id="record-value">–</div>
-        <div class="hero-label">Tage ohne UPSI (Rekord)</div>
+        <div class="hero-label" data-i18n="stats.recordHeroLabel">Tage ohne UPSI (Rekord)</div>
       </div>
       <p class="hero-note" id="record-note"></p>
     </section>
 
     <section class="stat-card" id="party-stat">
-      <h2 class="stat-card-title">Verteilung der Gegenpartei</h2>
+      <h2 class="stat-card-title" data-i18n="stats.partyTitle">Verteilung der Gegenpartei</h2>
       <div class="chart-wrap" id="party-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="party-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="party-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="party-table" hidden></div>
     </section>
 
     <section class="stat-card" id="line-stat">
-      <h2 class="stat-card-title">Unfälle nach Stadtbahnlinie</h2>
+      <h2 class="stat-card-title" data-i18n="stats.lineTitle">Unfälle nach Stadtbahnlinie</h2>
       <div class="chart-wrap" id="line-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="line-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="line-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="line-table" hidden></div>
     </section>
 
     <section class="stat-card" id="brand-stat">
-      <h2 class="stat-card-title">Verteilung der PKW-Marken</h2>
+      <h2 class="stat-card-title" data-i18n="stats.brandTitle">Verteilung der PKW-Marken</h2>
       <p class="hero-note" id="brand-note"></p>
       <div class="chart-wrap" id="brand-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="brand-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="brand-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="brand-table" hidden></div>
     </section>
 
     <section class="stat-card" id="stop-stat">
-      <h2 class="stat-card-title">Gefährlichste Haltestellen</h2>
+      <h2 class="stat-card-title" data-i18n="stats.stopTitle">Gefährlichste Haltestellen</h2>
       <p class="hero-note" id="stop-note"></p>
       <div class="chart-wrap" id="stop-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="stop-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="stop-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="stop-table" hidden></div>
     </section>
 
     <section class="stat-card" id="clock-stat">
-      <h2 class="stat-card-title">Zu welcher Uhrzeit passieren UPSIs?</h2>
+      <h2 class="stat-card-title" data-i18n="stats.clockTitle">Zu welcher Uhrzeit passieren UPSIs?</h2>
       <p class="hero-note" id="clock-note"></p>
       <div class="chart-wrap" id="clock-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="clock-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="clock-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="clock-table" hidden></div>
     </section>
 
     <section class="stat-card" id="weekday-stat">
-      <h2 class="stat-card-title">Gefährlichster Wochentag</h2>
+      <h2 class="stat-card-title" data-i18n="stats.weekdayTitle">Gefährlichster Wochentag</h2>
       <div class="hero-tile">
         <div class="hero-value" id="weekday-value">–</div>
-        <div class="hero-label">Wochentag mit den meisten UPSIs</div>
+        <div class="hero-label" data-i18n="stats.weekdayHeroLabel">Wochentag mit den meisten UPSIs</div>
       </div>
       <p class="hero-note" id="weekday-note"></p>
       <div class="chart-wrap" id="weekday-chart-wrap">
-        <p class="chart-loading">Lade Daten…</p>
+        <p class="chart-loading" data-i18n="stats.loading">Lade Daten…</p>
       </div>
-      <button type="button" class="retro-button table-toggle" data-target="weekday-table">Als Tabelle anzeigen</button>
+      <button type="button" class="retro-button table-toggle" data-target="weekday-table" data-i18n="stats.tableToggle">Als Tabelle anzeigen</button>
       <div class="data-table-wrap" id="weekday-table" hidden></div>
     </section>
   </main>
 
   <footer class="legal">
-    <p>
+    <p data-i18n="footer.legalNoticeStats" data-i18n-html>
       <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
       offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
       KEINE wissenschaftliche Analyse. Die Daten stammen aus öffentlich
       zugänglichen Presseartikeln und können Fehler, Lücken oder
       Verzögerungen enthalten.
     </p>
-    <p class="joke-disclaimer">
+    <p class="joke-disclaimer" data-i18n="footer.jokeDisclaimerStats">
       Diese Statistik-Seite ist genauso ironisch gemeint wie der Rest von
       UPSI — die zugrunde liegenden Unfalldaten (Verletzte, Sachschäden)
       werden dennoch stets sachlich und ohne Humor erfasst.
     </p>
-    <p class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+    <p class="footer-links"><a href="impressum.html" data-i18n="footer.impressum">Impressum</a> · <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></p>
   </footer>
 </div>
 
+<script src="strings.js"></script>
 <script src="labels.js"></script>
 <script src="statistik.js"></script>
 </body>

@@ -12,60 +12,69 @@
   <header class="banner">
     <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
     <h1>🚋 UPSI - Stuttgart 🚋</h1>
-    <p class="subtitle">"<strong>U</strong>Bahn vs. <strong>P</strong>KW <strong>S</strong>tuttgarter <strong>I</strong>mpaktanalyse" · Die inoffizielle Stadtbahn-Unfall-Chronik</p>
+    <p class="subtitle" data-i18n="home.subtitle" data-i18n-html>"<strong>U</strong>Bahn vs. <strong>P</strong>KW <strong>S</strong>tuttgarter <strong>I</strong>mpaktanalyse" · Die inoffizielle Stadtbahn-Unfall-Chronik</p>
     <p class="total-count" id="total-count">wird geladen…</p>
   </header>
 
   <div class="wiki-notice">
-    📋 Diese Liste ist möglicherweise unvollständig. Du kannst helfen, sie zu
+    <span data-i18n="home.wikiNotice">📋 Diese Liste ist möglicherweise unvollständig. Du kannst helfen, sie zu
     erweitern — zum Beispiel, indem du in einen Unfall mit einer Stadtbahn
-    verwickelt wirst.*
-    <div class="wiki-notice-footnote">
+    verwickelt wirst.*</span>
+    <div class="wiki-notice-footnote" data-i18n="home.wikiNoticeFootnote">
       * Bitte nicht. Das ist nicht ernst gemeint — pass im echten Leben bitte
       auf Stadtbahnen auf.
     </div>
   </div>
 
   <div class="marquee-bar">
-    <div class="marquee-text">★ Willkommen auf der inoffiziellsten Stadtbahn-Statistik-Seite Stuttgarts! ★ Jetzt mit noch mehr Quellen! ★ Danke fürs Vorbeischauen! ★</div>
+    <div class="marquee-text" data-i18n="home.marquee">★ Willkommen auf der inoffiziellsten Stadtbahn-Statistik-Seite Stuttgarts! ★ Jetzt mit noch mehr Quellen! ★ Danke fürs Vorbeischauen! ★</div>
   </div>
 
   <nav class="menu">
-    <a href="index.html">Startseite</a>
-    <a href="statistik.html">Statistik</a>
-    <a href="karte.html">Karte</a>
-    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
-    <a href="#ueber">Über UPSI</a>
+    <a href="index.html" data-i18n="nav.home">Startseite</a>
+    <a href="statistik.html" data-i18n="nav.stats">Statistik</a>
+    <a href="karte.html" data-i18n="nav.map">Karte</a>
+    <a href="vorschlaege.html" data-i18n="nav.suggestions">Verbesserungsvorschläge</a>
+    <a href="#ueber" data-i18n="nav.about">Über UPSI</a>
+    <span class="lang-toggle">
+      <button type="button" class="lang-toggle-btn" data-lang="de" aria-label="Deutsch">🇩🇪</button>
+      <button type="button" class="lang-toggle-btn" data-lang="en" aria-label="English">🇬🇧</button>
+    </span>
   </nav>
 
   <div class="counter-box">
-    <div class="counter-label">Seit dem letzten <strong>UPSI</strong>:</div>
+    <div class="counter-label" data-i18n="home.counterLabel" data-i18n-html>Seit dem letzten <strong>UPSI</strong>:</div>
     <div class="counter-numbers">
       <div class="counter-unit">
         <span class="number" id="counter-days">?</span>
-        <span class="unit-label">Tage</span>
+        <span class="unit-label" data-i18n="home.unitDays">Tage</span>
       </div>
       <div class="counter-unit">
         <span class="number" id="counter-hours">?</span>
-        <span class="unit-label">Std.</span>
+        <span class="unit-label" data-i18n="home.unitHours">Std.</span>
       </div>
       <div class="counter-unit">
         <span class="number" id="counter-minutes">?</span>
-        <span class="unit-label">Min.</span>
+        <span class="unit-label" data-i18n="home.unitMinutes">Min.</span>
       </div>
       <div class="counter-unit">
         <span class="number" id="counter-seconds">?</span>
-        <span class="unit-label">Sek.</span>
+        <span class="unit-label" data-i18n="home.unitSeconds">Sek.</span>
       </div>
     </div>
     <div id="last-incident-info">wird geladen…</div>
     <div class="last-updated" id="last-updated">Zuletzt aktualisiert: wird geladen…</div>
   </div>
 
+  <section class="stat-card on-this-day-card" id="on-this-day-card" hidden>
+    <h2 class="stat-card-title" data-i18n="home.onThisDayTitle">📅 Was geschah heute?</h2>
+    <div id="on-this-day-body"></div>
+  </section>
+
   <div class="filter-bar" id="filter-bar">
-    <button type="button" class="retro-button filter-toggle" id="filter-toggle">Filter anzeigen</button>
+    <button type="button" class="retro-button filter-toggle" id="filter-toggle" data-i18n="home.filterShow">Filter anzeigen</button>
     <div class="filter-groups" id="filter-groups" hidden>
-      <div class="filter-hint">Nach Anklicken filtern (mehrfach kombinierbar):</div>
+      <div class="filter-hint" data-i18n="home.filterHint">Nach Anklicken filtern (mehrfach kombinierbar):</div>
     </div>
   </div>
   <div class="filter-match-count" id="filter-match-count" hidden></div>
@@ -75,13 +84,13 @@
       <p>Lade Ereignisse…</p>
     </div>
     <div class="load-more-wrapper">
-      <button class="retro-button" id="load-more-btn" style="display:none;">Mehr anzeigen</button>
+      <button class="retro-button" id="load-more-btn" data-i18n="home.loadMore" style="display:none;">Mehr anzeigen</button>
     </div>
   </main>
 
   <section id="ueber">
-    <h2>Über UPSI - Stuttgart</h2>
-    <p>
+    <h2 data-i18n="home.aboutTitle">Über UPSI - Stuttgart</h2>
+    <p data-i18n="home.aboutBody">
       UPSI - Stuttgart sammelt automatisiert öffentlich berichtete Unfälle
       zwischen Stadtbahn-/Straßenbahnfahrzeugen der SSB und anderen
       Verkehrsteilnehmern (PKW, Fußgänger, Radfahrer u.a.) in Stuttgart. Die
@@ -92,12 +101,12 @@
   </section>
 
   <div class="hit-counter-widget">
-    <span class="hit-counter-label">Besucherzähler:</span>
+    <span class="hit-counter-label" data-i18n="home.hitCounterLabel">Besucherzähler:</span>
     <img class="hit-counter-value" src="https://hits.sh/bartsimi1.github.io/upsi-stuttgart.svg?style=flat-square&label=Besuche&color=5a9d6f&labelColor=1a1a1a" alt="Besucherzähler">
   </div>
 
   <footer class="legal">
-    <p>
+    <p data-i18n="footer.legalNotice" data-i18n-html>
       <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
       offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
       KEINE wissenschaftliche Analyse. Die Daten stammen aus öffentlich
@@ -105,19 +114,20 @@
       Verzögerungen enthalten. Jedes Ereignis ist mit seiner Quelle
       verlinkt — bei Zweifeln bitte die Originalquelle prüfen.
     </p>
-    <p class="joke-disclaimer">
+    <p class="joke-disclaimer" data-i18n="footer.jokeDisclaimerHome">
       Der Name "UPSI" ist bewusst humorvoll gemeint — die tatsächlichen
       Unfalldaten (Verletzte, Sachschäden) werden hier stets sachlich und
       ohne Humor dargestellt.
     </p>
-    <p class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+    <p class="footer-links"><a href="impressum.html" data-i18n="footer.impressum">Impressum</a> · <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></p>
     <div class="retro-badges">
-      <span class="construction-badge">🚧 Neue Quellen werden laufend ergänzt 🚧</span>
-      <span class="viewed-badge">🖥️ Am besten angesehen mit jedem Browser seit 2010</span>
+      <span class="construction-badge" data-i18n="home.constructionBadge">🚧 Neue Quellen werden laufend ergänzt 🚧</span>
+      <span class="viewed-badge" data-i18n="home.viewedBadge">🖥️ Am besten angesehen mit jedem Browser seit 2010</span>
     </div>
   </footer>
 </div>
 
+<script src="strings.js"></script>
 <script src="labels.js"></script>
 <script src="app.js"></script>
 </body>

@@ -12,18 +12,23 @@
   <header class="banner">
     <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
     <h1>Datenschutzerklärung</h1>
-    <p class="subtitle">Welche Daten wo verarbeitet werden — vollständig und ohne Umschweife · Stand: 21. Juli 2026</p>
+    <p class="subtitle" data-i18n="datenschutz.subtitle">Welche Daten wo verarbeitet werden — vollständig und ohne Umschweife · Stand: 21. Juli 2026</p>
   </header>
 
   <nav class="menu">
-    <a href="index.html">Startseite</a>
-    <a href="statistik.html">Statistik</a>
-    <a href="karte.html">Karte</a>
-    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
-    <a href="index.html#ueber">Über UPSI</a>
+    <a href="index.html" data-i18n="nav.home">Startseite</a>
+    <a href="statistik.html" data-i18n="nav.stats">Statistik</a>
+    <a href="karte.html" data-i18n="nav.map">Karte</a>
+    <a href="vorschlaege.html" data-i18n="nav.suggestions">Verbesserungsvorschläge</a>
+    <a href="index.html#ueber" data-i18n="nav.about">Über UPSI</a>
+    <span class="lang-toggle">
+      <button type="button" class="lang-toggle-btn" data-lang="de" aria-label="Deutsch">🇩🇪</button>
+      <button type="button" class="lang-toggle-btn" data-lang="en" aria-label="English">🇬🇧</button>
+    </span>
   </nav>
 
   <main>
+    <p class="hero-note" data-i18n="legal.germanOnlyNote">(Dieser rechtlich verbindliche Text liegt nur auf Deutsch vor.)</p>
     <section class="stat-card">
       <h2 class="stat-card-title">Verantwortlicher</h2>
       <p>
@@ -100,6 +105,21 @@
     </section>
 
     <section class="stat-card">
+      <h2 class="stat-card-title">"Was geschah heute?"-Kachel (Wikipedia)</h2>
+      <p>
+        Die Startseite zeigt an Tagen ohne eigenes UPSI-Ereignis stattdessen
+        eine kleine, unterhaltsame Randnotiz aus Wikipedias "On this
+        day"-Feed. Diese wird NICHT bei jedem Seitenaufruf live von
+        Wikipedia geladen — ein eigener, wöchentlich laufender Hintergrund-
+        Dienst fragt Wikipedia im Voraus ab und speichert nur das fertige
+        Ergebnis (Jahr, ein Satz, ein Link) auf dem eigenen Server. Ihr
+        Browser kontaktiert Wikipedia dabei zu keinem Zeitpunkt automatisch —
+        nur wenn Sie selbst auf den angezeigten "Mehr auf Wikipedia"-Link
+        klicken, findet eine Verbindung zu Wikipedia statt.
+      </p>
+    </section>
+
+    <section class="stat-card">
       <h2 class="stat-card-title">Was diese Seite NICHT tut</h2>
       <p>
         Kein Google Analytics, keine sonstigen Tracking-/Analyse-Tools,
@@ -136,13 +156,14 @@
   </main>
 
   <footer class="legal">
-    <p>
+    <p data-i18n="footer.legalNoticeShort" data-i18n-html>
       <strong>Rechtlicher Hinweis:</strong> UPSI - Stuttgart ist KEINE
       offizielle Statistik der SSB, der Polizei oder der Stadt Stuttgart und
       KEINE wissenschaftliche Analyse.
     </p>
-    <p class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+    <p class="footer-links"><a href="impressum.html" data-i18n="footer.impressum">Impressum</a> · <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></p>
   </footer>
 </div>
+<script src="strings.js"></script>
 </body>
 </html>

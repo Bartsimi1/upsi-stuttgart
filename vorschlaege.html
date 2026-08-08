@@ -12,21 +12,25 @@
   <header class="banner">
     <img class="site-logo" src="images/logo.png" alt="UPSI - Stuttgart Logo: Stadtbahn-Wagen in einem Rundabzeichen" width="140" height="145">
     <h1>📝 Verbesserungsvorschläge 📝</h1>
-    <p class="subtitle">Ihre Meinung ist uns wichtig*</p>
+    <p class="subtitle" data-i18n="suggestions.subtitle">Ihre Meinung ist uns wichtig*</p>
   </header>
 
   <nav class="menu">
-    <a href="index.html">Startseite</a>
-    <a href="statistik.html">Statistik</a>
-    <a href="karte.html">Karte</a>
-    <a href="vorschlaege.html">Verbesserungsvorschläge</a>
-    <a href="index.html#ueber">Über UPSI</a>
+    <a href="index.html" data-i18n="nav.home">Startseite</a>
+    <a href="statistik.html" data-i18n="nav.stats">Statistik</a>
+    <a href="karte.html" data-i18n="nav.map">Karte</a>
+    <a href="vorschlaege.html" data-i18n="nav.suggestions">Verbesserungsvorschläge</a>
+    <a href="index.html#ueber" data-i18n="nav.about">Über UPSI</a>
+    <span class="lang-toggle">
+      <button type="button" class="lang-toggle-btn" data-lang="de" aria-label="Deutsch">🇩🇪</button>
+      <button type="button" class="lang-toggle-btn" data-lang="en" aria-label="English">🇬🇧</button>
+    </span>
   </nav>
 
   <main>
     <section class="stat-card" id="suggestion-card">
-      <h2 class="stat-card-title">Dein Verbesserungsvorschlag</h2>
-      <p class="hero-note">Maximal 20 Zeichen. Mehr Zeit ist es ohnehin nicht wert.</p>
+      <h2 class="stat-card-title" data-i18n="suggestions.cardTitle">Dein Verbesserungsvorschlag</h2>
+      <p class="hero-note" data-i18n="suggestions.heroNote">Maximal 20 Zeichen. Mehr Zeit ist es ohnehin nicht wert.</p>
 
       <form id="suggestion-form" class="suggestion-form">
         <textarea
@@ -34,33 +38,35 @@
           maxlength="20"
           rows="2"
           placeholder="Dein Vorschlag..."
+          data-i18n-attr="placeholder:suggestions.placeholder"
           autocomplete="off"
         ></textarea>
         <div class="char-count"><span id="char-count-value">0</span>/20</div>
-        <button type="submit" class="retro-button">OK</button>
+        <button type="submit" class="retro-button" data-i18n="suggestions.ok">OK</button>
       </form>
 
       <div class="shredder-result" id="shredder-result" hidden>
         <img class="shredder-gif" id="shredder-gif" src="images/paper_shredder.gif" alt="Ein Papiershredder schreddert Papier" width="135" height="150">
         <div class="shredder-message-group" id="shredder-message-group" hidden>
-          <p class="shredder-message">Ihr Vorschlag wurde abgelehnt.</p>
-          <p class="shredder-submessage">Die Qualitätssicherung dankt für Ihr Verständnis.</p>
-          <button type="button" class="retro-button" id="try-again-btn">Neuer Versuch</button>
+          <p class="shredder-message" data-i18n="suggestions.shredderMessage">Ihr Vorschlag wurde abgelehnt.</p>
+          <p class="shredder-submessage" data-i18n="suggestions.shredderSubmessage">Die Qualitätssicherung dankt für Ihr Verständnis.</p>
+          <button type="button" class="retro-button" id="try-again-btn" data-i18n="suggestions.tryAgain">Neuer Versuch</button>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="legal">
-    <p class="joke-disclaimer">
+    <p class="joke-disclaimer" data-i18n="suggestions.footerDisclaimer">
       * Nicht wirklich. Dein Vorschlag wird NICHT gespeichert und NICHT
       versendet — er verlässt nie deinen Browser und landet direkt im
       Shredder. Diese Seite existiert rein zur Unterhaltung.
     </p>
-    <p class="footer-links"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
+    <p class="footer-links"><a href="impressum.html" data-i18n="footer.impressum">Impressum</a> · <a href="datenschutz.html" data-i18n="footer.datenschutz">Datenschutz</a></p>
   </footer>
 </div>
 
+<script src="strings.js"></script>
 <script src="vorschlaege.js"></script>
 </body>
 </html>

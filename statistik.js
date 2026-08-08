@@ -813,7 +813,7 @@ function wireTableToggle(button) {
     if (!target) return;
     const nowHidden = !target.hidden;
     target.hidden = nowHidden;
-    button.textContent = nowHidden ? "Als Tabelle anzeigen" : "Tabelle ausblenden";
+    button.textContent = nowHidden ? t("stats.tableToggle") : t("stats.tableHide");
   });
 }
 
@@ -824,7 +824,7 @@ async function init() {
     incidents = await res.json();
   } catch (err) {
     document.querySelectorAll(".chart-loading").forEach((el) => {
-      el.textContent = "Fehler beim Laden der Daten.";
+      el.textContent = t("home.loadError");
     });
     return;
   }

@@ -7,8 +7,8 @@ const PAGE_SIZE = 10;
 // Severity (injuries) ist absichtlich KEINE Filter-/Tag-Kategorie — siehe
 // Nutzeranfrage: nur Ereignistyp, Gegenpartei und Ort sollen filterbar sein.
 const TAG_CATEGORIES = [
-  { key: "event_type", cssClass: "tag-type", labels: EVENT_TYPE_LABELS },
-  { key: "other_party", cssClass: "tag-party", labels: OTHER_PARTY_LABELS },
+  { key: "event_type", cssClass: "tag-type", labels: EVENT_TYPE_LABELS, labelsEn: EVENT_TYPE_LABELS_EN },
+  { key: "other_party", cssClass: "tag-party", labels: OTHER_PARTY_LABELS, labelsEn: OTHER_PARTY_LABELS_EN },
   { key: "location_tag", cssClass: "tag-location", labels: null },
   { key: "line_tag", cssClass: "tag-line", labels: null },
   // event_year steht nicht in den Rohdaten, sondern wird beim Laden aus
@@ -29,8 +29,9 @@ function formatDate(iso) {
 }
 
 function labelFor(category, value) {
-  if (category.labels) return category.labels[value] || value;
-  return value;
+  if (!category.labels) return value;
+  const labels = getLang() === "en" ? category.labelsEn : category.labels;
+  return (labels && labels[value]) || value;
 }
 
 function sourceDomain(url) {
@@ -74,13 +75,15 @@ function renderCard(incident) {
   const sourcesHtml = incident.sources
     .map(
       (s, i) =>
-        `<a class="source-link" href="${esc(safeHref(s.url))}" target="_blank" rel="noopener">Quelle ${i + 1}: ${esc(sourceDomain(s.url))}</a>`
+        `<a class="source-link" href="${esc(safeHref(s.url))}" target="_blank" rel="noopener">${esc(t("home.sourcePrefix"))} ${i + 1}: ${esc(sourceDomain(s.url))}</a>`
     )
     .join(" · ");
 
   const tagsHtml = TAG_CATEGORIES.map((cat) =>
     tagButtonHtml(cat, incident[cat.key], " card-tag")
   ).join(" ");
+
+  const injuriesLabels = getLang() === "en" ? INJURIES_LABELS_EN : INJURIES_LABELS;
 
   card.innerHTML = `
     <div class="meta card-tags">${tagsHtml}</div>
@@ -90,7 +93,7 @@ function renderCard(incident) {
     </div>
     <p>${esc(incident.summary || "")}</p>
     <div class="meta">
-      Verletzte: ${esc(INJURIES_LABELS[incident.injuries] || incident.injuries)}
+      ${esc(t("home.injuriesLabel"))} ${esc(injuriesLabels[incident.injuries] || incident.injuries)}
     </div>
     <div class="meta">${sourcesHtml}</div>
   `;
@@ -117,7 +120,7 @@ function renderNextPage() {
   btn.style.display = shownCount < filtered.length ? "inline-block" : "none";
 
   if (filtered.length === 0) {
-    list.innerHTML = "<p>Keine UPSI passen zu dieser Filterauswahl.</p>";
+    list.innerHTML = `<p>${esc(t("home.noMatch"))}</p>`;
   }
 }
 
@@ -133,7 +136,7 @@ function renderFilterMatchCount() {
     return;
   }
   const filteredCount = getFilteredIncidents().length;
-  el.textContent = `${filteredCount} / ${allIncidents.length} UPSIs`;
+  el.textContent = `${filteredCount} / ${allIncidents.length} ${t("home.matchCountSuffix")}`;
   el.hidden = false;
 }
 
@@ -169,7 +172,7 @@ function renderFilterBar() {
   const groups = document.getElementById("filter-groups");
   TAG_CATEGORIES.forEach((cat) => {
     const values = [...new Set(allIncidents.map((i) => i[cat.key]))].sort((a, b) =>
-      labelFor(cat, a).localeCompare(labelFor(cat, b), "de")
+      labelFor(cat, a).localeCompare(labelFor(cat, b), getLang())
     );
     const group = document.createElement("div");
     group.className = "filter-group";
@@ -187,7 +190,7 @@ function renderFilterBar() {
   toggle.addEventListener("click", () => {
     const nowHidden = !groups.hidden;
     groups.hidden = nowHidden;
-    toggle.textContent = nowHidden ? "Filter anzeigen" : "Filter ausblenden";
+    toggle.textContent = nowHidden ? t("home.filterShow") : t("home.filterHide");
   });
 }
 
@@ -218,8 +221,8 @@ function renderTotalCountBanner() {
   const countInRange = allIncidents.filter((i) => Number(i.event_year) >= startYear).length;
 
   el.textContent = startYear === maxYear
-    ? `${countInRange} UPSIs im Jahr ${maxYear}`
-    : `${countInRange} UPSIs zwischen ${startYear} und ${maxYear}`;
+    ? tf("home.totalCountYear", { count: countInRange, year: maxYear })
+    : tf("home.totalCountRange", { count: countInRange, start: startYear, end: maxYear });
 }
 
 function updateCounter() {
@@ -233,7 +236,7 @@ function updateCounter() {
     hoursEl.textContent = "—";
     minutesEl.textContent = "—";
     secondsEl.textContent = "—";
-    infoEl.textContent = "Noch kein UPSI erfasst.";
+    infoEl.textContent = t("home.noUpsiYet");
     return;
   }
   const latest = allIncidents[0];
@@ -257,30 +260,86 @@ function updateCounter() {
   minutesEl.textContent = String(minutes).padStart(2, "0");
   secondsEl.textContent = String(seconds).padStart(2, "0");
 
-  const zeitHinweis = timeGuessed ? " (Uhrzeit unbekannt, 12:00 geschätzt)" : "";
-  infoEl.textContent = `Letztes UPSI: ${formatDate(latest.event_date)} in ${latest.location}${zeitHinweis}`;
+  const zeitHinweis = timeGuessed ? t("home.timeGuessed") : "";
+  infoEl.textContent = `${t("home.lastIncidentPrefix")} ${formatDate(latest.event_date)} ${t("home.inLocation")} ${latest.location}${zeitHinweis}`;
 }
 
 function formatDateTime(iso) {
   const d = new Date(iso);
-  return d.toLocaleString("de-DE", {
+  const lang = getLang();
+  const formatted = d.toLocaleString(lang === "en" ? "en-GB" : "de-DE", {
     timeZone: "Europe/Berlin",
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
     hour: "2-digit",
     minute: "2-digit",
-  }) + " Uhr";
+  });
+  const suffix = t("home.timeUnit");
+  return suffix ? `${formatted} ${suffix}` : formatted;
 }
+
+let lastMetaGeneratedAt = null;
 
 async function loadLastUpdated() {
   const el = document.getElementById("last-updated");
   try {
-    const res = await fetch("data/meta.json");
-    const meta = await res.json();
-    el.textContent = `Zuletzt aktualisiert: ${formatDateTime(meta.generated_at)}`;
+    if (lastMetaGeneratedAt === null) {
+      const res = await fetch("data/meta.json");
+      const meta = await res.json();
+      lastMetaGeneratedAt = meta.generated_at;
+    }
+    el.textContent = `${t("home.lastUpdatedPrefix")} ${formatDateTime(lastMetaGeneratedAt)}`;
   } catch (err) {
     el.textContent = "";
+  }
+}
+
+// "Was geschah heute?"-Kachel (2026-08-08, Nutzerauftrag): zeigt echte
+// UPSIs vom heutigen Kalendertag (irgendein Jahr) -- diese Prüfung passiert
+// bewusst HIER im Browser gegen die schon geladenen allIncidents, nicht im
+// Backend-Crawler (data/on_this_day.json), da sich der Datenbestand
+// jederzeit ändern kann (ein neuer Unfall kann an einem bisher "leeren"
+// Kalendertag dazukommen, ohne dass der wöchentliche Wikipedia-Lauf davon
+// weiß). Ohne Treffer: Fallback auf einen von der KI ausgewählten,
+// unterhaltsamen Wikipedia-Fakt für dieses Datum (siehe on_this_day.py) --
+// fehlt auch der (z.B. während des ersten Aufbaujahres noch nicht
+// abgedeckt), bleibt die Kachel schlicht verborgen, kein Fehlerzustand.
+async function renderOnThisDay() {
+  const card = document.getElementById("on-this-day-card");
+  const body = document.getElementById("on-this-day-body");
+  if (!card || !body) return;
+
+  const today = new Date();
+  const monthDay = `${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+  const matches = allIncidents.filter((i) => i.event_date && i.event_date.slice(5) === monthDay);
+  if (matches.length > 0) {
+    const itemsHtml = matches
+      .map((i) => `<li>${esc(i.event_date.slice(0, 4))} — ${esc(i.location)}</li>`)
+      .join("");
+    body.innerHTML = `<p>${esc(t("home.onThisDayIncidentPrefix"))}</p><ul class="on-this-day-list">${itemsHtml}</ul>`;
+    card.hidden = false;
+    return;
+  }
+
+  body.innerHTML = `<p>${esc(t("home.onThisDayLoading"))}</p>`;
+  card.hidden = false;
+  try {
+    const res = await fetch("data/on_this_day.json");
+    const facts = await res.json();
+    const fact = facts[monthDay];
+    if (!fact) {
+      card.hidden = true;
+      return;
+    }
+    const text = getLang() === "en" ? fact.text_en : fact.text_de;
+    body.innerHTML = `
+      <p>${esc(fact.year)} — ${esc(text)}</p>
+      <a class="source-link" href="${esc(safeHref(fact.wikipedia_url))}" target="_blank" rel="noopener">${esc(t("home.onThisDayWikiLink"))}</a>
+    `;
+  } catch (err) {
+    card.hidden = true;
   }
 }
 
@@ -296,7 +355,7 @@ async function init() {
       i.event_year = i.event_date.slice(0, 4);
     });
   } catch (err) {
-    list.innerHTML = "<p>Fehler beim Laden der Daten.</p>";
+    list.innerHTML = `<p>${esc(t("home.loadError"))}</p>`;
     return;
   }
 
@@ -307,13 +366,14 @@ async function init() {
 
   list.innerHTML = "";
   if (allIncidents.length === 0) {
-    list.innerHTML = "<p>Noch keine Ereignisse erfasst.</p>";
+    list.innerHTML = `<p>${esc(t("home.noIncidentsYet"))}</p>`;
   } else {
     renderNextPage();
   }
   updateCounter();
   setInterval(updateCounter, 1000);
   loadLastUpdated();
+  renderOnThisDay();
 
   document.getElementById("load-more-btn").addEventListener("click", renderNextPage);
 
@@ -323,6 +383,22 @@ async function init() {
     const btn = event.target.closest(".tag-btn");
     if (!btn) return;
     toggleFilter(btn.dataset.cat, btn.dataset.val);
+  });
+
+  // Sprachumschaltung (strings.js) betrifft auch JS-generierten Inhalt, den
+  // applyTranslations() selbst nicht anfassen kann (Karten-Tags, Datums-
+  // Formatierung, Zähler-Text usw.) -- bei jedem Sprachwechsel neu rendern,
+  // ohne die Daten erneut zu laden.
+  document.addEventListener("upsi-lang-changed", () => {
+    if (allIncidents.length > 0) {
+      document.getElementById("filter-groups").innerHTML = "";
+      renderFilterBar();
+    }
+    renderTotalCountBanner();
+    rerenderList();
+    updateCounter();
+    loadLastUpdated();
+    renderOnThisDay();
   });
 }
 
