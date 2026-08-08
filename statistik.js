@@ -500,7 +500,11 @@ function renderGapBarChart(wrapEl, gaps) {
   wrapEl.appendChild(caption);
 }
 
-function renderStopLeaderboard(wrapEl, entries) {
+// Generisches horizontales Balken-Ranking -- ursprünglich nur für die
+// Haltestellen-Rangliste gebaut, 2026-08-08 generalisiert (unit/formatValue)
+// für die Durchschnittsalter-nach-Fahrzeugtyp-Kachel wiederverwendet, statt
+// eine fast identische zweite Funktion zu duplizieren.
+function renderLeaderboard(wrapEl, entries, { unit = "UPSIs", formatValue = fmtInt } = {}) {
   if (entries.length === 0) {
     wrapEl.innerHTML = "<p>Noch nicht genug Daten.</p>";
     return;
@@ -515,7 +519,7 @@ function renderStopLeaderboard(wrapEl, entries) {
     row.setAttribute("tabindex", "0");
     row.setAttribute("role", "button");
     const districtSuffix = entry.district ? ` (${entry.district})` : "";
-    row.setAttribute("aria-label", `${entry.label}${districtSuffix}: ${entry.count} UPSIs`);
+    row.setAttribute("aria-label", `${entry.label}${districtSuffix}: ${formatValue(entry.count)} ${unit}`);
 
     const label = document.createElement("div");
     label.className = "hbar-label";
@@ -536,16 +540,16 @@ function renderStopLeaderboard(wrapEl, entries) {
     track.className = "hbar-track";
     const fill = document.createElement("div");
     fill.className = "hbar-fill";
-    fill.style.width = `${(entry.count / maxCount) * 100}%`;
+    fill.style.width = `${maxCount > 0 ? (entry.count / maxCount) * 100 : 0}%`;
     fill.style.background = PALETTE[0];
     track.appendChild(fill);
 
     const count = document.createElement("div");
     count.className = "hbar-count";
-    count.textContent = fmtInt(entry.count);
+    count.textContent = formatValue(entry.count);
 
     const tooltipLabel = `${entry.label}${districtSuffix}`;
-    const onEnter = (evt) => showTooltip(evt, [[tooltipLabel, `${entry.count} UPSIs`]]);
+    const onEnter = (evt) => showTooltip(evt, [[tooltipLabel, `${formatValue(entry.count)} ${unit}`]]);
     row.addEventListener("pointerenter", onEnter);
     row.addEventListener("pointermove", onEnter);
     row.addEventListener("pointerleave", hideTooltip);
@@ -807,6 +811,121 @@ function renderWeekdayBarChart(wrapEl, weekdayCounts) {
   wrapEl.appendChild(caption);
 }
 
+// 5-Jahres-Alters-Bucket, z.B. Alter 11-15 -> Index 2 (2026-08-08,
+// Nutzerauftrag: "11-15, 16-20, 21-25 Jahre, etc."). floor((age-1)/5) liefert
+// genau diese Einteilung für jedes Alter >= 1.
+function ageBucketIndex(age) {
+  return Math.floor((age - 1) / 5);
+}
+
+function ageBucketLabel(bucketIndex) {
+  return `${5 * bucketIndex + 1}–${5 * bucketIndex + 5}`;
+}
+
+// Balkendiagramm über 5-Jahres-Altersgruppen der Gegenpartei, FESTE
+// aufsteigende Reihenfolge (wie renderWeekdayBarChart) -- Anzahl Balken
+// variiert mit den tatsächlich vorkommenden Altersgruppen, deshalb dynamische
+// Breite wie bei renderGapBarChart statt einer festen Canvas-Größe.
+function renderAgeBarChart(wrapEl, buckets) {
+  const total = buckets.reduce((s, b) => s + b.count, 0);
+  if (total === 0) {
+    wrapEl.innerHTML = "<p>Noch nicht genug Daten.</p>";
+    return;
+  }
+  const barW = 30;
+  const gap = 10;
+  const width = Math.max(320, buckets.length * (barW + gap));
+  const height = 200;
+  const padBottom = 34;
+  const padTop = 22;
+  const maxCount = Math.max(...buckets.map((b) => b.count));
+  const color = PALETTE[0];
+
+  const svgNS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(svgNS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("width", width);
+  svg.setAttribute("height", height);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "Alter der Gegenpartei in 5-Jahres-Gruppen");
+
+  const baseline = document.createElementNS(svgNS, "line");
+  baseline.setAttribute("x1", "0");
+  baseline.setAttribute("x2", width);
+  baseline.setAttribute("y1", height - padBottom);
+  baseline.setAttribute("y2", height - padBottom);
+  baseline.setAttribute("stroke", "#c3c2b7");
+  baseline.setAttribute("stroke-width", "1");
+  svg.appendChild(baseline);
+
+  buckets.forEach((bucket, i) => {
+    const x = i * (barW + gap) + gap / 2;
+    const barH = maxCount > 0 ? ((height - padBottom - padTop) * bucket.count) / maxCount : 0;
+    const y = height - padBottom - barH;
+    const isMax = bucket.count === maxCount;
+
+    const rect = document.createElementNS(svgNS, "rect");
+    rect.setAttribute("x", x);
+    rect.setAttribute("y", y);
+    rect.setAttribute("width", barW);
+    rect.setAttribute("height", Math.max(barH, bucket.count > 0 ? 1 : 0));
+    rect.setAttribute("rx", "3");
+    rect.setAttribute("fill", isMax ? PALETTE[5] : color);
+    rect.style.cursor = "pointer";
+    rect.setAttribute("tabindex", "0");
+    rect.setAttribute("role", "button");
+    const pct = total > 0 ? ((bucket.count / total) * 100).toFixed(1).replace(".", ",") : "0";
+    rect.setAttribute("aria-label", `${bucket.label} Jahre: ${bucket.count} (${pct}%)`);
+
+    const onEnter = (evt) => {
+      rect.setAttribute("opacity", "0.8");
+      showTooltip(evt, [[`${bucket.label} Jahre`, `${bucket.count} (${pct}%)`]]);
+    };
+    const onMove = (evt) => showTooltip(evt, [[`${bucket.label} Jahre`, `${bucket.count} (${pct}%)`]]);
+    const onLeave = () => {
+      rect.setAttribute("opacity", "1");
+      hideTooltip();
+    };
+    rect.addEventListener("pointerenter", onEnter);
+    rect.addEventListener("pointermove", onMove);
+    rect.addEventListener("pointerleave", onLeave);
+    rect.addEventListener("focus", onEnter);
+    rect.addEventListener("blur", onLeave);
+
+    svg.appendChild(rect);
+
+    const countLabel = document.createElementNS(svgNS, "text");
+    countLabel.setAttribute("x", x + barW / 2);
+    countLabel.setAttribute("y", y - 4);
+    countLabel.setAttribute("text-anchor", "middle");
+    countLabel.setAttribute("font-size", "10");
+    countLabel.setAttribute("fill", "#5a5a52");
+    countLabel.textContent = fmtInt(bucket.count);
+    svg.appendChild(countLabel);
+
+    const bucketLabel = document.createElementNS(svgNS, "text");
+    bucketLabel.setAttribute("x", x + barW / 2);
+    bucketLabel.setAttribute("y", height - padBottom + 16);
+    bucketLabel.setAttribute("text-anchor", "middle");
+    bucketLabel.setAttribute("font-size", "9");
+    bucketLabel.setAttribute("fill", "#5a5a52");
+    bucketLabel.textContent = bucket.label;
+    svg.appendChild(bucketLabel);
+  });
+
+  const scrollWrap = document.createElement("div");
+  scrollWrap.className = "chart-scroll";
+  scrollWrap.appendChild(svg);
+
+  const caption = document.createElement("div");
+  caption.className = "chart-caption";
+  caption.textContent = "Jeder Balken: Anzahl UPSIs mit einer Gegenpartei in dieser 5-Jahres-Altersgruppe.";
+
+  wrapEl.innerHTML = "";
+  wrapEl.appendChild(scrollWrap);
+  wrapEl.appendChild(caption);
+}
+
 function wireTableToggle(button) {
   button.addEventListener("click", () => {
     const target = document.getElementById(button.dataset.target);
@@ -954,7 +1073,7 @@ async function init() {
     + `(≤150 m) an einer bekannten Stadtbahn-Haltestelle bestimmen ließ — die übrigen `
     + `${incidents.length - stopIncidents.length} fanden zwischen zwei Haltestellen oder an einem `
     + `nicht genau bestimmbaren Ort statt.`;
-  renderStopLeaderboard(document.getElementById("stop-chart-wrap"), stopEntries.slice(0, 12));
+  renderLeaderboard(document.getElementById("stop-chart-wrap"), stopEntries.slice(0, 12));
   renderDataTable(
     document.getElementById("stop-table"),
     ["Haltestelle", "Stadtteil", "Anzahl UPSIs"],
@@ -1004,6 +1123,77 @@ async function init() {
       fmtInt(weekdayCounts[i]),
       `${((weekdayCounts[i] / incidents.length) * 100).toFixed(1).replace(".", ",")}%`,
     ])
+  );
+
+  // 8) Alter der Gegenpartei — 5-Jahres-Buckets, nur Incidents mit
+  // bestimmbarem other_party_age (siehe ages.py: None statt geraten, wenn
+  // sich kein Alter sicher der Gegenpartei-Rolle zuordnen lässt). Buckets
+  // OHNE "unbekannt"-Balken (Nutzerauftrag) -- nicht bestimmbare Fälle
+  // fließen gar nicht ins Diagramm ein, statt als eigenes Segment gezählt
+  // zu werden (gleiches Prinzip wie car_brand_tag/stop_tag).
+  const agedIncidents = incidents.filter((i) => i.other_party_age != null);
+  document.getElementById("age-note").textContent =
+    `Basis: ${agedIncidents.length} von ${incidents.length} UPSIs, bei denen sich das Alter der `
+    + `Gegenpartei eindeutig aus dem Berichtstext ergab (nur Fahrzeugführer, Fußgänger, Radfahrer `
+    + `oder E-Scooter-Fahrer mit genannter Altersangabe — keine Ratewerte, andere Gegenparteien wie `
+    + `Bus/andere Stadtbahn/Zug sind hier nicht auswertbar).`;
+  const ageBucketCounts = new Map();
+  agedIncidents.forEach((i) => {
+    const b = ageBucketIndex(i.other_party_age);
+    ageBucketCounts.set(b, (ageBucketCounts.get(b) || 0) + 1);
+  });
+  const ageBuckets = [];
+  if (ageBucketCounts.size > 0) {
+    const minBucket = Math.min(...ageBucketCounts.keys());
+    const maxBucket = Math.max(...ageBucketCounts.keys());
+    for (let b = minBucket; b <= maxBucket; b++) {
+      ageBuckets.push({ label: ageBucketLabel(b), count: ageBucketCounts.get(b) || 0 });
+    }
+  }
+  renderAgeBarChart(document.getElementById("age-chart-wrap"), ageBuckets);
+  renderDataTable(
+    document.getElementById("age-table"),
+    ["Altersgruppe", "Anzahl UPSIs", "Anteil"],
+    ageBuckets.map((b) => [
+      `${b.label} Jahre`,
+      fmtInt(b.count),
+      `${agedIncidents.length > 0 ? ((b.count / agedIncidents.length) * 100).toFixed(1).replace(".", ",") : "0"}%`,
+    ])
+  );
+
+  // 9) Durchschnittsalter nach Fahrzeugtyp — dieselbe agedIncidents-Basis
+  // wie oben, gruppiert nach other_party. Sortiert nach Durchschnittsalter
+  // absteigend (Sinn dieser Kachel ist der Vergleich zwischen Gruppen, nicht
+  // die Häufigkeit) -- Stichprobengröße (n=) steht IMMER mit dabei, da
+  // manche Kategorien sehr wenige Fälle haben (z. B. Motorrad: 1) und ein
+  // "Durchschnitt" daraus für sich genommen irreführend wäre ohne diesen
+  // Kontext.
+  const avgAgeGroups = new Map();
+  agedIncidents.forEach((i) => {
+    if (!avgAgeGroups.has(i.other_party)) avgAgeGroups.set(i.other_party, []);
+    avgAgeGroups.get(i.other_party).push(i.other_party_age);
+  });
+  const avgAgeEntries = [...avgAgeGroups.entries()]
+    .map(([party, ages]) => ({
+      key: party,
+      label: OTHER_PARTY_LABELS[party] || party,
+      count: ages.reduce((s, a) => s + a, 0) / ages.length,
+      n: ages.length,
+    }))
+    .sort((a, b) => b.count - a.count);
+  document.getElementById("avg-age-note").textContent =
+    `Basis: dieselben ${agedIncidents.length} UPSIs wie oben, gruppiert nach Gegenpartei-Typ. `
+    + `Kategorien mit sehr wenigen Fällen (kleines n) sind statistisch wenig aussagekräftig.`;
+  const fmtAvgAge = (n) => n.toFixed(1).replace(".", ",");
+  renderLeaderboard(
+    document.getElementById("avg-age-chart-wrap"),
+    avgAgeEntries.map((e) => ({ label: e.label, count: e.count, district: `n=${e.n}` })),
+    { unit: "Jahre", formatValue: fmtAvgAge }
+  );
+  renderDataTable(
+    document.getElementById("avg-age-table"),
+    ["Fahrzeugtyp", "Ø Alter", "Anzahl (n)"],
+    avgAgeEntries.map((e) => [e.label, `${fmtAvgAge(e.count)} Jahre`, fmtInt(e.n)])
   );
 
   document.querySelectorAll(".table-toggle").forEach(wireTableToggle);

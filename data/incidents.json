@@ -38,6 +38,7 @@
     "location_tag": "Stammheim",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": 39,
     "lat": 48.8355474866537,
     "lon": 9.164477786516006,
     "stop_tag": null
@@ -61,6 +62,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7702855,
     "lon": 9.1868224,
     "stop_tag": "Dobelstraße"
@@ -84,6 +86,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U3",
     "car_brand_tag": "Fiat",
+    "other_party_age": null,
     "lat": 48.72570723084109,
     "lon": 9.155544889384302,
     "stop_tag": null
@@ -107,6 +110,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "VW",
+    "other_party_age": 89,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -135,6 +139,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7715193,
     "lon": 9.1874637,
     "stop_tag": null
@@ -178,6 +183,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": 29,
     "lat": 48.77677536268264,
     "lon": 9.165925803337982,
     "stop_tag": null
@@ -221,6 +227,7 @@
     "location_tag": "Fellbach",
     "line_tag": "U1",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 55,
     "lat": 48.8112363,
     "lon": 9.1485536,
     "stop_tag": null
@@ -249,6 +256,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -277,6 +285,7 @@
     "location_tag": "Sillenbuch",
     "line_tag": "U8",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.74568711919001,
     "lon": 9.211311040130079,
     "stop_tag": null
@@ -300,6 +309,7 @@
     "location_tag": "Leinfelden-Echterdingen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 58,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -328,6 +338,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 22,
     "lat": 48.80372194984631,
     "lon": 9.220048672609716,
     "stop_tag": null
@@ -361,6 +372,7 @@
     "location_tag": "Giebel",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 69,
     "lat": 48.80454280714485,
     "lon": 9.101567134726977,
     "stop_tag": "Bergheimer Hof"
@@ -384,6 +396,7 @@
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Porsche",
+    "other_party_age": null,
     "lat": 48.8112363,
     "lon": 9.1485536,
     "stop_tag": null
@@ -472,6 +485,7 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.775893,
     "lon": 9.238309,
     "stop_tag": "Inselstraße"
@@ -520,6 +534,7 @@
     "location_tag": "Rot",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.832246,
     "lon": 9.191962,
     "stop_tag": "Fürfelder Straße"
@@ -553,6 +568,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -611,6 +627,7 @@
     "location_tag": "Hofen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83287,
     "lon": 9.21648,
     "stop_tag": "Max-Eyth-See"
@@ -644,6 +661,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "U8",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -672,6 +690,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.740692,
     "lon": 9.152978,
     "stop_tag": "Sonnenberg"
@@ -700,6 +719,7 @@
     "location_tag": "Leinfelden-Echterdingen",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.694547,
     "lon": 9.175433,
     "stop_tag": "Stadionstraße"
@@ -728,6 +748,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 19,
     "lat": 48.804966,
     "lon": 9.225729,
     "stop_tag": "Uff-Kirchhof"
@@ -756,6 +777,7 @@
     "location_tag": "Remseck am Neckar",
     "line_tag": "U12",
     "car_brand_tag": "Volvo",
+    "other_party_age": 58,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -779,6 +801,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -802,6 +825,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "Mini",
+    "other_party_age": 63,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -840,6 +864,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 35,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -878,6 +903,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 28,
     "lat": 48.77572370627691,
     "lon": 9.159095946505278,
     "stop_tag": null
@@ -916,6 +942,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 32,
     "lat": 48.815205,
     "lon": 9.235482,
     "stop_tag": "Obere Ziegelei"
@@ -954,6 +981,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "VW",
+    "other_party_age": 18,
     "lat": 48.783905,
     "lon": 9.215544,
     "stop_tag": "Gaisburg"
@@ -982,6 +1010,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
     "car_brand_tag": "Hyundai",
+    "other_party_age": 50,
     "lat": 48.82605368560563,
     "lon": 9.173498621150149,
     "stop_tag": "Hohensteinstraße"
@@ -1015,6 +1044,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": 66,
     "lat": 48.77881507374867,
     "lon": 9.192633834312169,
     "stop_tag": "Heidehofstraße"
@@ -1048,6 +1078,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
     "car_brand_tag": "Porsche",
+    "other_party_age": null,
     "lat": 48.77029930265924,
     "lon": 9.186022949976852,
     "stop_tag": "Dobelstraße"
@@ -1076,6 +1107,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.7702855,
     "lon": 9.1868224,
     "stop_tag": "Dobelstraße"
@@ -1109,6 +1141,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U6",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 58,
     "lat": 48.812048971316216,
     "lon": 9.110551743046342,
     "stop_tag": null
@@ -1132,6 +1165,7 @@
     "location_tag": "Freiberg",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.838008351754866,
     "lon": 9.202580549273247,
     "stop_tag": "Himmelsleiter"
@@ -1170,6 +1204,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U3",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7276701,
     "lon": 9.1217775,
     "stop_tag": null
@@ -1213,6 +1248,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80262299475445,
     "lon": 9.092467379707772,
     "stop_tag": "Salamanderweg"
@@ -1241,6 +1277,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U4",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 74,
     "lat": 48.77964173745539,
     "lon": 9.166654454351153,
     "stop_tag": "Berliner Platz (Liederhalle)"
@@ -1274,6 +1311,7 @@
     "location_tag": "Kaltental",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7571549,
     "lon": 9.1460307,
     "stop_tag": null
@@ -1307,6 +1345,7 @@
     "location_tag": "Hofen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 58,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -1350,6 +1389,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -1378,6 +1418,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.764647041512674,
     "lon": 9.181445366987631,
     "stop_tag": null
@@ -1401,6 +1442,7 @@
     "location_tag": "Leinfelden-Echterdingen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7287945,
     "lon": 9.1240421,
     "stop_tag": null
@@ -1424,6 +1466,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.777607,
     "lon": 9.168172,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -1452,6 +1495,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 48,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -1475,6 +1519,7 @@
     "location_tag": "Gerlingen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -1508,6 +1553,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.762919652961465,
     "lon": 9.252132377893638,
     "stop_tag": null
@@ -1536,6 +1582,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -1564,6 +1611,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.783770007288524,
     "lon": 9.221141765480457,
     "stop_tag": null
@@ -1592,6 +1640,7 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.783770007288524,
     "lon": 9.221141765480457,
     "stop_tag": null
@@ -1620,6 +1669,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.783770007288524,
     "lon": 9.221141765480457,
     "stop_tag": null
@@ -1648,6 +1698,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -1671,6 +1722,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.762919652961465,
     "lon": 9.252132377893638,
     "stop_tag": null
@@ -1709,6 +1761,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77251151889374,
     "lon": 9.245183939951252,
     "stop_tag": "Wangen Marktplatz"
@@ -1742,6 +1795,7 @@
     "location_tag": "Sillenbuch",
     "line_tag": "U7",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.739748,
     "lon": 9.227718,
     "stop_tag": "Bockelstraße"
@@ -1770,6 +1824,7 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -1798,6 +1853,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.783770007288524,
     "lon": 9.221141765480457,
     "stop_tag": null
@@ -1826,6 +1882,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": "Opel",
+    "other_party_age": null,
     "lat": 48.783770007288524,
     "lon": 9.221141765480457,
     "stop_tag": null
@@ -1849,6 +1906,7 @@
     "location_tag": "Sillenbuch",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.74568711919001,
     "lon": 9.211311040130079,
     "stop_tag": null
@@ -1872,6 +1930,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.762919652961465,
     "lon": 9.252132377893638,
     "stop_tag": null
@@ -1900,6 +1959,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77165423831849,
     "lon": 9.245341215295138,
     "stop_tag": "Wangen Marktplatz"
@@ -1928,6 +1988,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -1976,6 +2037,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "U8",
     "car_brand_tag": null,
+    "other_party_age": 16,
     "lat": 48.754878,
     "lon": 9.174667,
     "stop_tag": "Weinsteige"
@@ -1999,6 +2061,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.77251151889374,
     "lon": 9.245183939951252,
     "stop_tag": "Wangen Marktplatz"
@@ -2027,6 +2090,7 @@
     "location_tag": "Stuttgart-Hedelfingen",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.763944858662526,
     "lon": 9.251339299860392,
     "stop_tag": null
@@ -2055,6 +2119,7 @@
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.74568711919001,
     "lon": 9.211311040130079,
     "stop_tag": null
@@ -2083,6 +2148,7 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": 59,
     "lat": 48.775478,
     "lon": 9.244645,
     "stop_tag": "Wasenstraße"
@@ -2111,6 +2177,7 @@
     "location_tag": "Wangen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2149,6 +2216,7 @@
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 51,
     "lat": 48.74568711919001,
     "lon": 9.211311040130079,
     "stop_tag": null
@@ -2177,6 +2245,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.77251151889374,
     "lon": 9.245183939951252,
     "stop_tag": "Wangen Marktplatz"
@@ -2205,6 +2274,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.762919652961465,
     "lon": 9.252132377893638,
     "stop_tag": null
@@ -2238,6 +2308,7 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": "Renault",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2266,6 +2337,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 20,
     "lat": 48.762919652961465,
     "lon": 9.252132377893638,
     "stop_tag": null
@@ -2294,6 +2366,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.78227898792909,
     "lon": 9.222710919001898,
     "stop_tag": "Wangener-/Landhausstraße"
@@ -2322,6 +2395,7 @@
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2345,6 +2419,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2373,6 +2448,7 @@
     "location_tag": "Wangen",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.775478,
     "lon": 9.244645,
     "stop_tag": "Wasenstraße"
@@ -2406,6 +2482,7 @@
     "location_tag": "Stuttgart-Heumaden",
     "line_tag": "U8",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.74568711919001,
     "lon": 9.211311040130079,
     "stop_tag": null
@@ -2439,6 +2516,7 @@
     "location_tag": "Stuttgart-Frauenkopf",
     "line_tag": "U15",
     "car_brand_tag": "BMW",
+    "other_party_age": 71,
     "lat": 48.753433,
     "lon": 9.195326,
     "stop_tag": "Ruhbank (Fernsehturm)"
@@ -2462,6 +2540,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Mini",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2495,6 +2574,7 @@
     "location_tag": "Wangen",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77781226282428,
     "lon": 9.246760738050837,
     "stop_tag": null
@@ -2518,6 +2598,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": 65,
     "lat": 48.80254777409151,
     "lon": 9.215575321425115,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -2546,6 +2627,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80410090150555,
     "lon": 9.230205218709136,
     "stop_tag": "Ebitzweg"
@@ -2584,6 +2666,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U16",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.809856,
     "lon": 9.142208,
     "stop_tag": "Sportpark Feuerbach"
@@ -2607,6 +2690,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.789158,
     "lon": 9.195321,
     "stop_tag": "Stöckach"
@@ -2635,6 +2719,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 59,
     "lat": 48.79701329628414,
     "lon": 9.19012532794955,
     "stop_tag": "Mittnachtstraße"
@@ -2658,6 +2743,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.711671979330674,
     "lon": 9.167443891482492,
     "stop_tag": "EnBW City"
@@ -2686,6 +2772,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Fiat",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2714,6 +2801,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -2737,6 +2825,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.80158479866907,
     "lon": 9.207490611174947,
     "stop_tag": null
@@ -2760,6 +2849,7 @@
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": 42,
     "lat": 48.80158479866907,
     "lon": 9.207490611174947,
     "stop_tag": null
@@ -2788,6 +2878,7 @@
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80158479866907,
     "lon": 9.207490611174947,
     "stop_tag": null
@@ -2816,6 +2907,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 61,
     "lat": 48.7791242,
     "lon": 9.1715019,
     "stop_tag": null
@@ -2849,6 +2941,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.82687609090587,
     "lon": 9.173716026582925,
     "stop_tag": "Hohensteinstraße"
@@ -2877,6 +2970,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U14",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 20,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -2905,6 +2999,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -2943,6 +3038,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Renault",
+    "other_party_age": 36,
     "lat": 48.81334359492886,
     "lon": 9.112321857625878,
     "stop_tag": "Löwen-Markt"
@@ -2966,6 +3062,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -2989,6 +3086,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79822,
     "lon": 9.182647,
     "stop_tag": "Pragfriedhof"
@@ -3022,6 +3120,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3050,6 +3149,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U4",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3093,6 +3193,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3121,6 +3222,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79700240762357,
     "lon": 9.190124665009812,
     "stop_tag": "Mittnachtstraße"
@@ -3144,6 +3246,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -3172,6 +3275,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 34,
     "lat": 48.77981478378426,
     "lon": 9.24889249365144,
     "stop_tag": "Untertürkheim Bf"
@@ -3200,6 +3304,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Nissan",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3228,6 +3333,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -3256,6 +3362,7 @@
     "location_tag": "Stuttgart-Neugereut",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.832078,
     "lon": 9.236569,
     "stop_tag": "Neugereut"
@@ -3284,6 +3391,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Fiat",
+    "other_party_age": 24,
     "lat": 48.814316239764594,
     "lon": 9.233292296249283,
     "stop_tag": null
@@ -3317,6 +3425,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
     "car_brand_tag": "Audi",
+    "other_party_age": 60,
     "lat": 48.77416553413391,
     "lon": 9.185919519455416,
     "stop_tag": "Olgaeck"
@@ -3350,6 +3459,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.778513,
     "lon": 9.167365,
     "stop_tag": "Berliner Platz (Liederhalle)"
@@ -3383,6 +3493,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Kia",
+    "other_party_age": 50,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -3416,6 +3527,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Seat",
+    "other_party_age": 33,
     "lat": 48.81314452850971,
     "lon": 9.130788214579724,
     "stop_tag": null
@@ -3444,6 +3556,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 74,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3472,6 +3585,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "Audi",
+    "other_party_age": 20,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -3500,6 +3614,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.81299705935962,
     "lon": 9.229889247406518,
     "stop_tag": "Gnesener Straße"
@@ -3528,6 +3643,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Mitsubishi",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3556,6 +3672,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U12",
     "car_brand_tag": "Citroën",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3589,6 +3706,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Fiat",
+    "other_party_age": null,
     "lat": 48.80414847421084,
     "lon": 9.100934467722247,
     "stop_tag": "Bergheimer Hof"
@@ -3617,6 +3735,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -3640,6 +3759,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": 14,
     "lat": 48.77487608700155,
     "lon": 9.15093338948466,
     "stop_tag": "Arndt-/Spittastraße"
@@ -3668,6 +3788,7 @@
     "location_tag": "Botnang",
     "line_tag": "U2",
     "car_brand_tag": "Seat",
+    "other_party_age": 40,
     "lat": 48.77930423956675,
     "lon": 9.129123451774506,
     "stop_tag": null
@@ -3696,6 +3817,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.7242989,
     "lon": 9.1207398,
     "stop_tag": null
@@ -3719,6 +3841,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
     "car_brand_tag": "Škoda",
+    "other_party_age": 60,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3742,6 +3865,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80720450250941,
     "lon": 9.198784427730887,
     "stop_tag": "Rosensteinpark"
@@ -3765,6 +3889,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.789158,
     "lon": 9.195321,
     "stop_tag": "Stöckach"
@@ -3798,6 +3923,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Audi",
+    "other_party_age": 41,
     "lat": 48.807766514053945,
     "lon": 9.105595649331502,
     "stop_tag": "Wolfbusch"
@@ -3826,6 +3952,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -3849,6 +3976,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "Škoda",
+    "other_party_age": null,
     "lat": 48.78682718899125,
     "lon": 9.191335647861443,
     "stop_tag": "Neckartor"
@@ -3872,6 +4000,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.82605368560563,
     "lon": 9.173498621150149,
     "stop_tag": "Hohensteinstraße"
@@ -3895,6 +4024,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77660153958808,
     "lon": 9.164640061146986,
     "stop_tag": "Schloss-/Johannesstraße"
@@ -3923,6 +4053,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U16",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.81379734965273,
     "lon": 9.113998520869046,
     "stop_tag": "Löwen-Markt"
@@ -3951,6 +4082,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.725241384037936,
     "lon": 9.12372137059707,
     "stop_tag": null
@@ -3974,6 +4106,7 @@
     "location_tag": "Freiberg",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 56,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -3997,6 +4130,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": 77,
     "lat": 48.77487608700155,
     "lon": 9.15093338948466,
     "stop_tag": "Arndt-/Spittastraße"
@@ -4020,6 +4154,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.81135579972707,
     "lon": 9.226612218717337,
     "stop_tag": null
@@ -4053,6 +4188,7 @@
     "location_tag": "Giebel",
     "line_tag": "U16",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.802625,
     "lon": 9.093196,
     "stop_tag": "Salamanderweg"
@@ -4076,6 +4212,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 38,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -4099,6 +4236,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": "Renault",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -4122,6 +4260,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -4145,6 +4284,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -4168,6 +4308,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7799312,
     "lon": 9.1922127,
     "stop_tag": "Heidehofstraße"
@@ -4196,6 +4337,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U3",
     "car_brand_tag": "Volvo",
+    "other_party_age": 59,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -4219,6 +4361,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Smart",
+    "other_party_age": 34,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -4242,6 +4385,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.757520001335784,
     "lon": 9.145879547194943,
     "stop_tag": null
@@ -4265,6 +4409,7 @@
     "location_tag": "Freiberg",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 55,
     "lat": 48.84152316593383,
     "lon": 9.20768536592053,
     "stop_tag": "Suttnerstraße"
@@ -4288,6 +4433,7 @@
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.730542,
     "lon": 9.146911,
     "stop_tag": "Möhringen Bahnhof"
@@ -4311,6 +4457,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -4334,6 +4481,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.8014777,
     "lon": 9.207822,
     "stop_tag": null
@@ -4357,6 +4505,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -4380,6 +4529,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -4403,6 +4553,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U9",
     "car_brand_tag": "Škoda",
+    "other_party_age": null,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -4426,6 +4577,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": 54,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -4449,6 +4601,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.8212947,
     "lon": 9.2456071,
     "stop_tag": null
@@ -4472,6 +4625,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.801931232819555,
     "lon": 9.214625844305344,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -4495,6 +4649,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.844318,
     "lon": 9.218034,
     "stop_tag": "Mönchfeld"
@@ -4518,6 +4673,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 80,
     "lat": 48.7242989,
     "lon": 9.1207398,
     "stop_tag": null
@@ -4541,6 +4697,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U34",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 32,
     "lat": 48.7571549,
     "lon": 9.1460307,
     "stop_tag": null
@@ -4564,6 +4721,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -4587,6 +4745,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 33,
     "lat": 48.790439,
     "lon": 9.186242,
     "stop_tag": "Budapester Platz"
@@ -4610,6 +4769,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": 34,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -4633,6 +4793,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": "Renault",
+    "other_party_age": null,
     "lat": 48.79700240762357,
     "lon": 9.190124665009812,
     "stop_tag": "Mittnachtstraße"
@@ -4656,6 +4817,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Opel",
+    "other_party_age": null,
     "lat": 48.80192588540335,
     "lon": 9.214504396682585,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -4684,6 +4846,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 68,
     "lat": 48.8132692923849,
     "lon": 9.167914062771649,
     "stop_tag": "Feuerbach Bahnhof"
@@ -4707,6 +4870,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -4730,6 +4894,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 19,
     "lat": 48.79111357017353,
     "lon": 9.187052411907889,
     "stop_tag": "Budapester Platz"
@@ -4753,6 +4918,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -4776,6 +4942,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U11",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.789158,
     "lon": 9.195321,
     "stop_tag": "Stöckach"
@@ -4804,6 +4971,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": 22,
     "lat": 48.774039,
     "lon": 9.186057,
     "stop_tag": "Olgaeck"
@@ -4827,6 +4995,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7769855,
     "lon": 9.1466689,
     "stop_tag": null
@@ -4850,6 +5019,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.82998630226118,
     "lon": 9.180056269505585,
     "stop_tag": null
@@ -4873,6 +5043,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.756669,
     "lon": 9.143824,
     "stop_tag": "Südheimer Platz"
@@ -4901,6 +5072,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 40,
     "lat": 48.81042,
     "lon": 9.1164318,
     "stop_tag": null
@@ -4924,6 +5096,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.82946,
     "lon": 9.211987,
     "stop_tag": "Wagrainäcker"
@@ -4947,6 +5120,7 @@
     "location_tag": "Kaltental",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7431185,
     "lon": 9.1409389,
     "stop_tag": null
@@ -4970,6 +5144,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": 20,
     "lat": 48.78685177348284,
     "lon": 9.217961955133784,
     "stop_tag": "Schlachthof"
@@ -4993,6 +5168,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 44,
     "lat": 48.828385,
     "lon": 9.231719,
     "stop_tag": "Steinhaldenfeld"
@@ -5016,6 +5192,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "VW",
+    "other_party_age": 32,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -5044,6 +5221,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -5067,6 +5245,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "Nissan",
+    "other_party_age": null,
     "lat": 48.7752102830071,
     "lon": 9.156013327844294,
     "stop_tag": "Schwab-/Bebelstraße"
@@ -5090,6 +5269,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
     "car_brand_tag": "Audi",
+    "other_party_age": 25,
     "lat": 48.77981478378426,
     "lon": 9.24889249365144,
     "stop_tag": "Untertürkheim Bf"
@@ -5113,6 +5293,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -5136,6 +5317,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Opel",
+    "other_party_age": 57,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -5159,6 +5341,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
     "car_brand_tag": "Ford",
+    "other_party_age": 46,
     "lat": 48.77981478378426,
     "lon": 9.24889249365144,
     "stop_tag": "Untertürkheim Bf"
@@ -5187,6 +5370,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 54,
     "lat": 48.81379734965273,
     "lon": 9.113998520869046,
     "stop_tag": "Löwen-Markt"
@@ -5210,6 +5394,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": 60,
     "lat": 48.783770007288524,
     "lon": 9.221141765480457,
     "stop_tag": null
@@ -5233,6 +5418,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U29",
     "car_brand_tag": null,
+    "other_party_age": 35,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -5256,6 +5442,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.790641,
     "lon": 9.181207,
     "stop_tag": "Stadtbibliothek"
@@ -5284,6 +5471,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.802625,
     "lon": 9.093196,
     "stop_tag": "Salamanderweg"
@@ -5307,6 +5495,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": 39,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -5330,6 +5519,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Porsche",
+    "other_party_age": 34,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -5353,6 +5543,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
     "car_brand_tag": "Audi",
+    "other_party_age": null,
     "lat": 48.78844947242033,
     "lon": 9.213826188008568,
     "stop_tag": "Raitelsberg"
@@ -5376,6 +5567,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 63,
     "lat": 48.80720450250941,
     "lon": 9.198784427730887,
     "stop_tag": "Rosensteinpark"
@@ -5399,6 +5591,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.779104,
     "lon": 9.179086,
     "stop_tag": "Schlossplatz"
@@ -5422,6 +5615,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Mini",
+    "other_party_age": 79,
     "lat": 48.7768805,
     "lon": 9.1620949,
     "stop_tag": "Schloss-/Johannesstraße"
@@ -5445,6 +5639,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "Dacia",
+    "other_party_age": 52,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -5468,6 +5663,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.819034,
     "lon": 9.237104,
     "stop_tag": "Hauptfriedhof"
@@ -5491,6 +5687,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Ford",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -5514,6 +5711,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U9",
     "car_brand_tag": "Renault",
+    "other_party_age": null,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -5537,6 +5735,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "Smart",
+    "other_party_age": null,
     "lat": 48.77677536268264,
     "lon": 9.165925803337982,
     "stop_tag": null
@@ -5560,6 +5759,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7819465,
     "lon": 9.2240013,
     "stop_tag": "Wangener-/Landhausstraße"
@@ -5583,6 +5783,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": 30,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -5606,6 +5807,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.801931232819555,
     "lon": 9.214625844305344,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -5629,6 +5831,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": 31,
     "lat": 48.832078,
     "lon": 9.236569,
     "stop_tag": "Neugereut"
@@ -5652,6 +5855,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": "Škoda",
+    "other_party_age": 35,
     "lat": 48.7242989,
     "lon": 9.1207398,
     "stop_tag": null
@@ -5675,6 +5879,7 @@
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "VW",
+    "other_party_age": 43,
     "lat": 48.7373785,
     "lon": 9.1518713,
     "stop_tag": null
@@ -5698,6 +5903,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -5721,6 +5927,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 25,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -5744,6 +5951,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Renault",
+    "other_party_age": 50,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -5767,6 +5975,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "Ford",
+    "other_party_age": 33,
     "lat": 48.7845718185385,
     "lon": 9.21288320553145,
     "stop_tag": "Ostheim Leo-Vetter-Bad"
@@ -5790,6 +5999,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": "Ford",
+    "other_party_age": 61,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -5813,6 +6023,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": 57,
     "lat": 48.81343874340476,
     "lon": 9.231016650973803,
     "stop_tag": null
@@ -5836,6 +6047,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -5859,6 +6071,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Fiat",
+    "other_party_age": null,
     "lat": 48.81973906162364,
     "lon": 9.207648209074273,
     "stop_tag": null
@@ -5882,6 +6095,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7923619,
     "lon": 9.1790022,
     "stop_tag": null
@@ -5905,6 +6119,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "Ford",
+    "other_party_age": null,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -5928,6 +6143,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 63,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -5951,6 +6167,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U9",
     "car_brand_tag": "Škoda",
+    "other_party_age": null,
     "lat": 48.775492599733255,
     "lon": 9.15747792959925,
     "stop_tag": null
@@ -5974,6 +6191,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U8",
     "car_brand_tag": "VW",
+    "other_party_age": 35,
     "lat": 48.741846345945255,
     "lon": 9.155075254172027,
     "stop_tag": null
@@ -5997,6 +6215,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -6020,6 +6239,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.79700240762357,
     "lon": 9.190124665009812,
     "stop_tag": "Mittnachtstraße"
@@ -6043,6 +6263,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Honda",
+    "other_party_age": null,
     "lat": 48.81973906162364,
     "lon": 9.207648209074273,
     "stop_tag": null
@@ -6066,6 +6287,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.80726654004857,
     "lon": 9.19874261091793,
     "stop_tag": "Rosensteinpark"
@@ -6089,6 +6311,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.80579,
     "lon": 9.209771,
     "stop_tag": "Rosensteinbrücke"
@@ -6117,6 +6340,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Peugeot",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6140,6 +6364,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Smart",
+    "other_party_age": 44,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -6163,6 +6388,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U15",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -6186,6 +6412,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -6209,6 +6436,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 75,
     "lat": 48.8014777,
     "lon": 9.207822,
     "stop_tag": null
@@ -6232,6 +6460,7 @@
     "location_tag": "Stuttgart-Heslach",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -6260,6 +6489,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Opel",
+    "other_party_age": null,
     "lat": 48.80414847421084,
     "lon": 9.100934467722247,
     "stop_tag": "Bergheimer Hof"
@@ -6288,6 +6518,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80288517751384,
     "lon": 9.216764577514201,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -6311,6 +6542,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.797022,
     "lon": 9.206016,
     "stop_tag": "Mineralbäder (Naturkundemuseum)"
@@ -6334,6 +6566,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6357,6 +6590,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": 59,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -6380,6 +6614,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Ford",
+    "other_party_age": 51,
     "lat": 48.81973906162364,
     "lon": 9.207648209074273,
     "stop_tag": null
@@ -6403,6 +6638,7 @@
     "location_tag": "Botnang",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 56,
     "lat": 48.775381250663536,
     "lon": 9.13388375769657,
     "stop_tag": "Lindpaintnerstraße"
@@ -6426,6 +6662,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
     "car_brand_tag": "Škoda",
+    "other_party_age": 57,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6449,6 +6686,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": 58,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -6472,6 +6710,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.78355360369959,
     "lon": 9.217070441813725,
     "stop_tag": "Gaisburg"
@@ -6495,6 +6734,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U14",
     "car_brand_tag": "VW",
+    "other_party_age": 20,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6518,6 +6758,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "Toyota",
+    "other_party_age": 34,
     "lat": 48.774853098887505,
     "lon": 9.1509342303632,
     "stop_tag": "Arndt-/Spittastraße"
@@ -6541,6 +6782,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U4",
     "car_brand_tag": "BMW",
+    "other_party_age": 71,
     "lat": 48.77964173745539,
     "lon": 9.166654454351153,
     "stop_tag": "Berliner Platz (Liederhalle)"
@@ -6564,6 +6806,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": 36,
     "lat": 48.808442,
     "lon": 9.243182,
     "stop_tag": "Antwerpener Straße"
@@ -6587,6 +6830,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Volvo",
+    "other_party_age": 54,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6610,6 +6854,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.822605,
     "lon": 9.173014,
     "stop_tag": "Friedrichswahl"
@@ -6633,6 +6878,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.7749269,
     "lon": 9.1509313,
     "stop_tag": "Arndt-/Spittastraße"
@@ -6656,6 +6902,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -6679,6 +6926,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
     "car_brand_tag": "Kia",
+    "other_party_age": null,
     "lat": 48.785061261013745,
     "lon": 9.24835985049477,
     "stop_tag": "Schlotterbeckstraße"
@@ -6702,6 +6950,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.813679,
     "lon": 9.203736,
     "stop_tag": "Riethmüllerhaus"
@@ -6725,6 +6974,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Ford",
+    "other_party_age": null,
     "lat": 48.80720450250941,
     "lon": 9.198784427730887,
     "stop_tag": "Rosensteinpark"
@@ -6748,6 +6998,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 51,
     "lat": 48.819034,
     "lon": 9.237104,
     "stop_tag": "Hauptfriedhof"
@@ -6771,6 +7022,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 61,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6794,6 +7046,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -6817,6 +7070,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6840,6 +7094,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.803378004152066,
     "lon": 9.216530716728377,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -6863,6 +7118,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U15",
     "car_brand_tag": "VW",
+    "other_party_age": 29,
     "lat": 48.77881507374867,
     "lon": 9.192633834312169,
     "stop_tag": "Heidehofstraße"
@@ -6896,6 +7152,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U5",
     "car_brand_tag": "Ford",
+    "other_party_age": 25,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -6919,6 +7176,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U31",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -6942,6 +7200,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 79,
     "lat": 48.7242989,
     "lon": 9.1207398,
     "stop_tag": null
@@ -6970,6 +7229,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 22,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -6993,6 +7253,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.838248,
     "lon": 9.161001,
     "stop_tag": "Wimpfener Straße"
@@ -7016,6 +7277,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -7039,6 +7301,7 @@
     "location_tag": "Botnang",
     "line_tag": "U34",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.778619,
     "lon": 9.121918,
     "stop_tag": "Botnang"
@@ -7067,6 +7330,7 @@
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80158479866907,
     "lon": 9.207490611174947,
     "stop_tag": null
@@ -7090,6 +7354,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U7",
     "car_brand_tag": "VW",
+    "other_party_age": 26,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -7113,6 +7378,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Audi",
+    "other_party_age": 25,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7136,6 +7402,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 26,
     "lat": 48.78227898792909,
     "lon": 9.222710919001898,
     "stop_tag": "Wangener-/Landhausstraße"
@@ -7169,6 +7436,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Audi",
+    "other_party_age": 45,
     "lat": 48.81334359492886,
     "lon": 9.112321857625878,
     "stop_tag": "Löwen-Markt"
@@ -7197,6 +7465,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": "Smart",
+    "other_party_age": 29,
     "lat": 48.77165423831849,
     "lon": 9.245341215295138,
     "stop_tag": "Wangen Marktplatz"
@@ -7220,6 +7489,7 @@
     "location_tag": "Kaltental",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7571549,
     "lon": 9.1460307,
     "stop_tag": null
@@ -7243,6 +7513,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7266,6 +7537,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U19",
     "car_brand_tag": "Ford",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7289,6 +7561,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -7312,6 +7585,7 @@
     "location_tag": "Botnang",
     "line_tag": "U29",
     "car_brand_tag": "Smart",
+    "other_party_age": 55,
     "lat": 48.7807212,
     "lon": 9.1290686,
     "stop_tag": null
@@ -7335,6 +7609,7 @@
     "location_tag": "Freiberg",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.84152316593383,
     "lon": 9.20768536592053,
     "stop_tag": "Suttnerstraße"
@@ -7358,6 +7633,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 27,
     "lat": 48.801931232819555,
     "lon": 9.214625844305344,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -7381,6 +7657,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Opel",
+    "other_party_age": 75,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -7404,6 +7681,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U4",
     "car_brand_tag": "Nissan",
+    "other_party_age": 53,
     "lat": 48.77964173745539,
     "lon": 9.166654454351153,
     "stop_tag": "Berliner Platz (Liederhalle)"
@@ -7427,6 +7705,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.76250308716777,
     "lon": 9.179954848589654,
     "stop_tag": null
@@ -7455,6 +7734,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "Ford",
+    "other_party_age": 44,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7478,6 +7758,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.801931232819555,
     "lon": 9.214625844305344,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -7501,6 +7782,7 @@
     "location_tag": "Stuttgart-Heslach",
     "line_tag": "U34",
     "car_brand_tag": "VW",
+    "other_party_age": 37,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -7524,6 +7806,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U15",
     "car_brand_tag": "Ford",
+    "other_party_age": null,
     "lat": 48.837385,
     "lon": 9.201535,
     "stop_tag": "Himmelsleiter"
@@ -7547,6 +7830,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80257021284299,
     "lon": 9.209285218668997,
     "stop_tag": null
@@ -7575,6 +7859,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U1",
     "car_brand_tag": "Ford",
+    "other_party_age": 61,
     "lat": 48.804966,
     "lon": 9.225729,
     "stop_tag": "Uff-Kirchhof"
@@ -7598,6 +7883,7 @@
     "location_tag": "Stammheim",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.84769938913444,
     "lon": 9.156884528319802,
     "stop_tag": "Korntaler Straße"
@@ -7621,6 +7907,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Porsche",
+    "other_party_age": null,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -7644,6 +7931,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": 65,
     "lat": 48.789158,
     "lon": 9.195321,
     "stop_tag": "Stöckach"
@@ -7667,6 +7955,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -7690,6 +7979,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77557766369714,
     "lon": 9.158282605356733,
     "stop_tag": null
@@ -7713,6 +8003,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": null,
+    "other_party_age": 72,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -7736,6 +8027,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7759,6 +8051,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7782,6 +8075,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.774853098887505,
     "lon": 9.1509342303632,
     "stop_tag": "Arndt-/Spittastraße"
@@ -7805,6 +8099,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77416553413391,
     "lon": 9.185919519455416,
     "stop_tag": "Olgaeck"
@@ -7828,6 +8123,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U12",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7856,6 +8152,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": "VW",
+    "other_party_age": 32,
     "lat": 48.80642272567265,
     "lon": 9.234851551427607,
     "stop_tag": null
@@ -7879,6 +8176,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": 24,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -7907,6 +8205,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": 62,
     "lat": 48.806886,
     "lon": 9.236871,
     "stop_tag": "Nürnberger Straße"
@@ -7930,6 +8229,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 36,
     "lat": 48.813396,
     "lon": 9.168609,
     "stop_tag": "Feuerbach Bahnhof"
@@ -7953,6 +8253,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U34",
     "car_brand_tag": "VW",
+    "other_party_age": 43,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -7976,6 +8277,7 @@
     "location_tag": "Botnang",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 39,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -7999,6 +8301,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 41,
     "lat": 48.740692,
     "lon": 9.152978,
     "stop_tag": "Sonnenberg"
@@ -8022,6 +8325,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -8045,6 +8349,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -8068,6 +8373,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -8091,6 +8397,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -8114,6 +8421,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -8137,6 +8445,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7702483,
     "lon": 9.1569698,
     "stop_tag": null
@@ -8160,6 +8469,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
     "car_brand_tag": "Renault",
+    "other_party_age": 51,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -8183,6 +8493,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U34",
     "car_brand_tag": null,
+    "other_party_age": 77,
     "lat": 48.774853098887505,
     "lon": 9.1509342303632,
     "stop_tag": "Arndt-/Spittastraße"
@@ -8206,6 +8517,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U9",
     "car_brand_tag": "Citroën",
+    "other_party_age": 31,
     "lat": 48.78844947242033,
     "lon": 9.213826188008568,
     "stop_tag": "Raitelsberg"
@@ -8229,6 +8541,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "Nissan",
+    "other_party_age": null,
     "lat": 48.804908414459604,
     "lon": 9.22548091487183,
     "stop_tag": "Uff-Kirchhof"
@@ -8252,6 +8565,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 29,
     "lat": 48.82687609090587,
     "lon": 9.173716026582925,
     "stop_tag": "Hohensteinstraße"
@@ -8275,6 +8589,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 55,
     "lat": 48.726968,
     "lon": 9.12569,
     "stop_tag": "SSB am Wallgraben"
@@ -8298,6 +8613,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.775412,
     "lon": 9.156029,
     "stop_tag": "Schwab-/Bebelstraße"
@@ -8321,6 +8637,7 @@
     "location_tag": "Wangen",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.762919652961465,
     "lon": 9.252132377893638,
     "stop_tag": null
@@ -8344,6 +8661,7 @@
     "location_tag": "Stuttgart-Münster",
     "line_tag": "U14",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 24,
     "lat": 48.80158479866907,
     "lon": 9.207490611174947,
     "stop_tag": null
@@ -8367,6 +8685,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "VW",
+    "other_party_age": 51,
     "lat": 48.78682718899125,
     "lon": 9.191335647861443,
     "stop_tag": "Neckartor"
@@ -8390,6 +8709,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U11",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -8413,6 +8733,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
     "car_brand_tag": "Citroën",
+    "other_party_age": 22,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -8436,6 +8757,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -8459,6 +8781,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 27,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -8482,6 +8805,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 31,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -8505,6 +8829,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7749269,
     "lon": 9.1509313,
     "stop_tag": "Arndt-/Spittastraße"
@@ -8528,6 +8853,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 15,
     "lat": 48.8079426,
     "lon": 9.2438184,
     "stop_tag": "Antwerpener Straße"
@@ -8551,6 +8877,7 @@
     "location_tag": "Freiberg",
     "line_tag": "U7",
     "car_brand_tag": "Opel",
+    "other_party_age": null,
     "lat": 48.84152316593383,
     "lon": 9.20768536592053,
     "stop_tag": "Suttnerstraße"
@@ -8594,6 +8921,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "Volvo",
+    "other_party_age": 33,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -8627,6 +8955,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U7",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 29,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -8650,6 +8979,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Audi",
+    "other_party_age": 21,
     "lat": 48.81973906162364,
     "lon": 9.207648209074273,
     "stop_tag": null
@@ -8678,6 +9008,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.82605368560563,
     "lon": 9.173498621150149,
     "stop_tag": "Hohensteinstraße"
@@ -8706,6 +9037,7 @@
     "location_tag": "Giebel",
     "line_tag": "U6",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 58,
     "lat": 48.80414847421084,
     "lon": 9.100934467722247,
     "stop_tag": "Bergheimer Hof"
@@ -8734,6 +9066,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Škoda",
+    "other_party_age": 37,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -8757,6 +9090,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83115561812074,
     "lon": 9.235357640098991,
     "stop_tag": "Neugereut"
@@ -8785,6 +9119,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77881507374867,
     "lon": 9.192633834312169,
     "stop_tag": "Heidehofstraße"
@@ -8813,6 +9148,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 40,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -8836,6 +9172,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U5",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79822,
     "lon": 9.182647,
     "stop_tag": "Pragfriedhof"
@@ -8864,6 +9201,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U8",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -8902,6 +9240,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 77,
     "lat": 48.841299,
     "lon": 9.230646,
     "stop_tag": "Mühlhausen"
@@ -8940,6 +9279,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": "VW",
+    "other_party_age": 37,
     "lat": 48.80158479866907,
     "lon": 9.207490611174947,
     "stop_tag": null
@@ -8983,6 +9323,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "BMW",
+    "other_party_age": 57,
     "lat": 48.77908068730532,
     "lon": 9.17151154161988,
     "stop_tag": null
@@ -9011,6 +9352,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 49,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9034,6 +9376,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": 55,
     "lat": 48.7799312,
     "lon": 9.1922127,
     "stop_tag": "Heidehofstraße"
@@ -9062,6 +9405,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 46,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -9095,6 +9439,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U11",
     "car_brand_tag": "VW",
+    "other_party_age": 41,
     "lat": 48.793141751658986,
     "lon": 9.201481665751652,
     "stop_tag": "Metzstraße"
@@ -9123,6 +9468,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 29,
     "lat": 48.819388,
     "lon": 9.17543,
     "stop_tag": "Borsigstraße"
@@ -9156,6 +9502,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 79,
     "lat": 48.80726654004857,
     "lon": 9.19874261091793,
     "stop_tag": "Rosensteinpark"
@@ -9189,6 +9536,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "Toyota",
+    "other_party_age": 37,
     "lat": 48.77749363614037,
     "lon": 9.165811234521977,
     "stop_tag": null
@@ -9212,6 +9560,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U16",
     "car_brand_tag": "Nissan",
+    "other_party_age": 51,
     "lat": 48.80726654004857,
     "lon": 9.19874261091793,
     "stop_tag": "Rosensteinpark"
@@ -9240,6 +9589,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "Nissan",
+    "other_party_age": 54,
     "lat": 48.77908068730532,
     "lon": 9.17151154161988,
     "stop_tag": null
@@ -9268,6 +9618,7 @@
     "location_tag": "Vaihingen",
     "line_tag": "U12",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 64,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9296,6 +9647,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9324,6 +9676,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": "VW",
+    "other_party_age": 57,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -9347,6 +9700,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7791242,
     "lon": 9.1715019,
     "stop_tag": null
@@ -9380,6 +9734,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Peugeot",
+    "other_party_age": 44,
     "lat": 48.825287695292644,
     "lon": 9.173296129197036,
     "stop_tag": null
@@ -9413,6 +9768,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9436,6 +9792,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.774853098887505,
     "lon": 9.1509342303632,
     "stop_tag": "Arndt-/Spittastraße"
@@ -9459,6 +9816,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9482,6 +9840,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Nissan",
+    "other_party_age": 29,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -9505,6 +9864,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -9528,6 +9888,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9556,6 +9917,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": "Seat",
+    "other_party_age": 22,
     "lat": 48.7749269,
     "lon": 9.1509313,
     "stop_tag": "Arndt-/Spittastraße"
@@ -9589,6 +9951,7 @@
     "location_tag": "Giebel",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "VW",
+    "other_party_age": 72,
     "lat": 48.8014574,
     "lon": 9.0869177,
     "stop_tag": null
@@ -9617,6 +9980,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U7",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 36,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -9645,6 +10009,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Fiat",
+    "other_party_age": 69,
     "lat": 48.8018666,
     "lon": 9.2146706,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -9673,6 +10038,7 @@
     "location_tag": "Degerloch",
     "line_tag": "U15",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.753433,
     "lon": 9.195326,
     "stop_tag": "Ruhbank (Fernsehturm)"
@@ -9701,6 +10067,7 @@
     "location_tag": "Möhringen",
     "line_tag": "U3",
     "car_brand_tag": "Renault",
+    "other_party_age": 51,
     "lat": 48.7203842185132,
     "lon": 9.165760652273388,
     "stop_tag": "Landhaus"
@@ -9729,6 +10096,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.806886,
     "lon": 9.236871,
     "stop_tag": "Nürnberger Straße"
@@ -9757,6 +10125,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -9785,6 +10154,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7571549,
     "lon": 9.1460307,
     "stop_tag": null
@@ -9813,6 +10183,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Renault",
+    "other_party_age": 40,
     "lat": 48.79189762729384,
     "lon": 9.181445757527792,
     "stop_tag": "Stadtbibliothek"
@@ -9851,6 +10222,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U16",
     "car_brand_tag": "BMW",
+    "other_party_age": 65,
     "lat": 48.81334359492886,
     "lon": 9.112321857625878,
     "stop_tag": "Löwen-Markt"
@@ -9874,6 +10246,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Fiat",
+    "other_party_age": 37,
     "lat": 48.8368843,
     "lon": 9.2234045,
     "stop_tag": "Hofen"
@@ -9897,6 +10270,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 72,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -9920,6 +10294,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 46,
     "lat": 48.8212947,
     "lon": 9.2456071,
     "stop_tag": null
@@ -9943,6 +10318,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -9966,6 +10342,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U29",
     "car_brand_tag": "Audi",
+    "other_party_age": 56,
     "lat": 48.775412,
     "lon": 9.156029,
     "stop_tag": "Schwab-/Bebelstraße"
@@ -9989,6 +10366,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 46,
     "lat": 48.77981478378426,
     "lon": 9.24889249365144,
     "stop_tag": "Untertürkheim Bf"
@@ -10027,6 +10405,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": 60,
     "lat": 48.79822,
     "lon": 9.182647,
     "stop_tag": "Pragfriedhof"
@@ -10055,6 +10434,7 @@
     "location_tag": "Freiberg",
     "line_tag": "U7",
     "car_brand_tag": "Seat",
+    "other_party_age": 53,
     "lat": 48.84152316593383,
     "lon": 9.20768536592053,
     "stop_tag": "Suttnerstraße"
@@ -10078,6 +10458,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U12",
     "car_brand_tag": "Citroën",
+    "other_party_age": 44,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -10106,6 +10487,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.809101,
     "lon": 9.222336,
     "stop_tag": "Kursaal"
@@ -10134,6 +10516,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 28,
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
@@ -10157,6 +10540,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U1",
     "car_brand_tag": "Ford",
+    "other_party_age": 60,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -10180,6 +10564,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 60,
     "lat": 48.78355360369959,
     "lon": 9.217070441813725,
     "stop_tag": "Gaisburg"
@@ -10203,6 +10588,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -10226,6 +10612,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": "VW",
+    "other_party_age": null,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
@@ -10249,6 +10636,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77981478378426,
     "lon": 9.24889249365144,
     "stop_tag": "Untertürkheim Bf"
@@ -10272,6 +10660,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77660153958808,
     "lon": 9.164640061146986,
     "stop_tag": "Schloss-/Johannesstraße"
@@ -10295,6 +10684,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -10323,6 +10713,7 @@
     "location_tag": "Stuttgart-Nord",
     "line_tag": "U12",
     "car_brand_tag": "BMW",
+    "other_party_age": null,
     "lat": 48.79700240762357,
     "lon": 9.190124665009812,
     "stop_tag": "Mittnachtstraße"
@@ -10346,6 +10737,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 76,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -10369,6 +10761,7 @@
     "location_tag": "Hofen",
     "line_tag": "U12",
     "car_brand_tag": "Mini",
+    "other_party_age": null,
     "lat": 48.83732574120901,
     "lon": 9.222931559266106,
     "stop_tag": "Hofen"
@@ -10392,6 +10785,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.81965575146005,
     "lon": 9.236736135927595,
     "stop_tag": "Hauptfriedhof"
@@ -10415,6 +10809,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7799312,
     "lon": 9.1922127,
     "stop_tag": "Heidehofstraße"
@@ -10438,6 +10833,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.809773,
     "lon": 9.21579,
     "stop_tag": "Mühlsteg"
@@ -10461,6 +10857,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": "Toyota",
+    "other_party_age": 43,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -10484,6 +10881,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.8261022,
     "lon": 9.1733151,
     "stop_tag": "Hohensteinstraße"
@@ -10507,6 +10905,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Mini",
+    "other_party_age": null,
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
@@ -10530,6 +10929,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.811449,
     "lon": 9.158512,
     "stop_tag": "Wilhelm-Geiger-Platz"
@@ -10553,6 +10953,7 @@
     "location_tag": "Stuttgart-Neugereut",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": 19,
     "lat": 48.832083,
     "lon": 9.236493,
     "stop_tag": "Neugereut"
@@ -10576,6 +10977,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.778273,
     "lon": 9.190639,
     "stop_tag": "Eugensplatz"
@@ -10604,6 +11006,7 @@
     "location_tag": "Hofen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 66,
     "lat": 48.83732574120901,
     "lon": 9.222931559266106,
     "stop_tag": "Hofen"
@@ -10627,6 +11030,7 @@
     "location_tag": "Möhringen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7373987,
     "lon": 9.1633143,
     "stop_tag": null
@@ -10650,6 +11054,7 @@
     "location_tag": "Fellbach",
     "line_tag": "U1",
     "car_brand_tag": "Renault",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -10673,6 +11078,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Smart",
+    "other_party_age": 41,
     "lat": 48.792192,
     "lon": 9.200519,
     "stop_tag": "Metzstraße"
@@ -10706,6 +11112,7 @@
     "location_tag": "Stuttgart-Heslach",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.753583,
     "lon": 9.138294,
     "stop_tag": "Heslach Vogelrain"
@@ -10729,6 +11136,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77677536268264,
     "lon": 9.165925803337982,
     "stop_tag": null
@@ -10752,6 +11160,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -10775,6 +11184,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7750708,
     "lon": 9.1550279,
     "stop_tag": "Schwab-/Bebelstraße"
@@ -10803,6 +11213,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.801931232819555,
     "lon": 9.214625844305344,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -10826,6 +11237,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U4",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7907469,
     "lon": 9.1969949,
     "stop_tag": null
@@ -10849,6 +11261,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": 51,
     "lat": 48.76813447898749,
     "lon": 9.173291644597143,
     "stop_tag": null
@@ -10872,6 +11285,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": null,
+    "other_party_age": 51,
     "lat": 48.793141751658986,
     "lon": 9.201481665751652,
     "stop_tag": "Metzstraße"
@@ -10895,6 +11309,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U15",
     "car_brand_tag": "Audi",
+    "other_party_age": 64,
     "lat": 48.77416553413391,
     "lon": 9.185919519455416,
     "stop_tag": "Olgaeck"
@@ -10918,6 +11333,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
     "car_brand_tag": "Citroën",
+    "other_party_age": 37,
     "lat": 48.82605368560563,
     "lon": 9.173498621150149,
     "stop_tag": "Hohensteinstraße"
@@ -10941,6 +11357,7 @@
     "location_tag": "Untertürkheim",
     "line_tag": "U13",
     "car_brand_tag": "Ford",
+    "other_party_age": 42,
     "lat": 48.785061261013745,
     "lon": 9.24835985049477,
     "stop_tag": "Schlotterbeckstraße"
@@ -10964,6 +11381,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.767939,
     "lon": 9.183734,
     "stop_tag": "Bopser"
@@ -10987,6 +11405,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11010,6 +11429,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.803378004152066,
     "lon": 9.216530716728377,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -11033,6 +11453,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U12",
     "car_brand_tag": "VW",
+    "other_party_age": 35,
     "lat": 48.79700240762357,
     "lon": 9.190124665009812,
     "stop_tag": "Mittnachtstraße"
@@ -11056,6 +11477,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.801931232819555,
     "lon": 9.214625844305344,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -11079,6 +11501,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "U15",
     "car_brand_tag": "VW",
+    "other_party_age": 28,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11102,6 +11525,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "Ford",
+    "other_party_age": null,
     "lat": 48.774853098887505,
     "lon": 9.1509342303632,
     "stop_tag": "Arndt-/Spittastraße"
@@ -11125,6 +11549,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11148,6 +11573,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U14",
     "car_brand_tag": "Ford",
+    "other_party_age": 64,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11171,6 +11597,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U14",
     "car_brand_tag": "Opel",
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11194,6 +11621,7 @@
     "location_tag": "Stuttgart-Neugereut",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.83115561812074,
     "lon": 9.235357640098991,
     "stop_tag": "Neugereut"
@@ -11217,6 +11645,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.8035286,
     "lon": 9.2184165,
     "stop_tag": null
@@ -11240,6 +11669,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.76282094128954,
     "lon": 9.16004035271363,
     "stop_tag": "Erwin-Schoettle-Platz"
@@ -11263,6 +11693,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Opel",
+    "other_party_age": 81,
     "lat": 48.8014777,
     "lon": 9.207822,
     "stop_tag": null
@@ -11286,6 +11717,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11309,6 +11741,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U7",
     "car_brand_tag": "VW",
+    "other_party_age": 34,
     "lat": 48.84152316593383,
     "lon": 9.20768536592053,
     "stop_tag": "Suttnerstraße"
@@ -11332,6 +11765,7 @@
     "location_tag": "Zuffenhausen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 27,
     "lat": 48.7923619,
     "lon": 9.1790022,
     "stop_tag": null
@@ -11355,6 +11789,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11378,6 +11813,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 22,
     "lat": 48.809856,
     "lon": 9.142208,
     "stop_tag": "Sportpark Feuerbach"
@@ -11401,6 +11837,7 @@
     "location_tag": "Rot",
     "line_tag": "U7",
     "car_brand_tag": "Peugeot",
+    "other_party_age": null,
     "lat": 48.83375070462308,
     "lon": 9.19526234269511,
     "stop_tag": "Tapachstraße"
@@ -11424,6 +11861,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.779122,
     "lon": 9.169252,
     "stop_tag": null
@@ -11447,6 +11885,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U9",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.783305,
     "lon": 9.180595,
     "stop_tag": "Hauptbahnhof (Arnulf-Klett-Platz)"
@@ -11470,6 +11909,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U15",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.77581,
     "lon": 9.18298,
     "stop_tag": "Charlottenplatz"
@@ -11493,6 +11933,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U9",
     "car_brand_tag": "Volvo",
+    "other_party_age": 74,
     "lat": 48.77908068730532,
     "lon": 9.17151154161988,
     "stop_tag": null
@@ -11516,6 +11957,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.772244,
     "lon": 9.141388,
     "stop_tag": "Herderplatz"
@@ -11539,6 +11981,7 @@
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11567,6 +12010,7 @@
     "location_tag": "Stuttgart-Münster",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 28,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11595,6 +12039,7 @@
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": 30,
     "lat": 48.8082447,
     "lon": 9.2711014,
     "stop_tag": "Schwabenlandhalle"
@@ -11618,6 +12063,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U12",
     "car_brand_tag": "Hyundai",
+    "other_party_age": null,
     "lat": 48.77029930265924,
     "lon": 9.186022949976852,
     "stop_tag": "Dobelstraße"
@@ -11641,6 +12087,7 @@
     "location_tag": "Freiberg",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11664,6 +12111,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -11692,6 +12140,7 @@
     "location_tag": "Stuttgart-Ost",
     "line_tag": "U1",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 44,
     "lat": 48.79309128738108,
     "lon": 9.201542474686084,
     "stop_tag": "Metzstraße"
@@ -11720,6 +12169,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "U6",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 68,
     "lat": 48.813161442977965,
     "lon": 9.13070763778215,
     "stop_tag": null
@@ -11743,6 +12193,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": 38,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11766,6 +12217,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.819034,
     "lon": 9.237104,
     "stop_tag": "Hauptfriedhof"
@@ -11789,6 +12241,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "U19",
     "car_brand_tag": "Mercedes",
+    "other_party_age": null,
     "lat": 48.80254777409151,
     "lon": 9.215575321425115,
     "stop_tag": "Bad Cannstatt Wilhelmsplatz"
@@ -11812,6 +12265,7 @@
     "location_tag": "Feuerbach",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.816315,
     "lon": 9.177169,
     "stop_tag": "Sieglestraße"
@@ -11835,6 +12289,7 @@
     "location_tag": "Stuttgart-Süd",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.7664926,
     "lon": 9.182694,
     "stop_tag": null
@@ -11858,6 +12313,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11881,6 +12337,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "U2",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.774686,
     "lon": 9.145925,
     "stop_tag": "Vogelsang"
@@ -11904,6 +12361,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U14",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.841299,
     "lon": 9.230646,
     "stop_tag": "Mühlhausen"
@@ -11927,6 +12385,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.839425,
     "lon": 9.224891,
     "stop_tag": "Auwiesen"
@@ -11950,6 +12409,7 @@
     "location_tag": "Stuttgart-West",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -11973,6 +12433,7 @@
     "location_tag": "Ostfildern",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.715147,
     "lon": 9.273218,
     "stop_tag": "Scharnhauser Park Kreuzbrunnen"
@@ -11996,6 +12457,7 @@
     "location_tag": "Hofen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.836257,
     "lon": 9.221934,
     "stop_tag": "Hofen"
@@ -12019,6 +12481,7 @@
     "location_tag": "Fellbach",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": "Opel",
+    "other_party_age": null,
     "lat": 48.7737916,
     "lon": 9.1812889,
     "stop_tag": "Rathaus"
@@ -12042,6 +12505,7 @@
     "location_tag": "Bad Cannstatt",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -12065,6 +12529,7 @@
     "location_tag": "Mühlhausen",
     "line_tag": "U12",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -12103,6 +12568,7 @@
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U7",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.769742,
     "lon": 9.185978,
     "stop_tag": "Dobelstraße"
@@ -12126,6 +12592,7 @@
     "location_tag": "Wangen",
     "line_tag": "Linie unbekannt",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": null,
     "lon": null,
     "stop_tag": null
@@ -12149,6 +12616,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "BMW",
+    "other_party_age": 39,
     "lat": 48.80454280714485,
     "lon": 9.101567134726977,
     "stop_tag": "Bergheimer Hof"
@@ -12172,6 +12640,7 @@
     "location_tag": "Stuttgart",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.804185,
     "lon": 9.10112,
     "stop_tag": "Bergheimer Hof"
@@ -12195,6 +12664,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "VW",
+    "other_party_age": 64,
     "lat": 48.80454280714485,
     "lon": 9.101567134726977,
     "stop_tag": "Bergheimer Hof"
@@ -12218,6 +12688,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": "Mercedes",
+    "other_party_age": 59,
     "lat": 48.80454280714485,
     "lon": 9.101567134726977,
     "stop_tag": "Bergheimer Hof"
@@ -12241,6 +12712,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.81379734965273,
     "lon": 9.113998520869046,
     "stop_tag": "Löwen-Markt"
@@ -12269,6 +12741,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80452513193242,
     "lon": 9.101545046846963,
     "stop_tag": "Bergheimer Hof"
@@ -12297,6 +12770,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.80414847421084,
     "lon": 9.100934467722247,
     "stop_tag": "Bergheimer Hof"
@@ -12320,6 +12794,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 58,
     "lat": 48.81382090819448,
     "lon": 9.1143001838037,
     "stop_tag": "Löwen-Markt"
@@ -12343,6 +12818,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 30,
     "lat": 48.81314452850971,
     "lon": 9.130788214579724,
     "stop_tag": null
@@ -12366,6 +12842,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 39,
     "lat": 48.80262299475445,
     "lon": 9.092467379707772,
     "stop_tag": "Salamanderweg"
@@ -12389,6 +12866,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.8146255,
     "lon": 9.1238715,
     "stop_tag": "Landauer Straße"
@@ -12412,6 +12890,7 @@
     "location_tag": "Giebel",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.802698,
     "lon": 9.088132,
     "stop_tag": "Giebel"
@@ -12435,6 +12914,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.81379734965273,
     "lon": 9.113998520869046,
     "stop_tag": "Löwen-Markt"
@@ -12458,6 +12938,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 36,
     "lat": 48.8025965,
     "lon": 9.0932436,
     "stop_tag": "Salamanderweg"
@@ -12481,6 +12962,7 @@
     "location_tag": "Giebel",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.802625,
     "lon": 9.093196,
     "stop_tag": "Salamanderweg"
@@ -12504,6 +12986,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": 21,
     "lat": 48.802625,
     "lon": 9.093196,
     "stop_tag": "Salamanderweg"
@@ -12527,6 +13010,7 @@
     "location_tag": "Weilimdorf",
     "line_tag": "U13",
     "car_brand_tag": null,
+    "other_party_age": null,
     "lat": 48.802625,
     "lon": 9.093196,
     "stop_tag": "Salamanderweg"
@@ -12575,6 +13059,7 @@
     "location_tag": "Gerlingen",
     "line_tag": "U6",
     "car_brand_tag": null,
+    "other_party_age": 13,
     "lat": 48.814492,
     "lon": 9.1255048,
     "stop_tag": "Landauer Straße"
