@@ -52,6 +52,7 @@ const STRINGS = {
     "home.viewedBadge": "🖥️ Am besten angesehen mit jedem Browser seit 2010",
     "home.onThisDayTitle": "📅 Was geschah heute?",
     "home.onThisDayIncidentPrefix": "An diesem Tag geschah bereits:",
+    "home.onThisDayNoIncident": "Heute gab es (bisher) kein UPSI. Stattdessen ein kleiner spaßiger Fakt, was an diesem Tag sonst passierte:",
     "home.onThisDayWikiLink": "Mehr auf Wikipedia →",
     "home.onThisDayLoading": "Lade …",
 
@@ -149,6 +150,7 @@ const STRINGS = {
     "home.viewedBadge": "🖥️ Best viewed with any browser since 2010",
     "home.onThisDayTitle": "📅 What happened today?",
     "home.onThisDayIncidentPrefix": "On this day, this already happened:",
+    "home.onThisDayNoIncident": "No UPSI happened today (so far). Instead, here's a small fun fact about what else happened on this date:",
     "home.onThisDayWikiLink": "More on Wikipedia →",
     "home.onThisDayLoading": "Loading …",
 

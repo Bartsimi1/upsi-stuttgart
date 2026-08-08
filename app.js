@@ -315,8 +315,17 @@ async function renderOnThisDay() {
 
   const matches = allIncidents.filter((i) => i.event_date && i.event_date.slice(5) === monthDay);
   if (matches.length > 0) {
+    // Kurze Ereignis-Beschreibung statt nur des Orts (Nutzerauftrag
+    // 2026-08-08) -- event_type-Label reicht als "sehr kurze Beschreibung",
+    // nutzt dieselben (sprachumschaltbaren) Labels wie die Tag-Chips auf den
+    // Karten, keine Redundanz mit other_party (z.B. "Fußgänger erfasst"
+    // nennt die Gegenpartei implizit schon).
+    const eventTypeLabels = getLang() === "en" ? EVENT_TYPE_LABELS_EN : EVENT_TYPE_LABELS;
     const itemsHtml = matches
-      .map((i) => `<li>${esc(i.event_date.slice(0, 4))} — ${esc(i.location)}</li>`)
+      .map((i) => {
+        const typeLabel = eventTypeLabels[i.event_type] || i.event_type;
+        return `<li>${esc(i.event_date.slice(0, 4))} — ${esc(typeLabel)}, ${esc(i.location)}</li>`;
+      })
       .join("");
     body.innerHTML = `<p>${esc(t("home.onThisDayIncidentPrefix"))}</p><ul class="on-this-day-list">${itemsHtml}</ul>`;
     card.hidden = false;
@@ -334,7 +343,11 @@ async function renderOnThisDay() {
       return;
     }
     const text = getLang() === "en" ? fact.text_en : fact.text_de;
+    // Erklärender Satz VOR dem Fakt (Nutzerauftrag 2026-08-08) -- macht
+    // klar, WARUM hier ein Wikipedia-Fakt statt eines UPSI steht, statt
+    // kommentarlos einen thematisch unpassenden Satz hinzuwerfen.
     body.innerHTML = `
+      <p class="hero-note">${esc(t("home.onThisDayNoIncident"))}</p>
       <p>${esc(fact.year)} — ${esc(text)}</p>
       <a class="source-link" href="${esc(safeHref(fact.wikipedia_url))}" target="_blank" rel="noopener">${esc(t("home.onThisDayWikiLink"))}</a>
     `;
