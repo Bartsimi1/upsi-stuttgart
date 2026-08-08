@@ -53,6 +53,7 @@ const STRINGS = {
     "home.onThisDayTitle": "📅 Was geschah heute?",
     "home.onThisDayIncidentPrefix": "An diesem Tag geschah bereits:",
     "home.onThisDayNoIncident": "Heute gab es (bisher) kein UPSI. Stattdessen ein kleiner spaßiger Fakt, was an diesem Tag sonst passierte:",
+    "home.onThisDayAlsoOnThisDate": "Außerdem geschah an diesem Kalendertag (in einem anderen Jahr) auch das hier:",
     "home.onThisDayWikiLink": "Mehr auf Wikipedia →",
     "home.onThisDayLoading": "Lade …",
 
@@ -153,6 +154,7 @@ const STRINGS = {
     "home.onThisDayTitle": "📅 What happened today?",
     "home.onThisDayIncidentPrefix": "On this day, this already happened:",
     "home.onThisDayNoIncident": "No UPSI happened today (so far). Instead, here's a small fun fact about what else happened on this date:",
+    "home.onThisDayAlsoOnThisDate": "Also, on this calendar date (in a different year), this happened too:",
     "home.onThisDayWikiLink": "More on Wikipedia →",
     "home.onThisDayLoading": "Loading …",
 

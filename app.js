@@ -301,10 +301,13 @@ async function loadLastUpdated() {
 // Backend-Crawler (data/on_this_day.json), da sich der Datenbestand
 // jederzeit ändern kann (ein neuer Unfall kann an einem bisher "leeren"
 // Kalendertag dazukommen, ohne dass der wöchentliche Wikipedia-Lauf davon
-// weiß). Ohne Treffer: Fallback auf einen von der KI ausgewählten,
-// unterhaltsamen Wikipedia-Fakt für dieses Datum (siehe on_this_day.py) --
-// fehlt auch der (z.B. während des ersten Aufbaujahres noch nicht
-// abgedeckt), bleibt die Kachel schlicht verborgen, kein Fehlerzustand.
+// weiß). Der Wikipedia-Fakt wird IMMER zusätzlich angezeigt, sobald einer
+// für dieses Datum vorliegt (2026-08-08, Nutzerauftrag geändert: vorher nur
+// als Fallback OHNE UPSI) -- unter der UPSI-Liste, mit passendem Einleitungs-
+// satz je nachdem, ob an dem Tag auch ein UPSI stattfand. Liegt (noch) kein
+// Fakt für dieses Datum vor (z. B. während des ersten Aufbaujahres), bleibt
+// dieser Teil einfach weg -- kein Fehlerzustand. Card bleibt nur verborgen,
+// wenn WEDER ein UPSI NOCH ein Fakt für heute existiert.
 async function renderOnThisDay() {
   const card = document.getElementById("on-this-day-card");
   const body = document.getElementById("on-this-day-body");
@@ -314,6 +317,7 @@ async function renderOnThisDay() {
   const monthDay = `${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
 
   const matches = allIncidents.filter((i) => i.event_date && i.event_date.slice(5) === monthDay);
+  let incidentsHtml = "";
   if (matches.length > 0) {
     // Kurze Ereignis-Beschreibung statt nur des Orts (Nutzerauftrag
     // 2026-08-08) -- event_type-Label reicht als "sehr kurze Beschreibung",
@@ -327,32 +331,39 @@ async function renderOnThisDay() {
         return `<li>${esc(i.event_date.slice(0, 4))} — ${esc(typeLabel)}, ${esc(i.location)}</li>`;
       })
       .join("");
-    body.innerHTML = `<p>${esc(t("home.onThisDayIncidentPrefix"))}</p><ul class="on-this-day-list">${itemsHtml}</ul>`;
-    card.hidden = false;
-    return;
+    incidentsHtml = `<p>${esc(t("home.onThisDayIncidentPrefix"))}</p><ul class="on-this-day-list">${itemsHtml}</ul>`;
   }
 
-  body.innerHTML = `<p>${esc(t("home.onThisDayLoading"))}</p>`;
+  // UPSIs (falls vorhanden) sofort zeigen, kein Warten auf den Fakt-Fetch --
+  // nur ohne UPSI-Treffer gibt es überhaupt einen kurzen Lade-Zustand.
+  body.innerHTML = incidentsHtml || `<p>${esc(t("home.onThisDayLoading"))}</p>`;
   card.hidden = false;
+
   try {
     const res = await fetch("data/on_this_day.json");
     const facts = await res.json();
     const fact = facts[monthDay];
     if (!fact) {
-      card.hidden = true;
+      body.innerHTML = incidentsHtml;
+      if (!incidentsHtml) card.hidden = true;
       return;
     }
     const text = getLang() === "en" ? fact.text_en : fact.text_de;
-    // Erklärender Satz VOR dem Fakt (Nutzerauftrag 2026-08-08) -- macht
-    // klar, WARUM hier ein Wikipedia-Fakt statt eines UPSI steht, statt
-    // kommentarlos einen thematisch unpassenden Satz hinzuwerfen.
-    body.innerHTML = `
-      <p class="hero-note">${esc(t("home.onThisDayNoIncident"))}</p>
-      <p>${esc(fact.year)} — ${esc(text)}</p>
+    // Zwei verschiedene Einleitungssätze, je nachdem ob schon ein UPSI
+    // gezeigt wird ("außerdem...") oder der Fakt allein steht ("kein UPSI
+    // heute, stattdessen...") -- macht in beiden Fällen klar, warum hier ein
+    // thematisch unpassender Fakt auftaucht, statt ihn kommentarlos
+    // hinzuwerfen.
+    const introKey = matches.length > 0 ? "home.onThisDayAlsoOnThisDate" : "home.onThisDayNoIncident";
+    const factHtml = `
+      <p class="hero-note">${esc(t(introKey))}</p>
+      <p>${esc(text)}</p>
       <a class="source-link" href="${esc(safeHref(fact.wikipedia_url))}" target="_blank" rel="noopener">${esc(t("home.onThisDayWikiLink"))}</a>
     `;
+    body.innerHTML = incidentsHtml + factHtml;
   } catch (err) {
-    card.hidden = true;
+    body.innerHTML = incidentsHtml;
+    if (!incidentsHtml) card.hidden = true;
   }
 }
 
