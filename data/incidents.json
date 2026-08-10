@@ -9332,7 +9332,7 @@
     "id": "inc-2025-11-01-001",
     "event_date": "2025-11-01",
     "event_time": "13:25",
-    "location": "Steinhaldenfeldstraße/Seeblickweg, Stuttgart-Mühlhausen",
+    "location": "Steinhaldenfeldstraße/Seeblickweg, Stuttgart-Mühlhausen (Hofen)",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
@@ -9353,8 +9353,8 @@
     "line_tag": "U2",
     "car_brand_tag": "Mercedes",
     "other_party_age": 49,
-    "lat": null,
-    "lon": null,
+    "lat": 48.829809,
+    "lon": 9.232002,
     "stop_tag": null
   },
   {
