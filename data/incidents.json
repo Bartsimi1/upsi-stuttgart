@@ -5816,11 +5816,11 @@
     "id": "inc-2022-07-14-001",
     "event_date": "2022-07-14",
     "event_time": "10:45",
-    "location": "Seeblickweg/Kreisverkehr, Stuttgart-Bad Cannstatt (Steinhaldenfeld)",
+    "location": "Seeblickweg/Kreisverkehr, Stuttgart-Mühlhausen (Hofen)",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Eine Stadtbahn der Linie U2 stieß am Donnerstagvormittag trotz eingeleiteter Gefahrenbremsung im Kreisverkehr am Seeblickweg in Stuttgart-Bad Cannstatt gegen den VW Golf einer 31-jährigen Fahrerin, die dort nach rechts in die Steinhaldenstraße einbiegen wollte. Verletzt wurde niemand, es entstand Sachschaden im vierstelligen Bereich.",
+    "summary": "Eine Stadtbahn der Linie U2 stieß am Donnerstagvormittag trotz eingeleiteter Gefahrenbremsung im Kreisverkehr am Seeblickweg in Stuttgart-Mühlhausen (Hofen) gegen den VW Golf einer 31-jährigen Fahrerin, die dort nach rechts in die Steinhaldenstraße einbiegen wollte. Verletzt wurde niemand, es entstand Sachschaden im vierstelligen Bereich.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-stadtbahn-streift-pkw_55990",
@@ -5828,7 +5828,7 @@
         "retrieved_at": "2026-07-18T08:54:06.486233Z"
       }
     ],
-    "location_tag": "Bad Cannstatt",
+    "location_tag": "Mühlhausen",
     "line_tag": "U2",
     "car_brand_tag": "VW",
     "other_party_age": 31,
@@ -6032,11 +6032,11 @@
     "id": "inc-2022-03-23-002",
     "event_date": "2022-03-23",
     "event_time": null,
-    "location": "Kreisverkehr Seeblickweg/Steinhaldenstraße, Stuttgart-Hofen",
+    "location": "Kreisverkehr Seeblickweg/Steinhaldenstraße, Stuttgart-Mühlhausen (Hofen)",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Eine 85 Jahre alte VW-Fahrerin missachtete am 23. März 2022 am Kreisverkehr Seeblickweg/Steinhaldenstraße in Stuttgart-Hofen das Rotlicht und stieß mit einer entgegenkommenden Stadtbahn der Linie U2 zusammen. Die Autofahrerin wurde leicht verletzt, der Bahnfahrer und die Fahrgäste blieben unverletzt.",
+    "summary": "Eine 85 Jahre alte VW-Fahrerin missachtete am 23. März 2022 am Kreisverkehr Seeblickweg/Steinhaldenstraße in Stuttgart-Mühlhausen (Hofen) das Rotlicht und stieß mit einer entgegenkommenden Stadtbahn der Linie U2 zusammen. Die Autofahrerin wurde leicht verletzt, der Bahnfahrer und die Fahrgäste blieben unverletzt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-kollidiert--zeugen-gesucht_51818",
@@ -6044,7 +6044,7 @@
         "retrieved_at": "2026-07-18T10:12:46.796871Z"
       }
     ],
-    "location_tag": "Hofen",
+    "location_tag": "Mühlhausen",
     "line_tag": "U2",
     "car_brand_tag": "VW",
     "other_party_age": null,
@@ -7522,11 +7522,11 @@
     "id": "inc-2021-11-11-002",
     "event_date": "2021-11-11",
     "event_time": null,
-    "location": "Kreisverkehr Seeblickweg/Kormoranstraße, Stuttgart-Mühlhausen",
+    "location": "Kreisverkehr Seeblickweg/Kormoranstraße, Stuttgart-Mühlhausen (Hofen)",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Am Donnerstagnachmittag, 11. November 2021, stießen im Kreisverkehr Seeblickweg/Kormoranstraße in Stuttgart-Mühlhausen ein Ford und eine Stadtbahn der Linie U19 zusammen. Es entstand ein Sachschaden von mehreren Tausend Euro, verletzt wurde niemand.",
+    "summary": "Am Donnerstagnachmittag, 11. November 2021, stießen im Kreisverkehr Seeblickweg/Kormoranstraße in Stuttgart-Mühlhausen (Hofen) ein Ford und eine Stadtbahn der Linie U19 zusammen. Es entstand ein Sachschaden von mehreren Tausend Euro, verletzt wurde niemand.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-auto-und-stadtbahn-zusammengestossen--zeugen-gesucht_48167",
@@ -8406,11 +8406,11 @@
     "id": "inc-2019-04-12-001",
     "event_date": "2019-04-12",
     "event_time": "04:40",
-    "location": "Seeblickweg (Kreisverkehr Kormoranstraße), Stuttgart-Mühlhausen",
+    "location": "Seeblickweg (Kreisverkehr Kormoranstraße), Stuttgart-Mühlhausen (Hofen)",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Ein 35 Jahre alter BMW-Fahrer missachtete am frühen Freitagmorgen (12.04.2019) im Seeblickweg in Stuttgart-Mühlhausen im Kreisverkehr das Rotlicht der Stadtbahnampel und stieß mit einer Stadtbahn der Linie U2 zusammen. Es entstand ein Schaden von mehreren Tausend Euro, verletzt wurde niemand.",
+    "summary": "Ein 35 Jahre alter BMW-Fahrer missachtete am frühen Freitagmorgen (12.04.2019) im Seeblickweg in Stuttgart-Mühlhausen (Hofen) im Kreisverkehr das Rotlicht der Stadtbahnampel und stieß mit einer Stadtbahn der Linie U2 zusammen. Es entstand ein Schaden von mehreren Tausend Euro, verletzt wurde niemand.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-zusammengestossen_20122",
