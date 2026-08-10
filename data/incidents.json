@@ -6032,11 +6032,11 @@
     "id": "inc-2022-03-23-002",
     "event_date": "2022-03-23",
     "event_time": null,
-    "location": "Kreisverkehr Seeblickweg/Steinhaldenstraße, Stuttgart-Mühlhausen",
+    "location": "Kreisverkehr Seeblickweg/Steinhaldenstraße, Stuttgart-Hofen",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Eine 85 Jahre alte VW-Fahrerin missachtete am 23. März 2022 am Kreisverkehr Seeblickweg/Steinhaldenstraße in Stuttgart-Mühlhausen das Rotlicht und stieß mit einer entgegenkommenden Stadtbahn der Linie U2 zusammen. Die Autofahrerin wurde leicht verletzt, der Bahnfahrer und die Fahrgäste blieben unverletzt.",
+    "summary": "Eine 85 Jahre alte VW-Fahrerin missachtete am 23. März 2022 am Kreisverkehr Seeblickweg/Steinhaldenstraße in Stuttgart-Hofen das Rotlicht und stieß mit einer entgegenkommenden Stadtbahn der Linie U2 zusammen. Die Autofahrerin wurde leicht verletzt, der Bahnfahrer und die Fahrgäste blieben unverletzt.",
     "sources": [
       {
         "url": "https://polizeiberichte-stuttgart.de/bericht/pol-s-mit-stadtbahn-kollidiert--zeugen-gesucht_51818",
@@ -6044,12 +6044,12 @@
         "retrieved_at": "2026-07-18T10:12:46.796871Z"
       }
     ],
-    "location_tag": "Mühlhausen",
+    "location_tag": "Hofen",
     "line_tag": "U2",
     "car_brand_tag": "VW",
     "other_party_age": null,
-    "lat": null,
-    "lon": null,
+    "lat": 48.829809,
+    "lon": 9.232002,
     "stop_tag": null
   },
   {
