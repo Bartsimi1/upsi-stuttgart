@@ -5832,9 +5832,9 @@
     "line_tag": "U2",
     "car_brand_tag": "VW",
     "other_party_age": 31,
-    "lat": 48.832078,
-    "lon": 9.236569,
-    "stop_tag": "Neugereut"
+    "lat": 48.829809,
+    "lon": 9.232002,
+    "stop_tag": null
   },
   {
     "id": "inc-2022-06-30-001",
@@ -7538,8 +7538,8 @@
     "line_tag": "U19",
     "car_brand_tag": "Ford",
     "other_party_age": null,
-    "lat": null,
-    "lon": null,
+    "lat": 48.829809,
+    "lon": 9.232002,
     "stop_tag": null
   },
   {
@@ -8422,8 +8422,8 @@
     "line_tag": "U2",
     "car_brand_tag": "BMW",
     "other_party_age": null,
-    "lat": null,
-    "lon": null,
+    "lat": 48.829809,
+    "lon": 9.232002,
     "stop_tag": null
   },
   {
