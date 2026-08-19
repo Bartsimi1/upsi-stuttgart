@@ -13092,5 +13092,34 @@
     "lat": 48.7790211,
     "lon": 9.1341262,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-08-19-001",
+    "event_date": "2026-08-19",
+    "event_time": "16:44",
+    "location": "Heilbronner Straße / Haltestelle Löwentorbrücke, Stuttgart-Nord",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Eine Person wurde an der Haltestelle Löwentorbrücke an der Heilbronner Straße in Stuttgart-Nord von einer stadtauswärts in Richtung Pragsattel fahrenden Stadtbahn erfasst und schwer verletzt. Die Unfallursache war laut Polizei zunächst noch nicht geklärt, der Stadtbahnverkehr wurde zwischen Hauptbahnhof und Pragsattel umgeleitet.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-nord-person-von-stadtbahn-ueberfahren-79397666.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-08-19T16:03:23.280392Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-nord-person-von-stadtbahn-ueberfahren-79397666.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-08-19T16:03:23.281393Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Nord",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.803741,
+    "lon": 9.183399,
+    "stop_tag": "Löwentorbrücke"
   }
 ]
