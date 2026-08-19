@@ -13101,7 +13101,7 @@
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "severe",
-    "summary": "Eine Person wurde an der Haltestelle Löwentorbrücke an der Heilbronner Straße in Stuttgart-Nord von einer stadtauswärts in Richtung Pragsattel fahrenden Stadtbahn erfasst und schwer verletzt. Die Unfallursache war laut Polizei zunächst noch nicht geklärt, der Stadtbahnverkehr wurde zwischen Hauptbahnhof und Pragsattel umgeleitet.",
+    "summary": "Eine Person wurde an der Haltestelle Löwentorbrücke an der Heilbronner Straße in Stuttgart-Nord von einer stadtauswärts in Richtung Pragsattel fahrenden Stadtbahn erfasst und schwer verletzt. Die Unfallursache war laut Polizei zunächst noch nicht geklärt, der Stadtbahnverkehr wurde zwischen Hauptbahnhof und Pragsattel umgeleitet. Eine 63-jährige Frau wurde beim Überqueren der Gleise am Bahnübergang der Stadtbahnhaltestelle Löwentorbrücke in Stuttgart-Nord von einer stadtauswärts fahrenden Stadtbahn der Linie U15 erfasst und tödlich verletzt. Zur Klärung der Unfallursache wurde ein Sachverständiger hinzugezogen, die Heilbronner Straße wurde während der Unfallaufnahme vorübergehend vollständig gesperrt.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-nord-person-von-stadtbahn-ueberfahren-79397666.html",
@@ -13112,10 +13112,35 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-nord-person-von-stadtbahn-ueberfahren-79397666.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-08-19T16:03:23.281393Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/toedlicher-unfall-frau-von-stadtbahn-erfasst/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-08-19T18:03:56.059042Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/toedlicher-unfall-in-stuttgart-frau-an-haltestelle-von-stadtbahn-erfasst-3525529",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-08-19T18:03:56.060046Z"
+      },
+      {
+        "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/schwerer-unfall-strassenbahn-person-loewentorbruecke-100.html",
+        "source_id": "swr_aktuell_bw",
+        "retrieved_at": "2026-08-19T18:03:56.060046Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6336552",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-08-19T18:03:56.060046Z"
+      },
+      {
+        "url": "https://www.7aktuell.de/meldung/45279-person_von_stadtbahn_erfasst_und_toedlich_verletzt",
+        "source_id": "aktuell7_bw",
+        "retrieved_at": "2026-08-19T18:03:56.060046Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U15",
     "car_brand_tag": null,
     "other_party_age": null,
     "lat": 48.803741,
