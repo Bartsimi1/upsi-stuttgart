@@ -13142,6 +13142,16 @@
         "url": "https://bahnblogstelle.com/261035/63-jaehrige-von-stadtbahn-erfasst-37-jaehriger-stirbt-nach-unfall-mit-zug-auto-stoesst-gegen-rasenden-roland/",
         "source_id": "bahnblogstelle_stadtbahn_tag",
         "retrieved_at": "2026-08-20T06:04:44.937107Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-nord-tod-an-der-haltestelle-polizei-sucht-zeugen-79400211.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-08-20T16:03:59.799293Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-nord-tod-an-der-haltestelle-polizei-sucht-zeugen-79400211.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-08-20T16:03:59.799293Z"
       }
     ],
     "location_tag": "Stuttgart-Nord",
