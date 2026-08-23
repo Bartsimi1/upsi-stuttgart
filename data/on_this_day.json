@@ -110,5 +110,54 @@
     "text_de": "1991 wurde das World Wide Web für die Öffentlichkeit freigegeben – der Startschuss für das Internet, wie wir es heute kennen.",
     "text_en": "In 1991, the World Wide Web was opened to the public, marking the start of the internet as we know it today.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+  },
+  "08-24": {
+    "month_day": "08-24",
+    "year": 2006,
+    "text_de": "Am 24. August 2006 stufte die Internationale Astronomische Union Pluto per Beschluss zu einem Zwergplaneten herab.",
+    "text_en": "On August 24, 2006, the International Astronomical Union voted to reclassify Pluto as a dwarf planet.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pluto"
+  },
+  "08-25": {
+    "month_day": "08-25",
+    "year": 1835,
+    "text_de": "1835 sorgte die Zeitung The New York Sun mit dem sogenannten „Great Moon Hoax“ für Aufsehen: Sie veröffentlichte frei erfundene Artikel über angeblich entdecktes Leben auf dem Mond.",
+    "text_en": "In 1835, the New York Sun caused a stir with the so-called \"Great Moon Hoax,\" publishing entirely fabricated articles claiming to reveal life on the Moon.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Moon_Hoax"
+  },
+  "08-26": {
+    "month_day": "08-26",
+    "year": 1928,
+    "text_de": "1928 entdeckte eine Frau in einem Café im schottischen Paisley eine Schnecke in ihrer Flasche Ginger Beer – ein kurioser Fund, der zum wegweisenden Gerichtsfall Donoghue gegen Stevenson führte.",
+    "text_en": "In 1928, a woman at a café in Paisley, Scotland, found a snail in her bottle of ginger beer — a quirky discovery that led to the landmark legal case Donoghue v Stevenson.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Donoghue_v_Stevenson"
+  },
+  "08-27": {
+    "month_day": "08-27",
+    "year": 1955,
+    "text_de": "1955 erschien die allererste Ausgabe des Guinness-Buchs der Rekorde.",
+    "text_en": "In 1955, the very first edition of the Guinness Book of Records was published.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guinness_World_Records"
+  },
+  "08-28": {
+    "month_day": "08-28",
+    "year": 1830,
+    "text_de": "1830 lieferte sich die Dampflokomotive Tom Thumb – die erste in den USA gebaute ihrer Art – ein spontanes Wettrennen gegen ein Pferdefuhrwerk in Maryland.",
+    "text_en": "In 1830, Tom Thumb, the first American-built steam locomotive, took part in an impromptu race against a horse-drawn carriage in Maryland.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tom_Thumb_(locomotive)"
+  },
+  "08-29": {
+    "month_day": "08-29",
+    "year": 1885,
+    "text_de": "1885 ließ sich Gottlieb Daimler aus Bad Cannstatt bei Stuttgart das weltweit erste Motorrad mit Verbrennungsmotor patentieren, den sogenannten Reitwagen.",
+    "text_en": "In 1885, Gottlieb Daimler from Bad Cannstatt near Stuttgart patented the world's first internal-combustion motorcycle, known as the Reitwagen.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Daimler_Reitwagen"
+  },
+  "08-30": {
+    "month_day": "08-30",
+    "year": 1984,
+    "text_de": "1984 startete die Raumfähre Discovery, der dritte Orbiter im Space-Shuttle-Programm der NASA, zu ihrem Jungfernflug vom Kennedy Space Center in Florida.",
+    "text_en": "In 1984, NASA's Space Shuttle Discovery, the third orbiter of the program, lifted off on its maiden voyage from Kennedy Space Center in Florida.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery"
   }
 }
