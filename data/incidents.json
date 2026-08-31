@@ -13161,5 +13161,34 @@
     "lat": 48.803741,
     "lon": 9.183399,
     "stop_tag": "Löwentorbrücke"
+  },
+  {
+    "id": "inc-2026-08-31-001",
+    "event_date": "2026-08-31",
+    "event_time": "16:55",
+    "location": "Stadtbahnhaltestelle Borsigstraße, Stuttgart-Feuerbach",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "unknown",
+    "summary": "Am Montag gegen 16.55 Uhr wurde ein Mann am Überweg der Stadtbahnhaltestelle Borsigstraße in Stuttgart-Feuerbach von einer Stadtbahn erfasst und verletzt. Zum genauen Unfallhergang und zur Schwere der Verletzungen konnte die Polizei zunächst keine Angaben machen; der Stadtbahnverkehr war eingeschränkt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-mann-von-stadtbahn-erfasst-und-verletzt-79428475.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-08-31T16:06:06.168919Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-mann-von-stadtbahn-erfasst-und-verletzt-79428475.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-08-31T16:06:06.168919Z"
+      }
+    ],
+    "location_tag": "Feuerbach",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.819388,
+    "lon": 9.17543,
+    "stop_tag": "Borsigstraße"
   }
 ]
