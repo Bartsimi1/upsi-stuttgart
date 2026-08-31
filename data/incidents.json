@@ -13169,8 +13169,8 @@
     "location": "Stadtbahnhaltestelle Borsigstraße, Stuttgart-Feuerbach",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
-    "injuries": "unknown",
-    "summary": "Am Montag gegen 16.55 Uhr wurde ein Mann am Überweg der Stadtbahnhaltestelle Borsigstraße in Stuttgart-Feuerbach von einer Stadtbahn erfasst und verletzt. Zum genauen Unfallhergang und zur Schwere der Verletzungen konnte die Polizei zunächst keine Angaben machen; der Stadtbahnverkehr war eingeschränkt.",
+    "injuries": "severe",
+    "summary": "Am Montag gegen 16.55 Uhr wurde ein Mann am Überweg der Stadtbahnhaltestelle Borsigstraße in Stuttgart-Feuerbach von einer Stadtbahn erfasst und verletzt. Zum genauen Unfallhergang und zur Schwere der Verletzungen konnte die Polizei zunächst keine Angaben machen; der Stadtbahnverkehr war eingeschränkt. Am Montagnachmittag, 31.08.2026, wurde gegen 16.55 Uhr ein 35-jähriger Mann an der Stadtbahnhaltestelle Borsigstraße in Stuttgart-Feuerbach von einer Stadtbahn der Linie U15 erfasst und schwer verletzt. Der Mann überquerte den Bahnübergang von der Borsigstraße in Richtung Krailenshaldenstraße. Während der Unfallaufnahme kam es zu vorübergehenden Verkehrsbehinderungen.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-mann-von-stadtbahn-erfasst-und-verletzt-79428475.html",
@@ -13181,10 +13181,25 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-feuerbach-mann-von-stadtbahn-erfasst-und-verletzt-79428475.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-08-31T16:06:06.168919Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-feuerbach-stadtbahn-erfasst-35-jaehrigen/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-08-31T18:03:26.263224Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6343145",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-08-31T18:03:26.264227Z"
+      },
+      {
+        "url": "https://www.7aktuell.de/meldung/45406-eine_person_bei_stadtbahnunfall_schwer_verletzt",
+        "source_id": "aktuell7_bw",
+        "retrieved_at": "2026-08-31T18:03:26.264227Z"
       }
     ],
     "location_tag": "Feuerbach",
-    "line_tag": "Linie unbekannt",
+    "line_tag": "U15",
     "car_brand_tag": null,
     "other_party_age": null,
     "lat": 48.819388,
