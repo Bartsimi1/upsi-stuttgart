@@ -13210,5 +13210,34 @@
     "lat": 48.819388,
     "lon": 9.17543,
     "stop_tag": "Borsigstraße"
+  },
+  {
+    "id": "inc-2026-09-04-001",
+    "event_date": "2026-09-04",
+    "event_time": "18:40",
+    "location": "Haltestelle Landauer Straße, Stuttgart-Weilimdorf",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "In Stuttgart-Weilimdorf erfasste eine Stadtbahn der Linie U6 am Freitagabend gegen 18.40 Uhr beim Einfahren in die Haltestelle Landauer Straße einen 66-jährigen Mann. Der Mann wurde am Kopf schwer verletzt und mit lebensgefährlichen Verletzungen ins Krankenhaus gebracht, die Polizei ermittelt zum Unfallhergang.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/polizeibericht/stuttgart-weilimdorf-66-jaehriger-von-stadtbahn-erfasst-und-lebensgefaehrlich-verletzt-79441388.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-09-04T20:21:10.554592Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-weilimdorf-66-jaehriger-von-stadtbahn-erfasst-und-lebensgefaehrlich-verletzt-79441388.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-09-04T20:21:10.554592Z"
+      }
+    ],
+    "location_tag": "Weilimdorf",
+    "line_tag": "U6",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.814576,
+    "lon": 9.123969,
+    "stop_tag": "Landauer Straße"
   }
 ]
