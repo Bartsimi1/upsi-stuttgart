@@ -13215,11 +13215,11 @@
     "id": "inc-2026-09-04-001",
     "event_date": "2026-09-04",
     "event_time": "18:40",
-    "location": "Haltestelle Landauer Straße, Stuttgart-Weilimdorf",
+    "location": "Stadtbahnhaltestelle Landauer Straße, Stuttgart-Weilimdorf",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
     "injuries": "severe",
-    "summary": "In Stuttgart-Weilimdorf erfasste eine Stadtbahn der Linie U6 am Freitagabend gegen 18.40 Uhr beim Einfahren in die Haltestelle Landauer Straße einen 66-jährigen Mann. Der Mann wurde am Kopf schwer verletzt und mit lebensgefährlichen Verletzungen ins Krankenhaus gebracht, die Polizei ermittelt zum Unfallhergang.",
+    "summary": "In Stuttgart-Weilimdorf erfasste eine Stadtbahn der Linie U6 am Freitagabend gegen 18.40 Uhr beim Einfahren in die Haltestelle Landauer Straße einen 66-jährigen Mann. Der Mann wurde am Kopf schwer verletzt und mit lebensgefährlichen Verletzungen ins Krankenhaus gebracht, die Polizei ermittelt zum Unfallhergang. Ein 66-jähriger Mann betrat am Freitagabend (04.09.2026) gegen 18.30 Uhr trotz Warnsignal die Gleise am Z-Übergang der Haltestelle Landauer Straße in Stuttgart-Weilimdorf und wurde von einer einfahrenden Stadtbahn der Linie U6 erfasst und schwer verletzt. Die Fahrgäste blieben unverletzt, der Stadtbahnverkehr wurde für zwei Stunden eingestellt.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/polizeibericht/stuttgart-weilimdorf-66-jaehriger-von-stadtbahn-erfasst-und-lebensgefaehrlich-verletzt-79441388.html",
@@ -13230,6 +13230,36 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-weilimdorf-66-jaehriger-von-stadtbahn-erfasst-und-lebensgefaehrlich-verletzt-79441388.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-09-04T20:21:10.554592Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6346075",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-09-05T10:04:29.079425Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/trotz-warnsignal-fussgaenger-in-stuttgart-von-stadtbahn-erfasst-und-lebensgefaehrlich-verletzt-3529971",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-09-05T10:04:29.079425Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-weilimdorf-fussgaenger-bei-stadtbahnunfall-lebensgefaehrlich-verletzt-79441859.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-09-05T10:04:29.079425Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-weilimdorf-fussgaenger-bei-stadtbahnunfall-lebensgefaehrlich-verletzt-79441859.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-09-05T10:04:29.079425Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/261943/gueterzug-kollidiert-mit-steinbrocken-66-jaehriger-von-stadtbahn-erfasst-herrenloser-koffer-am-bahnhof/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-09-05T10:04:29.079425Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stadtbahnunfall-fussgaenger-schwer-verletzt/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-09-05T10:04:50.867952Z"
       }
     ],
     "location_tag": "Weilimdorf",
