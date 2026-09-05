@@ -13260,6 +13260,11 @@
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stadtbahnunfall-fussgaenger-schwer-verletzt/",
         "source_id": "newsflash24_bw",
         "retrieved_at": "2026-09-05T10:04:50.867952Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/66-jaehriger-von-stadtbahn-erfasst-unfall-sorgt-fuer-zweistuendige-sperrung/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-09-05T14:03:38.591045Z"
       }
     ],
     "location_tag": "Weilimdorf",
