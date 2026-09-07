@@ -13274,5 +13274,34 @@
     "lat": 48.814576,
     "lon": 9.123969,
     "stop_tag": "Landauer Straße"
+  },
+  {
+    "id": "inc-2026-09-06-001",
+    "event_date": "2026-09-06",
+    "event_time": "09:50",
+    "location": "Kreuzung Industriestraße / Wallgraben, Stuttgart-Möhringen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Sonntagvormittag (06.09.2026) missachtete eine 62-jährige Seat-Fahrerin an der Kreuzung Industriestraße in Stuttgart-Möhringen offenbar das Rotlicht und kollidierte mit einer Stadtbahn der Linie U12. Die Autofahrerin wurde leicht verletzt. Am Sonntagvormittag (06.09.2026) gegen 09:50 Uhr fuhr eine 62-jährige Seat-Fahrerin in der Straße Am Wallgraben in Richtung Rubensstraße. Auf Höhe der Industriestraße missachtete sie im Kreisverkehr das Rotlicht und stieß mit einer Stadtbahn der Linie U12 zusammen. Die Autofahrerin wurde leicht verletzt, der Sachschaden beläuft sich auf rund 60.000 Euro.",
+    "sources": [
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-moehringen-stadtbahnunfall-am-wallgraben/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-09-07T12:08:06.288173Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6346871",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-09-07T12:08:06.288173Z"
+      }
+    ],
+    "location_tag": "Möhringen",
+    "line_tag": "U12",
+    "car_brand_tag": "Seat",
+    "other_party_age": 62,
+    "lat": 48.7255761,
+    "lon": 9.1136421,
+    "stop_tag": null
   }
 ]
