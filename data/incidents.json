@@ -13218,8 +13218,8 @@
     "location": "Stadtbahnhaltestelle Landauer Straße, Stuttgart-Weilimdorf",
     "event_type": "pedestrian_hit",
     "other_party": "pedestrian",
-    "injuries": "severe",
-    "summary": "In Stuttgart-Weilimdorf erfasste eine Stadtbahn der Linie U6 am Freitagabend gegen 18.40 Uhr beim Einfahren in die Haltestelle Landauer Straße einen 66-jährigen Mann. Der Mann wurde am Kopf schwer verletzt und mit lebensgefährlichen Verletzungen ins Krankenhaus gebracht, die Polizei ermittelt zum Unfallhergang. Ein 66-jähriger Mann betrat am Freitagabend (04.09.2026) gegen 18.30 Uhr trotz Warnsignal die Gleise am Z-Übergang der Haltestelle Landauer Straße in Stuttgart-Weilimdorf und wurde von einer einfahrenden Stadtbahn der Linie U6 erfasst und schwer verletzt. Die Fahrgäste blieben unverletzt, der Stadtbahnverkehr wurde für zwei Stunden eingestellt.",
+    "injuries": "fatal",
+    "summary": "In Stuttgart-Weilimdorf erfasste eine Stadtbahn der Linie U6 am Freitagabend gegen 18.40 Uhr beim Einfahren in die Haltestelle Landauer Straße einen 66-jährigen Mann. Der Mann wurde am Kopf schwer verletzt und mit lebensgefährlichen Verletzungen ins Krankenhaus gebracht, die Polizei ermittelt zum Unfallhergang. Ein 66-jähriger Mann betrat am Freitagabend (04.09.2026) gegen 18.30 Uhr trotz Warnsignal die Gleise am Z-Übergang der Haltestelle Landauer Straße in Stuttgart-Weilimdorf und wurde von einer einfahrenden Stadtbahn der Linie U6 erfasst und schwer verletzt. Die Fahrgäste blieben unverletzt, der Stadtbahnverkehr wurde für zwei Stunden eingestellt. Der 66-jährige Fußgänger, der am Freitagabend (04.09.2026) an einer Stadtbahnhaltestelle in Stuttgart-Weilimdorf von einer einfahrenden Stadtbahn der Linie U6 erfasst und lebensgefährlich verletzt wurde, ist im Krankenhaus gestorben. Die Fahrgäste in der Bahn blieben unverletzt; die Ermittlungen zu den Unfallumständen dauern an.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/polizeibericht/stuttgart-weilimdorf-66-jaehriger-von-stadtbahn-erfasst-und-lebensgefaehrlich-verletzt-79441388.html",
@@ -13265,12 +13265,32 @@
         "url": "https://www.weilimdorf.de/nachricht/66-jaehriger-von-stadtbahn-erfasst-unfall-sorgt-fuer-zweistuendige-sperrung/",
         "source_id": "weilimdorf_blaulicht",
         "retrieved_at": "2026-09-05T14:03:38.591045Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/nach-schwerem-stadtbahn-unfall-fussgaenger-in-stuttgart-erliegt-seinen-verletzungen-3529971",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-09-07T15:10:35.579846Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/toedlicher-unfall-in-stuttgart-weilimdorf-mann-stirbt-einen-tag-nach-stadtbahnunfall-in-klinik-79447031.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-09-07T15:10:35.579846Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-weilimdorf-toedlicher-stadtbahnunfall-in-stuttgart/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-09-07T15:10:35.579846Z"
+      },
+      {
+        "url": "https://www.weilimdorf.de/nachricht/staatsanwaltschaft-und-polizei-stuttgart-geben-bekannt-nach-stadtbahnunfall-66-jaehriger-verstorben/",
+        "source_id": "weilimdorf_blaulicht",
+        "retrieved_at": "2026-09-07T15:10:35.579846Z"
       }
     ],
     "location_tag": "Weilimdorf",
     "line_tag": "U6",
     "car_brand_tag": null,
-    "other_party_age": null,
+    "other_party_age": 66,
     "lat": 48.814576,
     "lon": 9.123969,
     "stop_tag": "Landauer Straße"
