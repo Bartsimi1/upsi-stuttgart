@@ -13285,6 +13285,16 @@
         "url": "https://www.weilimdorf.de/nachricht/staatsanwaltschaft-und-polizei-stuttgart-geben-bekannt-nach-stadtbahnunfall-66-jaehriger-verstorben/",
         "source_id": "weilimdorf_blaulicht",
         "retrieved_at": "2026-09-07T15:10:35.579846Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/toedlicher-unfall-in-stuttgart-weilimdorf-mann-stirbt-einen-tag-nach-stadtbahnunfall-in-klinik-79447031.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-09-07T18:39:31.524349Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6347077",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-09-07T18:39:31.526348Z"
       }
     ],
     "location_tag": "Weilimdorf",
