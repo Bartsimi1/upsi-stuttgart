@@ -13338,5 +13338,44 @@
     "lat": 48.7255761,
     "lon": 9.1136421,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-09-20-001",
+    "event_date": "2026-09-20",
+    "event_time": "09:30",
+    "location": "Neckarstraße / Werderstraße, Stuttgart-Ost",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Sonntagmorgen gegen 9.30 Uhr kollidierte in der Neckarstraße in Stuttgart-Ost beim Abbiegen in die Werderstraße ein Kia mit einer Stadtbahn der Linie U2. Die 61-jährige Fahrerin missachtete vermutlich das Rotlicht; es wurde niemand verletzt, der Schaden beträgt rund 45.000 Euro.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/hoher-schaden-in-stuttgart-ost-auto-stoesst-mit-stadtbahn-zusammen-polizei-sucht-zeugen-79485664.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-09-20T14:03:43.450253Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/hoher-schaden-in-stuttgart-ost-auto-stoesst-mit-stadtbahn-zusammen-polizei-sucht-zeugen-79485664.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-09-20T14:03:43.451281Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6355450",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-09-20T14:03:43.451281Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/263000/pkw-kollidiert-mit-stadtbahn-schreckschussrevolver-sichergestellt-zwei-verletzte-nach-gefahrenbremsung/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-09-20T14:03:43.452300Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "U2",
+    "car_brand_tag": "Kia",
+    "other_party_age": 61,
+    "lat": 48.787505755315955,
+    "lon": 9.192552020766659,
+    "stop_tag": null
   }
 ]
