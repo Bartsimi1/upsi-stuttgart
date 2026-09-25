@@ -13377,5 +13377,34 @@
     "lat": 48.787505755315955,
     "lon": 9.192552020766659,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-09-25-001",
+    "event_date": "2026-09-25",
+    "event_time": "14:50",
+    "location": "Landhausstraße, Stuttgart-Ost",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "none",
+    "summary": "Ein Lkw kollidierte beim Rangieren in der Landhausstraße in Stuttgart-Ost mit einem SSB-Zug und blieb anschließend an einer Hauswand hängen. Verletzt wurde niemand, die Linie U4 musste zeitweise umgeleitet werden.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-ost-lkw-stoesst-mit-bahn-zusammen-mehrere-tausend-euro-schaden-79504121.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-09-25T14:03:45.658226Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-ost-lkw-stoesst-mit-bahn-zusammen-mehrere-tausend-euro-schaden-79504121.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-09-25T14:03:45.658226Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "U4",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.78682718899125,
+    "lon": 9.191335647861443,
+    "stop_tag": "Neckartor"
   }
 ]
