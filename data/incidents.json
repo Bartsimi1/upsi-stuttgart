@@ -13406,5 +13406,39 @@
     "lat": 48.78682718899125,
     "lon": 9.191335647861443,
     "stop_tag": "Neckartor"
+  },
+  {
+    "id": "inc-2026-09-26-001",
+    "event_date": "2026-09-26",
+    "event_time": "20:35",
+    "location": "Waiblinger Straße/Daimlerstraße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Ein 31-jähriger Porsche-Fahrer übersah beim Linksabbiegen von der Waiblinger Straße in die Daimlerstraße in Stuttgart-Bad Cannstatt eine Stadtbahn der Linie U1. Trotz eingeleiteter Notbremsung kam es zum Zusammenstoß, bei dem eine 69-jährige Fahrgästin der Bahn leichte Verletzungen erlitt.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6359823",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-09-27T16:04:29.448848Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/verkehrsunfall-in-stuttgart-bad-cannstatt/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-09-27T16:04:29.449849Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/263418/jugendliche-springen-abfahrendem-zug-hinterher-unfall-mit-stadtbahn-saeure-an-s-bahnhoefen/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-09-27T16:04:29.449849Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U1",
+    "car_brand_tag": "Porsche",
+    "other_party_age": 31,
+    "lat": 48.804900879478346,
+    "lon": 9.22548399062431,
+    "stop_tag": "Uff-Kirchhof"
   }
 ]
