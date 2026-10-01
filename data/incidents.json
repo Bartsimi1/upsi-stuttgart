@@ -13440,5 +13440,29 @@
     "lat": 48.804900879478346,
     "lon": 9.22548399062431,
     "stop_tag": "Uff-Kirchhof"
+  },
+  {
+    "id": "inc-2026-09-30-001",
+    "event_date": "2026-09-30",
+    "event_time": "13:40",
+    "location": "Kreuzung Freihofstraße/Heutingsheimer Straße, Stuttgart-Stammheim",
+    "event_type": "rear_end",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Mittwoch gegen 13.40 Uhr fuhr eine Stadtbahn der Linie U15 an der Kreuzung Freihofstraße/Heutingsheimer Straße in Stuttgart-Stammheim von hinten auf einen an einer roten Ampel stehenden VW auf. Die 22-jährige VW-Fahrerin wurde leicht verletzt, der Schaden beträgt etwa 36.000 Euro.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-stammheim-stadtbahn-faehrt-auf-vw-auf-zeugen-gesucht-79522802.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-01T12:03:47.135567Z"
+      }
+    ],
+    "location_tag": "Stammheim",
+    "line_tag": "U15",
+    "car_brand_tag": "VW",
+    "other_party_age": 22,
+    "lat": 48.848663820924024,
+    "lon": 9.156591885289698,
+    "stop_tag": null
   }
 ]
