@@ -13455,6 +13455,21 @@
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-stammheim-stadtbahn-faehrt-auf-vw-auf-zeugen-gesucht-79522802.html",
         "source_id": "stuttgarter_zeitung_tags",
         "retrieved_at": "2026-10-01T12:03:47.135567Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6363121",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-01T14:03:50.125965Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-stammheim-stadtbahn-faehrt-auf-vw-auf-zeugen-gesucht-79522802.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-01T14:03:50.126964Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-stammheim-verkehrsunfall-in-freihofstrasse/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-01T14:03:50.126964Z"
       }
     ],
     "location_tag": "Stammheim",
