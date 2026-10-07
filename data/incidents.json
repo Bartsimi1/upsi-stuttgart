@@ -13514,6 +13514,16 @@
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/unfall-mit-stadtbahn-fussgaenger-lebensgefaehrlich-verletzt/",
         "source_id": "newsflash24_bw",
         "retrieved_at": "2026-10-07T08:03:12.042622Z"
+      },
+      {
+        "url": "https://www.7aktuell.de/meldung/45840-mann_von_stadtbahn_erfasst_und_lebensgefaehrlich_verletzt",
+        "source_id": "aktuell7_bw",
+        "retrieved_at": "2026-10-07T10:03:08.687780Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/263922/stadtbahn-erfasst-fussgaenger-s-bahn-prallt-gegen-sperrmuell-mann-mit-schreckschusswaffe-im-zug/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-10-07T10:03:08.688783Z"
       }
     ],
     "location_tag": "Stuttgart",
