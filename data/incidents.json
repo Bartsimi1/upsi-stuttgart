@@ -13566,12 +13566,12 @@
   {
     "id": "inc-2026-10-08-002",
     "event_date": "2026-10-08",
-    "event_time": null,
+    "event_time": "13:40",
     "location": "Olgaeck, Olgastraße, Stuttgart-Mitte",
     "event_type": "collision",
     "other_party": "van",
     "injuries": "minor",
-    "summary": "Am Donnerstagnachmittag kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn und ein Transporter. Eine Person stürzte in der Stadtbahn und wurde verletzt. Die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt. Am Donnerstagnachmittag, 08.10.2026, kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn und ein Transporter. Eine Person stürzte in der Stadtbahn und wurde verletzt; die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt, die Linien U5, U6, U7, U12 und U15 waren kurzzeitig unterbrochen.",
+    "summary": "Am Donnerstagnachmittag kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn und ein Transporter. Eine Person stürzte in der Stadtbahn und wurde verletzt. Die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt. Am Donnerstagnachmittag, 08.10.2026, kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn und ein Transporter. Eine Person stürzte in der Stadtbahn und wurde verletzt; die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt, die Linien U5, U6, U7, U12 und U15 waren kurzzeitig unterbrochen. Am Donnerstag, 08.10.2026, gegen 13.40 Uhr soll ein 22-jähriger LKW-Fahrer auf der Charlottenstraße an der Haltestelle Olgaeck verbotswidrig links abgebogen sein und mit einer Stadtbahn der Linie U7 zusammengestoßen sein. Eine 83-jährige Frau stürzte in der Stadtbahn und wurde leicht verletzt. Es kam zu Verkehrsbehinderungen.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-am-olgaeck-in-stuttgart-stadtbahn-kollidiert-mit-transporter-fahrgast-verletzt-79547885.html",
@@ -13582,12 +13582,22 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-am-olgaeck-in-stuttgart-stadtbahn-kollidiert-mit-transporter-fahrgast-verletzt-79547885.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-08T14:03:48.660802Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/verkehrsunfall-frau-leicht-verletzt-2/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-08T16:03:56.847847Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6367712",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-08T16:03:56.848845Z"
       }
     ],
     "location_tag": "Stuttgart-Mitte",
     "line_tag": "U5",
     "car_brand_tag": null,
-    "other_party_age": null,
+    "other_party_age": 22,
     "lat": null,
     "lon": null,
     "stop_tag": null
