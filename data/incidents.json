@@ -13571,7 +13571,7 @@
     "event_type": "collision",
     "other_party": "van",
     "injuries": "minor",
-    "summary": "Am Donnerstagnachmittag kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn und ein Transporter. Eine Person stürzte in der Stadtbahn und wurde verletzt. Die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt. Am Donnerstagnachmittag, 08.10.2026, kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn und ein Transporter. Eine Person stürzte in der Stadtbahn und wurde verletzt; die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt, die Linien U5, U6, U7, U12 und U15 waren kurzzeitig unterbrochen. Am Donnerstag, 08.10.2026, gegen 13.40 Uhr soll ein 22-jähriger LKW-Fahrer auf der Charlottenstraße an der Haltestelle Olgaeck verbotswidrig links abgebogen sein und mit einer Stadtbahn der Linie U7 zusammengestoßen sein. Eine 83-jährige Frau stürzte in der Stadtbahn und wurde leicht verletzt. Es kam zu Verkehrsbehinderungen.",
+    "summary": "Am Donnerstag, 08.10.2026, gegen 13.40 Uhr kollidierten am Olgaeck in Stuttgart-Mitte im Kreuzungsbereich an der Olgastraße eine Stadtbahn der Linie U7 und ein Transporter. Einem Bericht zufolge soll ein 22-jähriger LKW-Fahrer auf der Charlottenstraße an der Haltestelle Olgaeck verbotswidrig links abgebogen sein. Eine 83-jährige Frau stürzte in der Stadtbahn und wurde leicht verletzt. Die Strecke zwischen Richard-von-Weizsäcker-Planie und Charlottenplatz war zeitweise gesperrt, die Linien U5, U6, U7, U12 und U15 waren kurzzeitig unterbrochen.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-am-olgaeck-in-stuttgart-stadtbahn-kollidiert-mit-transporter-fahrgast-verletzt-79547885.html",
@@ -13600,7 +13600,7 @@
       }
     ],
     "location_tag": "Stuttgart-Mitte",
-    "line_tag": "U5",
+    "line_tag": "U7",
     "car_brand_tag": null,
     "other_party_age": 22,
     "lat": null,
