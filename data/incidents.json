@@ -13533,5 +13533,34 @@
     "lat": 48.810423,
     "lon": 9.200014,
     "stop_tag": "Züricher Straße"
+  },
+  {
+    "id": "inc-2026-10-08-001",
+    "event_date": "2026-10-08",
+    "event_time": "09:50",
+    "location": "Cannstatter Straße, Höhe Hauptklärwerk, Stuttgart-Mühlhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Donnerstagvormittag gegen 9.50 Uhr kollidierte in der Cannstatter Straße auf Höhe des Hauptklärwerks in Stuttgart-Mühlhausen ein Auto mit Anhänger beim Linksabbiegen mit einer Stadtbahn der Linie U12. Eine Person wurde laut Polizei leicht verletzt, die Strecke zwischen Mühlhausen und Remseck war bis etwa 12 Uhr unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stoerung-im-stuttgarter-nahverkehr-auto-kollidiert-mit-stadtbahn-strecke-der-u12-unterbrochen-79546256.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-08T10:03:44.421117Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stoerung-im-stuttgarter-nahverkehr-auto-kollidiert-mit-stadtbahn-strecke-der-u12-unterbrochen-79546256.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-08T10:03:44.421117Z"
+      }
+    ],
+    "location_tag": "Mühlhausen",
+    "line_tag": "U12",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.810288,
+    "lon": 9.108144,
+    "stop_tag": "Rastatter Straße"
   }
 ]
