@@ -13606,5 +13606,34 @@
     "lat": null,
     "lon": null,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-10-11-001",
+    "event_date": "2026-10-11",
+    "event_time": null,
+    "location": "Strecke zwischen Stöckach und Wasenstraße, Stuttgart (U9)",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Sonntagnachmittag, 11.10.2026, kam es auf der Strecke zwischen den Haltestellen Stöckach und Wasenstraße zu einer Kollision zwischen einem Auto und einer Stadtbahn der Linie U9. Laut Polizei wurde niemand verletzt, die Strecke war zeitweise unterbrochen und die U9 wurde umgeleitet.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/vvs-meldet-stoerungen-stadtbahn-chaos-in-stuttgart-zwei-unfaelle-stoppen-linien-u4-und-u9-79557090.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-11T13:41:58.575552Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/vvs-meldet-stoerungen-stadtbahn-chaos-in-stuttgart-zwei-unfaelle-stoppen-linien-u4-und-u9-79557090.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-11T13:41:58.575552Z"
+      }
+    ],
+    "location_tag": "Stuttgart",
+    "line_tag": "U9",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.789158,
+    "lon": 9.195321,
+    "stop_tag": "Stöckach"
   }
 ]
