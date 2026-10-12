@@ -13610,12 +13610,12 @@
   {
     "id": "inc-2026-10-11-001",
     "event_date": "2026-10-11",
-    "event_time": null,
+    "event_time": "13:30",
     "location": "Strecke zwischen Stöckach und Wasenstraße, Stuttgart (U9)",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Am Sonntagnachmittag, 11.10.2026, kam es auf der Strecke zwischen den Haltestellen Stöckach und Wasenstraße zu einer Kollision zwischen einem Auto und einer Stadtbahn der Linie U9. Laut Polizei wurde niemand verletzt, die Strecke war zeitweise unterbrochen und die U9 wurde umgeleitet.",
+    "summary": "Am Sonntag, 11.10.2026, gegen 13:30 Uhr stieß ein 49-jähriger Fahrer eines Mercedes beim Linksabbiegen von der Ulmer Straße (Fahrtrichtung Gaisburg) in die Langenwiesenstraße in Stuttgart-Wangen mit einer Stadtbahn der Linie U9 in Richtung Hedelfingen zusammen. Laut Polizei wurde niemand verletzt; der Mercedes war nicht mehr fahrbereit und wurde abgeschleppt, der Sachschaden wird auf etwa 60.000 Euro geschätzt. Es kam zu erheblichen Verkehrsbehinderungen: Die Strecke zwischen den Haltestellen Stöckach und Wasenstraße war zeitweise unterbrochen, und die U9 wurde umgeleitet.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/vvs-meldet-stoerungen-stadtbahn-chaos-in-stuttgart-zwei-unfaelle-stoppen-linien-u4-und-u9-79557090.html",
@@ -13626,12 +13626,22 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/vvs-meldet-stoerungen-stadtbahn-chaos-in-stuttgart-zwei-unfaelle-stoppen-linien-u4-und-u9-79557090.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-11T13:41:58.575552Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6369196",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-12T10:03:49.923755Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-wangen-stadtbahnunfall-mit-hohem-sachschaden/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-12T10:03:57.081228Z"
       }
     ],
     "location_tag": "Stuttgart",
     "line_tag": "U9",
-    "car_brand_tag": null,
-    "other_party_age": null,
+    "car_brand_tag": "Mercedes",
+    "other_party_age": 49,
     "lat": 48.789158,
     "lon": 9.195321,
     "stop_tag": "Stöckach"
