@@ -13636,6 +13636,11 @@
         "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-wangen-stadtbahnunfall-mit-hohem-sachschaden/",
         "source_id": "newsflash24_bw",
         "retrieved_at": "2026-10-12T10:03:57.081228Z"
+      },
+      {
+        "url": "https://wilih.de/stadtbahnunfall-in-wangen-60-000-euro-schaden",
+        "source_id": "wilih_polizeibericht",
+        "retrieved_at": "2026-10-12T12:04:30.252546Z"
       }
     ],
     "location_tag": "Stuttgart",
