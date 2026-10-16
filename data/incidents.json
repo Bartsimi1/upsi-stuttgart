@@ -13650,5 +13650,34 @@
     "lat": 48.789158,
     "lon": 9.195321,
     "stop_tag": "Stöckach"
+  },
+  {
+    "id": "inc-2026-10-15-001",
+    "event_date": "2026-10-15",
+    "event_time": "13:30",
+    "location": "Schmidener Straße / Marienburger Straße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "cyclist",
+    "injuries": "minor",
+    "summary": "Am Donnerstag, 15.10.2026, gegen 13.30 Uhr wurde ein 64-jähriger Mann mit einem Lastenfahrrad an der Schmidener Straße auf Höhe der Marienburger Straße von einer Stadtbahn der Linie U2 in Richtung Steinhaldenstraße erfasst. Er hatte vermutlich trotz Rotlicht die Gleise überquert; das Lastenfahrrad wurde zwischen Bahn und Geländer verkeilt. Der Mann wurde leicht verletzt und in ein Krankenhaus gebracht, der Schaden wird auf etwa 5.000 Euro geschätzt.",
+    "sources": [
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stadtbahnunfall-fahrradfahrer-verletzt/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-16T09:57:35.526659Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/baden-wuerttemberg-polizei-und-feuerwehrmeldungen-am-16-10-2026/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-16T09:57:35.526659Z"
+      }
+    ],
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U2",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.819052,
+    "lon": 9.237231,
+    "stop_tag": "Hauptfriedhof"
   }
 ]
