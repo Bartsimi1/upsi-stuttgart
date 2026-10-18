@@ -13684,5 +13684,34 @@
     "lat": 48.819052,
     "lon": 9.237231,
     "stop_tag": "Hauptfriedhof"
+  },
+  {
+    "id": "inc-2026-10-18-001",
+    "event_date": "2026-10-18",
+    "event_time": "14:00",
+    "location": "Kreuzung Schloßstraße / Silberburgstraße, Stuttgart-West",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Sonntag, 18.10.2026, gegen 14 Uhr kollidierte an der Kreuzung Schloß- und Silberburgstraße im Stuttgarter Westen ein Auto mit einer Stadtbahn. Laut Polizei übersah der Fahrer beim Linksabbiegen die Bahn. Der Autofahrer wurde verletzt, ein Rettungswagen war im Einsatz. Die Strecke der Linien U2 und U9 war bis auf Weiteres gesperrt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-und-auto-stossen-zusammen-strecke-gesperrt-79583458.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-18T14:02:40.196664Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-und-auto-stossen-zusammen-strecke-gesperrt-79583458.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-18T14:02:40.197691Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "U2",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486,
+    "stop_tag": "Berliner Platz (Hohe Straße)"
   }
 ]
