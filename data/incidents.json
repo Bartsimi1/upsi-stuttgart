@@ -13743,6 +13743,16 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-west-stadtbahn-erfasst-fussgaenger-schlossstrasse-gesperrt-79587147.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-19T12:03:43.056085Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-west-stadtbahn-erfasst-fussgaenger-zeugen-gesucht/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-19T16:03:25.152879Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6374169",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-19T16:03:25.152879Z"
       }
     ],
     "location_tag": "Stuttgart-West",
