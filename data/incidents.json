@@ -13723,5 +13723,34 @@
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
+  },
+  {
+    "id": "inc-2026-10-19-001",
+    "event_date": "2026-10-19",
+    "event_time": "13:10",
+    "location": "Kreuzung Schlossstraße / Senefelder Straße, Stuttgart-West",
+    "event_type": "pedestrian_hit",
+    "other_party": "pedestrian",
+    "injuries": "severe",
+    "summary": "Am Montag, 19.10.2026, gegen 13.10 Uhr erfasste in Stuttgart-West im Kreuzungsbereich Schlossstraße/Senefelder Straße eine Stadtbahn einen Fußgänger, der schwer verletzt wurde. Die Strecke der Linien U2 und U9 zwischen Berliner Platz (Hohe Straße) und Schwab-/Bebelstraße war unterbrochen; zum genauen Unfallhergang lagen zunächst keine Angaben vor.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/polizeibericht/schwerer-unfall-in-stuttgart-west-stadtbahn-erfasst-fussgaenger-schlossstrasse-gesperrt-79587147.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-19T12:03:43.055084Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/schwerer-unfall-in-stuttgart-west-stadtbahn-erfasst-fussgaenger-schlossstrasse-gesperrt-79587147.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-19T12:03:43.056085Z"
+      }
+    ],
+    "location_tag": "Stuttgart-West",
+    "line_tag": "U2",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.77636881131246,
+    "lon": 9.16973816285486,
+    "stop_tag": "Berliner Platz (Hohe Straße)"
   }
 ]
