@@ -13753,6 +13753,16 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6374169",
         "source_id": "polizei_stuttgart",
         "retrieved_at": "2026-10-19T16:03:25.152879Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/polizeibericht/stuttgart-west-21-jaehriger-von-stadtbahn-erfasst-und-schwer-verletzt-zeugen-gesucht-79588401.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-19T18:23:34.249047Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-west-21-jaehriger-von-stadtbahn-erfasst-und-schwer-verletzt-zeugen-gesucht-79588401.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-19T18:23:34.250052Z"
       }
     ],
     "location_tag": "Stuttgart-West",
