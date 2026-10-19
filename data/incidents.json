@@ -13693,7 +13693,7 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Am Sonntag, 18.10.2026, gegen 14 Uhr kollidierte an der Kreuzung Schloß- und Silberburgstraße im Stuttgarter Westen ein Auto mit einer Stadtbahn. Laut Polizei übersah der Fahrer beim Linksabbiegen die Bahn. Der Autofahrer wurde verletzt, ein Rettungswagen war im Einsatz. Die Strecke der Linien U2 und U9 war bis auf Weiteres gesperrt.",
+    "summary": "Am Sonntag, 18.10.2026, gegen 14 Uhr kollidierte in Stuttgart-West auf der Schloßstraße, an der Kreuzung zur Silberburgstraße, ein VW Caddy mit einer Stadtbahn der Linie U9, die in dieselbe Richtung fuhr. Laut Polizei übersah der Fahrer beim Linksabbiegen die Bahn. Der 67-jährige Fahrer des VW Caddy wurde leicht verletzt und mit einem Rettungswagen in ein Krankenhaus gebracht. Die Strecke der Linien U2 und U9 war zunächst bis auf Weiteres gesperrt, die Sperrung der Linie U9 dauerte etwa anderthalb Stunden.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-und-auto-stossen-zusammen-strecke-gesperrt-79583458.html",
@@ -13704,12 +13704,22 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-und-auto-stossen-zusammen-strecke-gesperrt-79583458.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-18T14:02:40.197691Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-west-stadtbahnunfall-mit-leichtverletztem-mann/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-19T10:03:34.987511Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6373680",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-19T10:03:40.770174Z"
       }
     ],
     "location_tag": "Stuttgart-West",
-    "line_tag": "U2",
-    "car_brand_tag": null,
-    "other_party_age": null,
+    "line_tag": "U9",
+    "car_brand_tag": "VW",
+    "other_party_age": 67,
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
