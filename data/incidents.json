@@ -13763,6 +13763,11 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-west-21-jaehriger-von-stadtbahn-erfasst-und-schwer-verletzt-zeugen-gesucht-79588401.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-19T18:23:34.250052Z"
+      },
+      {
+        "url": "https://www.tag24.de/stuttgart/unfall-stuttgart/stadtbahn-erfasst-fussgaenger-in-stuttgart-21-jaehriger-schwer-verletzt-3541500",
+        "source_id": "tag24_unfall_stuttgart",
+        "retrieved_at": "2026-10-20T08:03:27.894853Z"
       }
     ],
     "location_tag": "Stuttgart-West",
@@ -13772,5 +13777,34 @@
     "lat": 48.77636881131246,
     "lon": 9.16973816285486,
     "stop_tag": "Berliner Platz (Hohe Straße)"
+  },
+  {
+    "id": "inc-2026-10-20-001",
+    "event_date": "2026-10-20",
+    "event_time": null,
+    "location": "Innenstadt, Strecke zwischen Bopser und Charlottenplatz, Stuttgart",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Dienstagmorgen, 20.10.2026, blieb in der Stuttgarter Innenstadt eine Stadtbahn an einem Auto hängen. Laut Polizei wurde niemand verletzt. Die Strecke der Linien U5, U6, U7, U12 und U15 zwischen Bopser und Charlottenplatz war vorübergehend unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stuttgart-unfall-sorgt-fuer-chaos-im-stadtbahnverkehr-79589661.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-20T08:03:27.893820Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stuttgart-unfall-sorgt-fuer-chaos-im-stadtbahnverkehr-79589661.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-20T08:03:27.894853Z"
+      }
+    ],
+    "location_tag": "Stuttgart-Mitte",
+    "line_tag": "U5",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": null,
+    "lon": null,
+    "stop_tag": null
   }
 ]
