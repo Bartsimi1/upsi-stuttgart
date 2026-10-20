@@ -243,11 +243,19 @@ function updateCounter() {
   // event_time fehlt bei manchen Artikeln (nur "Freitagmorgen" o.ä. im Text,
   // keine exakte Uhrzeit) — 12:00 als neutrale Schätzung statt Mitternacht,
   // um die Anzeige nicht künstlich zu verzerren.
+  // 2026-10-20: Die feste 12:00-Schätzung lag am selben Vormittag in der
+  // Zukunft (Zähler blieb auf 00:00:00). Jetzt liefert der Build eine
+  // Schätzung aus dem Berichtstext bzw. Entdeckungszeit minus 2 h
+  // (event_time_estimate). 12:00 / 00:00 nur noch als letzter Notanker.
   const timeGuessed = !latest.event_time;
-  const eventDateTime = new Date(
-    `${latest.event_date}T${latest.event_time || "12:00"}:00`
-  );
   const now = new Date();
+  const guessTime = latest.event_time || latest.event_time_estimate || "12:00";
+  let eventDateTime = new Date(`${latest.event_date}T${guessTime}:00`);
+  let guessedMidnight = false;
+  if (timeGuessed && eventDateTime > now) {
+    eventDateTime = new Date(`${latest.event_date}T00:00:00`);
+    guessedMidnight = true;
+  }
   const diffMs = Math.max(0, now - eventDateTime);
   const totalSeconds = Math.floor(diffMs / 1000);
   const days = Math.floor(totalSeconds / (60 * 60 * 24));
@@ -260,7 +268,7 @@ function updateCounter() {
   minutesEl.textContent = String(minutes).padStart(2, "0");
   secondsEl.textContent = String(seconds).padStart(2, "0");
 
-  const zeitHinweis = timeGuessed ? t("home.timeGuessed") : "";
+  const zeitHinweis = guessedMidnight ? t("home.timeGuessedMidnight") : (timeGuessed ? tf("home.timeGuessed", { time: guessTime }) : "");
   infoEl.textContent = `${t("home.lastIncidentPrefix")} ${formatDate(latest.event_date)} ${t("home.inLocation")} ${latest.location}${zeitHinweis}`;
 }
 
