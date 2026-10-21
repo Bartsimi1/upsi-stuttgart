@@ -14317,7 +14317,7 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "severe",
-    "summary": "Am Dienstagabend, 20.10.2026, gegen 19.30 Uhr kollidierte in der Hedelfinger Straße in Stuttgart-Wangen ein Auto mit einer Stadtbahn der Linie U9. Laut Polizeisprecher erlitt die Autofahrerin schwere Verletzungen, ihr Auto wurde abgeschleppt. Die Hedelfinger Straße war zwischen Degenfelder Straße und Otto-Konz-Brücken gesperrt, die Linien U9 und U13 waren zwischen Wasenstraße und Hedelfingen unterbrochen. Gegen 21.15 Uhr war der Einsatz beendet und der Betrieb lief wieder regulär.",
+    "summary": "Am Dienstagabend, 20.10.2026, gegen 19.30 Uhr kollidierte in der Hedelfinger Straße in Stuttgart-Wangen in Richtung Wangener Marktplatz eine 68-jährige Volvo-Fahrerin mit einer Stadtbahn der Linie U9. Die Frau wurde laut Polizeisprecher schwer verletzt und ins Krankenhaus gebracht, ihr Auto wurde abgeschleppt; mutmaßlich war sie bei Rotlicht abgebogen. Die Hedelfinger Straße war zwischen Degenfelder Straße und Otto-Konz-Brücken gesperrt, die Linien U9 und U13 waren zwischen Wasenstraße und Hedelfingen unterbrochen. Gegen 21.15 Uhr war der Einsatz beendet und der Betrieb lief wieder regulär.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/polizeibericht/stadtbahnunfall-in-stuttgart-wangen-auto-stoesst-mit-u9-zusammen-autofahrerin-verletzt-strasse-gesperrt-79593033.html",
@@ -14328,13 +14328,28 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-wangen-auto-stoesst-mit-u9-zusammen-autofahrerin-verletzt-strasse-gesperrt-79593033.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-21T10:04:36.127453Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-wangen-schwerer-stadtbahnunfall68-jaehrige-nach-zusammenstoss-schwerverletzt/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-10-21T14:04:30.829056Z"
+      },
+      {
+        "url": "https://wilih.de/68-jaehrige-nach-unfall-mit-stadtbahn-schwerverletzt",
+        "source_id": "wilih_polizeibericht",
+        "retrieved_at": "2026-10-21T14:04:38.498655Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6375484",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-21T14:04:38.499687Z"
       }
     ],
     "event_time_estimate": null,
     "location_tag": "Wangen",
     "line_tag": "U9",
-    "car_brand_tag": null,
-    "other_party_age": null,
+    "car_brand_tag": "Volvo",
+    "other_party_age": 68,
     "lat": 48.7644737700921,
     "lon": 9.250930144862625,
     "stop_tag": null
