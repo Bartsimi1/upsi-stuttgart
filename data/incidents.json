@@ -14353,5 +14353,30 @@
     "lat": 48.7644737700921,
     "lon": 9.250930144862625,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-10-21-001",
+    "event_date": "2026-10-21",
+    "event_time": "19:45",
+    "location": "Schmidener Straße / Gnesener Straße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Mittwoch, 21.10.2026, stieß gegen 19.45 Uhr eine 91 Jahre alte Mercedes-Fahrerin in der Schmidener Straße in Stuttgart-Bad Cannstatt an der Kreuzung zur Gnesener Straße mit einer Stadtbahn der Linie U19 zusammen, die ebenfalls in Richtung Schmiden fuhr. Die Frau war mutmaßlich bei Rotlicht nach links abgebogen. Verletzt wurde niemand, es entstand ein Sachschaden von rund 25.000 Euro, und der Stadtbahnverkehr war während der Unfallaufnahme eingeschränkt.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6376215",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-22T16:02:38.358288Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U19",
+    "car_brand_tag": "Mercedes",
+    "other_party_age": null,
+    "lat": 48.814486611517246,
+    "lon": 9.233691346292886,
+    "stop_tag": null
   }
 ]
