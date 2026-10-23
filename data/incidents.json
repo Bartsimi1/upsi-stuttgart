@@ -14378,5 +14378,30 @@
     "lat": 48.814486611517246,
     "lon": 9.233691346292886,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-10-22-001",
+    "event_date": "2026-10-22",
+    "event_time": "06:40",
+    "location": "Remstalstraße / Nürnberger Straße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "truck",
+    "injuries": "none",
+    "summary": "Am Donnerstag, 22.10.2026, gegen 6.40 Uhr stieß in Stuttgart-Bad Cannstatt an der Kreuzung Remstalstraße/Nürnberger Straße ein 47-jähriger LKW-Fahrer mit einer Stadtbahn der Linie U16 zusammen. Er war mutmaßlich bei Rotlicht nach links abgebogen. Niemand wurde verletzt, der Stadtbahnverkehr war während der Unfallaufnahme eingeschränkt.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6376731",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-23T12:03:50.281052Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U16",
+    "car_brand_tag": null,
+    "other_party_age": 47,
+    "lat": 48.80698589507775,
+    "lon": 9.237276165704168,
+    "stop_tag": "Nürnberger Straße"
   }
 ]
