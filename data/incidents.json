@@ -14403,5 +14403,35 @@
     "lat": 48.80698589507775,
     "lon": 9.237276165704168,
     "stop_tag": "Nürnberger Straße"
+  },
+  {
+    "id": "inc-2026-10-24-001",
+    "event_date": "2026-10-24",
+    "event_time": null,
+    "location": "Neckartalstraße / Voltastraße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Samstagabend, 24.10.2026, stieß in Stuttgart-Bad Cannstatt auf Höhe der Voltastraße ein Autofahrer, der von der Neckartalstraße nach links abbog, mit einer Stadtbahn der Linie U14 zusammen. Eine Person wurde leicht verletzt und vor Ort versorgt, die Strecke zwischen Rosensteinbrücke und Kraftwerk Münster war zeitweise unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-bad-cannstatt-auto-stoesst-mit-stadtbahn-zusammen-strecke-der-u14-zeitweise-unterbrochen-79607303.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-24T21:57:01.626139Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-bad-cannstatt-auto-stoesst-mit-stadtbahn-zusammen-strecke-der-u14-zeitweise-unterbrochen-79607303.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-24T21:57:01.627134Z"
+      }
+    ],
+    "event_time_estimate": "19:00",
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U14",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.80246511310438,
+    "lon": 9.207775112332667,
+    "stop_tag": null
   }
 ]
