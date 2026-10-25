@@ -14407,12 +14407,12 @@
   {
     "id": "inc-2026-10-24-001",
     "event_date": "2026-10-24",
-    "event_time": null,
+    "event_time": "19:30",
     "location": "Neckartalstraße / Voltastraße, Stuttgart-Bad Cannstatt",
     "event_type": "collision",
     "other_party": "car",
     "injuries": "minor",
-    "summary": "Am Samstagabend, 24.10.2026, stieß in Stuttgart-Bad Cannstatt auf Höhe der Voltastraße ein Autofahrer, der von der Neckartalstraße nach links abbog, mit einer Stadtbahn der Linie U14 zusammen. Eine Person wurde leicht verletzt und vor Ort versorgt, die Strecke zwischen Rosensteinbrücke und Kraftwerk Münster war zeitweise unterbrochen.",
+    "summary": "Am Samstagabend, 24.10.2026, gegen 19:30 Uhr kollidierte in Stuttgart-Bad Cannstatt auf Höhe der Voltastraße eine 23-jährige Kia-Fahrerin mit einer in Richtung Mühlhausen fahrenden Stadtbahn der Linie U14. Die Frau war in der Neckartalstraße in Richtung Reinhold-Mayer-Brücke unterwegs und wollte trotz der vorgeschriebenen Fahrtrichtungen (geradeaus und rechts) nach links abbiegen bzw. wenden. Sie wurde leicht verletzt und vom Rettungsdienst in ein Krankenhaus gebracht; der Sachschaden beträgt rund 25.000 Euro. Der Stadtbahn- und Fahrzeugverkehr war während der Unfallaufnahme zeitweise gesperrt, die Strecke zwischen Rosensteinbrücke und Kraftwerk Münster war zeitweise unterbrochen.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-bad-cannstatt-auto-stoesst-mit-stadtbahn-zusammen-strecke-der-u14-zeitweise-unterbrochen-79607303.html",
@@ -14423,13 +14423,23 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-bad-cannstatt-auto-stoesst-mit-stadtbahn-zusammen-strecke-der-u14-zeitweise-unterbrochen-79607303.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-24T21:57:01.627134Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6377190",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-25T06:02:39.450121Z"
+      },
+      {
+        "url": "https://www.7aktuell.de/meldung/46049-pkw_kollidiert_mit_stadtbahn",
+        "source_id": "aktuell7_bw",
+        "retrieved_at": "2026-10-25T06:02:45.973089Z"
       }
     ],
-    "event_time_estimate": "19:00",
+    "event_time_estimate": null,
     "location_tag": "Bad Cannstatt",
     "line_tag": "U14",
-    "car_brand_tag": null,
-    "other_party_age": null,
+    "car_brand_tag": "Kia",
+    "other_party_age": 23,
     "lat": 48.80246511310438,
     "lon": 9.207775112332667,
     "stop_tag": null
