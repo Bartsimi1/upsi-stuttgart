@@ -14443,5 +14443,35 @@
     "lat": 48.80246511310438,
     "lon": 9.207775112332667,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-10-25-001",
+    "event_date": "2026-10-25",
+    "event_time": "08:45",
+    "location": "Neckarstraße / Werderstraße, Stuttgart-Ost",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Sonntagmorgen, 25.10.2026, gegen 8.45 Uhr stieß eine 27-jährige Fahrerin eines Ford Fiesta im Bereich Neckar-/Werderstraße in Stuttgart-Ost mit einer Stadtbahn und anschließend mit einem Geländer zusammen. Niemand wurde verletzt, der Stadtbahnverkehr war kurzzeitig unterbrochen.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-ost-ford-stoesst-mit-stadtbahn-zusammen-79607905.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-25T10:02:39.681919Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-ost-ford-stoesst-mit-stadtbahn-zusammen-79607905.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-25T10:02:39.681919Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "Ford",
+    "other_party_age": 27,
+    "lat": 48.787505755315955,
+    "lon": 9.192552020766659,
+    "stop_tag": null
   }
 ]
