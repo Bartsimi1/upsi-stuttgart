@@ -14483,5 +14483,35 @@
     "lat": 48.787505755315955,
     "lon": 9.192552020766659,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-10-29-001",
+    "event_date": "2026-10-29",
+    "event_time": "12:22",
+    "location": "Ludwigsburger Straße/Hohensteinstraße, Stuttgart-Zuffenhausen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Eine Stadtbahn ist am Donnerstagmittag gegen 12.22 Uhr in Stuttgart-Zuffenhausen an der Ludwigsburger Straße/Hohensteinstraße mit einem Auto zusammengestoßen. Nach aktuellem Stand der Polizei wurde niemand verletzt; Details zum Unfallhergang sind noch nicht bekannt.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-zuffenhausen-stadtbahn-stoesst-mit-auto-zusammen-79625179.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-10-29T14:03:11.458410Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-zuffenhausen-stadtbahn-stoesst-mit-auto-zusammen-79625179.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-10-29T14:03:11.459409Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Zuffenhausen",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.8261022,
+    "lon": 9.1733151,
+    "stop_tag": "Hohensteinstraße"
   }
 ]
