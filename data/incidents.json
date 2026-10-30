@@ -14492,7 +14492,7 @@
     "event_type": "collision",
     "other_party": "car",
     "injuries": "none",
-    "summary": "Eine Stadtbahn ist am Donnerstagmittag gegen 12.22 Uhr in Stuttgart-Zuffenhausen an der Ludwigsburger Straße/Hohensteinstraße mit einem Auto zusammengestoßen. Nach aktuellem Stand der Polizei wurde niemand verletzt; Details zum Unfallhergang sind noch nicht bekannt.",
+    "summary": "Am Donnerstag, 29.10.2026, gegen 12.22 Uhr stieß in Stuttgart-Zuffenhausen an der Ludwigsburger Straße/Hohensteinstraße ein VW mit einer Stadtbahn zusammen. Nach aktuellem Stand der Polizei blieben die Unfallbeteiligten unverletzt; Details zum Unfallhergang sind noch nicht bekannt. Die Ludwigsburger Straße war während der Unfallaufnahme zwischen Kelterplatz und Hohensteinstraße gesperrt.",
     "sources": [
       {
         "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-zuffenhausen-stadtbahn-stoesst-mit-auto-zusammen-79625179.html",
@@ -14503,12 +14503,17 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-zuffenhausen-stadtbahn-stoesst-mit-auto-zusammen-79625179.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-10-29T14:03:11.459409Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6381208",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-30T14:03:52.179689Z"
       }
     ],
     "event_time_estimate": null,
     "location_tag": "Zuffenhausen",
     "line_tag": "Linie unbekannt",
-    "car_brand_tag": null,
+    "car_brand_tag": "VW",
     "other_party_age": null,
     "lat": 48.8261022,
     "lon": 9.1733151,
