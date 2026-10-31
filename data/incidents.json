@@ -14518,5 +14518,30 @@
     "lat": 48.8261022,
     "lon": 9.1733151,
     "stop_tag": "Hohensteinstraße"
+  },
+  {
+    "id": "inc-2026-10-31-001",
+    "event_date": "2026-10-31",
+    "event_time": "14:40",
+    "location": "Kreuzung Wasenstraße / Degenfelder Straße, Stuttgart-Wangen",
+    "event_type": "collision",
+    "other_party": "van",
+    "injuries": "minor",
+    "summary": "Gegen 14:40 Uhr kollidierte an der Kreuzung Wasenstraße / Degenfelder Straße in Stuttgart-Wangen ein Kleinbus mit einer Stadtbahn. Ein Insasse des Kleinbusses und ein Fahrgast der Stadtbahn wurden leicht verletzt; die Stadtbahn konnte anschließend selbstständig ins Depot fahren.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/161590/6381512",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-10-31T20:03:02.226485Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Wangen",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.775478,
+    "lon": 9.244645,
+    "stop_tag": "Wasenstraße"
   }
 ]
