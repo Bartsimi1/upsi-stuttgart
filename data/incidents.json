@@ -14543,5 +14543,40 @@
     "lat": 48.775478,
     "lon": 9.244645,
     "stop_tag": "Wasenstraße"
+  },
+  {
+    "id": "inc-2026-10-31-002",
+    "event_date": "2026-10-31",
+    "event_time": "14:45",
+    "location": "Wangener Straße / Eybacher Straße, Stuttgart-Wangen",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Am Samstag, 31.10.2026, gegen 14:45 Uhr bog ein 48-jähriger Mercedes-Fahrer in Stuttgart-Wangen von der Wangener Straße verbotswidrig nach links in die Eybacher Straße ab und stieß mit einer in gleicher Richtung fahrenden Stadtbahn zusammen. Der Mercedes-Fahrer wurde leicht verletzt, in der von einem 62-Jährigen geführten Stadtbahn wurde niemand verletzt.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6381769",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-11-01T12:03:03.340325Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-mit-stadtbahn-zusammengestossen-zehntausende-euro-schaden-79633735.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-11-01T12:03:03.341378Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-mit-stadtbahn-zusammengestossen-zehntausende-euro-schaden-79633735.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-11-01T12:03:03.341378Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Wangen",
+    "line_tag": "Linie unbekannt",
+    "car_brand_tag": "Mercedes",
+    "other_party_age": 48,
+    "lat": 48.7820453,
+    "lon": 9.224149,
+    "stop_tag": "Wangener-/Landhausstraße"
   }
 ]
