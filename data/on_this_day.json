@@ -733,5 +733,12 @@
     "text_de": "1985 erschien Windows 1.0, die erste öffentlich erhältliche Version von Microsoft Windows.",
     "text_en": "In 1985, Windows 1.0, the first publicly available version of Microsoft Windows, was released.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Windows_1.0"
+  },
+  "11-21": {
+    "month_day": "11-21",
+    "year": 1877,
+    "text_de": "1877 stellte Thomas Edison seine neueste Erfindung vor: den Phonographen, ein Gerät, das Schall aufnehmen und wieder abspielen kann.",
+    "text_en": "In 1877, Thomas Edison announced his invention of the phonograph, a device that could record and play back sound.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Phonograph"
   }
 }
