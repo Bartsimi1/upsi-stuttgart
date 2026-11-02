@@ -14568,6 +14568,11 @@
         "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-mit-stadtbahn-zusammengestossen-zehntausende-euro-schaden-79633735.html",
         "source_id": "stuttgarter_nachrichten_tags",
         "retrieved_at": "2026-11-01T12:03:03.341378Z"
+      },
+      {
+        "url": "https://wilih.de/stadtbahnunfall-in-wangen-100-000-euro-schaden",
+        "source_id": "wilih_polizeibericht",
+        "retrieved_at": "2026-11-02T14:03:16.154199Z"
       }
     ],
     "event_time_estimate": null,
