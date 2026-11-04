@@ -754,5 +754,12 @@
     "text_de": "1963 lief die allererste Folge von Doctor Who im Fernsehen der BBC, der bis heute am längsten laufenden Science-Fiction-Serie der Welt.",
     "text_en": "In 1963, the very first episode of Doctor Who aired on BBC television, launching the world's longest-running science fiction series.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Doctor_Who"
+  },
+  "11-24": {
+    "month_day": "11-24",
+    "year": 1859,
+    "text_de": "1859 erschien Charles Darwins „Über die Entstehung der Arten“ und war am ersten Tag komplett ausverkauft.",
+    "text_en": "In 1859, Charles Darwin's On the Origin of Species was published and sold out its entire first print run on day one.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
   }
 }
