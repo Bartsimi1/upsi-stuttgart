@@ -859,5 +859,12 @@
     "text_de": "2013 spielte Metallica ein Konzert in der Antarktis und war damit die erste Band, die auf allen sieben Kontinenten aufgetreten ist.",
     "text_en": "In 2013, Metallica played a concert in Antarctica, becoming the first band to perform on all seven continents.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Metallica"
+  },
+  "12-09": {
+    "month_day": "12-09",
+    "year": 1968,
+    "text_de": "1968 stellte Douglas Engelbart in der „Mother of All Demos“ erstmals öffentlich die Computermaus, Hypertext und die grafische Benutzeroberfläche vor.",
+    "text_en": "In 1968, Douglas Engelbart gave \"The Mother of All Demos\", publicly debuting the computer mouse, hypertext and the graphical user interface.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
   }
 }
