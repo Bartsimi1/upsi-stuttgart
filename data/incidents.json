@@ -14583,5 +14583,75 @@
     "lat": 48.7820453,
     "lon": 9.224149,
     "stop_tag": "Wangener-/Landhausstraße"
+  },
+  {
+    "id": "inc-2026-11-20-001",
+    "event_date": "2026-11-20",
+    "event_time": "12:15",
+    "location": "Nordbahnhofstraße / Einmündung Steinbeisstraße, Stuttgart-Nord",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "minor",
+    "summary": "Eine 25-jährige BMW-Fahrerin bog an der Einmündung zur Steinbeisstraße nach links ab und stieß mit einer Stadtbahn der Linie U12 in Richtung Dürrlewang zusammen. Die Fahrerin und ihre beiden Mitfahrerinnen wurden leicht verletzt, die Fahrgäste der Stadtbahn blieben unverletzt.",
+    "sources": [
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6394992",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-11-20T16:03:36.001678Z"
+      },
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-nord-bmw-kollidiert-mit-stadtbahn-in-nordbahnhofstrasse/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-11-20T16:03:36.002661Z"
+      },
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-nord-bmw-stoesst-mit-u12-zusammen-drei-personen-verletzt-79743779.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-11-20T16:03:36.003173Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/stadtbahnunfall-in-stuttgart-nord-bmw-stoesst-mit-u12-zusammen-drei-personen-verletzt-79743779.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-11-20T16:03:36.003173Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Stuttgart-Nord",
+    "line_tag": "U12",
+    "car_brand_tag": "BMW",
+    "other_party_age": 25,
+    "lat": 48.79202097446775,
+    "lon": 9.188142544964698,
+    "stop_tag": null
+  },
+  {
+    "id": "inc-2026-11-20-002",
+    "event_date": "2026-11-20",
+    "event_time": "09:30",
+    "location": "Neckartalstraße, Stuttgart-Bad Cannstatt",
+    "event_type": "collision",
+    "other_party": "car",
+    "injuries": "none",
+    "summary": "Am Freitag, dem 20.11.2026, gegen 09.30 Uhr soll ein 61-jähriger Fahrer eines Audi auf der Neckartalstraße in Richtung Münster auf Höhe der Wilhelmsbrücke entgegen den vorgegebenen Regelungen nach links in die Brückenstraße abgebogen und dabei mit der in gleicher Richtung fahrenden Stadtbahn der Linie U14 zusammengestoßen sein. Niemand wurde verletzt. Es entstand ein Gesamtschaden von rund 150.000 Euro, und der Stadtbahnverkehr in Richtung Münster war rund 45 Minuten gesperrt.",
+    "sources": [
+      {
+        "url": "https://newsflash24.de/blaulicht/baden-wuerttemberg/stuttgart-bad-cannstatt-audi-kollidiert-mit-stadtbahn-in-der-neckartalstrasse/",
+        "source_id": "newsflash24_bw",
+        "retrieved_at": "2026-11-20T16:03:36.003173Z"
+      },
+      {
+        "url": "https://www.presseportal.de/blaulicht/pm/110977/6395007",
+        "source_id": "polizei_stuttgart",
+        "retrieved_at": "2026-11-20T16:03:46.211517Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Bad Cannstatt",
+    "line_tag": "U14",
+    "car_brand_tag": "Audi",
+    "other_party_age": 61,
+    "lat": 48.8014777,
+    "lon": 9.207822,
+    "stop_tag": null
   }
 ]
