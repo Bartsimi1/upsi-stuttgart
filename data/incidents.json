@@ -14643,6 +14643,11 @@
         "url": "https://www.presseportal.de/blaulicht/pm/110977/6395007",
         "source_id": "polizei_stuttgart",
         "retrieved_at": "2026-11-20T16:03:46.211517Z"
+      },
+      {
+        "url": "https://bahnblogstelle.com/266947/alle-drei-bis-vier-tage-kracht-es-unfaelle-im-stuttgarter-stadtbahnverkehr/",
+        "source_id": "bahnblogstelle_stadtbahn_tag",
+        "retrieved_at": "2026-11-21T06:02:48.734880Z"
       }
     ],
     "event_time_estimate": null,
