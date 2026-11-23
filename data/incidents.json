@@ -14658,5 +14658,35 @@
     "lat": 48.8014777,
     "lon": 9.207822,
     "stop_tag": null
+  },
+  {
+    "id": "inc-2026-11-23-001",
+    "event_date": "2026-11-23",
+    "event_time": "14:13",
+    "location": "Zwischen Wasenstraße und Stöckach, Stuttgart-Ost",
+    "event_type": "collision",
+    "other_party": "van",
+    "injuries": "none",
+    "summary": "Eine Stadtbahn der Linie U9 prallte am Montagnachmittag zwischen den Haltestellen Wasenstraße und Stöckach in Stuttgart-Ost gegen einen geparkten Transporter. Nach ersten Angaben wurde niemand verletzt; die Linie U9 wurde zeitweise umgeleitet.",
+    "sources": [
+      {
+        "url": "https://www.stuttgarter-zeitung.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-prallt-gegen-transporter-strecke-zeitweise-unterbrochen-79773315.html",
+        "source_id": "stuttgarter_zeitung_tags",
+        "retrieved_at": "2026-11-23T16:03:02.526383Z"
+      },
+      {
+        "url": "https://www.stuttgarter-nachrichten.de/lokales/stuttgart/unfall-in-stuttgart-stadtbahn-prallt-gegen-transporter-strecke-zeitweise-unterbrochen-79773315.html",
+        "source_id": "stuttgarter_nachrichten_tags",
+        "retrieved_at": "2026-11-23T16:03:02.526383Z"
+      }
+    ],
+    "event_time_estimate": null,
+    "location_tag": "Stuttgart-Ost",
+    "line_tag": "U9",
+    "car_brand_tag": null,
+    "other_party_age": null,
+    "lat": 48.789158,
+    "lon": 9.195321,
+    "stop_tag": "Stöckach"
   }
 ]
